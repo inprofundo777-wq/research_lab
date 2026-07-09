@@ -1,28 +1,26 @@
-# Research_Lab
+IP-01/
 │
-├── [README.md](Constitution_v0.1.md)          ← главная карта лаборатории
+├── README.md                ← Описание проекта
 │
-├── Constitution
-│   ├── Constitution_v0.1.md
-│   └── README.md
+├── 01 Подготовка/
+│   ├── README.md
+│   ├── Задание.md
+│   └── Источники.md
 │
-├── Methodology
-│   ├── Methodology_v0.1.md
-│   └── README.md
+├── 02 Наблюдения/
+│   ├── README.md
+│   ├── Корпус наблюдений.md
+│   └── Карточки/
 │
-├── Research_Model
-│   ├── Research_Model_v0.1.md
-│   └── README.md
+├── 03 Паттерны/
+│   ├── README.md
+│   └── Каталог паттернов.md
 │
-├── Protocols
-│   ├── IP-01
-│   │   ├── README.md
-│   │   ├── Pilot.md
-│   │   ├── Document_A.md
-│   │   ├── Document_B.md
-│   │   ├── Document_C.md
-│   │   ├── Final_Report.md
-│   │   └── ...
-│   └── IP-02
+├── 04 Синтез/
+│   ├── README.md
+│   └── Синтез исследования.md
 │
-└── Dictionary
+├── 05 Итог/
+│   └── Итог исследования.md
+│
+└── Архив/
