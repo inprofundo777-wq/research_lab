@@ -1,6 +1,6 @@
 # Research_Lab
 │
-├── README.md          ← главная карта лаборатории
+├── [README.md](https://github.com/inprofundo777-wq/research_lab/blob/main/Constitution_v0.1.md)          ← главная карта лаборатории
 │
 ├── Constitution
 │   ├── Constitution_v0.1.md
