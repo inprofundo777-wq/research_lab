@@ -5,8 +5,9 @@
 **Версия:** 0.1  
 **Статус:** Working Protocol  
 **Назначение:** специфическая исследовательская процедура IP-001  
-**Наследует:** Research Lab Methodology  
+**Наследует:** Research Lab Methodology v0.2  
 **Связанный документ:** Research_Criteria.md  
+**Primary Working Translation:** Синодальный перевод (RST)
 
 ---
 
@@ -24,6 +25,9 @@ Protocol не заменяет общую Methodology Research Lab.
 > IP-001 Protocol  
 > → специфическая процедура исследования IP-001
 >
+> Stage-specific Output Contract  
+> → минимальные требования к исследовательскому output соответствующей стадии
+>
 > Research Output  
 > → evidence и локальный Research Editor judgment конкретного исследуемого материала.
 
@@ -37,18 +41,19 @@ Protocol v0.1 является extracting document.
 
 # 2. Наследование от Research Lab Methodology
 
-IP-001 полностью наследует общие принципы действующей Methodology Research Lab.
+IP-001 полностью наследует общие принципы действующей `Research Lab Methodology v0.2`.
 
 В частности:
 
 - evidence предшествует conclusion;
 - observation необходимо отличать от interpretation и conclusion;
 - hypothesis должна допускать проверку и опровержение;
+- hypothesis не должна управлять первичным observation;
 - negative result является полноценным research result;
 - сила conclusion должна соответствовать силе evidence;
 - новое evidence может корректировать предыдущие выводы;
-- research предшествует архитектуре и application;
-- synthesis допустим только после достаточного исследования корпуса;
+- research предшествует architecture и application;
+- synthesis допустим только после достаточного evidence;
 - результаты должны оставаться проверяемыми и прослеживаемыми.
 
 Настоящий Protocol не повторяет эти правила полностью.
@@ -96,7 +101,9 @@ IP-001 полностью наследует общие принципы дей�
 
 Сохранение предыдущей classification не является самостоятельной целью исследования.
 
-### Working Biblical Text and Translation Verification
+---
+
+## 4.1. Working Biblical Text and Translation Verification
 
 Для всего новозаветного corpus IP-001 основным рабочим библейским текстом является **Синодальный перевод (RST)**.
 
@@ -122,9 +129,19 @@ IP-001 полностью наследует общие принципы дей�
 
 При таком trigger Research Editor должен проверить релевантные современные переводы и, если вопрос остаётся значимым для research judgment, обратиться к греческому тексту и необходимой филологической проверке.
 
-Расхождение переводов само по себе не решает исследовательский вопрос. Оно является сигналом проверить evidence на более низком языковом уровне.
+Расхождение переводов само по себе не решает исследовательский вопрос.
 
-Translation verification должна быть пропорциональна исследовательской значимости вопроса. IP-001 не требует полного филологического анализа каждого passage, если перевод не влияет на inclusion, attribution, observation или силу допустимого вывода.
+Оно является сигналом проверить evidence на более низком языковом уровне.
+
+Translation verification должна быть пропорциональна исследовательской значимости вопроса.
+
+IP-001 не требует полного филологического анализа каждого passage, если перевод не влияет на:
+
+- inclusion;
+- attribution;
+- observation;
+- interpretation;
+- силу допустимого conclusion.
 
 ---
 
@@ -317,15 +334,22 @@ IP-001 не ставит целью максимизировать corpus.
 
 Сформировать предварительную карту passages конкретной книги, потенциально относящихся к IP-001.
 
+Stage 0 должен осуществляться как последовательный screening всей книги по Primary Working Translation и действующим Research Criteria.
+
+Цель — не найти только ожидаемые или уже известные passages, а пройти весь corpus достаточно последовательно, чтобы candidate selection определялся текстом и Criteria.
+
 ## Допустимый reasoning
 
 Разрешено:
 
 - применять Research Criteria;
+- реагировать на candidate triggers в ходе последовательного чтения;
 - отмечать очевидных и потенциальных субъектов;
 - фиксировать причину включения;
 - отмечать borderline cases;
-- предварительно исключать явно нерелевантный материал.
+- сохранять contextual / boundary candidates, если они важны для последующего attribution judgment;
+- предварительно исключать явно нерелевантный материал;
+- фиксировать translation-sensitive trigger.
 
 ## Пока не разрешено
 
@@ -334,11 +358,13 @@ Corpus Map не должен:
 - подтверждать previous pattern;
 - формировать research groups;
 - делать book-level synthesis;
-- считать candidate окончательным evidence.
+- считать candidate окончательным evidence;
+- использовать historical candidate list как answer key;
+- сужать screening только к уже ожидаемым passages.
 
 ## Transition threshold
 
-Переход к Primary Observation допустим, когда книга просмотрена в соответствии с Research Criteria и сформирована достаточная навигационная карта candidate passages.
+Переход к Primary Observation допустим, когда книга последовательно просмотрена в соответствии с Research Criteria и сформирована достаточная навигационная карта candidate passages.
 
 Карта может уточняться в ходе исследования, если новое чтение показывает пропущенный или ошибочно включённый material.
 
@@ -512,7 +538,9 @@ Book-level synthesis не должен автоматически:
 
 Книга готова стать previous research context для следующего corpus, когда её primary observations, основные repetitions, provisional classification и ключевые uncertainties достаточно понятны для последующего сопоставления.
 
-Protocol v0.1 не устанавливает, обязан ли каждый corpus иметь отдельный полный `Summary.md`. Это остаётся Open Question.
+Protocol v0.1 не устанавливает, обязан ли каждый corpus иметь отдельный полный `Summary.md`.
+
+Это остаётся Open Question.
 
 ---
 
@@ -520,7 +548,7 @@ Protocol v0.1 не устанавливает, обязан ли каждый co
 
 Каждая следующая книга входит в исследование как новый самостоятельный corpus.
 
-Research Editor должен сохранять awareness накопленного IP-001, но новый материал имеет право изменить картину.
+Research Editor должен сохранять awareness накопленного IP-001, но новый material имеет право изменить картину.
 
 Новый corpus может:
 
@@ -633,13 +661,148 @@ Passage-level observation не становится category только пот
 
 ---
 
-# 19. Research Output Contract — минимальная граница
+# 19. Research Generations and File Naming
 
-Protocol не устанавливает окончательный Research Output Template.
+IP-001 сохраняет различие между historical research и новым нормализованным исследовательским проходом.
 
-Однако primary Research Output должен сохранять достаточно информации, чтобы Research Editor judgment оставался проверяемым.
+Это различие необходимо для:
 
-Минимальное функциональное ядро:
+- traceability;
+- methodological comparison;
+- calibration;
+- сохранения historical evidence;
+- предотвращения смешения результатов, полученных по разным procedural frameworks.
+
+---
+
+## 19.1. Historical Research — `doc-*`
+
+Файлы с префиксом:
+
+> `doc-*`
+
+обозначают historical research, выполненный до стабилизации текущей нормализованной рамки:
+
+> Research Lab Methodology v0.2  
+> → IP-001 Protocol v0.1  
+> → stage-specific Output Contracts.
+
+Historical documents:
+
+- не удаляются;
+- не переписываются под новую рамку;
+- сохраняются как historical evidence;
+- могут использоваться для calibration и последующего comparison;
+- не являются answer key для fresh re-run;
+- не считаются автоматически актуальным результатом после завершения нового прохода.
+
+Существующие имена и пути historical files сохраняются, если нет отдельной технической необходимости их менять.
+
+---
+
+## 19.2. Protocol-normalized Re-run — `rr-*`
+
+Файлы с префиксом:
+
+> `rr-*`
+
+обозначают fresh research pass, выполненный по актуальной нормализованной рамке IP-001.
+
+Re-run должен использовать как active research input:
+
+- актуальную Research Lab Methodology;
+- актуальный IP-001 Protocol;
+- актуальный `Research_Criteria.md`;
+- действующий Primary Working Translation;
+- соответствующий stage-specific Output Contract, если он уже установлен;
+- biblical source;
+- допустимый accumulated research context.
+
+Historical passage-level outputs не используются как answer key до фиксации независимого fresh judgment.
+
+Префикс `rr-*` обозначает происхождение исследовательского результата, а не его окончательность.
+
+---
+
+## 19.3. Stage numbering inside `rr-*`
+
+После префикса `rr-` сохраняется stage-oriented numbering, если она остаётся полезной для навигации.
+
+Рабочая логика:
+
+- `rr-000_*` — Book Corpus Map / Stage 0;
+- `rr-001_*` — Primary Observation / Stage 1;
+- `rr-002_*` — Repetition Mapping / Stage 2, если такая файловая форма будет подтверждена practical evidence;
+- `rr-003_*` — Provisional Classification / Research Groups / Stage 3, если такая файловая форма будет подтверждена;
+- book-level synthesis именуется отдельно в соответствии с подтверждённой формой Stage 4.
+
+Настоящий Protocol не фиксирует заранее обязательное количество файлов или окончательную granularность последующих stages.
+
+---
+
+## 19.4. No automatic `final-*` generation
+
+IP-001 не создаёт автоматически третье поколение passage-level files с префиксом:
+
+> `final-*`
+
+После завершения protocol-normalized re-run:
+
+> `rr-*`
+
+образуют актуальную traceable evidence base данного прохода.
+
+Более сильные и итоговые выводы фиксируются на соответствующих более высоких уровнях:
+
+> Primary Evidence  
+> → Repetition / Classification  
+> → Book-level Synthesis  
+> → Cross-corpus Verification  
+> → eventual IP-001 Synthesis.
+
+Итоговый synthesis не требует копирования каждого `rr-*` document в отдельный `final-*` file.
+
+Если в будущем возникнет реальная необходимость в ином research generation, новая naming convention должна быть введена отдельным methodological decision, а не предполагаться заранее.
+
+---
+
+## 19.5. Provenance inside re-run artifacts
+
+Имя файла не является единственным носителем provenance.
+
+Каждый новый re-run artifact должен позволять установить как минимум:
+
+- **Research Generation:** Protocol-normalized Re-run;
+- применяемый IP-001 Protocol;
+- применяемую Research Lab Methodology;
+- Primary Working Translation, если artifact работает непосредственно с biblical text;
+- Stage исследования.
+
+При controlled re-run historical material должен оставаться отделённым от fresh judgment до момента, разрешённого Protocol.
+
+---
+
+# 20. Research Output Contract — граница
+
+Protocol не устанавливает один универсальный Research Output Template для всех stages.
+
+Каждая стадия может иметь собственный Output Contract, если practical evidence показывает необходимость такой формы.
+
+Для Stage 1 действует отдельный рабочий документ:
+
+> `IP-001_Primary_Observation_Output_Contract_v0.1.md`
+
+Он определяет минимально достаточную форму Primary Observation Output.
+
+На уровне Protocol сохраняется основная граница:
+
+> Protocol удерживает процедуру.  
+> Output Contract определяет минимальную функцию output соответствующего Stage.  
+> Research Output удерживает evidence и judgment конкретного материала.
+
+Primary Research Output должен сохранять достаточно информации, чтобы Research Editor judgment оставался проверяемым.
+
+Функциональное ядро Stage 1 включает:
 
 ## Required
 
@@ -649,7 +812,7 @@ Protocol не устанавливает окончательный Research Out
 
 ### Relevant Evidence
 
-Только evidence, реально относящийся к research question.
+Evidence, реально относящийся к research question и необходимый для восстановления judgment.
 
 ### Attribution
 
@@ -674,6 +837,10 @@ Protocol не устанавливает окончательный Research Out
 
 ## Conditional
 
+### Previous Pattern Relation
+
+Только когда новый material действительно поддерживает, осложняет, ограничивает или ставит под вопрос previous pattern.
+
 ### Local Implication / Open Question
 
 Только если passage действительно создаёт вопрос для следующих stages.
@@ -689,6 +856,10 @@ Protocol не устанавливает окончательный Research Out
 
 проверка.
 
+### Expert Finding
+
+Только если external / collegial expertise реально добавила новое research knowledge или изменила judgment.
+
 Research Output не обязан повторять:
 
 - полную Methodology;
@@ -700,17 +871,13 @@ Research Output не обязан повторять:
 - пустое «предложений по развитию Methodology нет»;
 - административное название следующего файла.
 
-Protocol должен удерживать процедуру.
-
-Research Output должен удерживать evidence и judgment.
-
 ---
 
-# 20. Verification
+# 21. Verification
 
 Verification применяется по исследовательской необходимости, а не как обязательный экспертный ритуал для каждого output.
 
-## 20.1. Philological / Greek Verification
+## 21.1. Philological / Greek Verification
 
 Trigger возникает, если research judgment существенно зависит от:
 
@@ -725,18 +892,18 @@ Trigger возникает, если research judgment существенно з
 
 Точный объём систематической philological verification всего IP-001 остаётся Open Question.
 
-## 20.2. Contextual Verification
+## 21.2. Contextual Verification
 
 Требуется, когда attribution невозможно достаточно уверенно установить на уровне изолированного стиха и необходимо непосредственное литературное или аргументативное окружение.
 
 Context не должен использоваться для внесения в passage вывода, которого текстовый контекст реально не поддерживает.
 
-## 20.3. Collegial Verification
+## 21.3. Collegial Verification
 
 Может использоваться для:
 
 - сложных borderline cases;
-- альтернативных explanations;
+- alternative explanations;
 - проверки classification;
 - снижения confirmation bias.
 
@@ -744,13 +911,13 @@ Protocol v0.1 не делает постоянную комиссию обяза
 
 Форма коллегиальной проверки остаётся trigger-based до появления дополнительного evidence.
 
-## 20.4. Cross-corpus Verification
+## 21.4. Cross-corpus Verification
 
 Требуется прежде, чем book-level finding станет основанием для более общего New Testament conclusion.
 
 ---
 
-# 21. Stage Transitions — Epistemic Thresholds
+# 22. Stage Transitions — Epistemic Thresholds
 
 IP-001 не требует административных Gates.
 
@@ -788,7 +955,7 @@ IP-001 не требует административных Gates.
 
 ---
 
-# 22. Работа с Previous Patterns
+# 23. Работа с Previous Patterns
 
 Previous patterns выполняют функцию research context.
 
@@ -814,31 +981,35 @@ Previous patterns выполняют функцию research context.
 
 ---
 
-# 23. Re-run Decision
+# 24. Re-run Decision
 
 После стабилизации связки:
 
 > Research Lab Methodology  
 > → IP-001 Protocol  
-> → Research Output
+> → stage-specific Research Output
 
 уже исследованные книги IP-001 проходят fresh research pass.
 
 Цель re-run:
 
-- получить методологически более однородный корпус;
+- получить методологически более однородный corpus;
 - проверить нормализованную рамку реальной исследовательской работой;
 - проверить воспроизводимость accumulated Research Editor judgment.
 
+Re-run является новым исследовательским проходом, а не редакционной унификацией historical files.
+
 ---
 
-# 24. Active Research Input при Re-run
+# 25. Active Research Input при Re-run
 
 До fresh observation Research Editor использует:
 
 - актуальную Research Lab Methodology;
 - актуальный IP-001 Protocol;
-- актуальный Research_Criteria.md;
+- актуальный `Research_Criteria.md`;
+- Синодальный перевод (RST) как Primary Working Translation;
+- соответствующий stage-specific Output Contract, если он установлен;
 - biblical source;
 - допустимый accumulated context текущего нового прохода.
 
@@ -846,7 +1017,7 @@ Historical outputs предыдущего research cycle не являются p
 
 ---
 
-# 25. Historical Outputs
+# 26. Historical Outputs
 
 Historical outputs:
 
@@ -857,9 +1028,11 @@ Historical outputs:
 - не являются answer key;
 - не создают обязанность подтвердить прежний conclusion.
 
+Historical `doc-*` остаются историческим слоем даже после завершения соответствующего `rr-*` re-run.
+
 ---
 
-# 26. Historical Comparison
+# 27. Historical Comparison
 
 Comparison со старым output проводится после получения независимого нового результата.
 
@@ -877,45 +1050,51 @@ Comparison может выявить:
 
 Сам comparison не заменяет fresh research.
 
+Historical comparison не требует переписывания нового `rr-*` result под старый output.
+
 Отдельный Re-run Workflow настоящим Protocol не определяется.
 
 ---
 
-# 27. Open Questions
+# 28. Open Questions
 
 Protocol v0.1 сознательно оставляет следующие procedural вопросы открытыми.
 
-## 27.1. Repetition Mapping
+## 28.1. Repetition Mapping
 
 Доказана необходимость отдельного epistemic уровня поиска повторений после primary corpus.
 
-Не доказано, что нынешняя подробная файловая форма `doc-002_*` является необходимой окончательной формой этого Stage.
+Не доказано, что historical подробная файловая форма `doc-002_*` является необходимой окончательной формой этого Stage.
 
-## 27.2. Classification
+Форма нового `rr-002_*` должна извлекаться из practical evidence controlled re-run.
 
-Доказана полезность provisional research groups после repetition mapping.
+## 28.2. Classification
 
-Не установлено, насколько подробной должна оставаться нынешняя система отдельных classification artifacts.
+Доказана полезность provisional research groups после Repetition Mapping.
 
-## 27.3. Book Summary
+Не установлено, насколько подробной должна оставаться система отдельных classification artifacts.
+
+Форма `rr-003_*`, если она потребуется, должна быть подтверждена practical evidence.
+
+## 28.3. Book Summary
 
 Book-level close необходим как исследовательская функция.
 
 Не установлено, обязан ли каждый corpus завершаться отдельным полноформатным `Summary.md` или эта функция может выполняться более компактно.
 
-## 27.4. Philological Verification
+## 28.4. Philological Verification
 
 Филологическая проверка доказала полезность в конкретных ambiguity cases.
 
 Пока не установлено, должна ли существовать систематическая full-corpus verification или trigger-based модель достаточна.
 
-## 27.5. Collegial Review
+## 28.5. Collegial Review
 
-Альтернативная проверка полезна для сложных judgments и борьбы с confirmation bias.
+Alternative verification полезна для сложных judgments и борьбы с confirmation bias.
 
 Пока недостаточно evidence для обязательной постоянной комиссии в каждом Stage или output.
 
-## 27.6. Historical A/B/C Mechanics
+## 28.6. Historical A/B/C Mechanics
 
 Epistemic progression:
 
@@ -925,15 +1104,27 @@ Epistemic progression:
 
 подтверждён практикой.
 
-Исторические обозначения Document A / B / C сами по себе не считаются обязательным permanent rule.
+Historical обозначения Document A / B / C сами по себе не считаются обязательным permanent rule.
 
-## 27.7. File Granularity and Numbering
+## 28.7. File Granularity and Numbering
 
-Protocol определяет research stages и epistemic requirements.
+Различение research generations:
 
-Он не устанавливает окончательную гранулярность файлов, систему нумерации или количество passages в одном output.
+> `doc-*`  
+> vs  
+> `rr-*`
 
-Эта форма должна проверяться controlled re-run с точки зрения:
+зафиксировано настоящим Protocol.
+
+Однако остаются открытыми:
+
+- окончательная granularность файлов;
+- количество passages в одном output;
+- необходимость отдельного файла для каждого repetition / group;
+- окончательная форма numbering внутри поздних stages;
+- naming convention book-level и cross-corpus synthesis artifacts.
+
+Эти решения должны проверяться controlled re-run с точки зрения:
 
 - research clarity;
 - rigor;
@@ -943,32 +1134,44 @@ Protocol определяет research stages и epistemic requirements.
 
 ---
 
-# 28. Methodology Revision Note
+# 29. Methodology Alignment Note
 
-В действующей Methodology существует вопрос, который должен быть рассмотрен отдельно при следующей LIGHT Methodology Revision.
+`Research Lab Methodology v0.2` была обновлена на основании accumulated evidence Research Lab и различает:
 
-Documented sequence в настоящее время располагает Working Hypothesis непосредственно после Observation и перед Corpus Testing.
+> Lab-wide epistemic functions
 
-Фактическая практика IP-001 показала полезность более строгого separation:
+от:
 
-> primary corpus observation  
-> → repetitions  
-> → provisional classification  
-> → более сильная проверка hypothesis/patterns.
+> project-specific procedural stages.
 
-IP-001 сознательно не использует необходимость подтвердить Working Hypothesis как управляющий принцип Primary Observation.
+Methodology v0.2 также уточняет роль Working Hypothesis:
 
-Настоящий Protocol фиксирует фактическую практику IP-001, но не изменяет общую Research Lab Methodology.
+- hypothesis остаётся подчинённой evidence;
+- hypothesis не должна предопределять observation;
+- design конкретного Research Project должен снижать confirmation bias там, где он существенен;
+- конкретная procedural sequence определяется Project Protocol.
+
+IP-001 реализует эти Lab-wide principles через собственную доказавшую себя sequence:
+
+> Research Question + Criteria  
+> → Book Corpus Map  
+> → Primary Observation  
+> → Repetition Mapping  
+> → Provisional Classification  
+> → Book-level Synthesis  
+> → Cross-corpus Verification.
+
+Это является project-specific architecture IP-001 и не предполагается универсальным workflow для всех будущих Research Projects.
 
 ---
 
-# 29. Working Status v0.1
+# 30. Working Status v0.1
 
 IP-001 Protocol v0.1 является рабочим извлечением накопленного метода.
 
-Он считается достаточным для подготовки controlled re-run, но не объявляется окончательной процедурой IP-001.
+Он считается достаточным для protocol-normalized re-run, но не объявляется окончательной процедурой IP-001.
 
-Первый controlled re-run должен использоваться не только для исследования biblical material, но и как empirical test самого Protocol.
+Controlled re-run должен использоваться не только для исследования biblical material, но и как empirical test самого Protocol.
 
 Если реальная работа покажет, что:
 
@@ -977,15 +1180,20 @@ IP-001 Protocol v0.1 является рабочим извлечением на
 - Stage boundary не работает;
 - важный judgment невозможно воспроизвести;
 - некоторые historical mechanics были необходимее, чем предполагалось;
-- другие mechanics можно безопасно упростить,
+- другие mechanics можно безопасно упростить;
+- Corpus Map недостаточно защищает от selection bias;
+- translation triggers работают недостаточно ясно;
+- naming / provenance создают ambiguity,
 
 Protocol должен быть скорректирован на основании этого evidence.
 
 ---
 
-# 30. Core Working Principle
+# 31. Core Working Principle
 
-> **Protocol удерживает процедуру.  
+> **Methodology удерживает общую исследовательскую дисциплину.  
+> Protocol удерживает специфическую процедуру IP-001.  
+> Output Contract удерживает минимальную функцию соответствующего Stage.  
 > Research Output удерживает evidence и judgment.**
 
 Для IP-001 это означает:
@@ -993,8 +1201,9 @@ Protocol должен быть скорректирован на основан�
 > не максимизировать corpus;  
 > не защищать previous pattern;  
 > не усиливать conclusion сверх evidence;  
-> не смешивать субъектов;
-> не устранять ambiguity ради чистой classification;
+> не смешивать субъектов;  
+> не устранять ambiguity ради чистой classification;  
+> не использовать historical output как answer key;  
 > позволять каждому новому corpus изменить исследовательскую картину.
 
 Цель IP-001 — не получить заранее ожидаемый богословский результат.
