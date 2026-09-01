@@ -9,6 +9,7 @@
 
 > Документ сохранён для historical traceability и provenance Research Outputs, созданных на его основе.
 > Для новых Primary Observation outputs использовать `IP-001_Primary_Observation_Output_Contract_v0.2.md`.
+
 ---
 
 ## 1. Purpose
