@@ -3,7 +3,7 @@
 **Проект:** Research Lab — In Profundo  
 **Исследование:** IP-001  
 **Версия:** 0.2  
-**Статус:** Working Protocol  
+**Статус:** Current / Active
 **Назначение:** специфическая исследовательская процедура IP-001  
 **Наследует:** Research Lab Methodology v0.3  
 **Связанный документ:** Research_Criteria.md  
