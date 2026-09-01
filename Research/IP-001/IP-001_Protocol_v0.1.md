@@ -3,7 +3,7 @@
 **Проект:** Research Lab — In Profundo  
 **Исследование:** IP-001  
 **Версия:** 0.1  
-**Статус:** Archived / Superseded  
+**Статус:** Current / Active
 **Заменён:** `IP-001_Protocol_v0.2.md`  
 **Назначение:** историческая версия специфической исследовательской процедуры IP-001  
 **Наследует:** Research Lab Methodology v0.2  
