@@ -3,9 +3,12 @@
 **Project:** IP-001  
 **Research Stage:** Primary Observation  
 **Version:** v0.1  
-**Status:** Working Contract  
+**Status:** Archived / Superseded  
+**Superseded by:** `IP-001_Primary_Observation_Output_Contract_v0.2.md`  
 **Parent documents:** Research Lab Methodology v0.2 → IP-001 Protocol v0.1
 
+> Документ сохранён для historical traceability и provenance Research Outputs, созданных на его основе.
+> Для новых Primary Observation outputs использовать `IP-001_Primary_Observation_Output_Contract_v0.2.md`.
 ---
 
 ## 1. Purpose
