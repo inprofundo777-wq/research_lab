@@ -3,7 +3,7 @@
 **Project:** IP-001  
 **Research Stage:** Stage 1 — Primary Observation  
 **Version:** v0.2  
-**Status:** Working Contract  
+**Статус:** Current / Active 
 **Parent documents:** Research Lab Methodology v0.3 → IP-001 Protocol v0.2  
 **Primary Working Translation:** Синодальный перевод (RST)
 
