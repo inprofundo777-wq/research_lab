@@ -194,21 +194,233 @@ Evidence достаточно ясно относится к Research Question �
 
 Текущая рабочая архитектура IP-001:
 
-```text
-Research Question + Criteria
-        ↓
-Stage 0 — Book Corpus Map
-        ↓
-Stage 1 — Primary Observation
-        ↓
-Stage 2 — Repetition Mapping
-        ↓
-Stage 3 — Provisional Classification / Research Groups
-        ↓
-Stage 4 — Book-level Close / Synthesis
-        ↓
-Next Corpus
-        ↓
-Cross-corpus Verification
-        ↓
-Broader Synthesis
+    Research Question + Criteria
+            ↓
+    Stage 0 — Book Corpus Map
+            ↓
+    Stage 1 — Primary Observation
+            ↓
+    Stage 2 — Repetition Mapping
+            ↓
+    Stage 3 — Provisional Classification / Research Groups
+            ↓
+    Stage 4 — Book-level Close / Synthesis
+            ↓
+    Next Corpus
+            ↓
+    Cross-corpus Verification
+            ↓
+    Broader Synthesis
+
+Эта последовательность является реализацией Protocol IP-001, а не универсальной архитектурой всех исследований Research Lab.
+
+Не каждая стадия обязана создавать одинаковое количество файлов или использовать одинаковую output granularity.
+
+---
+
+# 9. Output Granularity
+
+Research unit и output file не являются одним и тем же.
+
+Один output может содержать несколько research units, если сохраняется локальная recoverability:
+
+> **Research Unit**  
+> → **Relevant Evidence**  
+> → **Attribution**  
+> → **Research Judgment**  
+> → **Observation**  
+> → **Limitation / Uncertainty**
+
+В частности, в контролируемом re-run Romans успешно используется:
+
+> **one chapter = one Stage 1 output**
+
+при сохранении passage-level research units внутри документа.
+
+Это решение не является универсальным правилом IP-001.
+
+Если aggregation скрывает независимые observations, attribution или uncertainty, material должен быть разделён.
+
+---
+
+# 10. Research Generation
+
+В IP-001 существуют два основных поколения исследовательских материалов.
+
+## `doc-*` — Historical Research
+
+Материалы, созданные до нормализации текущего Protocol.
+
+Они сохраняются как:
+
+- historical research layer;
+- methodological evidence;
+- calibration material;
+- источник для сравнения развития процедуры.
+
+Historical Research:
+
+> **не является answer key для controlled re-run.**
+
+Новый проход не должен воспроизводить старые findings только потому, что они уже присутствуют в `doc-*`.
+
+---
+
+## `rr-*` — Protocol-normalized Re-run
+
+Материалы контролируемого повторного исследования corpus.
+
+Рабочая stage-oriented convention:
+
+    rr-000_* = Stage 0 — Book Corpus Map
+    rr-001_* = Stage 1 — Primary Observation
+    rr-002_* = Stage 2 — Repetition Mapping
+    rr-003_* = Stage 3 — Provisional Classification
+
+Stage 4 и последующие synthesis artifacts именуются отдельно после подтверждения их рабочей формы.
+
+Историческая provenance каждого `rr-*` сохраняется.
+
+Если output был создан при более ранней версии Methodology или Protocol, последующее появление новой версии документа не изменяет автоматически его provenance.
+
+---
+
+# 11. Strong Singular Evidence
+
+IP-001 не отождествляет research significance с repetition.
+
+Repeated evidence важно для обнаружения устойчивых patterns.
+
+Однако сильное единичное evidence должно сохраняться, если оно:
+
+- непосредственно относится к Research Question;
+- имеет достаточное textual основание;
+- позволяет сделать локальный Research Judgment;
+- может существенно влиять на classification или synthesis.
+
+Поэтому:
+
+> **absence of repetition ≠ absence of significance**
+
+и
+
+> **strength of evidence ≠ frequency of evidence**
+
+Единичный сильный finding не должен искусственно включаться в более широкую группу только ради формирования pattern.
+
+---
+
+# 12. Negative Evidence
+
+Negative evidence является частью исследования.
+
+К нему могут относиться:
+
+- отсутствие ожидаемой attribution;
+- отсутствие предполагаемого pattern;
+- невозможность определить acting subject;
+- случаи, где действие принадлежит Father, Spirit или Human, хотя текст имеет сильную христологическую связь;
+- evidence, ограничивающее более широкий conclusion.
+
+Negative evidence может не только приводить к `EXCLUDE`, но и ограничивать последующую interpretation или classification.
+
+---
+
+# 13. Структура проекта
+
+    IP-001/
+    │
+    ├── README.md
+    │
+    ├── IP-001_Protocol_v0.1.md
+    ├── IP-001_Protocol_v0.2.md
+    │
+    ├── IP-001_Primary_Observation_Output_Contract_v0.1.md
+    ├── IP-001_Primary_Observation_Output_Contract_v0.2.md
+    │
+    ├── Planning/
+    │
+    ├── Pilots/
+    │
+    ├── Research/
+    │
+    ├── Cross-analysis/
+    │
+    ├── Review/
+    │
+    ├── Final/
+    │
+    └── Archive/
+
+### `Planning/`
+
+Планирование исследования и документы, необходимые для подготовки отдельных research cycles.
+
+### `Pilots/`
+
+Контролируемые проверки Methodology, Protocol, Output Contract и research procedure до их более широкого применения.
+
+### `Research/`
+
+Основной evidence layer исследования по отдельным biblical corpora.
+
+### `Cross-analysis/`
+
+Сопоставление результатов между corpora после завершения достаточного book-level research.
+
+### `Review/`
+
+Независимая проверка research findings, classifications, synthesis или methodological решений.
+
+### `Final/`
+
+Подтверждённые synthesis artifacts и другие результаты, достигшие соответствующего уровня исследовательской зрелости.
+
+### `Archive/`
+
+Материалы, которые должны сохраняться для provenance и истории исследования, но больше не являются текущим рабочим слоем.
+
+---
+
+# 14. Текущий controlled re-run
+
+Первым corpus, прошедшим controlled protocol-normalized re-run, является:
+
+> **Послание к Римлянам**
+
+Для Romans выполнены:
+
+- **Stage 0 — Book Corpus Map**
+- **Stage 1 — Primary Observation**
+- **Stage 2 — Repetition Mapping**
+- **Stage 3 — Provisional Classification / Research Groups**
+
+Stage 4 — Book-level Close / Synthesis — в рамках методологического pilot не выполнялся.
+
+Причина:
+
+целью re-run было сначала проверить и нормализовать исследовательскую документацию и процедуру, а не автоматически продолжать полный research cycle.
+
+После стабилизации foundational layer IP-001 может продолжаться от этой точки.
+
+---
+
+# 15. Принцип дальнейшей работы
+
+IP-001 не измеряет успех количеством найденных действий Христа.
+
+Допустимыми результатами являются:
+
+- сильный positive finding;
+- strong singular evidence;
+- repeated pattern;
+- ограниченный finding;
+- borderline attribution;
+- unresolved case;
+- negative evidence;
+- exclusion;
+- отсутствие ожидаемого pattern.
+
+Основной критерий:
+
+> **можно ли проследить путь от новозаветного текста к Research Judgment и последующему conclusion без необходимости предполагать то, чего сам evidence не устанавливает.**
