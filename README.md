@@ -1,64 +1,97 @@
-# Research Lab
+# In Profundo Research Lab
+
+Research Lab — исследовательское направление In Profundo для дисциплинированного исследования Священного Писания.
+
+Лаборатория отделяет исследование от последующей редакционной и публикационной работы:
+
+> **Research → Synthesis → Architecture → Application**
+
+Книги, статьи, курсы и другие материалы могут использовать результаты Research Lab, но не определяют их заранее.
+
+---
+
+## Архитектура документов
+
+Research Lab работает внутри следующей структуры наследования:
+
+> **DNA In Profundo**  
+> ↓  
+> **Конституция Research Lab**  
+> ↓  
+> **Методология Research Lab**  
+> ↓  
+> **Protocol конкретного Research Project**  
+> ↓  
+> **Stage-specific Output Contract**  
+> ↓  
+> **Research Output**
+
+### DNA In Profundo
+
+Определяет фундаментальную природу и основания всего проекта In Profundo.
+
+### Конституция Research Lab
+
+Определяет устойчивые принципы исследовательского направления.
+
+Актуальная версия:
+
+`Constitution/Constitution_v0.2.md`
+
+### Методология Research Lab
+
+Определяет общую эпистемическую дисциплину исследований независимо от конкретного Research Project.
+
+Актуальная версия:
+
+`Methodology/methodology_v0.3.md`
+
+### Research Project Protocol
+
+Определяет, как общая Methodology применяется к конкретному исследовательскому вопросу, corpus и процедуре исследования.
+
+### Output Contract
+
+Определяет минимальные требования к результату конкретной исследовательской стадии там, где отдельный контракт действительно необходим.
+
+### Research Output
+
+Содержит фактическое evidence, observations, Research Judgments, classifications и последующий synthesis.
+
+---
+
+# Структура репозитория
 
 ```text
 research_lab/
 │
 ├── Constitution/
+│   ├── Constitution_v0.1.md
+│   └── Constitution_v0.2.md
+│
 ├── Methodology/
-├── protocols/
+│   ├── methodology_v0.1.md
+│   ├── methodology_v0.2.md
+│   └── methodology_v0.3.md
+│
+├── Research/
 │   │
-│   └── IP-01/
+│   └── IP-001/
 │       │
-│       ├── research/
-│       │   ├── research-001/
-│       │   ├── research-002/
-│       │   ├── research-003/
-│       │   ├── research-004/
-│       │   ├── research-005/
-│       │   ├── research-006/
-│       │   ├── research-007/
-│       │   ├── research-008/
-│       │   ├── research-009/
-│       │   ├── research-900/
-│       │   ├── research-990/
-│       │   └── research-999/
+│       ├── README.md
 │       │
-│       ├── review/
-│       ├── reports/
-│       ├── publications/
-│       ├── datasets/
-│       ├── archive/
+│       ├── IP-001_Protocol_v0.1.md
+│       ├── IP-001_Protocol_v0.2.md
 │       │
-│       └── IP-01.md
+│       ├── IP-001_Primary_Observation_Output_Contract_v0.1.md
+│       ├── IP-001_Primary_Observation_Output_Contract_v0.2.md
+│       │
+│       ├── Planning/
+│       ├── Pilots/
+│       ├── Research/
+│       ├── Cross-analysis/
+│       ├── Review/
+│       ├── Final/
+│       └── Archive/
 │
-├── README.md
-└── LICENSE
-```
-
-
-IP-01/
-│
-├── README.md                ← Описание проекта
-│
-├── 01 Подготовка/
-│   ├── README.md
-│   ├── Задание.md
-│   └── Источники.md
-│
-├── 02 Наблюдения/
-│   ├── README.md
-│   ├── Корпус наблюдений.md
-│   └── Карточки/
-│
-├── 03 Паттерны/
-│   ├── README.md
-│   └── Каталог паттернов.md
-│
-├── 04 Синтез/
-│   ├── README.md
-│   └── Синтез исследования.md
-│
-├── 05 Итог/
-│   └── Итог исследования.md
-│
-└── Архив/
+└── README.md
