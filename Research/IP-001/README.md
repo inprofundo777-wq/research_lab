@@ -401,7 +401,13 @@ Stage 4 — Book-level Close / Synthesis — в рамках методолог�
 
 целью re-run было сначала проверить и нормализовать исследовательскую документацию и процедуру, а не автоматически продолжать полный research cycle.
 
-После стабилизации foundational layer IP-001 может продолжаться от этой точки.
+Romans controlled re-run завершил свою функцию как methodological validation.
+
+Его `rr-*` outputs сохраняются как protocol-normalized pilot evidence и provenance.
+
+Следующий основной этап IP-001 — полный protocol-normalized research новозаветного corpus по действующей Methodology и Protocol.
+
+Pilot Romans не следует автоматически продолжать как незавершённый основной research cycle только потому, что в нём не выполнялся Stage 4.
 
 ---
 
