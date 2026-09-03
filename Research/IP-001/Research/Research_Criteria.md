@@ -6,13 +6,10 @@
 
 ---
 
-**Протокол:** IP-01
-
-**Версия документа:** 0.1
-
-**Статус:** Стандарт лаборатории
-
-**Область применения:** Все исследуемые книги Нового Завета
+**Research Project:** IP-001
+**Version:** 0.2
+**Status:** Current / Active
+**Role:** Initial candidate screening for Stage 0 — Book Corpus Map
 
 ---
 
@@ -95,9 +92,13 @@
 
 # Результат этапа
 
-Результатом применения настоящего документа является создание **Карты исследуемого корпуса** конкретной книги Нового Завета.
+Результатом применения Criteria является initial candidate / trigger layer
+для Stage 0 — Book Corpus Map.
 
-После формирования карты начинается исследование этапа **research-001**.
+Candidate status не является Research Judgment.
+
+Attribution resolution, interpretation и Research Judgment выполняются
+на последующих стадиях согласно действующему IP-001 Protocol.
 
 ---
 
