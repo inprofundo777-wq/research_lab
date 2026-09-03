@@ -32,6 +32,8 @@ Fresh research outputs, создаваемые при повторном про�
 > → Cross-corpus Verification  
 > → eventual IP-001 Synthesis.
 
-Подробные methodological rules определены в:
+Подробные действующие methodological rules определены в:
 
-`IP-001_Protocol_v0.1.md`.
+`../IP-001_Protocol_v0.2.md`
+
+`IP-001_Protocol_v0.1.md` (статус - provenance)
