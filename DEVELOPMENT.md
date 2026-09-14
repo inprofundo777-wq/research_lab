@@ -3,7 +3,7 @@
 **System:** In Profundo Research Lab  
 **Document Type:** Development Map  
 **Status:** 🟢 Living Document  
-**Updated:** 2026-09-01
+**Updated:** 2026-09-14
 
 ---
 
@@ -75,6 +75,33 @@ Research Lab является общей исследовательской си
 Constitution и Methodology относятся ко всему Research Lab.
 
 Research Question, Scope, Protocol, Output Contracts, validation, Research Outputs и Synthesis принадлежат конкретному Research Project.
+
+### Role Architecture — 🟡 Owner Confirmed / Implementation and Validation
+
+Owner 14.09.2026 подтвердил:
+
+~~~text
+Owner
+→ Research Lab Director
+→ Research Project Lead
+→ Researcher
+
+independent Research Auditor
+~~~
+
+Role System v0.1 создан как Candidate Active execution layer. Он подчинён Constitution, Methodology и Project Protocols.
+
+● RR-RL-001 — Owner Confirmed  
+● CS-RL-001 — Approved for Controlled Write  
+● Role System Core v0.1  
+● Director / Project Lead / Researcher / Auditor packages v0.1  
+● Research Request Map, Formation and process templates  
+◐ Fresh-context Recovery validation  
+○ Formation Pilot  
+○ Installation Pilot  
+○ Micro Research Cycle  
+
+Наличие документов не означает practical maturity. Ролевой слой остаётся 🟡 до staged validation.
 
 ---
 
@@ -153,9 +180,11 @@ Research Question, Scope, Protocol, Output Contracts, validation, Research Outpu
 
 Они не являются answer key для нового прохода.
 
-Следующий основной переход:
+Сохранённый основной Research Path после validation ролевой системы:
 
-> **провести protocol-normalized research ранее исследованного corpus по окончательно зафиксированной системе.**
+> **провести protocol-normalized research ранее исследованного corpus только после отдельного Owner Launch Decision.**
+
+Полный restart IP-001 настоящим обновлением не разрешён.
 
 ---
 
@@ -360,12 +389,17 @@ IP-002 не обязан копировать структуру IP-001 там, 
     │     ● Constitution v0.2
     │     ● Methodology v0.3
     │
+    ├── 👥 Role System v0.1                            🟡
+    │     ● architecture Owner Confirmed
+    │     ● Candidate role packages implemented
+    │     ◐ staged validation
+    │
     ├── 🔎 IP-001                                       🟡
     │     ● Research Question + Scope
     │     ● Protocol
     │     ● Output Contract
     │     ● methodological validation
-    │     ◐ переход к полному protocol-normalized research
+    │     ○ full restart requires separate Owner Launch Decision
     │     ○ ранее исследованный corpus
     │     ○ оставшийся New Testament corpus
     │     ○ Cross-corpus Verification
@@ -377,7 +411,7 @@ IP-002 не обязан копировать структуру IP-001 там, 
           ○ направление определено
           ○ Research Project не активирован
 
-**СЕЙЧАС → IP-001 готов к переходу от стабилизации исследовательской системы к полному protocol-normalized исследованию Нового Завета.**
+**СЕЙЧАС → Role System v0.1 реализован как Candidate Active; ближайший переход — Fresh-context Recovery validation. IP-001 сохранён без разрешения Full Restart.**
 
 ---
 
