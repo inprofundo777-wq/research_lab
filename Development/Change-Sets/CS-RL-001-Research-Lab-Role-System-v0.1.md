@@ -6,13 +6,13 @@
 |---|---|
 | **Change Set ID** | `CS-RL-001` |
 | **Основание** | `RR-RL-001 — Final Analytical Review / Owner Confirmed` |
-| **Статус** | `Approved for Controlled Write / Implementation In Progress` |
+| **Статус** | `Implemented / Documentation Updated / Awaiting Validation` |
 | **Дата** | 14.09.2026 |
 | **Подготовил** | Project Overview |
 | **Репозиторий** | `inprofundo777-wq/research_lab` |
 | **Цель** | Создать минимальный ролевой и процессный слой Research Lab без запуска полного IP-001 |
 | **Write Authority** | Owner разрешил контролируемую запись Batch 0–6 14.09.2026 |
-| **Следующий Gate** | Sequential Implementation → Read-Back → Handoff → Role Exit |
+| **Следующий Gate** | Wave 1 Fresh-context Recovery → Disposition |
 | **Convergence Verdict** | `RECONCILED WITH CONDITIONS` — условия интегрированы |
 
 ---
@@ -610,3 +610,47 @@ Approved for Controlled Write
 ```
 
 Этот статус разрешает реализацию только описанных batches и не разрешает полный Research Project либо IP-001 restart. Решение Owner получено 14.09.2026.
+
+---
+
+# 15. Implementation Result
+
+**Implementation date:** 14.09.2026  
+**Status:** IMPLEMENTED / DOCUMENTATION UPDATED / AWAITING VALIDATION
+
+## Completed
+
+- Batch 0 — RR-RL-001 and CS-RL-001 preserved;
+- Batch 1 — Role System Core and Version Registry created;
+- Batch 2 — four Core Role Packages v0.1 created;
+- Batch 3 — Research Request Map, Formation and process templates created;
+- Batch 4 — root README and DEVELOPMENT updated;
+- Batch 5 — four fresh-context Recovery assignments prepared;
+- Batch 6 — Post-Write Check and durable Handoff completed.
+
+## Post-Write Check
+
+- planned files present: 32/32 before Handoff;
+- Constitution v0.2 unchanged;
+- Methodology v0.3 unchanged;
+- IP-001 README unchanged;
+- IP-001 Protocol v0.2 unchanged;
+- IP-001 Primary Observation Output Contract v0.2 unchanged;
+- Full IP-001 restart not authorized;
+- no Research Request activated;
+- role versions remain Candidate Active.
+
+## Handoff
+
+Operational ownership was transferred through:
+
+[Research Lab Role System v0.1 — Implementation Handoff](../Handoffs/RL-Role-System-v0.1-Implementation-Handoff.md)
+
+## Current verdict
+
+~~~text
+DOCUMENTATION IMPLEMENTED
+ROLE CAPABILITY VALIDATION PENDING
+~~~
+
+The next authorized process is Wave 1 Fresh-context Recovery. Wave 2 Formation remains Owner-gated.
