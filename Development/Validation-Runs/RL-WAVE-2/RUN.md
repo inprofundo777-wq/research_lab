@@ -7,11 +7,11 @@
 **Request:** `RQ-RL-001`  
 **Formation Pilot:** `FP-RL-001`  
 **Audit:** `AT-RL-001`  
-**Current Gate:** Focused Formation Re-check  
-**Current Owner:** Research Auditor branch after Owner activation  
-**Status:** 🟡 READY TO CONTINUE — PREVIOUS TARGET DEPENDENCY RESOLVED  
+**Current Gate:** Owner Decision on Limited Probe Installation  
+**Current Owner:** Owner  
+**Status:** 🟢 FOCUSED RE-CHECK PASS — OWNER GATE OPEN  
 **Active Target:** [FP-RL-001 Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md)  
-**Required Output:** focused re-check verdict  
+**Required Output:** Owner decision  
 **Next Decision Owner:** Owner  
 **Canonical record:** this file
 
@@ -32,8 +32,8 @@ Owner should normally transfer only the link to this Run Record. The receiving r
 | 7 | `AT-RL-001` substantive Formation Audit | Research Auditor | RETURN | Formation Report v1 | [Formation Audit](./Artifacts/AT-RL-001-Formation-Audit.md) | Owner |
 | 8 | `FP-RL-001-R1` bounded correction | Research Lab Director | COMPLETED | Audit RETURN | [Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md) | Owner |
 | 9 | `AT-RL-001-RC` focused re-check attempt | Research Auditor | BLOCK — DEPENDENCY | revised target absent from branch | no substantive verdict | Owner |
-| 10 | `AT-RL-001-RC` focused re-check continuation | Research Auditor | READY | canonical Revised Formation target now available | pending | Owner |
-| 11 | Limited Probe Installation decision | Owner | NOT OPEN | focused re-check verdict required | pending | Owner |
+| 10 | `AT-RL-001-RC` focused re-check continuation | Research Auditor | PASS | canonical Revised Formation target | correction verified; RETURN closed | Owner |
+| 11 | Limited Probe Installation decision | Owner | OPEN | focused re-check PASS | pending Owner decision | Owner |
 
 ---
 
@@ -318,15 +318,75 @@ No GitHub changes outside this Run Record and its artifacts. No Project Lead or 
 
 ---
 
+## Event 009 — AT-RL-001 Focused Formation Re-check Result
+
+### Target Verification
+
+Canonical `FP-RL-001 — Revised Formation Report` was available and read as the whole replacement edition after the substantive `AT-RL-001 RETURN`. The previous dependency `BLOCK` is resolved.
+
+### Correction Compliance
+
+**PASS.** The material correction is fully implemented:
+
+- `FULL PROJECT` and `READY FOR RESEARCH DESIGN` are removed as the current route;
+- current Formation Decision is `LIMITED PROBE → central textual viability test → route re-evaluation`;
+- Probe is explicitly route-discriminating rather than an abbreviated answer to the broader research question;
+- diagnostic corpus is bounded to Мф. 6:19–34, Лк. 12:13–34 and 2 Кор. 8–9;
+- strong viability, partial viability, different structures and weak/negative result are all permitted;
+- Full Project remains only a possible later route and is not predetermined;
+- Existing Research scan is explicitly preliminary / illustrative and no longer serves as a strong basis for excluding `LIMITED REVIEW`.
+
+### New Deviation Check
+
+**No new material deviations found.** Previously passed Formation parts remain intact without material reopening. «Щедрость и власть» remains an inactive adjacent territory outside `RQ-RL-001`.
+
+The revised Formation Handoff does not become a hidden Installation package. Director does not create a Protocol, Stage Map, Role Configuration Lock, Output Contract, Researcher Assignment, detailed methodology sequence or verification architecture. Project Lead and Researcher remain inactive; Limited Probe has not begun; Full Research Project has not been launched; `IP-001` is unchanged.
+
+Authority boundary, Stop, Exit and Return Route remain intact.
+
+### Remaining Conditions
+
+No material remaining conditions for closing the previous `RETURN`.
+
+Development findings from the prior Audit remain development findings and are not blockers for this gate.
+
+The prior substantive `AT-RL-001 RETURN` is **CLOSED — CORRECTION VERIFIED**.  
+The prior focused re-check dependency `BLOCK` is **CLOSED — TARGET AVAILABLE**.
+
+### Final Verdict
+
+**PASS**
+
+The bounded correction satisfies the material proportionality finding of `AT-RL-001`. `LIMITED PROBE` is now a proportionate current Formation route, preserves genuine route discrimination and does not predetermine Full Project.
+
+### Recommended Next Gate
+
+Owner may now consider:
+
+```text
+PROJECT LEAD INSTALLATION
+FOR LIMITED PROBE ONLY
+```
+
+This Audit does not activate Project Lead. If Owner authorizes Installation, Project Lead may design only the bounded Limited Probe. After Probe result, route must be re-evaluated; possible outcomes remain Full Project / narrower project / Limited Review / reformulated Limited Probe / Close / Defer.
+
+### Ownership Returned To
+
+**Owner.**
+
+Research Auditor retains no operational ownership after this verdict.
+
+---
+
 ## Findings Register
 
 | Finding | Status | Gate impact |
 |---|---|---|
 | Manual artifact transport increased Owner load and caused target mismatch | CONFIRMED | canonical Run Record adopted |
 | Four roles are fresh-context recoverable | PASS | controlled validation permitted |
-| Director real-work Formation capability | POSITIVE EVIDENCE | final pilot verdict awaits re-check |
-| Auditor Correct Stop and substantive Formation Audit capability | POSITIVE EVIDENCE | final pilot verdict awaits re-check |
-| Initial Full Project route was disproportionate | CORRECTED / AWAITING RE-CHECK | blocks Lead until re-check |
+| Director real-work Formation capability | POSITIVE EVIDENCE | bounded correction verified |
+| Auditor Correct Stop and substantive Formation Audit capability | POSITIVE EVIDENCE | focused re-check PASS completed |
+| Initial Full Project route was disproportionate | CORRECTED / VERIFIED | no longer blocks Owner gate |
 | Formation-to-Installation minimum contract is not compactly canonical | DEVELOPMENT FINDING | not by itself a blocker |
 | Existing Research Orientation threshold is unspecified | DEVELOPMENT FINDING | scan qualified as preliminary |
 | Auditor severity rubric is not explicit | DEVELOPMENT FINDING | later role development |
@@ -336,11 +396,10 @@ No GitHub changes outside this Run Record and its artifacts. No Project Lead or 
 ## Next Gate
 
 ```text
-Research Auditor reads this Run Record
-→ reads canonical Revised Formation target
-→ appends focused re-check result
-→ returns ownership to Owner
-→ Owner decides whether Limited Probe Installation may begin
+Focused Formation Re-check PASS
+→ ownership returned to Owner
+→ Owner decides whether to authorize Project Lead Installation
+   for LIMITED PROBE only
 ```
 
-Project Lead Installation is not open until the focused re-check produces a gate-compatible verdict.
+Project Lead is not activated by this record. Installation begins only by explicit Owner decision.
