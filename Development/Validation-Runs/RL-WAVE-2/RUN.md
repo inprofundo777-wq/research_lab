@@ -7,11 +7,11 @@
 **Request:** `RQ-RL-001`  
 **Formation Pilot:** `FP-RL-001`  
 **Audit:** `AT-RL-001`  
-**Current Gate:** `Installation Audit decision`  
-**Current Owner:** Owner  
-**Status:** 🟡 LP-RL-001 COMPLETE — OWNER GATE OPEN  
+**Current Gate:** `IA-RL-001 — Independent Installation Audit`  
+**Current Owner:** Research Auditor  
+**Status:** 🟡 OWNER AUTHORIZED — INSTALLATION AUDIT READY TO BEGIN  
 **Active Target:** this Run Record + [LP-RL-001 Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md)  
-**Required Output:** Owner decision on independent Installation Audit  
+**Required Output:** independent Installation Audit verdict  
 **Next Decision Owner:** Owner  
 **Canonical record:** this file
 
@@ -35,7 +35,8 @@ Owner should normally transfer only the link to this Run Record. The receiving r
 | 10 | `AT-RL-001-RC` focused re-check continuation | Research Auditor | PASS | canonical Revised Formation target | correction verified; RETURN closed | Owner |
 | 11 | Limited Probe Installation decision | Owner | APPROVED | focused re-check PASS | Project Lead Installation authorized for Limited Probe only | Research Project Lead |
 | 12 | `LP-RL-001` Limited Probe Installation | Research Project Lead | COMPLETE / RETURNED | Revised Formation + Owner Decision | [Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md) | Owner |
-| 13 | Installation Audit decision | Owner | OPEN | completed Installation Package | pending Owner decision | Owner |
+| 13 | Installation Audit decision | Owner | APPROVED | completed Installation Package | independent Installation Audit authorized | Research Auditor |
+| 14 | `IA-RL-001` Independent Installation Audit | Research Auditor | READY | Installation Package + governing sources | pending Audit verdict | Owner |
 
 ---
 
@@ -632,3 +633,84 @@ LP-RL-001 Installation complete
 **Owner.**
 
 Research Project Lead retains no operational ownership after this return.
+
+---
+
+## Event 013 — Owner Decision on Independent Installation Audit
+
+### Decision
+
+**APPROVED — INDEPENDENT INSTALLATION AUDIT.**
+
+Owner activates Research Auditor for an independent audit of the completed `LP-RL-001 — Limited Probe Installation Package` before any Researcher execution.
+
+### Audit authority envelope
+
+The Auditor must verify whether the Installation Package:
+
+1. faithfully implements the verified `LIMITED PROBE` Formation Handoff without expanding into Full Project architecture;
+2. preserves route discrimination and does not predetermine the central hypothesis or later Full Project;
+3. correctly places Existing Research Coverage Review as the first research component;
+4. defines a usable Coverage Map and a genuine four-outcome Coverage Gate;
+5. stops before textual work when external coverage is sufficient or materially changes the question;
+6. bounds any conditional textual Probe to Мф. 6:19–34, Лк. 12:13–34 and 2 Кор. 8–9;
+7. preserves the required distinctions around generosity, stewardship, provision, trust, scarcity and entrustedness;
+8. keeps time, attention, opportunities, abilities/talents and «Щедрость и власть» outside the active Probe boundary;
+9. defines proportionate Stage Map, Output Contracts, verification architecture, Stop/Close Conditions and Role Configuration Locks;
+10. respects role authority, independence, return routes and the prohibition on research execution before Owner authorization.
+
+The Auditor may identify compliance defects, authority breaches, missing controls, disproportionate design or material ambiguity. The Auditor must not rewrite the Installation Package, execute the Coverage Review, perform textual research, activate Researcher, or expand the route.
+
+### Expected verdict
+
+Use the canonical Auditor verdict vocabulary:
+
+`PASS / PASS WITH CONDITIONS / RETURN / BLOCK / ESCALATE`.
+
+Return one whole audit result containing target verification, compliance findings, material findings if any, proportionality/authority judgment, verdict, recommended next gate and ownership returned to Owner.
+
+### Ownership transferred to
+
+**Research Auditor.**
+
+---
+
+# Current Assignment
+
+## Event 014 — IA-RL-001 Independent Installation Audit
+
+▶ Основная роль — Research Auditor  
+▶ Основное задание — IA-RL-001: Independent Installation Audit  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Research Audit / Installation Audit
+
+### Canonical entry and inputs
+
+Begin from:
+
+`Roles/Auditor/v0.1/README.md`
+
+Then read:
+
+1. this complete Validation Run Record;
+2. [LP-RL-001 Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md);
+3. [FP-RL-001 Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md);
+4. applicable Constitution, Methodology, Role Standards and exact pinned role versions required to audit Installation compliance.
+
+### Scope
+
+Audit only the completed Installation architecture. Do not repeat Formation Audit except where needed to test fidelity of the Installation to the verified Formation Handoff.
+
+### Independence
+
+This is an independent Research Audit. Auditor receives operational ownership only of the audit result and does not take ownership of the Installation or future research stages.
+
+### Write boundary
+
+Auditor may append its result to this Run Record and, if needed for a large result, create one audit artifact under `./Artifacts/`. No other repository changes are authorized.
+
+### Return Route
+
+**Research Auditor → Owner.**
+
+No Researcher execution is authorized by this Assignment.
