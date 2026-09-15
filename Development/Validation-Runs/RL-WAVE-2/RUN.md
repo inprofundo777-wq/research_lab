@@ -7,11 +7,11 @@
 **Request:** `RQ-RL-001`  
 **Formation Pilot:** `FP-RL-001`  
 **Audit:** `AT-RL-001`  
-**Current Gate:** `LP-RL-001 — Project Lead Installation for Limited Probe`  
-**Current Owner:** Research Project Lead  
-**Status:** 🟡 OWNER AUTHORIZED — INSTALLATION READY TO BEGIN  
-**Active Target:** this Run Record + [FP-RL-001 Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md)  
-**Required Output:** bounded Limited Probe Installation Package  
+**Current Gate:** `Installation Audit decision`  
+**Current Owner:** Owner  
+**Status:** 🟡 LP-RL-001 COMPLETE — OWNER GATE OPEN  
+**Active Target:** this Run Record + [LP-RL-001 Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md)  
+**Required Output:** Owner decision on independent Installation Audit  
 **Next Decision Owner:** Owner  
 **Canonical record:** this file
 
@@ -34,8 +34,8 @@ Owner should normally transfer only the link to this Run Record. The receiving r
 | 9 | `AT-RL-001-RC` focused re-check attempt | Research Auditor | BLOCK — DEPENDENCY | revised target absent from branch | no substantive verdict | Owner |
 | 10 | `AT-RL-001-RC` focused re-check continuation | Research Auditor | PASS | canonical Revised Formation target | correction verified; RETURN closed | Owner |
 | 11 | Limited Probe Installation decision | Owner | APPROVED | focused re-check PASS | Project Lead Installation authorized for Limited Probe only | Research Project Lead |
-| 12 | `LP-RL-001` Limited Probe Installation | Research Project Lead | READY | Revised Formation + Owner Decision | pending Installation Package | Owner |
-| 13 | Installation Audit decision | Owner | NOT OPEN | completed Installation Package required | pending | Owner |
+| 12 | `LP-RL-001` Limited Probe Installation | Research Project Lead | COMPLETE / RETURNED | Revised Formation + Owner Decision | [Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md) | Owner |
+| 13 | Installation Audit decision | Owner | OPEN | completed Installation Package | pending Owner decision | Owner |
 
 ---
 
@@ -573,3 +573,62 @@ No changes to Research Request Map, canonical role packages, Constitution, Metho
 ### Ownership
 
 **Current operational ownership: Research Project Lead.**
+
+---
+
+## Event 012 — LP-RL-001 Project Lead Installation Result
+
+### Result
+
+Research Project Lead completed the bounded `LIMITED PROBE` Installation without beginning research execution.
+
+Complete artifact: [LP-RL-001 — Limited Probe Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md).
+
+The Installation defines:
+
+- route-discrimination Probe Charter and bounded question;
+- project-specific `LP-RL-001-PROTOCOL-v0.1` without importing `IP-001`;
+- Stage Map beginning with Existing Research Coverage Review;
+- exact role versions, Packages, Modes, independence and return routes;
+- separate Coverage Review and conditional Textual Probe Output Contracts;
+- Coverage Map schema;
+- explicit four-outcome Coverage Gate;
+- textual boundary limited to Мф. 6:19–34, Лк. 12:13–34 and 2 Кор. 8–9;
+- strong / partial / different-structure / weak-negative epistemic outcomes;
+- verification and audit architecture;
+- canonical document/map architecture;
+- Stop / Close Conditions;
+- active Installation Role Configuration Lock plus prepared, non-activated future stage locks.
+
+### Installation Verdict
+
+**INSTALLATION COMPLETE — READY FOR OWNER GATE.**
+
+The first future research component is Existing Research Coverage Review. Textual Probe remains conditional. If coverage is sufficient or materially changes the question, the architecture stops before textual work and returns for route decision.
+
+No Full Project architecture was created. No Researcher or Auditor was activated. No research was executed. `IP-001`, Research Request Map, Constitution, Methodology and canonical role packages were not changed.
+
+### Unresolved Design Questions
+
+No unresolved design question blocks Installation completion. Execution-dependent questions remain intentionally deferred: independent Installation Audit activation, future Researcher authorization, practical external-resource availability, and any later need for independent Review/Re-check.
+
+### Verification / Audit Status
+
+- Project Lead internal configuration check: COMPLETE.
+- Independent Installation Audit: NOT ACTIVATED.
+- Research execution: NOT AUTHORIZED BY THIS RESULT.
+
+### Recommended Next Gate
+
+```text
+LP-RL-001 Installation complete
+→ ownership returned to Owner
+→ Owner decides whether to activate independent Installation Audit
+→ no Researcher execution before that gate
+```
+
+### Ownership Returned To
+
+**Owner.**
+
+Research Project Lead retains no operational ownership after this return.
