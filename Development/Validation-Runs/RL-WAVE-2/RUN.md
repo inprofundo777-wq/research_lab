@@ -7,11 +7,11 @@
 **Request:** `RQ-RL-001`  
 **Formation Pilot:** `FP-RL-001`  
 **Audit:** `AT-RL-001`  
-**Current Gate:** Owner Decision on Limited Probe Installation  
-**Current Owner:** Owner  
-**Status:** 🟢 FOCUSED RE-CHECK PASS — OWNER GATE OPEN  
-**Active Target:** [FP-RL-001 Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md)  
-**Required Output:** Owner decision  
+**Current Gate:** `LP-RL-001 — Project Lead Installation for Limited Probe`  
+**Current Owner:** Research Project Lead  
+**Status:** 🟡 OWNER AUTHORIZED — INSTALLATION READY TO BEGIN  
+**Active Target:** this Run Record + [FP-RL-001 Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md)  
+**Required Output:** bounded Limited Probe Installation Package  
 **Next Decision Owner:** Owner  
 **Canonical record:** this file
 
@@ -33,7 +33,9 @@ Owner should normally transfer only the link to this Run Record. The receiving r
 | 8 | `FP-RL-001-R1` bounded correction | Research Lab Director | COMPLETED | Audit RETURN | [Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md) | Owner |
 | 9 | `AT-RL-001-RC` focused re-check attempt | Research Auditor | BLOCK — DEPENDENCY | revised target absent from branch | no substantive verdict | Owner |
 | 10 | `AT-RL-001-RC` focused re-check continuation | Research Auditor | PASS | canonical Revised Formation target | correction verified; RETURN closed | Owner |
-| 11 | Limited Probe Installation decision | Owner | OPEN | focused re-check PASS | pending Owner decision | Owner |
+| 11 | Limited Probe Installation decision | Owner | APPROVED | focused re-check PASS | Project Lead Installation authorized for Limited Probe only | Research Project Lead |
+| 12 | `LP-RL-001` Limited Probe Installation | Research Project Lead | READY | Revised Formation + Owner Decision | pending Installation Package | Owner |
+| 13 | Installation Audit decision | Owner | NOT OPEN | completed Installation Package required | pending | Owner |
 
 ---
 
@@ -403,3 +405,171 @@ Focused Formation Re-check PASS
 ```
 
 Project Lead is not activated by this record. Installation begins only by explicit Owner decision.
+
+---
+
+## Event 010 — Owner Decision on Limited Probe Installation
+
+### Decision
+
+**APPROVED — PROJECT LEAD INSTALLATION FOR LIMITED PROBE ONLY.**
+
+Owner authorizes Research Project Lead to design a bounded `LIMITED PROBE` based on the verified Revised Formation Handoff.
+
+The Installation must include a bounded **Existing Research Coverage Review as the first research component** before primary textual Probe execution.
+
+### Meaning of the decision
+
+This authorizes:
+
+- Project Lead Installation work;
+- design of the Limited Probe architecture;
+- design of the external coverage-review component;
+- preparation of Protocol, Stage Map, role configuration, Output Contracts, verification/audit plan and stop/close conditions;
+- append-only recording in this Run Record and its artifact folder.
+
+This does not authorize:
+
+- Researcher activation;
+- execution of the external review;
+- execution of textual observation;
+- Full Research Project design or launch;
+- predetermined confirmation of the central hypothesis;
+- inclusion of «Щедрость и власть»;
+- changes to Constitution, Methodology, permanent role authority or `IP-001`.
+
+### Required first research component
+
+The future Probe design must begin with a bounded review of external research coverage for the relation:
+
+```text
+generosity / giving
+↔ trust in divine care or provision
+↔ stewardship / entrustedness
+```
+
+It must separately inspect coverage of:
+
+- Мф. 6:19–34;
+- Лк. 12:13–34;
+- 2 Кор. 8–9.
+
+The review must distinguish scholarly monographs, peer-reviewed or academic studies, commentaries, institutional resources and pastoral/popular treatments. Pastoral material may show reception or application, but must not be treated as equivalent to scholarly evidence.
+
+### Required coverage judgment
+
+The designed review must be able to return one of the following:
+
+```text
+EXISTING RESEARCH PACKAGE SUFFICIENT
+/ LIMITED REVIEW SUFFICIENT
+/ TEXTUAL PROBE STILL REQUIRED
+/ RESEARCH QUESTION REQUIRES REFORMULATION
+```
+
+If external research is sufficient or materially changes the question, the process returns to Director / Owner before textual Probe execution.
+
+### Ownership transferred to
+
+**Research Project Lead.**
+
+---
+
+# Current Assignment
+
+## Event 011 — LP-RL-001 Project Lead Installation
+
+▶ Основная роль — Research Project Lead  
+▶ Основное задание — LP-RL-001: Limited Probe Installation  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Installation
+
+### Canonical entry and inputs
+
+Begin from the canonical Project Lead role entry:
+
+`Roles/Project-Lead/v0.1/README.md`
+
+Then read:
+
+1. this complete Validation Run Record;
+2. [FP-RL-001 Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md);
+3. [AT-RL-001 Formation Audit](./Artifacts/AT-RL-001-Formation-Audit.md);
+4. Event 009 focused re-check PASS;
+5. Event 010 Owner Decision.
+
+Do not request Owner to re-send these artifacts.
+
+### Package
+
+Installation is a Package C trigger. Recover and apply the exact current role version and governing documents before designing the Installation Package.
+
+### Assignment
+
+Create a complete but proportionate Installation Package for a bounded `LIMITED PROBE`.
+
+The package must define:
+
+1. **Probe Charter** — operational purpose limited to route discrimination.
+2. **Research question and scope** — bounded by Revised Formation.
+3. **Protocol configuration** — project-specific procedure without importing IP-001 by default.
+4. **Stage Map** — beginning with Existing Research Coverage Review and conditionally proceeding to textual Probe.
+5. **Role and Capability Matrix** — exact role versions, Packages, Modes, independence and return routes.
+6. **Output Contracts** — separate contracts for the coverage review and any later textual work.
+7. **Coverage Map schema** — at minimum Source, Type, Central Claim, Biblical Corpus, Coverage, Evidence Level, Limitations and Relevance to Probe.
+8. **Coverage Gate** — explicit conditions for the four coverage judgments recorded in Event 010.
+9. **Textual Probe boundary** — Matthew 6:19–34, Luke 12:13–34 and 2 Corinthians 8–9 only, unless returned for route reconsideration.
+10. **Epistemic outcomes** — strong viability, partial viability, different structures and weak viability / negative result.
+11. **Verification and Audit Plan** — distinguish internal verification, independent Review/Re-check and Research Audit.
+12. **Document and Map Architecture** — use this Run Record as the canonical handoff point; large immutable outputs go under the existing Artifacts folder.
+13. **Stop and Close Conditions** — including return before textual work if external coverage is sufficient or materially changes the question.
+14. **Role Configuration Lock**.
+15. **Return Route** — Project Lead → Owner.
+
+### Design constraints
+
+The Installation must not:
+
+- turn the broad potential territory into the actual Probe corpus;
+- assume that generosity, trust, provision and stewardship form one doctrine;
+- treat generosity and stewardship as synonyms;
+- treat provision as transactional reward;
+- use Matthew 25 as lexical proof for modern talents/abilities;
+- extend findings automatically to time, attention, opportunities or abilities;
+- include «Щедрость и власть»;
+- predetermine Full Project;
+- begin research execution.
+
+### Expected output
+
+Append to this Run Record:
+
+- a concise Installation result and verdict;
+- a link to the complete Installation Package stored under `./Artifacts/`;
+- unresolved design questions;
+- verification/audit status;
+- recommended next gate;
+- ownership returned to Owner.
+
+### Next gate after Installation
+
+The expected next gate is:
+
+```text
+Project Lead returns Installation Package
+→ Owner receives package
+→ Owner decides whether to activate independent Installation Audit
+→ no Researcher execution before the gate
+```
+
+### Write boundary
+
+Project Lead may update only this Run Record and create the Installation artifact under:
+
+`Development/Validation-Runs/RL-WAVE-2/Artifacts/`
+
+No changes to Research Request Map, canonical role packages, Constitution, Methodology, IP-001 or other project statuses.
+
+### Ownership
+
+**Current operational ownership: Research Project Lead.**
