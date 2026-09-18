@@ -2317,3 +2317,116 @@ S1/S2/S3/S5 сохраняются как restricted-use background на ран�
 | Full Project / Independent Review / Audit | NOT ACTIVATED |
 
 Прежние Events, artifacts, Current State и Process Map не переписаны. Это новое состояние фиксируется только данным append-only Event.
+
+
+---
+
+## Event 027 — LR-RL-001 Project Lead Acceptance / Route Handoff
+
+▶ Основная роль — Research Project Lead v0.1 — Candidate Active / Validation Pending  
+▶ Основное задание — принять Event 026, проверить `LR-RL-001-OC1-v0.1` и route judgment  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Stage Coordination  
+**Дата:** 2026-09-18.
+
+### 1. Decision
+
+**EVENT 026 ACCEPTED.**  
+**LR-RL-001-OC1-v0.1: ACCEPTED.**  
+**LR-RL-001 NARROWED BOUNDED LIMITED REVIEW: COMPLETE — CLOSED.**  
+**PRIMARY ROUTE JUDGMENT: SPECIFIC TEXTUAL UNCERTAINTY REMAINS — ACCEPTED.**  
+**EXECUTION DISPOSITION: STOP.**  
+**TEXTUAL PROBE: NOT AUTHORIZED / NOT ACTIVATED.**
+
+Project Lead принимает Event 026 как полный Researcher handoff. Принятие означает, что Limited Review выполнил установленную route-discrimination функцию и локализовал остаточную неопределённость пропорционально принятому scholarly set. Оно не означает положительного ответа на textual question, не устанавливает biblical viability тройной модели и не является разрешением первичного исследования.
+
+### 2. Acceptance boundary
+
+Проверка выполнена как внутренняя Project Lead acceptance против Event 023–025, `LR-RL-001-PROTOCOL-v0.1` и `LR-RL-001-OC1-v0.1`. Это не Independent Review и не Research Audit.
+
+Event 026 соблюдает execution boundary: broad literature search не возобновлялся; новые источники и платный доступ не использовались; первичная экзегеза не выполнялась; corpus не расширялся; следующий маршрут не активирован.
+
+### 3. OC1 acceptance matrix
+
+| OC1 element | Event 026 evidence | Acceptance |
+|---|---|---|
+| Corpus-by-corpus comparison | §4, отдельные Matthew / Luke / 2 Corinthians tables | PASS |
+| Stewardship / entrustedness judgment | §§3–5, passage-specific / broader synthesis / adjacent / not established distinctions | PASS |
+| Cross-corpus comparison | §6, различия моделей сохранены без forced unification | PASS |
+| Source boundary / reading depth | §2, S4/S6/S10/S11 + bounded S12/S13; restricted sources не повышены | PASS |
+| Uncertainty / confidence | §§7–9; evidence, terminology и genuine residual question разведены; MODERATE confidence | PASS |
+| Exactly one route judgment | §7: `SPECIFIC TEXTUAL UNCERTAINTY REMAINS` | PASS |
+| Proportional rationale / alternatives | §§7–8 | PASS |
+| Decision needed / no activation | §10 | PASS |
+| Researcher → Project Lead handoff | §10–11 | PASS |
+
+### 4. Substantive route check
+
+Judgment `SPECIFIC TEXTUAL UNCERTAINTY REMAINS` обоснован не отсутствием литературы как таковой, а различием уровней warrant внутри уже принятого набора.
+
+- Matthew: S10 поддерживает passage-linked giving/allegiance/trust relation, но entrustedness/stewardship имеет mixed warrant — local anchor плюс broader synthesis.
+- Luke: S11/S12 дают relation-level material о provision/giving и ответственности, тогда как S13 показывает stewardship как adjacent category в соседних loci; единый passage-bounded entrustedness argument для 12:13–34 не установлен.
+- 2 Corinthians: S4 предоставляет local stewardship/provision formulation, а S6 сохраняет иные organising categories; этот Pauline result не может закрыть synoptic warrant через cross-corpus transfer.
+
+Поэтому Event 026 корректно не выбирает `EXISTING KNOWLEDGE SUFFICIENT — CLOSE / TRANSFER`: литературное сравнение завершено, но установленный route question оставляет конкретную неопределённость. `RESEARCH QUESTION NARROWED / REFORMULATION REQUIRED` также не требуется на этом gate: исходная открытая конструкция допускает corpus-specific result, а остаток уже локализован без доказанного material defect вопроса. `REVIEW BLOCKED BY MATERIAL SOURCE GAP` не подходит, поскольку Researcher смог завершить литературный judgment без названной незаменимой source dependency.
+
+### 5. Accepted unresolved question
+
+Project Lead принимает как route input следующую формулировку Event 026:
+
+> Дают ли Мф. 6:19–34 и Лк. 12:13–34, каждый в собственных границах, основание понимать материальные блага как доверенное Богом для ответственного распоряжения — как отличимое звено связи giving с trust/provision, — либо эта более сильная модель возникает лишь при привлечении более широкого богословского контекста? Какой именно локальный warrant позволяет различить эти возможности?
+
+Эта формулировка является **decision input**, а не активным Textual Probe Assignment. Она ограничена двумя синоптическими loci; 2 Кор. 8–9 остаётся сравнительным литературным ориентиром и не включается автоматически в возможное новое первичное исследование.
+
+### 6. Qualifications carried forward
+
+- Accepted source set остаётся небольшим и не репрезентирует доказанный scholarly consensus.
+- `Not established at inspected locus` не означает отсутствие концепта.
+- Responsibility, stewardship и entrustedness не считаются синонимами без отдельного warrant.
+- Broader synthesis не объявляется ошибочным только потому, что он шире passage-specific basis.
+- Local Pauline formulation не переносится в Matthew/Luke как предпосылка.
+- Confidence route judgment остаётся **MODERATE**.
+
+Ни одно из этих ограничений не блокирует закрытие Limited Review; они должны сопровождать следующий route decision.
+
+### 7. Verification status
+
+Internal Project Lead verification: COMPLETE. Material OC1 defect или evidence-to-route leap, требующий возврата Researcher, не обнаружен.
+
+Independent Review / Research Audit не активируются этим Event. Если Director/Owner сочтут независимую проверку необходимой перед возможным primary-text work, это требует отдельного решения; Lead не создаёт такой Assignment сам на данном route boundary.
+
+### 8. Exact route handoff
+
+**Receiving owner:** Research Lab Director v0.1.  
+**Final authority gate:** Owner.  
+**Completed method:** narrowed bounded Limited Review.  
+**Accepted result:** `SPECIFIC TEXTUAL UNCERTAINTY REMAINS`.  
+**Current execution status:** STOPPED before textual work.
+
+**Director decision requested:** провести route re-evaluation только по принятому residual question и определить, что рекомендовать Owner дальше: bounded Textual Probe по этому вопросу; дальнейшее сужение/reformulation без первичного исследования; defer; либо close/transfer. Formation, Stage 1 и Limited Review не повторять без нового material finding.
+
+Если Director рекомендует Textual Probe, recommendation должна отдельно определить минимальный corpus и exact question и не считать Event 027 execution authorization. Owner сохраняет решение о запуске.
+
+### 9. Append-only Current-State Delta
+
+| Item | Current verified state after Event 027 |
+|---|---|
+| Event 026 Researcher handoff | ACCEPTED |
+| LR-RL-001-OC1-v0.1 | ACCEPTED |
+| LR-RL-001 Limited Review | COMPLETE / CLOSED |
+| Primary route judgment | SPECIFIC TEXTUAL UNCERTAINTY REMAINS — ACCEPTED |
+| Current Gate | Director route re-evaluation |
+| Current receiving owner | Research Lab Director v0.1 |
+| Researcher ownership | DISCHARGED |
+| Project Lead receiving ownership | DISCHARGED after this handoff |
+| Textual Probe | NOT AUTHORIZED / NOT ACTIVATED |
+| New exegesis | NOT AUTHORIZED |
+| Corpus expansion | NOT AUTHORIZED |
+| Broad literature search / paid access | NOT AUTHORIZED |
+| Full Project | NOT ACTIVATED |
+
+### Ownership Returned To
+
+**Research Lab Director v0.1 for route re-evaluation only.**
+
+No next research route is activated by this Event.
