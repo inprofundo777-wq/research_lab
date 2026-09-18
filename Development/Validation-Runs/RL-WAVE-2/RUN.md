@@ -1831,3 +1831,94 @@ Formation не повторялась. Stage 1 не повторялся. Нов
 
 **Current Gate:** Owner Decision on narrowed bounded Limited Review.  
 **Ownership returned to:** **Owner**.
+
+
+---
+
+## Event 023 — Owner Decision: Narrowed Bounded Limited Review Installation
+
+### Decision
+
+**APPROVED — NARROWED BOUNDED LIMITED REVIEW.**
+
+Owner accepts the Director recommendation in Event 022 and authorizes **Project Lead installation only** for the narrowed bounded Limited Review.
+
+### Authorized scope
+
+Project Lead is authorized to:
+
+- install the narrowed bounded Limited Review as the next research route;
+- use Event 022 as the controlling route boundary;
+- define the bounded Assignment / Protocol configuration / Output Contract needed for this Limited Review;
+- configure the receiving research role(s), source boundary, stop conditions, verification requirements and Return Route;
+- preserve the accepted Stage 1 scholarly set and its qualifications;
+- append the Installation result to this Run Record and, if needed, store a linked immutable artifact under the existing RL-WAVE-2 artifact directory.
+
+### Controlling research boundary
+
+The installed Limited Review must remain limited to scholarly comparison of the accepted diagnostic material for:
+
+- Мф. 6:19–34;
+- Лк. 12:13–34;
+- 2 Кор. 8–9.
+
+Its purpose is route discrimination: determine what the accepted scholarly evidence does and does not establish concerning giving/generosity, trust in divine care/provision and stewardship/entrustedness, and whether a specifically defined unresolved textual question remains.
+
+Event 022 scope controls and source-boundary restrictions remain controlling unless a later explicit Owner decision changes them.
+
+### Not authorized
+
+This decision does **not** authorize:
+
+- execution of the Limited Review;
+- Researcher research work before completed Installation and the required next authorization;
+- Textual Probe;
+- primary-text research or new exegesis;
+- expansion to additional biblical corpora;
+- Full Research Project architecture or launch;
+- «Щедрость и власть»;
+- downstream publication/application;
+- changes to Constitution, Methodology, permanent role authority or `IP-001`.
+
+**Textual Probe is explicitly NOT AUTHORIZED.**
+
+Project Lead must not install the Limited Review in a way that silently pre-authorizes a Textual Probe. If the future Review concludes `SPECIFIC TEXTUAL UNCERTAINTY REMAINS`, execution stops at handoff and the question returns to the Director / Owner route gate.
+
+### Installation task
+
+**Receiving role:** Research Project Lead v0.1.
+
+**Assignment:** install the narrowed bounded Limited Review only.
+
+The Installation must make explicit at minimum:
+
+1. installed research question and purpose;
+2. exact source boundary carried from Event 022;
+3. scope IN / OUT;
+4. research role configuration and authority;
+5. bounded workflow / stage structure appropriate to the Review;
+6. Output Contract, including the four allowed route-discrimination outcomes from Event 022;
+7. treatment of uncertainty, source limitations and confidence;
+8. stop conditions, including material source gap and attempted scope expansion;
+9. verification / audit requirements;
+10. Return Route after completed Review;
+11. explicit prohibition on automatic transition to Textual Probe.
+
+Project Lead may refine operational wording but may not materially broaden the research question or source/corpus boundary under Installation authority.
+
+### Next Gate
+
+```text
+Owner APPROVED narrowed bounded Limited Review
+→ Project Lead Installation only
+→ completed Installation handoff
+→ Owner decision on execution
+```
+
+No Limited Review execution begins from this Event.
+
+### Ownership
+
+**Transferred to:** Research Project Lead v0.1 for Installation only.
+
+Owner retains the execution gate and all authority for any later Textual Probe decision.
