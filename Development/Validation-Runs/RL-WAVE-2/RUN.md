@@ -2100,3 +2100,220 @@ Owner execution approval
 **Researcher v0.1 for LR-RL-001 execution only.**
 
 Researcher must return ownership to **Research Project Lead v0.1** with the completed or blocked Review output and must not activate the next route independently.
+
+
+---
+
+## Event 026 — LR-RL-001 Narrowed Bounded Limited Review / Researcher Result
+
+▶ Основная роль — Researcher v0.1 — Candidate Active / Validation Pending  
+▶ Основное задание — LR-RL-001 по Event 025  
+■ Второстепенная роль — не активирована  
+◆ Активные моды — External Research + Synthesis, limited to accepted scholarly set  
+**Дата:** 2026-09-18.
+
+**Output status: COMPLETE FOR HANDOFF — PENDING PROJECT LEAD ACCEPTANCE.**  
+**Exactly one primary route judgment: SPECIFIC TEXTUAL UNCERTAINTY REMAINS.**  
+**Boundary action: STOP. Textual Probe remains NOT AUTHORIZED.**  
+**Ownership returned to: Research Project Lead v0.1.**
+
+### 1. Configuration, question and authority
+
+| Field | Active value |
+|---|---|
+| Request / Review | RQ-RL-001 / LR-RL-001 Narrowed Bounded Limited Review |
+| Primary Role / Package | Researcher v0.1 / C — Extended |
+| Constitution / Methodology | Constitution v0.2 / Methodology v0.3 |
+| Protocol / Output Contract | LR-RL-001-PROTOCOL-v0.1 / LR-RL-001-OC1-v0.1 |
+| Controlling route / installation | Events 022–024; LR-RL-001 Installation Package |
+| Execution authority | Owner Event 025; current Owner instruction |
+| Material | Принятые scholarly sources; библейские отрывки — loci обсуждения в литературе |
+| Independence | Primary production; не Independent Review / Audit |
+| Return route | Researcher → Project Lead; далее Director / Owner только через receiving gate |
+| Write scope | Полный результат append-only в этом Run Record |
+
+Рабочий вопрос: как принятые исследования описывают giving/generosity, trust in divine care/provision и stewardship/entrustedness; какие отношения получают passage-specific warrant, какие возникают в более широком synthesis и остаётся ли конкретная textual uncertainty.
+
+Восстановлены Researcher README, Charter, Operating Model и Prompt; применены ранее прочитанные в этой ветке Constitution, Methodology, Role Registry и standards вместе с новым Installation Package. Event 025 активирует подготовленный lock; исторические NOT ACTIVATED в Installation не препятствуют выполнению последующего Owner decision.
+
+Formation и Stage 1 не повторялись. Рабочий объект — аргументы литературы. Новая экзегеза, независимая проверка греческой лексики, первичные biblical observations и исследование дополнительных отрывков не выполнялись.
+
+### 2. Source-boundary and reading record
+
+Source IDs сохранены из Events 018–021. В этом цикле выполнено адресное повторное чтение уже принятых источников, без search queries и без новых публикаций.
+
+| ID / source | Actually used loci and depth | Function |
+|---|---|---|
+| **S4 — Richard R. Melick Jr. (1989), “The Collection for the Saints: 2 Corinthians 8–9,” Criswell Theological Review 4.1:97–117. [Full text](https://biblicalelearning.org/wp-content/uploads/2022/01/Melick-2Cor8-CTR.pdf)** | Фрагменты pp. 109–113: завершение обязательства, равенство, provision/harvest и начало administrative responsibilities; с учётом ранее проверенного introduction p. 97 | Primary substantive study |
+| **S6 — Alef M. Meulenberg & Shaun Joynt (2025), “A South African exploration of the Jerusalem collection in 2 Corinthians 8 and 9,” Verbum et Ecclesia 46(1), a3501. [DOI / full text](https://verbumetecclesia.org.za/index.php/ve/article/view/3501/8989)** | Exegesis: Patronage; Grace and love; Equality and unity. Метод и переход к современному применению учтены из принятого reading record | Primary substantive study; secondary commentary synthesis |
+| **S10 — Darrell O’Donoghue (2011), A Biblical-Theological Analysis of Matthew 6:19–34 to Clarify the Relationship between the Christian Disciple and Money. MTh, South African Theological Seminary; supervisor Dan Lioy. [Text](https://www.academia.edu/1075158/A_Biblical_Theological_Analysis_of_Matthew_6_19_34_to_Clarify_the_Relationship_between_the_Christian_Disciple_and_Money)** | Ch. 4 conclusion и ch. 5 §5.2.1, около pp. 50–53; stewardship discussion и conclusion около pp. 86–88. Locator уточнён Event 021; вся диссертация не объявляется прочитанной | Primary substantive thesis |
+| **S11 — Andrew Shepherd (2019), “Being ‘Rich towards God’ in the Capitalocene: An Ecological/Economic Reading of Luke 12.13–34,” The Bible Translator 70(3):240–260. DOI 10.1177/2051677019882979. [UBS full text](https://translation.bible/wp-content/uploads/2024/12/shepherd-2019-being-rich-towards-god-in-the-capitalocene-an-ecological-economic-reading-of-luke-12-13-34.pdf)** | Повторно pp. 253–255; принятую аргументацию pp. 250–252 и method framing используем на глубине Events 020–021 | Primary substantive study |
+| **S12 — Olubiyi A. Adewale (2021), “Narratological reading of poverty-related parables (Lk 12:13–21; 14:15–24; 16:19–31),” HTS 77(1), a6214. DOI 10.4102/hts.v77i1.6214. [Full text](https://scielo.org.za/scielo.php?pid=S0259-94222021000100005&script=sci_arttext)** | Раздел rich fool: characterisation и принятые локальные conclusions; остальные притчи не анализировались | Limited corroboration для Лк. 12:13–21 |
+| **S13 — Timothy van Aarde (2015), “The use of οικονομία in a missional reading of the Gospel of Luke-Acts,” In die Skriflig 49(1), a2003. DOI 10.4102/ids.v49i1.2003. [Full text](https://scielo.org.za/scielo.php?pid=S2305-08532015000100050&script=sci_arttext)** | Sections “Oικονομια in Luke 12 and 16 and the poor”, “The use of οικονομία in the eschatological framework of Luke” и social responsibility | Только terminology / boundary control |
+
+S1/S2/S3/S5 сохраняются как restricted-use background на ранее проверенной глубине; их непрочитанные главы не используются для вывода и не объявлены обязательной покупкой. S7–S9 не входят в доказательную базу настоящего Limited Review. Powell, Nolland, Matera, Barnett, Hodge и другие, цитируемые принятыми авторами, не добавлены как самостоятельно прочитанные источники.
+
+Публичный HTML/PDF не означает чтения всей работы. Отсутствие direct claim ниже относится к обозначенным loci, а не ко всей книге, статье или дисциплине.
+
+### 3. Classification rule
+
+Таблицы содержат краткий пересказ авторских claims; классификация warrant и вывод о достаточности — judgment данного Review.
+
+- **Passage-specific:** автор привязывает аргумент к установленному отрывку. Это характеристика аргумента автора, не сертификат его экзегетической правильности.
+- **Broader synthesis:** нужный переход опирается также на общебогословскую рамку или другие тексты.
+- **Adjacent category:** рассмотренное автором понятие относится к соседнему locus и не переносится автоматически.
+- **Not established at inspected locus:** соответствующий вывод в проверенной аргументации не установлен. Это не “concept absent”.
+
+Уровень confidence в строках относится к литературной классификации. Общая уверенность в route judgment остаётся **MODERATE**. Ни trust, ни provision, ни grace не считаются взаимозаменяемыми: Божье обеспечение, отношение доверия и богословское объяснение дара требуют отдельных переходов в аргументе.
+
+### 4. Corpus-by-corpus scholarly comparison
+
+#### 4.1. Matthew 6:19–34
+
+| Claim ID / source-locus | Scholarly claim | Relation type | Warrant classification | Limitation / counter-position | Confidence |
+|---|---|---|---|---|---|
+| M1 — S10, ch. 4 conclusion; ch. 5 §5.2.1 | Верность Богу выражается в щедрости; связанная с этим уязвимость объясняет переход к запрету тревоги | Giving–allegiance–trust/provision | Passage-specific argument через связь частей отрывка | Переход аргументирован автором; здесь не проверен независимо. Сам по себе не устанавливает entrustedness | MODERATE |
+| M2 — S10, pp. 86–88 | Ученик рассматривается как управляющий Божьим имуществом; автор использует broader Matthean motifs и Мф. 6:24 | Entrustedness как рамка ученичества и обращения с ресурсами | **Broader synthesis with a local anchor** | Нельзя объявить рамку полностью внешней: local anchor присутствует. Но он не равнозначен самостоятельному выведению полной модели из Мф. 6:19–34 | MODERATE |
+
+**Matthew judgment:** достаточна литературная связка пары и установлена смешанная структура warrant третьего понятия. Неразрешённым остаётся вклад именно локального основания в полную модель: broader synthesis не является ни доказанным искажением, ни уже доказанной passage-specific структурой.
+
+#### 4.2. Luke 12:13–34
+
+| Claim ID / source-locus | Scholarly claim | Relation type | Warrant classification | Limitation / counter-position | Confidence |
+|---|---|---|---|---|---|
+| L1 — S11, pp. 250–254 | Доверие Божьему обеспечению связано с благодарностью, щедростью и общинным распределением | Trust/provision–giving | Passage-specific reading внутри ecological-economic framework | Историко-экологические реконструкции и контексты шире locus; его схема не сводится к индивидуальному дарителю | MODERATE |
+| L2 — S11, pp. 253–255 | Ответственное обращение с изобилием получает общинное и экологическое измерение | Получение благ–ответственное использование | Broader synthesis; тождество этой модели с entrustedness **not established at inspected locus** | Отнесение её к stewardship было бы дополнительным шагом Review, а не прямой атрибуцией автору | MODERATE |
+| L3 — S12, rich fool section / conclusions | Имущество трактуется как дар; требуется помощь нуждающимся и ответственность перед Богом | Дар–giving–accountability | Passage-specific interpretation с прикладным развитием | Только 12:13–21; не закрывает связь с 12:22–34. Accountability ещё не техническая модель stewardship | MODERATE |
+| L4 — S13, Luke 12/16 sections | Household management и делегированная ответственность обсуждаются через 12:35–48 и 16:1–13 | Stewardship / entrusted management | **Adjacent category** относительно 12:13–34 | Не является direct evidence для установленного locus; используется только для контроля границы | MODERATE |
+
+**Luke judgment:** literature даёт pair-level relation и corroboration ответственности за дар, но переход к одной модели stewardship не выполнен автоматически. Соединить L1, L3 и L4 в якобы единый вывод одного автора было бы ошибкой. Дополнительные главы не включены в corpus.
+
+#### 4.3. 2 Corinthians 8–9
+
+| Claim ID / source-locus | Scholarly claim | Relation type | Warrant classification | Limitation / counter-position | Confidence |
+|---|---|---|---|---|---|
+| P1 — S4, pp. 109–110 | Распределение для восполнения нужд описано как responsibility/stewardship ресурсов | Provision–responsible distribution | **Passage-specific interpretive warrant**; учтена авторская работа с цитируемым внутри главы manna material | Stewardship — объяснительная категория исследователя; не доказана её необходимость как единственной категории | MODERATE |
+| P2 — S4, pp. 111–113 | Giving связано с дальнейшей помощью и доверием Богу; гарантированный денежный возврат отвергается | Giving–trust/provision; цель отличается от личного обогащения | Passage-specific argument о цели обеспечения | Не означает универсальной причинной схемы «доверие всегда предшествует giving» | MODERATE |
+| P3 — S6, Grace and love | Giving объясняется благодатью, примером Христа и добровольностью | Grace–giving | Passage-specific commentary synthesis | Divine enabling не тождественно отдельно доказанному психологическому мотиву trust | MODERATE |
+| P4 — S6, Equality and unity; Patronage | Обеспечение рассматривается через нужды общины, распределение и единство; используются категории benefaction | Provision–giving–communal ends | Passage-specific synthesis с социальным контекстом | Entrustedness как самостоятельное звено здесь **not established**. Другая рамка не опровергает P1 | MODERATE |
+
+**Pauline judgment:** есть локально аргументированная stewardship formulation, а не только соседняя терминология. В то же время сопоставление выявляет несколько совместимых объяснительных уровней; общая тройная структура не становится необходимой только потому, что один автор употребляет её категории.
+
+### 5. Focused stewardship / entrustedness result
+
+| Claim | Status in this Review | What can be retained |
+|---|---|---|
+| M2 | Broader synthesis with passage-specific anchor | Проверяемый смешанный warrant; нельзя ни убрать локальную опору, ни сделать её достаточной без дальнейшего основания |
+| L1–L2 | Entrustedness not established as the same concept | Пара доверие–giving сохраняется; равенство responsible use и stewardship не постулируется |
+| L3 | Accountability corroboration; full entrusted-management relation not established | Локальная ответственность за дар, без переноса на весь отрывок |
+| L4 | Adjacent category | Только предупреждение о переносе из другого locus |
+| P1–P2 | Passage-specific scholarly interpretation | Реальный локальный кандидат модели, без consensus claim |
+| P3–P4 | Entrustedness not independently established | Альтернативное объяснение не является evidence отсутствия stewardship |
+
+**Synthesis Researcher:** слово stewardship объединяет по меньшей мере разные аналитические требования: ответственное употребление полученного, делегированное управление принадлежащим другому и рамку богословия ученичества. Это различение целей проверки, не новая универсальная дефиниция и не замена installed question.
+
+Ни общий источник благ, ни моральная ответственность сами по себе логически не устанавливают всю более сильную модель делегированного управления. Обратное также неверно: отсутствие специального слова не доказывает отсутствия концепта. Именно переход между этими уровнями должен оставаться traceable.
+
+### 6. Cross-corpus comparison
+
+Сопоставление проводится после таблиц отдельных корпусов. Это сравнение scholarly models, не новая библейская синтеза.
+
+| Comparative axis | Matthew | Luke | 2 Corinthians | Bounded Review conclusion |
+|---|---|---|---|---|
+| Organising relation | M1: allegiance и уязвимость | L1/L3: община, дар, ответственность | P1–P4: распределение и несколько мотивирующих рамок | Общий разговор о благах не устанавливает одинаковый механизм |
+| Third term | M2: смешанный warrant | L2–L4: частичная сопоставимость / adjacent | P1: local interpretive warrant | Evidence имеет неодинаковую структуру |
+| Trust / provision | Отношение между ними описано автором | Pair-level argument | Provision и grace нельзя автоматически заменить trust | Universal motive не установлен |
+| Cross-corpus transfer | Нельзя получать недостающее звено из другого корпуса | То же | Локальная formulation не доказывает синоптическую | Forced unification не допускается |
+
+**Что Review разрешил:** найденный набор нельзя честно представить ни как отсутствие исследования связи, ни как уже готовое единое объяснение. Также нельзя присвоить один уровень warrant всем трём корпусам. Эти выводы получены сопоставлением конкретных аргументов, а не количеством источников.
+
+**Что Review не разрешил:** достаточно ли самих ограниченных синоптических loci для отличимой от allegiance/благодарности модели entrustedness. Отсутствует сопоставимое обоснование того, что в каждом случае третья категория выполняет ту же функцию. Это ограничение принятого набора; не заявление обо всей scholarly literature.
+
+### 7. Exact unresolved question and evidence of non-resolution
+
+**Primary route judgment: SPECIFIC TEXTUAL UNCERTAINTY REMAINS.**
+
+**Bounded unresolved primary-text question:**
+
+> Дают ли Мф. 6:19–34 и Лк. 12:13–34, каждый в собственных границах, основание понимать материальные блага как доверенное Богом для ответственного распоряжения — как отличимое звено связи giving с trust/provision, — либо эта более сильная модель возникает лишь при привлечении более широкого богословского контекста? Какой именно локальный warrant позволяет различить эти возможности?
+
+Это один вопрос о статусе третьего звена с двумя отдельными диагностическими loci. Он не включает проверку всех мотивов щедрости или всей этики богатства. 2 Кор. 8–9 остаётся уже сопоставленным литературным ориентиром; его новая первичная обработка не предлагается как автоматически необходимая.
+
+**Почему принятый набор не разрешает этот вопрос:**
+
+- M1 и M2 показывают разный объём оснований: локальная pair relation и смешанная модель третьего звена. Нельзя считать, что broader premises доказаны самим local anchor.
+- L1–L4 не дают одного passage-bounded аргумента, который устанавливает требуемое концептуальное тождество; сборка нескольких неполных оснований не заменяет его.
+- P1 не устраняет этот пробел в синоптическом warrant: иначе результат одного корпуса стал бы предпосылкой другого.
+
+Здесь не заявляется доказанное противоречие авторов. Сохраняются две возможности: local conceptual basis без специального термина и допустимая более широкая synthesis, которую нельзя приписать самому locus. Выбор между ними не сделан посредством самостоятельной экзегезы.
+
+**Зачем вопрос важен для route:** ответ определит, имеется ли основание для общей трёхчастной модели на установленном диагностическом уровне или следует ограничиться corpus-specific/pair-level descriptions. Для этого не нужно заранее доказывать отсутствие категории или требовать её обязательного присутствия.
+
+**Почему это не access BLOCK:** доступные аргументы позволяют точно установить границу их обоснования и сформулировать остаточный вопрос. Конкретного отсутствующего ресурса, без которого невозможно вынести этот route judgment, не выявлено. Непрочитанные монографии могли бы содержать дополнительное решение, но такое предположение не является выявленной dependency.
+
+**Почему это не утверждение “теперь Textual Probe обязателен”:** контракт допускает named textual uncertainty как результат литературного обзора. Выбор дальнейшего метода остаётся Director/Owner; они могут разрешить отдельную bounded проверку, принять сужение результата, отложить или закрыть направление. Новая authority не создаётся данным выводом.
+
+### 8. Alternative outcomes and proportionality
+
+| Allowed alternative | Why not selected |
+|---|---|
+| EXISTING KNOWLEDGE SUFFICIENT — CLOSE / TRANSFER | Набор достаточен для описания scholarly models, но не разрешает поставленный residual question; закрытие исходной route uncertainty было бы сильнее evidence |
+| RESEARCH QUESTION NARROWED / REFORMULATION REQUIRED | Локализация остатка уточняет следующий decision input. Она не доказывает, что installed open question материально ошибочен и обязан быть заменён: он изначально допускает отсутствие общего результата |
+| REVIEW BLOCKED BY MATERIAL SOURCE GAP | Названной незаменимой source dependency нет; незавершённость первичного вопроса не равнозначна невозможности завершить литературный Review |
+
+**Confidence: MODERATE.** Уверенность относится к локализации uncertainty в принятом наборе. Уверенность в каком-либо положительном/отрицательном ответе на первичный вопрос не присваивается.
+
+### 9. Uncertainty ledger and safeguards
+
+| Kind | Remaining uncertainty | Treatment |
+|---|---|---|
+| Evidence / coverage limit | Небольшой accepted set, thesis/practical-theology genres, неполное чтение работ | Не заявлять representativeness, saturation или consensus |
+| Terminology mismatch | Responsibility, entrustedness, stewardship могут выполнять разные функции | Не приравнивать по тематическому сходству |
+| Genuine residual question | Локальный warrant третьего звена в названных синоптических loci | Точный вопрос §7; STOP before primary research |
+| Interpretation limits | Авторские исторические/экологические реконструкции | Сохранять как premises источника, не independently verified facts |
+| Access limit without current dependency | S1/S2/S3/S5 остаются на прежней глубине | Не выводить из этого ни отсутствие ответа, ни обязательную покупку |
+
+Не добавлены новые источники, платный доступ, новые biblical corpora или nonmaterial domains. Ссылки авторов на иные тексты рассматривались только как характеристика их warrant. Их первичное изучение не выполнялось. Материального конфликта Protocol/authority не возникло.
+
+После формулировки остаточного вопроса работа остановлена; самостоятельного ответа на него, даже предварительного, данный Event не содержит.
+
+### 10. OC1 self-check and complete handoff
+
+| LR-RL-001-OC1 requirement | Output |
+|---|---|
+| Corpus-by-corpus source/locus → claim → relation → warrant → limit → confidence | §4 |
+| Stewardship/entrustedness classification | §§3–5 |
+| Cross-corpus comparison preserving differences | §6 |
+| Exact source boundary / reading depth | §2 |
+| Limits and differentiated uncertainty | §§7–9 |
+| Exactly one primary route judgment | §7: SPECIFIC TEXTUAL UNCERTAINTY REMAINS |
+| Rationale and alternatives | §§7–8 |
+| Decision needed / no automatic activation | Below |
+| Researcher → Project Lead | This handoff |
+
+**Verification:** внутренняя проверка атрибуции claims, источников/loci, границ warrant, порядка corpus-specific → comparison и соответствия Outcome semantics. Primary production; Independent Review/Audit не выполнялись.
+
+**Current result:** completed bounded scholarly comparison; различены уровни warrant, локализован residual primary-text question.  
+**Material dependency:** none preventing this Review judgment.  
+**Decision needed now:** Project Lead проверяет LR-RL-001-OC1 и пропорциональность route judgment, принимает или возвращает результат с конкретным finding. Researcher сам OC1 не принимает и accepted closure LR-RL-001 не объявляет.  
+**Recommended next gate if accepted:** Director route re-evaluation → Owner decision. Передать именно вопрос §7 и таблицы оснований, а не общее поручение исследовать всю тройную связь заново.  
+**Authority needed for any later textual work:** отдельное решение Owner с явным question, corpus, Protocol/Output Contract, исполнителем и stop/return boundaries. Суженная формулировка здесь не заменяет такого решения.  
+**Safe continuation by Researcher:** none without a new or returned Assignment; current execution stops.  
+**Ownership returned to:** Research Project Lead v0.1.
+
+### 11. Append-only state delta
+
+| Item | State after Researcher handoff |
+|---|---|
+| Event 025 execution task | Output submitted / awaiting Lead acceptance |
+| LR-RL-001 research output | COMPLETE FOR HANDOFF |
+| LR-RL-001-OC1 | SUBMITTED — NOT SELF-ACCEPTED |
+| Primary route judgment | SPECIFIC TEXTUAL UNCERTAINTY REMAINS |
+| Current gate / receiving owner | Lead OC1 acceptance and route check / Research Project Lead v0.1 |
+| Researcher operational ownership | RETURNED; execution stopped |
+| CR-RL-001 / Stage 1 | Previously closed; not reopened |
+| Textual Probe / new exegesis / subsequent stages | NOT AUTHORIZED / NOT ACTIVATED |
+| Source/corpus expansion / paid access | NOT USED / NOT AUTHORIZED |
+| Full Project / Independent Review / Audit | NOT ACTIVATED |
+
+Прежние Events, artifacts, Current State и Process Map не переписаны. Это новое состояние фиксируется только данным append-only Event.
