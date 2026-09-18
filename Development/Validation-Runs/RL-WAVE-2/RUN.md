@@ -2001,3 +2001,102 @@ If execution is authorized later, the Assignment must activate the prepared Rese
 **Owner.**
 
 Research Project Lead retains no execution authority after this handoff.
+
+
+---
+
+## Event 025 — Owner Decision: LR-RL-001 Narrowed Bounded Limited Review Execution
+
+### Decision
+
+**APPROVED — LR-RL-001 NARROWED BOUNDED LIMITED REVIEW EXECUTION ONLY.**
+
+Owner authorizes execution of the installed `LR-RL-001` narrowed bounded Limited Review and activates the prepared Researcher v0.1 configuration defined in Event 024 and [LR-RL-001 Installation Package](./Artifacts/LR-RL-001-Limited-Review-Installation-Package.md).
+
+### Activated configuration
+
+- **Primary Role:** Researcher v0.1 — Candidate Active / Validation Pending
+- **Package:** C — Extended
+- **Secondary Role:** not activated
+- **Active Mode:** External Research + Synthesis, limited to the accepted scholarly set
+- **Protocol:** `LR-RL-001-PROTOCOL-v0.1`
+- **Output Contract:** `LR-RL-001-OC1-v0.1`
+- **Source boundary:** S4/S6/S10/S11 primary substantive set; S12/S13 limited corroborative / terminology-control; S1/S2/S3/S5 only to previously verified depth
+- **Biblical loci:** Мф. 6:19–34; Лк. 12:13–34; 2 Кор. 8–9 only as loci addressed by the accepted scholarship
+- **Authority:** bounded scholarly comparison and route discrimination only
+- **Independence:** primary production; not Independent Review or Research Audit
+- **Return Route:** Researcher → Research Project Lead
+
+### Execution boundary
+
+Authorized:
+
+- corpus-by-corpus comparison of the accepted scholarly claims;
+- relation/warrant classification;
+- focused comparison of stewardship/entrustedness status;
+- cross-corpus scholarly comparison preserving differences;
+- one route-discrimination judgment under `LR-RL-001-OC1-v0.1`;
+- explicit uncertainty, source limitations and confidence;
+- complete Researcher handoff to Project Lead.
+
+Not authorized:
+
+- Textual Probe;
+- primary-text research or new exegesis;
+- expansion beyond the three installed biblical loci;
+- broad or reopened literature search;
+- paid/institutional access, purchases or subscriptions;
+- silent source-boundary expansion;
+- Full Project architecture or launch;
+- downstream publication/application;
+- automatic activation of any next route.
+
+### Stop conditions
+
+At a **material source gap** or required **scope expansion**, Researcher must **STOP** and return the exact dependency to Project Lead. Researcher must not solve such a dependency by broad search, paid access, corpus expansion or textual work outside the active authority.
+
+If the Review returns `SPECIFIC TEXTUAL UNCERTAINTY REMAINS`, it must name the bounded unresolved primary-text question and explain why the accepted literature does not resolve it, then STOP. That result does not authorize Textual Probe.
+
+### Required output
+
+Researcher must satisfy `LR-RL-001-OC1-v0.1` and return exactly one primary route judgment:
+
+- `EXISTING KNOWLEDGE SUFFICIENT — CLOSE / TRANSFER`;
+- `RESEARCH QUESTION NARROWED / REFORMULATION REQUIRED`;
+- `SPECIFIC TEXTUAL UNCERTAINTY REMAINS`;
+- `REVIEW BLOCKED BY MATERIAL SOURCE GAP`.
+
+The output must include the required corpus-by-corpus comparison, stewardship/entrustedness judgment, cross-corpus comparison, source-boundary statement, limitations/confidence, proportional rationale, decision needed and complete handoff.
+
+### Next Gate
+
+```text
+Owner execution approval
+→ Researcher executes LR-RL-001 only
+→ Researcher returns complete OC1 handoff
+→ Research Project Lead reviews / accepts or returns the handoff
+→ no subsequent route activates automatically
+```
+
+### Append-only Current-State Delta
+
+| Item | Current verified state after Event 025 |
+|---|---|
+| Current Gate | LR-RL-001 bounded execution |
+| Current operational owner | Researcher v0.1 |
+| LR-RL-001 Installation | COMPLETE |
+| LR-RL-001 execution | AUTHORIZED / READY TO BEGIN |
+| Researcher configuration | ACTIVATED for LR-RL-001 only |
+| Receiving owner after handoff | Research Project Lead v0.1 |
+| Textual Probe | NOT AUTHORIZED |
+| New exegesis | NOT AUTHORIZED |
+| Corpus expansion | NOT AUTHORIZED |
+| Broad literature search | NOT AUTHORIZED |
+| Paid access | NOT AUTHORIZED |
+| Full Project | NOT ACTIVATED |
+
+### Ownership Transferred To
+
+**Researcher v0.1 for LR-RL-001 execution only.**
+
+Researcher must return ownership to **Research Project Lead v0.1** with the completed or blocked Review output and must not activate the next route independently.
