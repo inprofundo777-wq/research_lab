@@ -7,12 +7,12 @@
 **Request:** `RQ-RL-001`  
 **Formation Pilot:** `FP-RL-001`  
 **Audit:** `AT-RL-001`  
-**Current Gate:** Owner Decision after `IA-RL-001`  
-**Current Owner:** Owner  
-**Status:** 🟢 INSTALLATION AUDIT PASS — OWNER GATE OPEN  
-**Active Target:** [LP-RL-001 Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md)  
-**Required Output:** Owner decision on whether to authorize Stage 1 Researcher execution  
-**Next Decision Owner:** Owner  
+**Current Gate:** `CR-RL-001 — Stage 1 Existing Research Coverage Review`  
+**Current Owner:** Researcher v0.1; receiving Stage owner — Research Project Lead v0.1  
+**Status:** 🟡 OWNER AUTHORIZED — STAGE 1 READY TO BEGIN  
+**Active Target:** [LP-RL-001 Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md) + Event 017 Assignment  
+**Required Output:** traceable Existing Research Coverage Review + one Coverage Gate judgment  
+**Next Decision Owner:** Research Project Lead / Director / Owner according to Coverage Gate  
 **Canonical record:** this file
 
 Owner should normally transfer only the link to this Run Record. The receiving role reads the Process Map, its Assignment Event and the linked immutable target artifact.
@@ -37,7 +37,9 @@ Owner should normally transfer only the link to this Run Record. The receiving r
 | 12 | `LP-RL-001` Limited Probe Installation | Research Project Lead | COMPLETE / RETURNED | Revised Formation + Owner Decision | [Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md) | Owner |
 | 13 | Installation Audit decision | Owner | APPROVED | completed Installation Package | independent Installation Audit authorized | Research Auditor |
 | 14 | `IA-RL-001` Independent Installation Audit | Research Auditor | PASS | Installation Package + governing sources | installation architecture verified | Owner |
-| 15 | Stage 1 execution decision | Owner | OPEN | Installation Audit PASS | pending Owner authorization | Owner |
+| 15 | Stage 1 execution decision | Owner | APPROVED | Installation Audit PASS | Stage 1 only authorized; textual Probe closed | Researcher / Project Lead |
+| 16 | `CR-RL-001` Existing Research Coverage Review | Researcher | READY | Installation Package + OC1 + Event 017 | pending Coverage Review artifact | Research Project Lead |
+| 17 | Coverage Gate | Research Project Lead / Director / Owner | NOT OPEN | accepted Stage 1 result required | pending | according to gate judgment |
 
 ---
 
@@ -847,3 +849,250 @@ IA-RL-001 Independent Installation Audit — PASS
 ```
 
 No Researcher is activated by this audit result. No textual Probe is open at this gate.
+
+
+---
+
+## Event 016 — Owner Decision on Stage 1 Research Execution
+
+### Decision
+
+**APPROVED — STAGE 1 EXISTING RESEARCH COVERAGE REVIEW ONLY.**
+
+**Textual Probe is not authorized.**
+
+Owner activates the prepared Stage 1 configuration from the audited `LP-RL-001 — Limited Probe Installation Package`.
+
+### Activated functions
+
+- **Primary producer:** Researcher v0.1.
+- **Stage receiving owner:** Research Project Lead v0.1, limited to Stage 1 coordination, Output Contract acceptance and Coverage Gate routing.
+- **Package:** C — Extended.
+- **Researcher Mode:** External Research.
+- **Project Lead Mode:** Stage Coordination, only when receiving the Stage 1 handoff.
+- **Protocol:** `LP-RL-001-PROTOCOL-v0.1`.
+- **Output Contract:** `LP-RL-001-OC1-v0.1`.
+- **Stage:** `LP-RL-001 / Stage 1 — Existing Research Coverage Review`.
+
+### Authority boundary
+
+This decision authorizes only:
+
+- discovery and evaluation of external research coverage;
+- creation of the Coverage Map;
+- one evidence-bounded Coverage Gate judgment;
+- creation of the Stage 1 artifact;
+- append-only updates to this Run Record within the stated write boundary;
+- return to Project Lead.
+
+It does not authorize:
+
+- direct textual observation of Matthew, Luke or 2 Corinthians as the Stage 2 Probe;
+- Stages 2A, 2B or 3;
+- new biblical corpus;
+- Full Project design or launch;
+- practical publication/application work;
+- activation of Auditor or Independent Review;
+- changes to Constitution, Methodology, canonical role packages, Research Request Map or `IP-001`.
+
+### Ownership transferred to
+
+Operational ownership of the Stage 1 research output is transferred to **Researcher v0.1**.
+
+The receiving owner after completion is **Research Project Lead v0.1**.
+
+---
+
+# Current Assignment
+
+## Event 017 — CR-RL-001 Existing Research Coverage Review
+
+▶ Основная роль — Researcher  
+▶ Основное задание — CR-RL-001: Stage 1 Existing Research Coverage Review  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — External Research
+
+### Canonical recovery entry
+
+Begin from:
+
+`Roles/Researcher/v0.1/README.md`
+
+Then read:
+
+1. this complete Validation Run Record;
+2. [LP-RL-001 Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md);
+3. within that package:
+   - `LP-RL-001-PROTOCOL-v0.1`;
+   - `LP-RL-001-OC1-v0.1`;
+   - Coverage Map schema;
+   - Coverage Gate;
+   - Prepared Lock — Stage 1 Coverage Review;
+4. Event 015 Installation Audit PASS;
+5. Event 016 Owner Decision.
+
+Do not ask Owner to resend these materials.
+
+### Role Configuration Lock — activated for Stage 1
+
+| Field | Locked value |
+|---|---|
+| Project / Stage | `LP-RL-001 / Stage 1 — Existing Research Coverage Review` |
+| Primary Role | Researcher |
+| Role Version | v0.1 — Candidate Active / Validation Pending |
+| Package | C — Extended |
+| Secondary Role | not activated |
+| Active Mode | External Research |
+| Governing Constitution | Research Lab Constitution v0.2 |
+| Methodology | Research Lab Methodology v0.3 |
+| Project Protocol | `LP-RL-001-PROTOCOL-v0.1` embedded in Installation Package |
+| Output Contract | `LP-RL-001-OC1-v0.1` embedded in Installation Package |
+| Current Source / Corpus | external research coverage; diagnostic-corpus references only |
+| Assignment | RL-WAVE-2 Event 017 |
+| Authority Envelope | bounded external coverage review only; no textual Probe execution |
+| Independence requirement | primary production; not Independent Review |
+| Return Route | Researcher → Research Project Lead |
+| Activated by | Owner, Event 016 |
+| Activated at | 2026-09-18 |
+
+### Research question for this Stage
+
+Determine whether credible external research already covers, substantially narrows, materially reframes or leaves unresolved the relation:
+
+```text
+generosity / giving
+↔ trust in divine care or provision
+↔ stewardship / entrustedness
+```
+
+The Review must separately test research coverage related to:
+
+- Matthew 6:19–34;
+- Luke 12:13–34;
+- 2 Corinthians 8–9.
+
+These passages are references for coverage discovery, not authorization to conduct the later textual Probe.
+
+### Search and evidence boundary
+
+Conduct a bounded, transparent and reproducible coverage review. It is not represented as an exhaustive systematic review unless the evidence actually supports that claim.
+
+Distinguish at least:
+
+- scholarly monographs;
+- peer-reviewed or otherwise academic studies;
+- academic commentaries;
+- institutional research resources;
+- pastoral/popular treatments.
+
+Pastoral/popular sources may document reception, language and application, but they do not establish scholarly consensus or biblical findings.
+
+Record:
+
+- search boundary and strategy;
+- search terms and discovery routes;
+- databases, catalogues, publishers or repositories actually inspected;
+- accessibility limitations;
+- why included sources are relevant;
+- negative or thin coverage without treating absence as proof;
+- competing terminology that may hide relevant research under different labels.
+
+### Required Coverage Map
+
+For each included source record:
+
+| Field | Required content |
+|---|---|
+| Source | full identifiable citation and stable link / DOI / ISBN where available |
+| Type | monograph / academic study / commentary / institutional / pastoral-popular |
+| Central Claim | claim relevant to this Stage |
+| Biblical Corpus | Matthew 6 / Luke 12 / 2 Cor 8–9 / cross-corpus / adjacent |
+| Coverage | direct / partial / adjacent / absent |
+| Evidence Level | scholarly-primary / scholarly-secondary / institutional / reception-application |
+| Limitations | methodological, corpus, terminology, access or scope limits |
+| Relevance to Probe | supports route / challenges route / reframes question / contextual only |
+
+When available, also record author/year, publication venue, terminology, counter-position, confidence and verification flag.
+
+### Required analysis
+
+The Stage result must establish:
+
+1. whether one credible package directly treats the full three-way relation;
+2. whether literature instead covers only neighbouring pairs or individual concepts;
+3. how scholarship treats the three diagnostic corpora;
+4. whether generosity and stewardship are distinguished or collapsed;
+5. whether provision/trust is textually argued or primarily applied pastorally;
+6. whether nonmaterial extensions are textually supported or analogical;
+7. which gaps, disagreements or terminology mismatches remain;
+8. whether existing research can replace, narrow, redirect or only support the conditional textual Probe.
+
+### Required primary judgment
+
+Return exactly one:
+
+```text
+EXISTING RESEARCH PACKAGE SUFFICIENT
+/ LIMITED REVIEW SUFFICIENT
+/ TEXTUAL PROBE STILL REQUIRED
+/ RESEARCH QUESTION REQUIRES REFORMULATION
+```
+
+The rationale must be proportional to the sources actually inspected.
+
+A thin or inaccessible literature base does not automatically justify `TEXTUAL PROBE STILL REQUIRED`.
+
+### Stop conditions
+
+Stop and return `BLOCKED / RETURN FOR CLARIFICATION` when:
+
+- required external access is materially insufficient to make a responsible coverage judgment;
+- the question materially changes before the Coverage Gate can be applied;
+- completing the task requires primary textual research;
+- corpus expansion becomes necessary;
+- Protocol, Output Contract or authority conflict;
+- the Stage cannot be completed without silently claiming systematic completeness.
+
+### Required artifact and handoff
+
+Create:
+
+`Development/Validation-Runs/RL-WAVE-2/Artifacts/LP-RL-001-Coverage-Review.md`
+
+The artifact must contain:
+
+1. Stage passport and exact configuration;
+2. search boundary and strategy;
+3. Coverage Map;
+4. corpus-specific coverage assessment;
+5. three-way relation assessment;
+6. gaps, limitations and uncertainty;
+7. exactly one primary Coverage Gate judgment with rationale;
+8. decision needed;
+9. next step;
+10. ownership returned to Research Project Lead.
+
+Append a compact result Event to this Run Record containing:
+
+- artifact link;
+- final Stage verdict;
+- primary Coverage Gate judgment;
+- material limitations;
+- recommended next gate;
+- ownership returned to Research Project Lead.
+
+### Write boundary
+
+Researcher may:
+
+- create the one Stage 1 artifact named above;
+- append the compact Stage 1 result to this Run Record;
+- update the Stage 1 Process Map row and Current State to the verified receiving gate.
+
+Researcher may not modify earlier Events or artifacts, canonical role documents, Constitution, Methodology, Research Request Map, `IP-001` or other project statuses.
+
+### Return Route
+
+**Researcher → Research Project Lead.**
+
+Project Lead receives the output for Output Contract acceptance and Coverage Gate routing. No later Stage is activated automatically.
