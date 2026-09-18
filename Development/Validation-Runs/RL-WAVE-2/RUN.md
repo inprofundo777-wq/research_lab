@@ -7,12 +7,12 @@
 **Request:** `RQ-RL-001`  
 **Formation Pilot:** `FP-RL-001`  
 **Audit:** `AT-RL-001`  
-**Current Gate:** `CR-RL-001 — Stage 1 Existing Research Coverage Review`  
+**Current Gate:** `CR-RL-001 — Stage 1 Dependency Recovery`  
 **Current Owner:** Researcher v0.1; receiving Stage owner — Research Project Lead v0.1  
-**Status:** 🟡 OWNER AUTHORIZED — STAGE 1 READY TO BEGIN  
-**Active Target:** [LP-RL-001 Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md) + Event 017 Assignment  
-**Required Output:** traceable Existing Research Coverage Review + one Coverage Gate judgment  
-**Next Decision Owner:** Research Project Lead / Director / Owner according to Coverage Gate  
+**Status:** 🟡 STAGE 1 RETURNED FOR BOUNDED CONTINUATION — NO NEW OWNER AUTHORITY REQUIRED  
+**Active Target:** Event 018 blocked handoff + [LP-RL-001 Coverage Review](./Artifacts/LP-RL-001-Coverage-Review.md) + `LP-RL-001-OC1-v0.1`  
+**Required Output:** completed Stage 1 Coverage Review satisfying OC1, or a renewed precise BLOCK if lawful accessible scholarly evidence remains insufficient  
+**Next Decision Owner:** Research Project Lead after Researcher re-handoff  
 **Canonical record:** this file
 
 Owner should normally transfer only the link to this Run Record. The receiving role reads the Process Map, its Assignment Event and the linked immutable target artifact.
@@ -38,7 +38,7 @@ Owner should normally transfer only the link to this Run Record. The receiving r
 | 13 | Installation Audit decision | Owner | APPROVED | completed Installation Package | independent Installation Audit authorized | Research Auditor |
 | 14 | `IA-RL-001` Independent Installation Audit | Research Auditor | PASS | Installation Package + governing sources | installation architecture verified | Owner |
 | 15 | Stage 1 execution decision | Owner | APPROVED | Installation Audit PASS | Stage 1 only authorized; textual Probe closed | Researcher / Project Lead |
-| 16 | `CR-RL-001` Existing Research Coverage Review | Researcher | READY | Installation Package + OC1 + Event 017 | pending Coverage Review artifact | Research Project Lead |
+| 16 | `CR-RL-001` Existing Research Coverage Review | Researcher | RETURNED FOR BOUNDED CONTINUATION | Event 018 BLOCKED handoff + OC1 | partial Coverage Review preserved; dependency recovery authorized inside Stage 1 | Research Project Lead |
 | 17 | Coverage Gate | Research Project Lead / Director / Owner | NOT OPEN | accepted Stage 1 result required | pending | according to gate judgment |
 
 ---
@@ -1254,3 +1254,86 @@ Research Project Lead получает этот результат как depend
 **Subsequent activation:** NONE.
 
 Stages 2A, 2B и 3 не активированы. Full Project не запущен. Auditor и Independent Review не активированы. Constitution, Methodology, роли, Research Request Map и IP-001 не меняются. После возврата Researcher не принимает решение за Lead, Director или Owner.
+
+
+---
+
+## Event 019 — CR-RL-001 Stage 1 Blocked-Output Review / Dependency Recovery Decision
+
+▶ Основная роль — Research Project Lead  
+▶ Основное задание — CR-RL-001: Stage 1 blocked-output review  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Stage Coordination
+
+### Handoff Acceptance
+
+Event 018 принят как корректный **blocked Researcher handoff**, но не как завершённый Stage 1 output.
+
+Researcher соблюл существенные требования `LP-RL-001-OC1-v0.1` в доступной части: сохранил search boundary и strategy, разделил типы источников, создал traceable partial Coverage Map, отдельно оценил три диагностических корпуса, различил scholarly evidence и reception/application, зафиксировал terminology gaps, access limits и uncertainty и не превратил слабый discovery в ложный substantive Coverage Gate judgment.
+
+Ключевой обязательный элемент OC1 не выполнен: отсутствует evidence-bounded один из четырёх substantive Coverage Gate judgments. Поэтому **OC1 NOT ACCEPTED / STAGE 1 NOT COMPLETE**. Verdict `BLOCKED — INSUFFICIENT VERIFIED EXTERNAL COVERAGE` принят как честная остановка по Event 017, а не как пятый исход Coverage Gate.
+
+### Dependency Triage
+
+Dependency локализована внутри уже авторизованного Stage 1: недостаточная глубина проверенного scholarly access по Мф. 6:19–34 и Лк. 12:13–34 и недостаточная сопоставимая проверка 2 Кор. 8–9 для route-level judgment.
+
+Для первой попытки устранения dependency **не требуется расширение corpus, новая исследовательская стадия, новый Mode, изменение Protocol/OC1 или новая Owner authority**. Event 016 уже разрешает discovery и evaluation внешнего research coverage, а Event 017 прямо требует фиксировать databases/catalogues/publishers/repositories actually inspected и останавливать работу только когда materially insufficient access не позволяет responsible judgment.
+
+Project Lead поэтому возвращает тот же Stage 1 на **bounded continuation**, а не активирует Stage 2.
+
+### Authorized Stage 1 Recovery Path
+
+Researcher продолжает `CR-RL-001` в том же Role Configuration Lock и `LP-RL-001-OC1-v0.1`:
+
+1. приоритетно искать **lawfully accessible scholarly material** по Мф. 6:19–34 и Лк. 12:13–34 через open-access journals/repositories, publisher previews, Google Books previews, author/institutional repositories и иные легально доступные academic discovery routes;
+2. проверить содержательные sections S1/S2, если они доступны без нового платного ресурса, либо функционально эквивалентные scholarly sources, способные дать passage-level / relation-level evidence;
+3. по 2 Кор. 8–9 сопоставить уже проверенный S4 как минимум с одним lawfully accessible academic commentary/study, достаточным для проверки entrustedness/stewardship framing и competing motives of giving;
+4. сохранить прежний partial Coverage Map как evidence; новые записи и более глубокую verification добавлять, а не начинать обзор заново;
+5. после устранения неравномерности повторно проверить весь OC1 и выдать ровно один из четырёх Coverage Gate judgments **только если evidence это позволяет**.
+
+Это continuation существующего Stage 1, не новый Limited Review и не расширение research question.
+
+### Resource / Authority Boundary
+
+**Новые платные ресурсы, подписки или покупки этим решением не санкционируются.** Researcher не должен приобретать книги, оплачивать database access, использовать чужие credentials или представлять недоступный full text как проверенный.
+
+Если после разумного bounded поиска lawfully accessible scholarly material dependency остаётся, Researcher должен остановиться повторно и вернуть Lead точный список минимально необходимых недоступных ресурсов/типов доступа и показать, какое требование OC1 каждый из них должен закрыть.
+
+Если устранение dependency фактически потребует платного доступа, нового внешнего ресурса, corpus expansion, нового research route, изменения Protocol/OC1 или иного расширения authority, Project Lead **не может разрешить это внутри Stage Coordination**. Тогда следующий handoff должен быть Owner-facing и содержать точное решение, требуемое от Owner, например:
+
+> **OWNER DECISION REQUIRED:** authorize or decline specified paid/institutional access for completion of `CR-RL-001 Stage 1`, with named resource(s), expected OC1 gap closed, and bounded cost/access condition.
+
+Без конкретного ресурса и доказанной необходимости Owner decision о расходах сейчас преждевременен.
+
+### Verification / Gate Status
+
+- Event 018 blocked-output review: COMPLETE.
+- `LP-RL-001-OC1-v0.1`: NOT ACCEPTED / PARTIAL OUTPUT PRESERVED.
+- Stage 1: OPEN FOR BOUNDED CONTINUATION under existing Event 016 authority.
+- Coverage Gate: NOT REACHED.
+- Textual Probe / Stages 2A, 2B, 3: NOT ACTIVATED.
+- New Auditor / Independent Review: NOT ACTIVATED.
+- Full Project: NOT ACTIVATED.
+
+### Decision
+
+**RETURN FOR BOUNDED STAGE 1 CONTINUATION — CONTINUE LOCALLY.**
+
+No new Owner decision is required for the open-access / lawfully accessible recovery path defined above. Owner decision becomes required only if the renewed Stage 1 handoff demonstrates a specific paid-resource, new-resource or authority dependency that cannot be resolved inside the current envelope.
+
+### Next Gate
+
+```text
+Event 018 BLOCKED handoff accepted
+→ same CR-RL-001 Stage 1 continues under Event 016 authority
+→ Researcher attempts bounded lawful scholarly-access recovery
+→ Researcher returns completed OC1 + one Coverage Gate judgment
+   OR renewed precise BLOCK with named resource/authority dependency
+→ Research Project Lead reviews handoff
+```
+
+### Ownership Returned To
+
+**Researcher v0.1 for continuation of CR-RL-001 Stage 1 only.**
+
+Receiving owner remains **Research Project Lead v0.1**. No subsequent stage is activated by this Event.
