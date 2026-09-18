@@ -1691,3 +1691,143 @@ S12/S13 учитываются в той ограниченной функции
 Закрытие Stage 1 и данный route handoff выполнены в пределах Stage Coordination. Отдельный следующий этап не запускается. Director review также не выполняется Lead от имени Director; ownership передаётся для решения принимающей стороны.
 
 **Final handoff:** Stage 1 принят и закрыт; Coverage Gate LIMITED REVIEW SUFFICIENT принят; дальнейшее исследование остановлено. **Ownership returned to Research Lab Director, with Owner decision required before any new research route is executed.**
+
+
+---
+
+## Event 022 — Director Route Re-evaluation after Coverage Gate
+
+▶ Основная роль — Research Lab Director  
+▶ Основное задание — RQ-RL-001: Route Re-evaluation after Event 021  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Route Re-evaluation
+
+### 1. Accepted handoff
+
+Event 021 принят как закрытый Stage 1 handoff.
+
+Director принимает без повторения Formation или CR-RL-001:
+
+- Stage 1 `CR-RL-001` — COMPLETE / ACCEPTED / CLOSED;
+- Coverage Gate — `LIMITED REVIEW SUFFICIENT`;
+- confidence — `MODERATE`;
+- source boundary — карта S1–S13, с substantive опорой прежде всего на прочитанные S4 / S6 / S10 / S11 и ограниченной вспомогательной ролью S12 / S13;
+- ограничения access, terminology и corpus из Event 021 сохраняются;
+- Limited Review, Textual Probe и следующие стадии не активированы.
+
+Coverage Gate означает достаточность существующего scholarly coverage **для bounded литературного сопоставления**, а не достаточность existing package для закрытия всего RQ-RL-001 и не доказательство центральной тройной связи.
+
+### 2. Route re-evaluation
+
+Рассмотрены только допустимые после Event 021 варианты:
+
+1. отдельный bounded `LIMITED REVIEW`;
+2. сузить / переформулировать Limited Review;
+3. `DEFER`;
+4. `CLOSE`.
+
+**Recommendation: AUTHORIZE A NARROWED BOUNDED LIMITED REVIEW.**
+
+Направление не следует закрывать: Event 021 установил substantial existing coverage по каждому diagnostic corpus, но не готовое сопоставимое решение полной relation `generosity/giving ↔ trust/provision ↔ stewardship/entrustedness`.
+
+Направление не следует откладывать: residual uncertainty уже локализована, доступный source set достаточен для следующего bounded method, и Event 021 не выявил нового dependency, требующего ожидания.
+
+При этом предложенный в Event 021 вопрос следует **сузить**, чтобы Limited Review не стал скрытым продолжением Formation или новым broad literature search. Его задача — не решить всю тему щедрости и не доказать тройную structure, а сопоставить уже найденные scholarly claims и определить, остаётся ли после этого конкретная primary-text uncertainty.
+
+### 3. Recommended bounded Limited Review
+
+**Working purpose**
+
+Установить, что принятый Stage 1 scholarly set уже позволяет утверждать — и чего он не позволяет утверждать — о relation между giving/generosity, trust in divine care/provision и stewardship/entrustedness внутри трёх diagnostic corpora.
+
+**Recommended review question**
+
+> Как прочитанные и принятые в Stage 1 академические исследования описывают связи между giving/generosity, trust in divine care/provision и stewardship/entrustedness в Мф. 6:19–34, Лк. 12:13–34 и 2 Кор. 8–9; какие из этих связей имеют passage-specific warrant, какие возникают как более широкий theological synthesis, и остаётся ли после их сопоставления точно определимая textual uncertainty, которую existing research не разрешает?
+
+Это уже исходного Event 021 proposal в двух отношениях:
+
+- Review работает прежде всего с **принятым scholarly set**, а не возобновляет open-ended coverage search;
+- финальный вопрос ограничен route discrimination: existing knowledge sufficient / question narrowed or reformulated / specific textual uncertainty remains.
+
+### 4. Scope controls
+
+**IN**
+
+- S4 / S6 / S10 / S11 как основной substantive set;
+- S12 / S13 только в ранее принятой ограниченной corroborative / terminology-control функции;
+- S1 / S2 / S3 / S5 только в пределах фактически доступной и уже зафиксированной информации; непрочитанные части не считать evidence;
+- отдельное сопоставление Matthew, Luke и 2 Corinthians;
+- distinction passage-specific warrant / broader synthesis / adjacent terminology;
+- competing or non-equivalent organising categories;
+- explicit uncertainty and confidence.
+
+**OUT**
+
+- новый broad literature search;
+- обязательная покупка или добывание недоступных источников;
+- новая экзегеза primary text;
+- Textual Probe;
+- расширение biblical corpus;
+- time / talents / attention / nonmaterial extensions;
+- «Щедрость и власть»;
+- publication/application;
+- Full Project architecture.
+
+Новый источник допустим только если во время будущего Review обнаружится **конкретный material gap**, без которого невозможно вынести bounded judgment. В таком случае исполнитель должен назвать gap и ресурс и остановиться перед расширением source boundary, если действующий Assignment не даёт такого полномочия.
+
+### 5. Required outcome of the future Review
+
+Будущий Limited Review должен вернуть не общий research essay, а route-discrimination result:
+
+1. corpus-by-corpus comparison: source/locus → scholarly claim → relation type → warrant → limitation/counter-position → confidence;
+2. отдельный judgment по `stewardship/entrustedness`: passage-specific / broader synthesis / adjacent or unsupported for the locus;
+3. cross-corpus comparison без принудительной унификации;
+4. один route judgment:
+   - `EXISTING KNOWLEDGE SUFFICIENT — CLOSE / TRANSFER`;
+   - `RESEARCH QUESTION NARROWED / REFORMULATION REQUIRED`;
+   - `SPECIFIC TEXTUAL UNCERTAINTY REMAINS`;
+   - `REVIEW BLOCKED BY MATERIAL SOURCE GAP`;
+5. при `SPECIFIC TEXTUAL UNCERTAINTY REMAINS` — точная формулировка нерешённого primary-text question и evidence, почему literature его не разрешает; Textual Probe при этом не активируется.
+
+Положительное подтверждение исходной тройной relation не является условием успеха Review.
+
+### 6. Director recommendation
+
+**RECOMMEND TO OWNER: APPROVE NARROWED BOUNDED LIMITED REVIEW.**
+
+Это не возврат к исходному `LIMITED PROBE` и не скрытый Stage 2 textual activation. Event 021 materially изменил route evidence: после Coverage Review literature itself является наиболее пропорциональным следующим объектом работы.
+
+При этом `LIMITED REVIEW SUFFICIENT` трактуется строго как gate judgment о следующем методе. Он не превращается в `EXISTING RESEARCH PACKAGE SUFFICIENT` и не закрывает возможность позднейшего Textual Probe, если Review локализует нерешённый primary-text question.
+
+### 7. Exact Owner Decision Request
+
+**OWNER DECISION REQUIRED**
+
+Owner просится выбрать одно решение:
+
+```text
+A. APPROVE — NARROWED BOUNDED LIMITED REVIEW
+B. RETURN — MODIFY LIMITED REVIEW BOUNDARY
+C. DEFER RQ-RL-001
+D. CLOSE RQ-RL-001
+```
+
+**Recommended Owner decision:** `A. APPROVE — NARROWED BOUNDED LIMITED REVIEW`.
+
+Если Owner выбирает A, отдельным решением необходимо:
+
+- авторизовать только bounded Limited Review;
+- назвать receiving operational owner / executor;
+- установить или подтвердить применимые Protocol / Output Contract;
+- зафиксировать source boundary из этого Event;
+- сохранить stop condition при material source gap или scope expansion;
+- установить Return Route к Director / Owner для последующего route judgment.
+
+Сам Event 022 **не активирует** Limited Review и не назначает исполнителя.
+
+### 8. Stop / ownership
+
+Formation не повторялась. Stage 1 не повторялся. Новый literature search не выполнялся. Limited Review не начат. Textual Probe и последующие стадии не активированы. Full Project не активирован. `IP-001` не изменён.
+
+**Current Gate:** Owner Decision on narrowed bounded Limited Review.  
+**Ownership returned to:** **Owner**.
