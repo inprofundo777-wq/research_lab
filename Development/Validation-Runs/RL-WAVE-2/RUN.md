@@ -2582,3 +2582,88 @@ Formation не повторялась. Stage 1 не повторялся. Limite
 
 **Current Gate:** Owner Decision on Project Lead Installation for bounded Textual Probe only.  
 **Ownership returned to:** **Owner**.
+
+
+---
+
+## Event 029 — Owner Decision: Bounded Textual Probe Installation
+
+### Decision
+
+**APPROVED — PROJECT LEAD INSTALLATION FOR BOUNDED TEXTUAL PROBE ONLY.**
+
+Owner accepts the Director recommendation in Event 028 and authorizes **Research Project Lead v0.1 for Installation only**.
+
+**Textual Probe execution is NOT AUTHORIZED.**
+
+### Authorized scope
+
+Project Lead may install only the bounded Textual Probe defined by Event 028, including:
+
+- exact Probe Assignment;
+- Protocol configuration;
+- Output Contract;
+- role configuration;
+- bounded workflow / stage structure;
+- verification requirements;
+- stop conditions;
+- Return Route;
+- explicit execution gate.
+
+The controlling primary corpus remains:
+
+- Мф. 6:19–34;
+- Лк. 12:13–34.
+
+2 Кор. 8–9 remains carried-forward comparative literature context and is not automatically part of the primary textual corpus.
+
+The exact residual question, operational discriminator, five allowed outcomes and IN / OUT boundaries from Event 028 remain controlling. Project Lead may operationalize them but may not materially broaden them under Installation authority.
+
+### Not authorized
+
+This Event does not authorize:
+
+- Textual Probe execution;
+- Researcher primary-text work;
+- new exegesis;
+- automatic corpus expansion;
+- renewed broad literature review;
+- Full Project architecture or launch;
+- downstream application/publication;
+- changes to Constitution, Methodology, permanent role authority or `IP-001`.
+
+Project Lead must not configure Installation so that completion itself silently activates execution.
+
+### Required Installation result
+
+The Installation handoff must make explicit at minimum:
+
+1. exact installed Probe question;
+2. primary corpus and permitted contextual boundary;
+3. research method appropriate to the bounded textual question;
+4. role / authority configuration;
+5. stage or work-unit sequence;
+6. Output Contract preserving all five allowed outcomes from Event 028;
+7. evidence, uncertainty and confidence treatment;
+8. safeguards against importing stewardship/entrustedness into the text by assumption;
+9. stop conditions for material corpus expansion, dependency or question drift;
+10. verification / audit arrangement;
+11. Return Route;
+12. explicit statement that execution requires a separate Owner decision.
+
+### Next Gate
+
+```text
+Owner APPROVED bounded Textual Probe route
+→ Project Lead Installation only
+→ completed Installation handoff
+→ Owner decision on execution
+```
+
+No primary-text research begins from this Event.
+
+### Ownership
+
+**Transferred to:** Research Project Lead v0.1 — Installation only.
+
+Owner retains the execution gate and authority over any later expansion beyond the bounded Probe.
