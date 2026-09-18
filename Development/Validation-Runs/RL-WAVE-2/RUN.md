@@ -2750,3 +2750,68 @@ If execution is authorized later, the Assignment must activate the prepared Rese
 **Owner.**
 
 Research Project Lead retains no Textual Probe execution authority after this handoff.
+
+
+---
+
+## Event 031 — Owner Decision: TP-RL-001 Execution
+
+### Decision
+
+**APPROVED — TP-RL-001 EXECUTION.**
+
+Owner accepts the completed Installation in Event 030 and authorizes **Researcher v0.1** to execute the bounded Textual Probe strictly under:
+
+- `TP-RL-001-PROTOCOL-v0.1`;
+- `TP-RL-001-OC1-v0.1`;
+- the installed boundaries of [TP-RL-001 — Bounded Textual Probe Installation Package](./Artifacts/TP-RL-001-Bounded-Textual-Probe-Installation-Package.md).
+
+### Activated authority
+
+Researcher v0.1 is authorized to execute only `TP-RL-001` within the installed primary corpus:
+
+- Мф. 6:19–34;
+- Лк. 12:13–34.
+
+Researcher must preserve separate locus analysis before bounded comparison and must preserve all five allowed OC1 outcomes without predetermining a positive stewardship/entrustedness result.
+
+### Explicit limits
+
+This decision does **not** authorize:
+
+- corpus expansion;
+- 2 Кор. 8–9 as a new primary textual target;
+- Full Project architecture or execution;
+- renewed broad literature review;
+- any subsequent research route;
+- downstream publication/application;
+- changes to Constitution, Methodology, permanent role authority or `IP-001`.
+
+If execution encounters a stop condition defined by `TP-RL-001-PROTOCOL-v0.1`, Researcher must stop and return the precise dependency / scope issue rather than expanding authority.
+
+### Required return
+
+Completed Probe must be returned to **Research Project Lead v0.1** for:
+
+1. `TP-RL-001-OC1-v0.1` acceptance;
+2. verification of compliance with the installed corpus and method boundaries;
+3. acceptance or return of the Probe result;
+4. exact route handoff after acceptance.
+
+Project Lead acceptance does not itself authorize any subsequent route.
+
+### Next Gate
+
+```text
+TP-RL-001 EXECUTION APPROVED
+→ Researcher v0.1 executes bounded Textual Probe
+→ Researcher returns completed Probe to Project Lead
+→ Project Lead OC1 acceptance / route handoff
+→ no subsequent route without new authority
+```
+
+### Ownership
+
+**Transferred to:** Researcher v0.1 — `TP-RL-001` execution only.
+
+Owner retains authority over corpus expansion, Full Project and every subsequent route.
