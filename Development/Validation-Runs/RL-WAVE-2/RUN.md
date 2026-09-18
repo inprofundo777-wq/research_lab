@@ -2430,3 +2430,155 @@ Independent Review / Research Audit не активируются этим Event
 **Research Lab Director v0.1 for route re-evaluation only.**
 
 No next research route is activated by this Event.
+
+
+---
+
+## Event 028 — Director Route Re-evaluation after LR-RL-001
+
+▶ Основная роль — Research Lab Director v0.1 — Candidate Active / Validation Pending  
+▶ Основное задание — route re-evaluation after accepted Event 027  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Route Re-evaluation  
+**Дата:** 2026-09-18.
+
+### 1. Accepted handoff
+
+Event 027 принят как закрытый Project Lead handoff.
+
+Без повторения Formation, Stage 1 или Limited Review Director принимает:
+
+- `LR-RL-001-OC1-v0.1: ACCEPTED`;
+- `LR-RL-001: COMPLETE — CLOSED`;
+- `SPECIFIC TEXTUAL UNCERTAINTY REMAINS — ACCEPTED`;
+- confidence route judgment — `MODERATE`;
+- Textual Probe — `NOT AUTHORIZED / NOT ACTIVATED`;
+- residual question ограничен Мф. 6:19–34 и Лк. 12:13–34;
+- 2 Кор. 8–9 остаётся сравнительным литературным ориентиром и не входит автоматически в новое первичное исследование.
+
+### 2. Route re-evaluation
+
+Рассмотрены только четыре маршрута, переданные Event 027:
+
+1. bounded Textual Probe;
+2. дополнительное сужение / reformulation без первичного исследования;
+3. defer;
+4. close / transfer.
+
+**Director recommendation: BOUNDED TEXTUAL PROBE.**
+
+Основание рекомендации — не общая исследовательская ценность темы и не недостаток literature coverage. После принятого Coverage Review и завершённого Limited Review остаточная неопределённость стала **primary-text uncertainty**: имеющийся scholarly set уже позволил локализовать точный разрыв между passage-specific warrant и broader theological synthesis, но не разрешил его литературным сопоставлением.
+
+Дополнительное reformulation без обращения к первичному тексту сейчас не является пропорциональным следующим методом: вопрос уже сужен до одного различения и двух конкретных loci. Дальнейшее словесное сужение не добавит evidence для выбора между двумя сохранёнными возможностями.
+
+`DEFER` не рекомендуется: в handoff не выявлена внешняя dependency, обязательный недоступный ресурс или иной material blocker.
+
+`CLOSE / TRANSFER` не рекомендуется: закрытие потребовало бы принять corpus-specific/pair-level description как конечную границу знания, хотя Event 027 специально установил, что остаётся разрешимый вопрос о локальном textual warrant. При этом направление может быть закрыто после Probe, если local warrant не подтвердит более сильную модель.
+
+### 3. Exact proposed Textual Probe question
+
+Если Owner отдельно разрешит следующий маршрут, Probe должен отвечать только на следующий вопрос:
+
+> Дают ли Мф. 6:19–34 и Лк. 12:13–34, рассматриваемые каждый в собственных литературных границах, локальное текстовое основание понимать материальные блага как доверенное Богом для ответственного распоряжения — как отличимое звено между giving и trust/provision, — либо такая entrustedness/stewardship-модель требует более широкого богословского контекста?
+
+Operational discriminator:
+
+> Какой именно local textual warrant — lexical, syntactic, argumentative, narrative/discourse или иной непосредственно наблюдаемый в locus — поддерживает либо не поддерживает это третье звено?
+
+Это не запрос доказать stewardship и не запрос опровергнуть broader synthesis. Допустим отрицательный или асимметричный результат.
+
+### 4. Minimum corpus boundary
+
+**Primary corpus only:**
+
+- Мф. 6:19–34;
+- Лк. 12:13–34.
+
+Каждый locus должен быть исследован сначала самостоятельно.
+
+**Not primary corpus:**
+
+- 2 Кор. 8–9 — только carried-forward comparative literature context; не новый textual target;
+- другие места Матфея и Луки — не становятся самостоятельным corpus.
+
+Ближайший литературный контекст может использоваться только в минимальной мере, необходимой для установления значения и аргументативной функции внутри названного locus. Если для вывода требуется materially расширить corpus за эти границы, это должно быть зафиксировано как результат/ограничение, а не выполнено автоматически.
+
+### 5. Required discrimination
+
+Будущий Probe должен позволять различить как минимум следующие результаты:
+
+```text
+A. LOCAL WARRANT ESTABLISHED IN BOTH LOCI
+B. LOCAL WARRANT ESTABLISHED IN ONE LOCUS ONLY
+C. LOCAL WARRANT PARTIAL / INDETERMINATE
+D. LOCAL WARRANT NOT ESTABLISHED WITHIN THE BOUNDED LOCI
+E. QUESTION REQUIRES MATERIAL CORPUS REFORMULATION
+```
+
+Ни один outcome не предрешён.
+
+`LOCAL WARRANT NOT ESTABLISHED` означает только отсутствие достаточного основания **в установленной bounded textual frame**; это не универсальное утверждение об отсутствии stewardship/entrustedness в библейском богословии.
+
+### 6. Scope controls for possible installation
+
+**IN**
+
+- primary textual observation только Мф. 6:19–34 и Лк. 12:13–34;
+- отдельная обработка каждого locus до comparison;
+- relation giving ↔ trust/provision ↔ proposed entrustedness/stewardship;
+- distinction responsibility / entrustedness / stewardship;
+- lexical, syntactic, argumentative and discourse-level warrant, где применимо;
+- explicit counter-evidence, ambiguity and negative result;
+- comparison только после отдельных locus judgments.
+
+**OUT**
+
+- новый broad literature review;
+- повтор Stage 1 или LR-RL-001;
+- 2 Кор. 8–9 как новый primary corpus;
+- систематическая biblical theology of stewardship;
+- расширение на money/time/talents/attention как общий domain;
+- «Щедрость и власть»;
+- downstream application/publication;
+- Full Project architecture;
+- автоматическое расширение corpus для спасения гипотезы.
+
+### 7. Authority boundary
+
+Это событие является **route recommendation only**.
+
+Director:
+
+- не создаёт Textual Probe Protocol;
+- не создаёт Stage Map;
+- не создаёт Output Contract;
+- не назначает Researcher;
+- не выбирает detailed textual methodology;
+- не запускает primary-text work.
+
+Если Owner принимает recommendation, следующий разрешённый шаг — **Project Lead Installation for this bounded Textual Probe only**. Execution должен оставаться отдельным Owner gate после Installation, если Owner явно не решит иначе.
+
+### 8. Exact Owner Decision Request
+
+**OWNER DECISION REQUIRED**
+
+Owner просится выбрать одно решение:
+
+```text
+A. APPROVE — PROJECT LEAD INSTALLATION FOR BOUNDED TEXTUAL PROBE ONLY
+B. RETURN — FURTHER NARROW / REFORMULATE THE PROPOSED PROBE
+C. DEFER RQ-RL-001
+D. CLOSE / TRANSFER RQ-RL-001 WITHOUT TEXTUAL PROBE
+```
+
+**Director recommendation:**  
+`A. APPROVE — PROJECT LEAD INSTALLATION FOR BOUNDED TEXTUAL PROBE ONLY`.
+
+При выборе A Project Lead должен установить отдельный bounded Probe вокруг exact question и corpus boundary §§3–6. Event 028 не является execution authorization.
+
+### 9. Stop / ownership
+
+Formation не повторялась. Stage 1 не повторялся. Limited Review не повторялся. Новый literature search не выполнялся. Primary-text exegesis не выполнялась. Textual Probe не активирован. Researcher не активирован. Full Project не активирован.
+
+**Current Gate:** Owner Decision on Project Lead Installation for bounded Textual Probe only.  
+**Ownership returned to:** **Owner**.
