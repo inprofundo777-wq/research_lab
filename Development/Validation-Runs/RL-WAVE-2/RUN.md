@@ -2667,3 +2667,86 @@ No primary-text research begins from this Event.
 **Transferred to:** Research Project Lead v0.1 — Installation only.
 
 Owner retains the execution gate and authority over any later expansion beyond the bounded Probe.
+
+
+---
+
+## Event 030 — TP-RL-001 Bounded Textual Probe Installation Result
+
+▶ Основная роль — Research Project Lead v0.1 — Candidate Active / Validation Pending  
+▶ Основное задание — TP-RL-001: Bounded Textual Probe Installation  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Installation  
+**Дата:** 2026-09-18.
+
+### Result
+
+Event 029 принят как Owner authorization **for Installation only**. Project Lead установил bounded Textual Probe без начала primary-text research.
+
+Complete artifact: [TP-RL-001 — Bounded Textual Probe Installation Package](./Artifacts/TP-RL-001-Bounded-Textual-Probe-Installation-Package.md).
+
+Installation фиксирует:
+
+- exact Probe question и operational discriminator из Event 028;
+- primary corpus: Мф. 6:19–34 и Лк. 12:13–34 only;
+- minimal contextual boundary без silent corpus expansion;
+- `TP-RL-001-PROTOCOL-v0.1`;
+- prepared Researcher v0.1 execution lock — **NOT ACTIVATED**;
+- Work Units A (Matthew), B (Luke), C (bounded comparison);
+- `TP-RL-001-OC1-v0.1` с сохранением всех пяти outcomes Event 028;
+- safeguards против import stewardship/entrustedness into the text by assumption;
+- uncertainty/confidence treatment;
+- stop conditions for material corpus expansion, question drift, renewed broad literature dependency or authority conflict;
+- internal Project Lead verification boundary и optional independent-review/audit triggers;
+- Return Route Researcher → Project Lead → Director → Owner;
+- explicit separate Owner execution gate.
+
+### Installation Verdict
+
+**INSTALLATION COMPLETE — READY FOR OWNER EXECUTION GATE.**
+
+Project Lead operationalized Event 028 without materially broadening the question or corpus. 2 Кор. 8–9 remains carried-forward comparative literature context only and is not installed as a primary textual target.
+
+### Execution / Activation Status
+
+- TP-RL-001 architecture: INSTALLED.
+- Textual Probe execution: NOT ACTIVATED.
+- Researcher primary-text work: NOT ACTIVATED.
+- New exegesis: NOT STARTED.
+- Corpus expansion: NOT AUTHORIZED.
+- Broad literature review: NOT ACTIVATED.
+- Full Project: NOT ACTIVATED.
+- Independent Review / Research Audit: NOT ACTIVATED.
+
+### Next Gate
+
+```text
+Event 029 Owner approval
+→ TP-RL-001 Installation COMPLETE
+→ ownership returned to Owner
+→ Owner decides whether to authorize bounded Textual Probe execution
+→ no primary-text research before that decision
+```
+
+If execution is authorized later, the Assignment must activate the prepared Researcher configuration under `TP-RL-001-PROTOCOL-v0.1` and `TP-RL-001-OC1-v0.1` without adding corpus-expansion authority.
+
+### Append-only Current-State Delta
+
+| Item | Current verified state after Event 030 |
+|---|---|
+| Current Gate | Owner execution decision for TP-RL-001 |
+| Current owner | Owner |
+| Project Lead Installation ownership | DISCHARGED / RETURNED |
+| TP-RL-001 Installation | COMPLETE |
+| Textual Probe execution | NOT ACTIVATED |
+| Researcher | NOT ACTIVATED for TP-RL-001 |
+| Primary corpus | Matthew 6:19–34; Luke 12:13–34 |
+| 2 Corinthians 8–9 | comparative literature context only |
+| Corpus expansion | NOT AUTHORIZED |
+| Full Project | NOT ACTIVATED |
+
+### Ownership Returned To
+
+**Owner.**
+
+Research Project Lead retains no Textual Probe execution authority after this handoff.
