@@ -8,11 +8,11 @@
 **System Audit:** Event 036 — PASS WITH CONDITIONS  
 **Owner Decision:** Event 037 — Scoped Active approved in the named envelope  
 **Documentation alignment:** `CS-RL-002` — COMPLETE  
-**Current Gate:** Owner decision on IP-001 Acts re-entry Formation, Event 040  
-**Current Owner:** Owner  
-**Status:** 🟢 WAVE 2 CLOSED / IP-001 FORMATION COMPLETE — NO EXECUTION  
-**Active Target:** IP-001 re-entry decision only; no research execution  
-**Next Decision Owner:** Owner, Event 040 request  
+**Current Gate:** Project Lead Installation only for IP-001 Acts book cycle, Event 041  
+**Current Owner:** Research Project Lead v0.1 — Installation only  
+**Status:** 🟢 WAVE 2 CLOSED / IP-001 FORMATION ACCEPTED — INSTALLATION AUTHORIZED  
+**Active Target:** Acts book-cycle Installation; no Stage 0 or research execution  
+**Next Decision Owner:** Owner after Project Lead Installation handoff  
 **Canonical record:** this file
 
 Owner should normally transfer only the link to this Run Record. The receiving role reads the Current State, Process Map, its Assignment Event and linked immutable target artifact.
@@ -38,6 +38,7 @@ The append-only Events preserve provenance. For operational recovery, the **late
 | Role status decision | exact tested uses approved as Scoped Active; all other modes pending | APPROVED | Event 037 | Owner |
 | Documentation alignment | registry, role entries, Run navigation, maps, log and Snapshot aligned | COMPLETE | [CS-RL-002](../../Change-Sets/CS-RL-002-Scoped-Active-Documentation-Alignment.md) + Event 038 | Owner |
 | IP-001 Acts re-entry Formation | staged full-book route recommended with capability and independent-verification dependencies | COMPLETE / OWNER GATE | Events 039–040 + [Formation result](./Artifacts/FP-IP-001-Re-entry-Formation.md) | Owner |
+| IP-001 Acts Installation decision | migration closed; Project Lead authorized to design staged book cycle, with separate execution gate | APPROVED / INSTALLATION ONLY | Event 041 | Project Lead |
 
 No phase in this table activates new research. A new Request, corpus, IP-001 re-entry or validation cycle requires a new explicit Owner Assignment.
 
@@ -3817,3 +3818,34 @@ Owner может также `RETURN` Formation для сужения, `DEFER` д
 ### Authority and ownership
 
 Formation завершён. **Installation, Stage 0, Researcher, Auditor, книжное исследование, Full Project execution и следующий корпус не активированы.** IP-001 и исторические исследовательские файлы не изменены. Текущий gate — отдельное решение Owner по рекомендации; **ownership возвращён Owner**.
+
+---
+
+## Event 041 — Owner Decision: IP-001 Acts Book-cycle Installation
+
+### Decision and disposition
+
+Owner confirms that the historical Acts material has already been moved into the current `Research/IP-001/Research/ACTS/` structure. **The migration question is closed.** No further historical-document relocation or rewriting is assigned. The next work is preparation of a fresh protocol-normalized research cycle; historical `doc-*` files remain historical, while any later fresh pass will use `rr-*` provenance.
+
+Owner accepts Event 040 as a bounded Formation handoff and authorizes **Research Project Lead v0.1 — Installation only** for a staged full-book Acts cycle under IP-001. The completed Romans controlled re-run is sufficient methodological evidence to proceed to Installation; another preliminary whole-system re-run is not a prerequisite. Its Stage 0–3 evidence does not, by itself, validate Researcher for a full book or the Stage 4 book-level close.
+
+The working Russian editorial alignment of `Research/IP-001/IP-001_Protocol_v0.2.md` and `Research/IP-001/Research/Research_Criteria.md` is part of the canonical input for this Installation. Technical identifiers and research statuses remain stable.
+
+### Project Lead assignment — Installation only
+
+Begin from `Roles/Project-Lead/v0.1/README.md`, Event 039–041, [FP-IP-001 Formation](./Artifacts/FP-IP-001-Re-entry-Formation.md), the current Methodology, IP-001 Protocol, Research Criteria, Stage 1 Output Contract and the ACTS historical README. Install only a **bounded, staged Acts book-cycle design**. Return one complete package covering:
+
+1. stages, their research units, transition thresholds and stage-specific output requirements without mandatory file-per-passage rules;
+2. separation of the fresh `rr-*` pass from historical `doc-*` material and timing of independent historical comparison;
+3. Researcher full-book capability check: exact bounded test, decision criteria and stop condition before Stage 0 execution;
+4. independent verification / audit route for material textual decisions and for Stage 4, with explicit recognition that current Auditor v0.1 scope does not cover a book-level close;
+5. role/capability dependencies, staged Owner gates, stop/return conditions and an exact Owner Decision Request for the first permitted execution step.
+
+The Lead must distinguish Installation design from execution. It may propose a proportionate small capability validation and staged execution, but cannot silently treat the Researcher v0.1 limited-text scope as validation for the entire book. If a necessary mode remains Validation Pending, return the dependency to Owner with a concrete validation path.
+
+### Activation boundary and handoff
+
+**Authorized:** Project Lead Installation and its documentation.  
+**Not authorized:** Stage 0, Researcher execution, Auditor activation, independent review execution, new biblical corpus, full-book research execution, Stage 4 close or a broader Full Project launch.  
+**Current owner:** Research Project Lead v0.1 — Installation only.  
+**Return route:** Project Lead → Owner for a separate execution decision.
