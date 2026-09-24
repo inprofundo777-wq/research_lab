@@ -3603,3 +3603,48 @@ Conditions относятся к корректной маркировке об�
 Если Owner предпочитает сохранить все четыре версии Candidate Active, просится явно подтвердить это как продолжение controlled validation и указать, какой дополнительный test требуется для каждого неснятого статуса. Решение о статусе остаётся у Owner; до него Registry не изменён.
 
 **Return / exit:** System Audit завершён. Ownership и решение о статусах возвращены **Owner**. RQ-RL-001 остаётся CLOSED по Event 035; future non-stewardship question — только неактивный кандидат. Новый corpus, IP-001, Research Project, Researcher assignment и следующий этап не активированы.
+
+
+---
+
+## Event 037 — Owner Decision: Scoped Active Transition for Research Lab Role System v0.1
+
+### Decision
+
+**APPROVED — SCOPED ACTIVE TRANSITION FOR RESEARCH LAB ROLE SYSTEM v0.1.**
+
+Owner принимает итоговый verdict Event 036: **PASS WITH CONDITIONS — BOUNDED PRODUCTION CAPABILITY DEMONSTRATED; GENERAL ROLE SYSTEM VALIDATION NOT ESTABLISHED**.
+
+Утверждена следующая ограниченная область действия v0.1:
+
+| Роль / система | Утверждённый статус и область |
+|---|---|
+| Research Lab Director v0.1 | **Scoped Active:** ограниченное формирование исследовательского запроса, рекомендации маршрута и закрытия под решения Owner |
+| Research Project Lead v0.1 | **Scoped Active:** установка ограниченных исследований, координация этапов и внутреннее принятие результатов по зафиксированным Protocol и Output Contract |
+| Researcher v0.1 | **Scoped Active:** ограниченный обзор покрытия, ограниченное сопоставление научных источников и ограниченная проверка текста с принятием результата Project Lead |
+| Research Auditor v0.1 | **Scoped Active:** аудит Formation и Installation |
+| Role System v0.1 | Пригоден для **ограниченных исследовательских маршрутов с отдельными Owner gates**; полная готовность системы не утверждена |
+
+Все остальные режимы и объекты, включая независимую проверку поздних исследовательских выводов, книжное закрытие, закрытие полного проекта и крупный исследовательский проект, остаются **Validation Pending**. Внутреннее принятие Project Lead не становится независимой проверкой в силу этого решения.
+
+### Documentation handoff
+
+Обязательные документационные изменения до следующего реального исследования остаются ровно теми, которые перечислены в Event 036 §5:
+
+1. устранить расхождение между устаревшими Current State / Process Map и последним управляющим Event посредством явного правила чтения в canonical entry/Run navigation либо правомерного обновления этих полей без изменения прежних Events;
+2. отразить утверждённые scoped Active области и оставшиеся Validation Pending modes/objects в Version Registry, не создавая видимости неограниченного Active;
+3. обеспечить прямую надёжную навигацию из role entry к обязательному DNA и governing sources.
+
+Данное Owner decision устанавливает статус и границы, но **не является отдельным заданием на изменение документации**. Registry, role packages, Constitution, Methodology, navigation и исторические Events этим Event не редактируются. До синхронизации документов при чтении текущей записи Registry необходимо учитывать более позднее решение Owner в настоящем Event; запуск нового реального исследования требует выполнения указанных обязательных документационных изменений.
+
+Остальные documentation candidates из Event 036 §5 сохраняются как неблокирующее развитие и данным решением не активируются.
+
+### No activation / closure preserved
+
+Это решение **не активирует** новое исследование, `IP-001`, Researcher, новый корпус, новый Project, Formation, Installation, Review, Probe или иную исследовательскую стадию. Оно не пересматривает принятый ограниченный отрицательный результат.
+
+**RQ-RL-001 остаётся CLOSED по Event 035.** Переформулированный non-stewardship question остаётся только неактивным future Request candidate.
+
+### Ownership
+
+Статусное решение Owner зафиксировано. Дальнейшее решение о самостоятельном задании на документацию остаётся у **Owner**. Активного research owner после этого Event нет.
