@@ -4169,3 +4169,26 @@ Researcher, `CV-IP-001-ACTS-01`, Stage 0, independent subject-matter review, Dra
 **Точный следующий Owner gate:** Owner может отдельно решить, разрешать ли **только** `CV-IP-001-ACTS-01 — Narrative Book-scale Readiness Check` с заранее зафиксированной четырёхчастной выборкой, действующими criteria и STOP. Даже положительный capability result потребует нового Owner authorization для Stage 0. Настоящий PASS не активирует Researcher, `CV-IP-001-ACTS-01`, Stage 0, independent subject-matter review, Draft Stage 4 или Book-Level Close Audit.
 
 **Ownership returned to Owner.** Auditor не сохраняет право управлять следующим этапом.
+
+
+---
+
+## Event 048 — Owner Decision: Authorize CV-IP-001-ACTS-01 Only
+
+**Owner instruction:** «Да, я разрешаю двигаться дальше» после независимого `PASS` Event 047. В контексте указанного там следующего gate это решение разрешает **только** `CV-IP-001-ACTS-01 — Narrative Book-scale Readiness Check` в пределах R1 §§2, 3, 7, 9–10.
+
+### Scope and execution handoff
+
+**APPROVED — BOUNDED RESEARCHER CAPABILITY VALIDATION ONLY.** Research Project Lead v0.1 получает ограниченное поручение подготовить и зафиксировать execution assignment для проверки, затем передать его Researcher v0.1 в отдельную рабочую ветку. Это оформление и проведение одного readiness check, а не запуск книжного цикла. Для исполнения CV Owner не должен принимать ещё одно решение после фиксации корректного assignment; Lead не вправе расширить его объём.
+
+До доступа Researcher Lead обязан записать append-only в этот Run Record **четыре конкретных малых и распределённых по книге biblical loci** с границами каждой unit и их назначением по четырём типам R1 §7: (1) явный candidate Christ agency; (2) competing Father/Spirit/Human attribution risk; (3) mediation/relation; (4) ambiguity/borderline. Основание выбора — структурные признаки библейского текста и действующие Protocol/Criteria, **без чтения исторических `research-000.md`, `doc-*`, `Summary.md`, `Book.md` как candidate list или answer key**. Выборка фиксируется в execution assignment до работы Researcher и не меняется по ходу оценки без STOP/return Owner.
+
+Researcher получает только закреплённые loci, действующие Methodology v0.3, IP-001 Protocol v0.2, Research Criteria, применимый минимальный контракт результата из R1 §7 и библейский источник (Синодальный перевод как основной). По каждой unit требуется сохранить evidence, attribution, различение action/relation/mediation, provisional judgment, observation, material uncertainty и verification trigger при необходимости; дополнительно — aggregation rationale, риск чрезмерного attribution и декларацию исторической изоляции. Старые Acts outputs не входят в его рабочий input. CV не создаёт Stage 0 corpus map, `rr-000_*` или засчитанные Stage 1 observations.
+
+Lead оценивает только readiness по R1 §7: `PASS` при локальной прослеживаемости всех четырёх units, отсутствии material subject-attribution error, сохранении ambiguity/negative evidence и исторической изоляции; `PASS WITH LIMITS` лишь при ограничиваемой procedural weakness без material attribution error; `FAIL` при material attribution error, answer-key use, систематическом over-attribution, потере существенного evidence или невосстановимом reasoning. `FAIL` либо выход за полномочия → **STOP → Owner**. Lead возвращает цельный результат и границы подтверждённой способности в Run Record; его приёмка CV не является независимой предметной проверкой.
+
+### Boundary and next Owner gate
+
+Разрешение не распространяется на Stage 0, свежий полный `rr-*` проход, independent subject-matter review, Draft Stage 4, Book-Level Close Audit, иной корпус или Full Project. `PASS` или `PASS WITH LIMITS` по CV не запускает Stage 0 автоматически. **Следующий Owner gate после результата CV — отдельное решение о Stage 0 либо о корректировке конфигурации при ограниченном/неуспешном результате.** Книжное закрытие сохраняет зависимости R1 §§8–9 и не разрешено.
+
+**Current ownership:** Research Project Lead v0.1 — только фиксация корректной выборки, ограниченный handoff Researcher и оценка CV; Researcher получает полномочие только на названный check после фиксации assignment. Ownership возвращается Owner с результатом или STOP.
