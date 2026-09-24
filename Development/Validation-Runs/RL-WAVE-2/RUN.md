@@ -3,43 +3,42 @@
 ## Current State
 
 **Run:** `RL-WAVE-2`  
-**System:** Research Lab Role System v0.1 Candidate  
-**Request:** `RQ-RL-001`  
-**Formation Pilot:** `FP-RL-001`  
-**Audit:** `AT-RL-001`  
-**Current Gate:** `CR-RL-001 — Stage 1 Dependency Recovery`  
-**Current Owner:** Researcher v0.1; receiving Stage owner — Research Project Lead v0.1  
-**Status:** 🟡 STAGE 1 RETURNED FOR BOUNDED CONTINUATION — NO NEW OWNER AUTHORITY REQUIRED  
-**Active Target:** Event 018 blocked handoff + [LP-RL-001 Coverage Review](./Artifacts/LP-RL-001-Coverage-Review.md) + `LP-RL-001-OC1-v0.1`  
-**Required Output:** completed Stage 1 Coverage Review satisfying OC1, or a renewed precise BLOCK if lawful accessible scholarly evidence remains insufficient  
-**Next Decision Owner:** Research Project Lead after Researcher re-handoff  
+**System:** Research Lab Role System v0.1 — Scoped Active in defined uses  
+**Request:** `RQ-RL-001` — CLOSED by Event 035  
+**System Audit:** Event 036 — PASS WITH CONDITIONS  
+**Owner Decision:** Event 037 — Scoped Active approved in the named envelope  
+**Documentation alignment:** `CS-RL-002` — COMPLETE  
+**Current Gate:** none inside this Run  
+**Current Owner:** Owner; no active research owner  
+**Status:** 🟢 WAVE 2 CLOSED / SCOPED ACTIVE ENVELOPE RECORDED  
+**Active Target:** none  
+**Next Decision Owner:** Owner, through a new explicit Assignment  
 **Canonical record:** this file
 
-Owner should normally transfer only the link to this Run Record. The receiving role reads the Process Map, its Assignment Event and the linked immutable target artifact.
+Owner should normally transfer only the link to this Run Record. The receiving role reads the Current State, Process Map, its Assignment Event and linked immutable target artifact.
+
+### Current-state precedence rule
+
+The append-only Events preserve provenance. For operational recovery, the **latest accepted Event or Owner Decision governs any earlier status field**. The editable `Current State` and `Process Map` are navigation surfaces and must be updated after a terminal gate; if they ever conflict with the Event history, the latest accepted Event prevails.
 
 ---
 
 ## Process Map
 
-| Step | Task | Primary Role | Status | Input | Result / Artifact | Next owner |
-|---|---|---|---|---|---|---|
-| 1 | `RT-RL-001` Fresh-context Recovery | Research Lab Director | PASS | Director role README | recovery verified | Owner |
-| 2 | `RT-RL-002` Fresh-context Recovery | Research Project Lead | PASS | Lead role README | recovery verified; correct stop before Installation | Owner |
-| 3 | `RT-RL-003` Fresh-context Recovery | Researcher | PASS | Researcher role README | recovery verified; correct stop before research | Owner |
-| 4 | `RT-RL-004` Fresh-context Recovery | Research Auditor | PASS | Auditor role README | recovery verified; Audit/Review boundary recovered | Owner |
-| 5 | `FP-RL-001` Formation Pilot v1 | Research Lab Director | COMPLETED / RETURNED | `RQ-RL-001` | [Formation Report v1](./Artifacts/FP-RL-001-Formation-Report-v1.md) | Owner |
-| 6 | `AT-RL-001` first dependency check | Research Auditor | BLOCK | wrong / unavailable target | [Dependency Block](./Artifacts/AT-RL-001-Dependency-Block.md) | Owner |
-| 7 | `AT-RL-001` substantive Formation Audit | Research Auditor | RETURN | Formation Report v1 | [Formation Audit](./Artifacts/AT-RL-001-Formation-Audit.md) | Owner |
-| 8 | `FP-RL-001-R1` bounded correction | Research Lab Director | COMPLETED | Audit RETURN | [Revised Formation Report](./Artifacts/FP-RL-001-Revised-Formation-Report.md) | Owner |
-| 9 | `AT-RL-001-RC` focused re-check attempt | Research Auditor | BLOCK — DEPENDENCY | revised target absent from branch | no substantive verdict | Owner |
-| 10 | `AT-RL-001-RC` focused re-check continuation | Research Auditor | PASS | canonical Revised Formation target | correction verified; RETURN closed | Owner |
-| 11 | Limited Probe Installation decision | Owner | APPROVED | focused re-check PASS | Project Lead Installation authorized for Limited Probe only | Research Project Lead |
-| 12 | `LP-RL-001` Limited Probe Installation | Research Project Lead | COMPLETE / RETURNED | Revised Formation + Owner Decision | [Installation Package](./Artifacts/LP-RL-001-Limited-Probe-Installation-Package.md) | Owner |
-| 13 | Installation Audit decision | Owner | APPROVED | completed Installation Package | independent Installation Audit authorized | Research Auditor |
-| 14 | `IA-RL-001` Independent Installation Audit | Research Auditor | PASS | Installation Package + governing sources | installation architecture verified | Owner |
-| 15 | Stage 1 execution decision | Owner | APPROVED | Installation Audit PASS | Stage 1 only authorized; textual Probe closed | Researcher / Project Lead |
-| 16 | `CR-RL-001` Existing Research Coverage Review | Researcher | RETURNED FOR BOUNDED CONTINUATION | Event 018 BLOCKED handoff + OC1 | partial Coverage Review preserved; dependency recovery authorized inside Stage 1 | Research Project Lead |
-| 17 | Coverage Gate | Research Project Lead / Director / Owner | NOT OPEN | accepted Stage 1 result required | pending | according to gate judgment |
+| Phase | Result | Status | Governing event / artifact | Next owner |
+|---|---|---|---|---|
+| Fresh-context recovery | four roles recovered with correct stop conditions | PASS | Events 001–004 | Owner |
+| Formation + Formation Audit | route corrected from Full Project to Limited Probe | COMPLETE | Events 005–010 | Owner |
+| Limited Probe Installation + Audit | bounded architecture verified | COMPLETE / PASS | Events 011–015 | Owner |
+| Existing Research Coverage | scholarly coverage became sufficient for route choice | COMPLETE | Events 016–021 | Director / Owner |
+| Narrowed Limited Review | remaining textual uncertainty localized | COMPLETE | Events 022–028 | Director / Owner |
+| Bounded Textual Probe | local stewardship-link warrant not established | COMPLETE / ACCEPTED | Events 029–033 | Director |
+| Route close | stewardship-link inquiry closed on bounded result | CLOSED | Events 034–035 | Owner |
+| System validation audit | Role System usable with documentation conditions | PASS WITH CONDITIONS | Event 036 | Owner |
+| Role status decision | exact tested uses approved as Scoped Active; all other modes pending | APPROVED | Event 037 | Owner |
+| Documentation alignment | registry, role entries, Run navigation, maps, log and Snapshot aligned | COMPLETE | [CS-RL-002](../../Change-Sets/CS-RL-002-Scoped-Active-Documentation-Alignment.md) + Event 038 | Owner |
+
+No phase in this table activates new research. A new Request, corpus, IP-001 re-entry or validation cycle requires a new explicit Owner Assignment.
 
 ---
 
@@ -3648,3 +3647,64 @@ Owner принимает итоговый verdict Event 036: **PASS WITH CONDITI
 ### Ownership
 
 Статусное решение Owner зафиксировано. Дальнейшее решение о самостоятельном задании на документацию остаётся у **Owner**. Активного research owner после этого Event нет.
+
+---
+
+## Event 038 — CS-RL-002 Scoped Active Documentation Alignment
+
+### Assignment
+
+Owner authorized the three documentation corrections required by Event 036 and any necessary alignment of the project map, inter-branch log and Strategic Snapshot.
+
+### Changes completed
+
+1. **Run Record navigation**
+   - stale Stage 1 `Current State` was replaced with the terminal Wave 2 state;
+   - `Process Map` now covers Close, System Audit, Scoped Active and documentation alignment;
+   - an explicit precedence rule now states that the latest accepted Event governs any stale navigation surface.
+
+2. **Canonical role status**
+   - `Roles/VERSION_REGISTRY.md` records the exact Scoped Active envelope approved in Event 037;
+   - all four role entry READMEs agree with that envelope;
+   - every broader use remains Validation Pending.
+
+3. **Direct governing navigation**
+   - `Roles/README.md` and each role entry now link directly to In Profundo DNA, Research Lab Constitution v0.2 and Methodology v0.3.
+
+4. **Living maps and continuity**
+   - `research_lab/DEVELOPMENT.md` records Wave 2 Close, the accepted negative result and no active research;
+   - `project_hub/MASTER_ROADMAP.md` and `Project-Overview/Project_Map.md` no longer present TP-RL-001 as active;
+   - `Project-Overview/Role_Activity_Log.md` contains the cross-branch delta;
+   - a new current `Research_Lab_Strategic_Snapshot_2026-09-24.md` replaces the 19 September validation snapshot in the Snapshot Index.
+
+### Commits
+
+**research_lab**
+
+- `c3c1863a23c922a0d5aed803e21562690151ffbb` — CS-RL-002 Change Set;
+- `c0ddffd03fe07dbb83bdc9b1d1643984260f7d36` — Version Registry;
+- `a7dc4d7eed87eaea7e721de1ea552c627355ca14` — Role System entry;
+- `1d88b90f17d266836c1e15dc9f4e46a6925601e2`, `174ca7d3c606b218f44365da1684b01d874a8fa9`, `e914c002e1b424950c709f9b3077fe4c279fd330`, `5273e09f8e35189cf0a3140400921d96c73e8959` — four role entries;
+- `f111c60462a82a174a502c43fde294ec31946b21` — repository entry;
+- `532a65872a3cb2cd589d31956cc6522dd5cd4225` — Research Lab Development Map.
+
+**project_hub**
+
+- `caf7fadc33abcec2a34df80e50d0008affb2bab0` — Project Map;
+- `00231584fc007276f80994e00046f14e95bf4c62` — Master Development Map;
+- `0a641867ff8968bb29027451b4d82f5476a239f0` — Snapshot Index;
+- `db789fa6b247d3267ef9fa125cf4785d2800649a` — Role Activity Log;
+- `79e01e621c06d0c3a64c8f78249d6591ac8c1703` — Research Lab Strategic Snapshot 2026-09-24.
+
+### Boundaries preserved
+
+No Constitution, Methodology, research artifact or IP-001 file was changed. No new Request, corpus, Researcher, Auditor, Limited Probe or Full Project was activated.
+
+### Status and ownership
+
+`CS-RL-002: COMPLETE`  
+`RL-WAVE-2: CLOSED`  
+`ACTIVE RESEARCH: NONE`
+
+Ownership returned to **Owner**. Any next Research Lab work requires a new explicit Assignment.
+
