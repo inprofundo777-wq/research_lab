@@ -3849,3 +3849,88 @@ The Lead must distinguish Installation design from execution. It may propose a p
 **Not authorized:** Stage 0, Researcher execution, Auditor activation, independent review execution, new biblical corpus, full-book research execution, Stage 4 close or a broader Full Project launch.  
 **Current owner:** Research Project Lead v0.1 — Installation only.  
 **Return route:** Project Lead → Owner for a separate execution decision.
+
+
+---
+
+## Event 042 — Research Project Lead Installation: IP-001 Acts Book Cycle
+
+**Primary Role:** Research Project Lead v0.1 — Scoped Active.  
+**Assignment:** Event 041 — Installation only.  
+**Result:** [IP-001 ACTS-RR — Staged Book-cycle Installation Package](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package.md).
+
+### Installation judgment
+
+**INSTALLATION COMPLETE — BOOK-CYCLE DESIGN READY FOR OWNER GATE, WITH MATERIAL VALIDATION DEPENDENCIES EXPLICIT.**
+
+Lead установил staged protocol-normalized full-book design для нового прохода Деяний в IP-001, не начиная Stage 0 и не активируя Researcher.
+
+Package фиксирует:
+
+- Stage 0 → Stage 1 → Stage 2 → Stage 3 → material Verification → Stage 4 с отдельными readiness thresholds;
+- гибкую aggregation без обязательного file-per-passage / chapter-per-file правила при обязательной local recoverability;
+- жёсткую provenance boundary: historical research-000/doc-*/Summary/Book остаются historical/calibration material; fresh pass использует rr-*; historical comparison только после independently fixed fresh judgment;
+- Stage 1 непосредственно governed by IP-001 Primary Observation Output Contract v0.2;
+- конкретный pre-Stage capability check CV-IP-001-ACTS-01 до любого Stage 0 execution;
+- independent-verification triggers и отдельную validation dependency для late research findings / Stage 4;
+- staged Owner gates и STOP/return conditions.
+
+### Researcher capability dependency
+
+Current Researcher v0.1 Scoped Active не трактуется как подтверждение самостоятельного full-book cycle.
+
+Установлен check:
+
+**CV-IP-001-ACTS-01 — Narrative Book-scale Readiness Check.**
+
+При отдельном Owner authorization Researcher получает четыре малые распределённые по книге units, представляющие: явный candidate Christ agency; competing Father/Spirit/Human attribution risk; mediation/relation case; ambiguous/borderline case. Historical doc-* не являются рабочим input. Check не является partial Stage 0 и не создаёт corpus map.
+
+PASS требует local recoverability всех units, отсутствия material subject-attribution error, сохранения ambiguity/negative evidence, historical isolation и корректного Action/Relation/Mediation distinction. PASS WITH LIMITS допускается только без material attribution error и с ограничиваемой procedural weakness. FAIL либо material authority dependency → STOP → Owner; Stage 0 не активируется.
+
+Даже PASS подтверждает readiness только к отдельно разрешённому staged execution и не валидирует Stage 4 book synthesis.
+
+### Independent verification dependency
+
+Material independent verification требуется, в частности, для спорной attribution, Direct Christ Action через mediation/syntax/translation inference, сильного единичного evidence с book-level effect, material negative evidence, значимого doc-* vs rr-* divergence, спорной Stage 3 grouping и proposed Stage 4 synthesis.
+
+Research Auditor v0.1 имеет подтверждённый Scoped Active только для Formation/Installation Audit и не назначается subject-matter verifier позднего книжного результата. Lead internal acceptance не является independent verification. Researcher Independent Review/Re-check для такого объекта остаётся Validation Pending и требует отдельной Owner-authorized capability validation/assignment.
+
+До material Verification предложена малая fresh-branch independent-review validation на 2–3 уже выполненных неоднозначных Stage 1 cases. Она может подтвердить bounded independent review Stage 1–3, но не Stage 4 book-close audit.
+
+Stage 4 остаётся заблокирован до отдельного решения Owner о dedicated book-close contract и validated/appointed independent reviewer.
+
+### Exact Owner Decision Request
+
+**Project Lead recommendation:**
+
+> **APPROVE — INDEPENDENT INSTALLATION AUDIT OF THE IP-001 ACTS BOOK-CYCLE PACKAGE, FOLLOWED — ONLY IF THE INSTALLATION AUDIT PASSES — BY A SEPARATE OWNER DECISION ON CV-IP-001-ACTS-01 RESEARCHER NARRATIVE BOOK-SCALE READINESS CHECK. DO NOT AUTHORIZE STAGE 0 YET.**
+
+Альтернативно Owner может прямо разрешить только CV-IP-001-ACTS-01 без Installation Audit, вернуть пакет, отложить или закрыть текущий re-entry route.
+
+### Activation boundary
+
+Installation only выполнена. **Stage 0 не начат. Researcher не активирован. Auditor не активирован. Independent Review не активирован. Fresh Acts research не начат. Historical comparison не выполнялся. Stage 4, новый corpus и Full Project не активированы.**
+
+Romans pilot не повторяется. Migration question не переоткрывается.
+
+### Current-State Delta
+
+| Item | State after Event 042 |
+|---|---|
+| IP-001 Acts Formation | COMPLETE / ACCEPTED |
+| Book-cycle Installation | COMPLETE |
+| Current gate | Owner decision on Installation Audit / capability validation |
+| Stage 0 | NOT AUTHORIZED / NOT STARTED |
+| Researcher | NOT ACTIVATED |
+| Auditor | NOT ACTIVATED |
+| Independent research verification | VALIDATION DEPENDENCY / NOT ACTIVATED |
+| Stage 4 close | VALIDATION PENDING / BLOCKED |
+| Historical doc-* | PRESERVED / NOT ANSWER KEY |
+| Fresh rr-* execution | NOT STARTED |
+| New corpus / Full Project | NOT ACTIVATED |
+
+### Ownership
+
+**Returned to Owner for a separate decision.**
+
+No research execution authority remains with Project Lead after this handoff.
