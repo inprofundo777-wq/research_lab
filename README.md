@@ -30,6 +30,8 @@ Research Lab работает внутри следующей структуры
 
 Определяет фундаментальную природу и основания всего проекта In Profundo.
 
+Актуальная точка входа: [DNA In Profundo](https://github.com/inprofundo777-wq/editorial_system/blob/main/Constitution/DNA.md)
+
 ### Конституция Research Lab
 
 Определяет устойчивые принципы исследовательского направления.
@@ -120,7 +122,7 @@ research_lab/
 
 # Role System v0.1
 
-**Status:** 🟡 Implemented / Validation Pending
+**Status:** 🟡 Scoped Active in defined uses / broader modes Validation Pending
 
 Core Roles:
 
@@ -129,7 +131,9 @@ Core Roles:
 - [Researcher](./Roles/Researcher/v0.1/README.md)
 - [Research Auditor](./Roles/Auditor/v0.1/README.md)
 
-All packages are Candidate Active and may be used only through staged validation. Their existence does not authorize a Full Research Project or IP-001 restart.
+Четыре роли v0.1 имеют статус **Scoped Active** только в точных областях, перечисленных в [Version Registry](./Roles/VERSION_REGISTRY.md). Все остальные режимы остаются **Validation Pending**.
+
+Этот статус не разрешает автоматически Full Research Project, новый corpus или перезапуск IP-001. Для каждого процесса по-прежнему нужны установленная конфигурация и соответствующий Owner gate.
 
 Formation begins only after explicit handoff:
 
