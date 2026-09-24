@@ -3971,3 +3971,68 @@ Return one whole audit result: target verified; evidence for each material findi
 **Not authorized:** `CV-IP-001-ACTS-01`, Researcher assignment, Stage 0, textual research, independent subject-matter review of findings, Stage 4, new corpus or Full Project execution.  
 **Next gate:** Auditor verdict → Owner decides whether to authorize a bounded Researcher readiness check, return the Installation for correction, defer or close. A PASS alone does not activate the check.  
 **Ownership transferred to:** Research Auditor v0.1 for this audit only.
+
+---
+
+## Event 044 — IA-IP-001-ACTS-RR Independent Installation Audit
+
+▶ Основная роль — Research Auditor v0.1 — Scoped Active  
+▶ Основное задание — Event 043: Independent Installation Audit of IP-001 ACTS-RR  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Installation Audit  
+**Дата:** 2026-09-24.
+
+### 1. Target verification, scope and independence
+
+**Target verified:** [IP-001 ACTS-RR — Staged Book-cycle Installation Package](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package.md), переданный Project Lead в Event 042 по Owner Assignment Event 041. Сверены Events 039–043, [FP-IP-001 Formation](./Artifacts/FP-IP-001-Re-entry-Formation.md), действующие Constitution v0.2, Methodology v0.3, IP-001 Protocol v0.2, Research_Criteria.md, Primary Observation Output Contract v0.2, ACTS README, Version Registry и Independence and Audit Standard. Для адресной проверки возможной потери смысла сопоставлены смысловые разделы нынешних Protocol/Criteria с их Git-редакциями непосредственно до русификации (до commits `886212d` / `fc125cd`).
+
+Проверяется Installation architecture, а не истинность исторического исследования Деяний, Romans pilot или будущих результатов Researcher. Project Lead internal acceptance не объявляется независимым Review. Auditor не был производителем проверяемого Installation Package и не получает operational ownership его исправления. Данный audit не расширяет Scoped Active Auditor на предметную проверку поздних результатов или book close.
+
+### 2. Compliance matrix
+
+| Критерий Event 043 | Суждение и evidence |
+|---|---|
+| Этапы, пороги и traceability | **PASS.** Package §§3–4 проводит путь text locus → evidence → acting subject → action/relation → judgment → observation → limitation/verification. Stage 0–3 имеют отличимые функции и thresholds; Stage 1 прямо подчинён OC v0.2; нет обязательного chapter/file-per-passage. Strong singular, negative и BORDERLINE сохраняются при aggregation. Stage 4 ограничен книгой Деяний; Stage 5 не устанавливается. |
+| Исторический `doc-*` / свежий `rr-*` | **RETURN FINDING A.** Имена поколений, версия/provenance, отсутствие старой карты при Stage 0 установлены верно (§§2–3). Но правило допуска к историческому материалу после fresh judgment «конкретной research unit» позволяет открыть historical map, `Summary.md` или `Book.md` после одной единицы, когда остальные Stage 1–3 единицы ещё не фиксированы. Это создаёт канал answer-key contamination для оставшейся части книжного прохода. |
+| `CV-IP-001-ACTS-01` | **PASS WITH NON-BLOCKING IMPLEMENTATION REQUIREMENTS.** §7 назначает четыре малые распределённые unit types, локальный результат, сохранение ambiguity/negative evidence, различение Attribution/Action/Relation/Mediation, PASS / PASS WITH LIMITS / FAIL и немедленный STOP на material attribution error. Check не является Stage 0; даже PASS не даёт полномочия на книжный синтез. Конкретные loci и условия PASS WITH LIMITS должны быть зафиксированы в отдельном Owner-authorized execution assignment до выдачи задания Researcher; нельзя подбирать примеры по historical `doc-*`. Это следующее исполнение, не пробел в сегодняшнем design. |
+| Независимая проверка и Stage 4 | **RETURN FINDING B.** §§8–9 правильно запрещают считать Lead internal acceptance independent review; Researcher Independent Review/Re-check и Auditor book-close остаются Validation Pending, предложен отдельный small validation перед material Verification. Однако Book-Level Close Audit после Draft Stage 4, обязательный для large projects по Independence and Audit Standard, в маршруте не указан. Назначение одного independent subject-matter reviewer и dedicated Output Contract не заменяет отдельный Research Audit закрытия книги. Stage 4 пока заблокирован, но обещание будущего close route неполно. |
+| Русские Protocol/Criteria и OC | **PASS по проверенным смысловым соответствиям; material semantic loss не выявлена.** См. §4 ниже. |
+| Stop, Owner gates и следующий шаг | **PASS по activation boundary; RETURN по двум указанным design controls.** Package §§5, 9–12 отделяет capability check от Stage 0, material Verification и Stage 4; перечисляет STOP и предлагает Owner отдельно решить запуск `CV-IP-001-ACTS-01`. Event 043 разрешает только аудит. |
+
+### 3. Material findings and severity
+
+**A — MATERIAL / RETURN: преждевременный доступ к book-wide historical output.** Package §2 запрещает использовать old map/`Summary.md`/`Book.md` до фиксации fresh judgment **конкретной unit**, а сравнение допускает после такой фиксации. При книжном цикле фиксация первой unit не защищает последующие: открытый `Summary.md`, `Book.md` или карта раскрывают другие candidates, группы и итоговый взгляд. Это материально отличается от закрытого локального сравнения после действительно независимой fresh работы по всей затронутой области. Protocol §9 и ACTS README запрещают historical answer key; Event 039 и Formation §§2, 6 требуют fresh pass всей книги. Требуется ограниченно уточнить момент и уровень historical comparison: book-wide map/summary/group conclusions остаются закрытыми до фиксации самостоятельного fresh Stage 0–3 материала, которого они касаются; если локальное сравнение отдельной `doc-*` вообще допускается раньше, должно быть обеспечено и проверяемо, что оно не раскрывает и не определяет ещё не рассмотренные units. Material divergences после допустимого сравнения сохраняются как Verification Flags. Это уточнение provenance boundary, не переделка исторических файлов.
+
+**B — MATERIAL / RETURN: неустановленный обязательный путь Book-Level Close Audit.** Package §§8–9 предусматривает независимого предметного reviewer для будущего Stage 4 и блок до отдельного Owner gate. Но Independence and Audit Standard v0.1 требует **Book-Level Close Audit after Draft Stage 4** для large projects. Independent Review научного содержания и Research Audit соблюдения Protocol/OC/traceability являются разными функциями, и нынешний Auditor v0.1 не имеет book-close scope. Требуется добавить к будущему route: Draft Stage 4 → independent subject-matter review where required → отдельно назначенный и предварительно валидированный Book-Level Close Auditor/аудит в соответствии со стандартом → Owner recognition of close. Если способность Auditor ещё не доказана, dependency остаётся явной и книжное закрытие блокируется; её нельзя компенсировать назначением reviewer под иным именем. Конкретный исполнитель и контракт могут быть определены позднее отдельным Owner decision, но обязательность audit и порядок gate должны быть в Installation.
+
+Оба finding касаются архитектуры будущего книжного прохода. Они **не** являются утверждением, что old research уже использован как answer key или что Stage 4 уже проведён. Исправление должно быть новой цельной редакцией/ревизией Lead после отдельного решения Owner; Auditor не переписывает target.
+
+### 4. Russian redaction / Output Contract check
+
+Сверены нынешние Protocol §§3–11 и Criteria с предшествующими Protocol §§3–10, 12–17, 20–24, 27–29, 31 и предшествующими Criteria, а также Stage 1 OC v0.2 §§3–9, 12–16, 19. Предыдущая версия Protocol существенно длиннее, но проверяемые смысловые controls сохранены: вопрос о непосредственном приписывании действия воскресшему Христу; Father/Christ/Spirit/Human/Unclear; действие vs роль/отношение/результат/богословская связь; mediated ≠ direct agency; `INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE`; confidence отдельно от статуса; Stage 0 как trigger map без финального judgment; текстовая traceability при гибкой гранулярности; отрицательные и сильные единичные свидетельства; trigger-based филологическая/контекстуальная проверка; Stage 4 как ограниченный book result; `doc-*` vs `rr-*`. Русская Criteria точнее отделяет внесение в предварительную карту Stage 0 от позднего Research Judgment. Технические статусы и identifier остаются стабильны.
+
+Stage 1 OC требует Research Unit → Relevant Evidence → Attribution → Research Judgment → Observation → Limitation/Uncertainty и допускает chapter-level aggregation лишь при local recoverability; Package §§3–4 это сохраняет. Отсутствие постоянного OC для Stage 0/2/3/4 не подменяется Stage 1 contract: будущие assignments должны конкретизировать выход этих стадий; Stage 4 остаётся blocked до dedicated close contract. Protocol §11 не требует дополнительных административных ворот на каждом этапе, но не отменяет отдельные Owner gates для пока невалидированных возможностей; staged gates Package §5 здесь допустимы.
+
+**Material semantic loss от русификации Protocol/Criteria по указанным governing вопросам не выявлена.** Findings A/B относятся к новому Installation design и обязательному audit standard, а не к переводу. Это адресная проверка содержания и согласованности, не пословная филологическая гарантия тождества всех редакций.
+
+### 5. Verdict, correction scope and Owner gate
+
+**VERDICT: RETURN — BOUNDED MATERIAL CORRECTION REQUIRED.**
+
+Существенная часть staged design и CV check пригодна; однако два material controls должны быть явно исправлены до признания Installation прошедшим независимый аудит. Это `RETURN` Project Lead через Owner, не `BLOCK` отсутствующего target и не отказ от всего re-entry route. Прежде пройденные parts не переоткрывать без нового material contradiction.
+
+**Recommended exact Owner decision:**
+
+> **RETURN IP-001 ACTS-RR INSTALLATION TO RESEARCH PROJECT LEAD FOR BOUNDED CORRECTION OF (A) BOOK-WIDE HISTORICAL `doc-*`/`rr-*` COMPARISON TIMING AND (B) THE MANDATORY POST-DRAFT-STAGE-4 BOOK-LEVEL CLOSE AUDIT ROUTE. REQUIRE ONE COMPLETE REVISED INSTALLATION PACKAGE AND FOCUSED AUDITOR RE-CHECK. DO NOT ACTIVATE CV-IP-001-ACTS-01 OR STAGE 0.**
+
+В исправлении Lead должен сохранить действующий Protocol/Criteria/OC и ранее успешные части Package. Отдельного изменения этих governing documents настоящий Audit не требует. После focused re-check Owner может решить, разрешать ли **только** `CV-IP-001-ACTS-01` с фиксированной выборкой, критериями и stop; даже PASS по check не авторизует Stage 0.
+
+### 6. Activation and ownership
+
+`CV-IP-001-ACTS-01`: NOT ACTIVATED.  
+Researcher: NOT ACTIVATED.  
+Stage 0 / fresh `rr-*`: NOT ACTIVATED.  
+Independent research verification / Draft Stage 4 / book close: NOT ACTIVATED.  
+New corpus / Full Project: NOT ACTIVATED.
+
+Audit result and requested correction returned to **Owner**. Research Auditor retains no Installation, execution or next-gate ownership.
