@@ -1,50 +1,69 @@
-# IP-001
+# IP-001 — Acts
 
-# Acts
+## Current state
 
-Исследование книги Деяний по протоколу IP-001.
+Книжный корпус Деяний находится в canonical project structure:
 
----
+`Research/IP-001/Research/ACTS/`
 
-## Документы книги
+Старый исследовательский цикл перенесён сюда без изменения содержания документов.
 
-### Подготовительный этап
+Согласно `IP-001_Protocol_v0.2.md`:
 
-- doc-000_0100 — Критерии отбора исследуемых текстов
-- doc-000_0200 — Карта исследовательского корпуса
+- `doc-*` — **Historical Research**;
+- `rr-*` — будущий **Protocol-normalized Re-run**;
+- historical outputs сохраняются как research evidence и calibration material;
+- historical outputs не являются answer key для fresh research pass.
 
----
-
-### Этап I. Первичные наблюдения
-
-Документы:
-
-doc-001_0100 → doc-001_4900
+Protocol-normalized re-run книги Деяний **не активирован**.
 
 ---
 
-### Этап II. Карта повторений
+## Historical research cycle — `doc-*`
 
-Документы:
+### Stage 0 — Book Corpus Map
 
-doc-002_0100 → doc-002_0800
+- `research-000.md` — историческая карта исследуемого корпуса.
+
+### Stage 1 — Primary Observation
+
+- `doc-001_0100.md` → `doc-001_4900.md`
+
+### Stage 2 — Repetition Mapping
+
+- `doc-002_0100.md` → `doc-002_0800.md`
+
+### Stage 3 — Provisional Classification / Research Groups
+
+- `doc-003_0100.md` → `doc-003_0700.md`
+
+### Historical book-level outputs
+
+- `Summary.md` — итоговый исторический synthesis книги;
+- `Book.md` — навигация по историческому исследовательскому циклу.
 
 ---
 
-### Этап III. Исследовательская классификация
+## Legacy apparatus
 
-Документы:
+Служебная оболочка старого `IP-01`, ранний pilot, альтернативные или дублирующие файлы и постисследовательский отчёт сохранены отдельно:
 
-doc-003_0100 → doc-003_0700
+`../../Archive/Legacy-IP-01/`
 
----
-
-### Итоги исследования
-
-Summary.md
+Этот архив сохраняет provenance, но не является активным passage-level corpus книги.
 
 ---
 
-### Цельное исследование
+## Future re-entry
 
-Book.md
+Продолжение исследования требует отдельного Owner Assignment.
+
+Если будет разрешён fresh pass по книге Деяний, новые результаты создаются как `rr-*` по:
+
+1. `Methodology/methodology_v0.3.md`;
+2. `IP-001_Protocol_v0.2.md`;
+3. `Research_Criteria.md`;
+4. `IP-001_Primary_Observation_Output_Contract_v0.2.md`;
+5. Синодальному переводу и biblical source.
+
+Historical comparison выполняется только после независимого fresh judgment.
