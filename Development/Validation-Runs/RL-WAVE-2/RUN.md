@@ -4126,3 +4126,46 @@ R1: **SUBMITTED / AUDIT RETURN OPEN**.
 Researcher, `CV-IP-001-ACTS-01`, Stage 0, independent subject-matter review, Draft Stage 4 and Book-Level Close Audit: **NOT ACTIVATED**.
 
 **Ownership returned to Owner** for routing the existing assignment to a fresh independent Auditor branch.
+
+
+---
+
+## Event 047 — Independent Focused Installation Re-check of IP-001 ACTS-RR R1
+
+▶ **Основная роль — Research Auditor v0.1 — Scoped Active**  
+▶ **Задание — IP-001 ACTS-RR: Focused Installation Re-check**  
+■ **Второстепенная роль — не активирована**  
+◆ **Мод — Installation Audit / Focused Re-check**  
+**Дата:** 2026-09-24.
+
+### 1. Verification target, authority and independence
+
+Проверен полный [IP-001 ACTS-RR — Staged Book-cycle Installation Package — R1](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package-R1.md) как заменяющий target после Event 044; для сопоставления прочитаны [исходный пакет Event 042](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package.md), Events 043–046 и [Formation handoff](./Artifacts/FP-IP-001-Re-entry-Formation.md). Governing basis: Constitution v0.2, Methodology v0.3, IP-001 Protocol v0.2 (§§8–10), Research Criteria v0.2, Stage 1 Primary Observation Output Contract v0.2 (§§3–9), ACTS README, Auditor README/Charter/Operating Model, Installation Standard и Independence and Audit Standard v0.1. Проверка ограничена findings A/B и новыми существенными отклонениями; ранее принятый полный Installation Audit не повторялся.
+
+Эта **новая Auditor ветка** не создавала R1 или Event 045 и самостоятельно сверила пакет с исходным target и governing sources. Процедурный `BLOCK` Event 046 относился к прежней ветке, где автор R1 попытался провести re-check; к независимости настоящей проверки он не переносится. Внутренняя оценка Lead в Event 045 и неполная оценка Event 046 не приняты как доказательство исправлений. Audit оценивает установленный design; фактического исполнения Stage 0–4 здесь нет.
+
+### 2. Finding A — historical `doc-*` / fresh `rr-*`
+
+**CORRECTED / VERIFIED.** R1 §2 исключает `research-000.md`, все `doc-*`, `Summary.md`, `Book.md` и общекнижные исторические выводы из рабочего input для `CV-IP-001-ACTS-01` и всего самостоятельного fresh Stage 0–3. Даже после фиксации первых отдельных `rr-001_*` units локальный `doc-*` не открывается: досрочного local comparison нет. Это устраняет раскрытие ещё не исследованных мест через ссылки и выводы старого файла.
+
+Первый comparison gate наступает после последовательного fresh Stage 0 по всей книге, принятия Lead существенных Stage 1 judgments, фиксации Stage 2 map и предварительных Stage 3 groups/границ по всему корпусу. Перед доступом к истории требуется проверяемый `rr-000_*`–`rr-003_*` snapshot с версиями, перечнем units, нерешёнными случаями, состоянием приёмки и ссылкой на commit/immutable revision; при непринятом Stage 3 или невосстановимых coverage/material judgments gate остаётся закрытым. Сравнение после snapshot выделено в отдельный слой: local-to-local, затем book-wide-to-book-wide, с точными ссылками на обе версии. Совпадение автоматически не усиливает confidence; material divergence становится Verification Flag, а bounded supplement сохраняет pre-comparison judgment. R1 §§2, 10 устанавливают STOP/return при раннем доступе или существенном пробеле. Это конкретизирует Protocol §9 и ACTS README без изменения исторических файлов.
+
+### 3. Finding B — independent review и книжный Audit
+
+**CORRECTED / VERIFIED.** R1 §§3, 5, 8–10 задают последовательность `Draft Stage 4 → independent subject-matter review → Book-Level Close Audit → Owner recognition of close`. Предметный reviewer проверяет biblical evidence, attribution, альтернативы и соразмерность вывода; отдельный Auditor проверяет соблюдение Constitution/Methodology/Protocol и stage contracts, coverage, traceability, independence и material verification. Внутренняя приёмка Lead не подменяет ни одну из этих функций. Тем самым исполнен обязательный post-Draft Book-Level Close Audit из Independence and Audit Standard для крупного проекта.
+
+Текущий Auditor v0.1 имеет Scoped Active для Formation/Installation Audit, а book-close capability остаётся Validation Pending (Auditor README). R1 требует отдельной Owner-authorized validation, назначения независимого Book-Level Close Auditor с audit contract, объектом Draft и полным record, а также dedicated Stage 4 Output Contract и авторизованного предметного reviewer. При отсутствии валидированного Auditor или контракта `BOOK CLOSE BLOCKED`; Owner не признаёт закрытие. Эти будущие функции данным re-check не назначены и не исполнены.
+
+### 4. New material deviation check
+
+**Новых существенных отклонений не обнаружено.** Сравнение R1 §§3–7, 10–13 с исходным пакетом и Formation показывает сохранение Stage 0 → 1 → 2 → 3 → material Verification → Draft Stage 4, порогов полноты и приёмки, локальной recoverability при гибкой aggregation, сильного единичного и отрицательного evidence. Stage 1 остаётся привязан к действующему OC v0.2 с путём Research Unit → Evidence → Attribution → Judgment → Observation → Limitation/Uncertainty; новые постоянные контракты Stage 0/2/3 не объявлены действующими. `CV-IP-001-ACTS-01` сохраняет четыре распределённые малые units, критерии PASS / PASS WITH LIMITS / FAIL и STOP при material attribution error; он отделён от Stage 0. Отдельные Owner gates на capability check, Stage 0 и последующие переходы сохранены; исправление уточняет поздние review/audit gates, не выдавая исполнения за разрешение.
+
+### 5. Remaining conditions, verdict and next Owner gate
+
+**Единый verdict: PASS.** Два material findings Event 044 исправлены в R1; прежний Installation Audit `RETURN` закрыт применительно к исправленному target. Процедурный `BLOCK` Event 046 преодолён независимой новой веткой. Это принятие Installation design, не подтверждение будущей способности Researcher пройти книгу или Auditor закрыть её.
+
+Следующие зависимости остаются для **будущих отдельных gates**: книжная готовность Researcher (`CV-IP-001-ACTS-01`), независимая предметная проверка material outputs, dedicated Stage 4 contract/reviewer, отдельная validation и назначение Book-Level Close Auditor с audit contract. Книжное закрытие остаётся заблокированным до выполнения последней зависимости и post-Draft Audit с признанием Owner; эти условия не превращают настоящий focused re-check в условный verdict.
+
+**Точный следующий Owner gate:** Owner может отдельно решить, разрешать ли **только** `CV-IP-001-ACTS-01 — Narrative Book-scale Readiness Check` с заранее зафиксированной четырёхчастной выборкой, действующими criteria и STOP. Даже положительный capability result потребует нового Owner authorization для Stage 0. Настоящий PASS не активирует Researcher, `CV-IP-001-ACTS-01`, Stage 0, independent subject-matter review, Draft Stage 4 или Book-Level Close Audit.
+
+**Ownership returned to Owner.** Auditor не сохраняет право управлять следующим этапом.
