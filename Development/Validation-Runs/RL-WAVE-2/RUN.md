@@ -2815,3 +2815,328 @@ TP-RL-001 EXECUTION APPROVED
 **Transferred to:** Researcher v0.1 — `TP-RL-001` execution only.
 
 Owner retains authority over corpus expansion, Full Project and every subsequent route.
+
+
+---
+
+## Event 032 — TP-RL-001 Bounded Textual Probe Execution Result
+
+▶ Основная роль — Researcher v0.1 — Candidate Active / Validation Pending  
+▶ Основное задание — TP-RL-001: Bounded Textual Probe Execution  
+■ Второстепенная роль — не активирована  
+◆ Активные моды — Primary Observation + Corpus Mapping; Classification + Synthesis only as needed  
+**Дата:** 2026-09-24.
+
+### 1. Method and boundary statement
+
+Event 031 принят как execution authorization только для `TP-RL-001`.
+
+Работа выполнена строго в пределах:
+
+- `TP-RL-001-PROTOCOL-v0.1`;
+- `TP-RL-001-OC1-v0.1`;
+- Мф. 6:19–34;
+- Лк. 12:13–34.
+
+Каждый locus исследован отдельно до comparison. Material corpus expansion не выполнялся. 2 Кор. 8–9 не использовался как primary textual evidence. Иные места Матфея и Луки не использовались как дополнительная доказательная база. Ближайший внешний контекст не потребовался для вынесения locus judgments.
+
+**Text basis:** Greek New Testament wording as ordinarily represented in the critical-text tradition; русские формулировки ниже — исследовательский пересказ/описание, а не отдельная доказательная база. Анализ сосредоточен на observable lexical, syntactic, argumentative and discourse relations внутри установленных loci.
+
+Installed discriminator:
+
+> Какой именно local textual warrant — lexical, syntactic, argumentative, narrative/discourse или иной непосредственно наблюдаемый в locus — поддерживает либо не поддерживает proposed entrustedness/stewardship как отличимое звено между giving и trust/provision?
+
+Ключевые различения сохранены:
+
+- responsibility/accountability ≠ delegated management;
+- God as provider/source ≠ God as explicit owner/entruster;
+- generosity/giving ≠ stewardship by itself;
+- trust/provision ≠ entrustedness by itself.
+
+---
+
+### 2. Work Unit A — Matthew 6:19–34
+
+#### A1. Boundary and observation inventory
+
+Locus образует последовательность из трёх тесно связанных движений:
+
+1. **6:19–21 — treasure orientation:** запрет собирать сокровища на земле / повеление собирать на небе; аргумент через тленность земного сокровища и связь сокровища с сердцем.
+2. **6:22–24 — undivided orientation / mastery:** eye saying и кульминация «не можете служить Богу и mammon». Материальная тема включена в вопрос allegiance/mastery.
+3. **6:25–34 — prohibition of anxiety / divine care:** «поэтому» (`διὰ τοῦτο`) связывает предыдущий вопрос господства с запретом тревожиться о жизни, пище, питье и одежде; birds/lilies/grass служат аргументами к доверию Божьей заботе; кульминация — искать прежде царства и праведности, при обещании необходимого.
+
+#### A2. Matthew evidence table
+
+| Observation | Textual locus | Local inference | Alternative / counter-evidence | Confidence |
+|---|---|---|---|---|
+| Земное накопление противопоставлено небесному сокровищу | 6:19–21 | Possessions are morally/spiritually consequential; disposition of treasure reveals heart orientation | Текст говорит об orientation/value, но не называет имущество доверенным Богом ресурсом для управления | HIGH |
+| «Где сокровище, там сердце» | 6:21 | Material practice and allegiance are linked | Это связь treasure ↔ heart, не entrustment ↔ administration | HIGH |
+| Нельзя служить Богу и mammon | 6:24 | Материальное богатство поставлено в relation of rival mastery; требуется allegiance to God | Категория здесь — master/service, а не God-owner → human-steward delegation | HIGH |
+| `διὰ τοῦτο` вводит запрет тревоги после 6:24 | 6:25 | Trust/provision section argumentatively связан с preceding allegiance/mammon section | Связь не вводит giving или delegated management как промежуточное звено | HIGH |
+| Отец небесный питает птиц | 6:26 | God is provider; disciples are invited to trust divine care | Provider/source does not locally equal entruster/owner assigning goods for management | HIGH |
+| Бог одевает траву; тем более людей | 6:28–30 | Divine provision grounds anti-anxiety and exposes «маловерие» | Again provision/trust, not delegated administration | HIGH |
+| Отец знает нужды | 6:31–32 | Dependence is framed by divine knowledge and care | No local lexical/syntactic link to stewardship | HIGH |
+| «Ищите прежде царства… и это всё приложится» | 6:33 | Priority of God's reign relativizes material needs; provision is subordinate to kingdom orientation | Responsibility here is priority/allegiance; no instruction to administer entrusted goods | HIGH |
+| Locus contains no explicit giving/almsgiving command | 6:19–34 | Installed three-link relation cannot be locally completed through an explicit giving component in this locus | One might infer generous disposition from heavenly treasure, but that requires an additional interpretive step not supplied inside the bounded locus | HIGH |
+
+#### A3. Candidate local warrant test
+
+**Responsibility/accountability:** locally warranted in a broad moral sense. The hearer is responsible for where treasure is placed, what master is served, what is sought first, and whether anxiety governs conduct.
+
+**Divine ownership/source of goods:** divine **provision/source** is locally warranted in 6:26–33. Explicit divine ownership of the hearer's possessions is not established in this locus.
+
+**Delegated management / entrustedness:** not locally established. No lexical marker of entrusting, stewardship, management, accounting for entrusted property, or owner-agent delegation appears in the bounded locus. The discourse can be explained coherently through allegiance, value, dependence and kingdom priority without adding delegated-management semantics.
+
+**Trust/provision:** strongly locally warranted.
+
+**Giving:** not explicit inside 6:19–34. Treating «treasure in heaven» as necessarily equivalent to almsgiving would import evidence from outside the installed boundary or depend on an interpretive identification not established by this locus alone.
+
+#### A4. Counter-evidence / alternative explanation
+
+The strongest simpler reading is:
+
+`treasure/allegiance → God rather than mammon → therefore do not live anxiously under material need → trust the Father's care → seek the kingdom first`.
+
+This structure accounts for the observable argumentative sequence without positing a distinct middle category «material goods entrusted by God for responsible administration».
+
+The text does support material responsibility in the weak/general sense that possessions and priorities are morally accountable to God's reign. But moving from that proposition to **entrusted stewardship** requires inferential stacking:
+
+`God provides` + `human material choices matter` → `therefore goods are delegated by God for administration`.
+
+The second arrow is not itself locally encoded.
+
+#### A5. Matthew locus judgment
+
+**Judgment:** local warrant for the proposed entrustedness/stewardship third link is **NOT ESTABLISHED** in Мф. 6:19–34.
+
+This does **not** mean stewardship is incompatible with Matthew or biblical theology. It means the installed bounded locus supplies strong warrant for allegiance, kingdom priority and trust in divine provision, but insufficient local warrant for the more specific delegated-management/entrustedness relation.
+
+**Confidence:** HIGH for observations; HIGH for trust/provision and allegiance judgment; MODERATE-HIGH for the negative entrustedness judgment because conceptual presence can exceed lexical presence, but the required distinct local relation is not textually demonstrated.
+
+---
+
+### 3. Work Unit B — Luke 12:13–34
+
+#### B1. Boundary and observation inventory
+
+Locus contains a more explicit possessions/giving sequence than Matthew:
+
+1. **12:13–15 — inheritance dispute and warning against covetousness:** life is not constituted by abundance of possessions.
+2. **12:16–21 — rich fool:** abundance, storage expansion, self-address and death; conclusion contrasts storing treasure «for himself» with being «rich toward God».
+3. **12:22–31 — therefore do not be anxious:** ravens/lilies/grass and the Father's knowledge ground trust; disciples seek God's kingdom.
+4. **12:32–34 — kingdom gift and material response:** the Father delights to give the kingdom; disciples are commanded to sell possessions and give alms; imperishable treasure and heart orientation conclude the unit.
+
+#### B2. Luke evidence table
+
+| Observation | Textual locus | Local inference | Alternative / counter-evidence | Confidence |
+|---|---|---|---|---|
+| Life is not constituted by abundance of possessions | 12:15 | Possessions are relativized; accumulation is not life's defining security | Does not itself specify ownership/entrustment | HIGH |
+| Rich man speaks of «my crops / my barns / my goods» and stores abundance for himself | 12:16–20 | Self-secured accumulation is narratively exposed as folly under mortality and divine judgment | Narrative criticizes self-directed accumulation; it does not explicitly replace it with an owner-steward administrative model | HIGH |
+| «Stores treasure for himself» vs «rich toward God» | 12:21 | Material orientation has a Godward accountability dimension | «Toward God» supports responsibility/allegiance, but not by itself delegated management | HIGH |
+| `διὰ τοῦτο` connects rich-fool conclusion to anti-anxiety instruction | 12:22 | Possession/accumulation and trust/provision belong to one argumentative movement | The connection can be fully explained as false security vs trust without stewardship as an intermediate concept | HIGH |
+| God feeds ravens; disciples are of greater value | 12:24 | Divine provision grounds trust | Provider does not automatically equal explicit entruster of possessions | HIGH |
+| God clothes grass | 12:27–28 | Anxiety is opposed by trust in divine care | No management/delegation relation stated | HIGH |
+| Father knows material needs | 12:29–30 | Dependence and provision are explicit | No explicit entrustment relation | HIGH |
+| Seek the kingdom; «these things» will be added | 12:31 | Kingdom priority and provision are linked | Responsibility is priority/allegiance, not necessarily stewardship | HIGH |
+| Father delights to give the kingdom | 12:32 | Divine giving is explicit, but its object is the kingdom | This does not state that material possessions are entrusted property | HIGH |
+| Sell possessions and give alms | 12:33 | Giving is directly commanded as a material response within the same locus | The command establishes generosity/dispossession, not an ongoing delegated-management model | HIGH |
+| Imperishable treasure / heart follows | 12:33–34 | Giving is tied to treasure orientation and heart | Strong giving ↔ allegiance relation; still no explicit God-owner → human-manager link | HIGH |
+
+#### B3. Candidate local warrant test
+
+**Responsibility/accountability:** strongly warranted. The rich fool is evaluated by God; storing «for himself» is contrasted with being rich toward God; disciples receive concrete commands concerning possessions.
+
+**Divine ownership/source of goods:** God as provider is strongly warranted in 12:24–31. The locus does not explicitly identify the man's crops or disciples' possessions as property entrusted by God for delegated administration.
+
+**Delegated management / entrustedness:** not established as a distinct local relation. The rich fool narrative can suggest that autonomous possession is illusory because death and divine judgment relativize his control, but that is not equivalent to a positive delegation formula. The locus's explicit response is stronger in another direction: do not ground life/security in possessions; trust the Father; seek the kingdom; sell possessions and give alms.
+
+**Trust/provision:** strongly warranted.
+
+**Giving:** strongly and explicitly warranted in 12:33.
+
+#### B4. Counter-evidence / alternative explanation
+
+Luke gives the strongest possible case inside the installed corpus because the same bounded locus contains possessions, divine judgment, provision/trust and explicit almsgiving. Nevertheless, the local argumentative structure does not require the proposed third link.
+
+A simpler text-near structure is:
+
+`abundance is not life / self-stored wealth is false security → do not be anxious → trust the Father's provision → seek the kingdom → because the Father gives the kingdom, release possessions in generosity → treasure/heart oriented toward God`.
+
+This explains both the rich fool and 12:33 without introducing delegated administration.
+
+The phrase «rich toward God» supplies genuine **Godward accountability**, and the divine address to the fool prevents a purely secular reading of possessions. Yet responsibility before God is analytically weaker than «these goods are God's entrusted property which you administer on God's behalf». The latter requires a further premise not locally stated.
+
+#### B5. Luke locus judgment
+
+**Judgment:** local warrant for the proposed entrustedness/stewardship third link is **NOT ESTABLISHED** in Лк. 12:13–34, although this locus provides substantially stronger local material for **giving + Godward accountability + trust/provision** than Matthew.
+
+The negative judgment concerns the **specific delegated-management / entrustedness model**, not generosity, responsibility or Godward use of possessions.
+
+**Confidence:** HIGH for observations; HIGH for giving and trust/provision; MODERATE for the negative entrustedness judgment because «rich toward God» can sustain broader theological development, but within the installed local test it does not discriminate delegated stewardship from simpler accountability/allegiance.
+
+---
+
+### 4. Work Unit C — bounded comparison
+
+| Discriminator | Matthew 6:19–34 | Luke 12:13–34 |
+|---|---|---|
+| Material possessions / treasure | explicit | explicit |
+| Giving/almsgiving inside locus | not explicit | explicit, 12:33 |
+| Trust in divine provision | strong | strong |
+| Kingdom priority | strong | strong |
+| Godward accountability / allegiance | strong through God vs mammon and kingdom priority | strong through rich fool, «rich toward God», kingdom priority |
+| God as provider/source | explicit | explicit |
+| Divine ownership of material goods | not locally explicit | not locally explicit |
+| Delegated management / entrustment | not locally established | not locally established |
+| Explicit owner–steward / entruster–manager relation | absent | absent |
+| Coherent simpler explanation without stewardship category | yes | yes |
+| Local support for giving ↔ trust/provision proximity | indirect / incomplete because giving is absent inside boundary | strong |
+| Local support for giving ↔ entrustedness ↔ trust/provision as three distinct links | insufficient | insufficient |
+
+### 5. Entrustedness / stewardship discrimination
+
+#### Responsibility / accountability
+
+**Established in both loci**, though by different mechanisms.
+
+- Matthew: treasure/heart, rival masters, kingdom priority.
+- Luke: divine evaluation of the rich fool, «rich toward God», direct material command.
+
+#### Divine ownership / source
+
+**Source/provision established in both. Ownership of the hearer's goods as the explicit basis of stewardship is not established in either bounded locus.**
+
+The Protocol safeguard therefore prevents collapsing «God provides» into «God has entrusted these possessions for delegated management».
+
+#### Delegated management / entrustedness
+
+**Not established as a distinct local textual category in either locus.**
+
+Neither locus supplies a lexical, syntactic, narrative or argumentative relation that requires the proposition:
+
+> material goods are entrusted by God to the disciple as manager/steward.
+
+Such a proposition may be available from broader biblical/theological synthesis, but the Probe was explicitly designed to test whether it is locally warranted here.
+
+#### Trust / provision
+
+**Strongly established in both loci.**
+
+#### Giving
+
+**Explicitly established in Luke; not explicit inside the Matthew boundary.**
+
+Therefore the two loci are not symmetrical. Luke locally integrates giving with anti-anxiety/provision and kingdom orientation more directly than Matthew. That asymmetry must not be harmonized away.
+
+---
+
+### 6. Primary Probe outcome
+
+**LOCAL WARRANT NOT ESTABLISHED WITHIN THE BOUNDED LOCI**
+
+The bounded loci do not supply sufficient local textual basis for the stronger proposed model in which **entrustedness/stewardship is a distinct intermediate link between giving and trust/provision**.
+
+This is a corpus-bounded negative result, not a universal theological negation.
+
+### 7. Why the other four outcomes were not selected
+
+**Not `LOCAL WARRANT ESTABLISHED IN BOTH LOCI`:** neither locus establishes delegated management/entrustment as a distinct relation; Matthew additionally lacks explicit giving within the installed boundary.
+
+**Not `LOCAL WARRANT ESTABLISHED IN ONE LOCUS ONLY`:** Luke comes closer because it contains giving, Godward accountability and provision in one discourse sequence, but «rich toward God» plus divine provision still does not establish the specific owner/entruster → manager relation.
+
+**Not `LOCAL WARRANT PARTIAL / INDETERMINATE`:** there is partial thematic material relevant to a later stewardship synthesis, especially in Luke, but the installed discriminator is narrower: whether a distinct local warrant for entrustedness exists. The bounded texts can be explained without that relation, and no observed feature makes delegated management necessary. The uncertainty affects possible broader synthesis, not the local verdict.
+
+**Not `QUESTION REQUIRES MATERIAL CORPUS REFORMULATION`:** the installed question can be responsibly answered negatively within the bounded loci. A broader corpus would be required only to test a different question — whether stewardship/entrustedness is warranted in a wider biblical/theological synthesis. That is outside this Probe and does not make the present question unanswerable.
+
+---
+
+### 8. Negative evidence, ambiguity and uncertainty
+
+#### Negative evidence preserved
+
+1. Matthew's installed locus does not contain an explicit giving/almsgiving instruction.
+2. Both loci contain strong provider/trust language without an explicit entruster/manager relation.
+3. Both loci possess coherent argumentative explanations based on allegiance, false security, dependence, kingdom priority and generosity that do not require stewardship as a distinct category.
+4. Luke's explicit command is to sell/give, which can point toward generous release rather than toward an ongoing management model.
+5. «Rich toward God» establishes Godward orientation/accountability more directly than delegated administration.
+
+These are not proofs that stewardship is absent from the wider canon. They limit the strength of the local claim being tested.
+
+#### Ambiguity
+
+- «Treasure in heaven» can participate in broader traditions of generosity, but within Matthew 6:19–34 alone its exact operational relation to giving is not explicit.
+- «Rich toward God» is semantically open enough to support theological development beyond simple anti-greed, but the phrase does not by itself specify stewardship mechanics.
+- Conceptual absence cannot be inferred merely from absence of stewardship vocabulary; therefore the judgment rests on the absence of a discriminating local relation plus the sufficiency of simpler text-near explanations.
+
+#### Confidence
+
+| Level | Confidence |
+|---|---|
+| Primary observations | HIGH |
+| Matthew allegiance + trust/provision structure | HIGH |
+| Luke giving + accountability + trust/provision structure | HIGH |
+| Matthew negative local entrustedness judgment | MODERATE-HIGH |
+| Luke negative local entrustedness judgment | MODERATE |
+| Final cross-locus outcome | MODERATE-HIGH |
+
+Administrative acceptance must not increase these confidence levels.
+
+---
+
+### 9. Limitations
+
+- This Probe does not determine whether stewardship/entrustedness is biblically valid in a broader canonical synthesis.
+- It does not test 2 Кор. 8–9 as primary text.
+- It does not test other Matthean or Lukan stewardship material.
+- It does not conduct renewed literature review.
+- It does not adjudicate all possible historical interpretations of «treasure in heaven» or «rich toward God».
+- It answers only the installed local-warrant question.
+
+No stop condition requiring corpus expansion was encountered: the bounded question was answerable as a bounded negative result.
+
+---
+
+### 10. Decision needed / next route
+
+**Decision needed:** Project Lead must perform `TP-RL-001-OC1-v0.1` acceptance and boundary verification.
+
+Researcher does not activate or recommend as an executed next stage any Full Project, corpus expansion, renewed literature review, publication/application or other research route.
+
+The result available for route consideration after acceptance is:
+
+> The two loci strongly support trust in divine provision and Godward material responsibility; Luke additionally gives an explicit generosity command. They do not, within the installed boundaries, establish entrustedness/delegated stewardship as a distinct textual link between giving and trust/provision. Any stronger stewardship synthesis would therefore need warrant beyond the local claim tested here.
+
+---
+
+### 11. Protocol / authority compliance
+
+- Primary corpus: **Мф. 6:19–34; Лк. 12:13–34 only** — COMPLIED.
+- Separate locus analysis before comparison — COMPLIED.
+- 2 Кор. 8–9 not activated as primary corpus — COMPLIED.
+- No broad literature review — COMPLIED.
+- No Full Project — COMPLIED.
+- No concept importation to rescue hypothesis — COMPLIED.
+- Negative evidence and asymmetry preserved — COMPLIED.
+- Exactly one OC1 outcome returned — COMPLIED.
+- No subsequent route activated — COMPLIED.
+- No change to Constitution, Methodology, permanent role authority or IP-001 — COMPLIED.
+
+### 12. Researcher handoff
+
+**Result:** `LOCAL WARRANT NOT ESTABLISHED WITHIN THE BOUNDED LOCI`.
+
+**Evidence boundary:** local textual features of Мф. 6:19–34 and Лк. 12:13–34 only.
+
+**Limitations / uncertainty:** broader stewardship synthesis remains untested; Luke contains stronger accountability/giving material than Matthew, but not enough to establish delegated management locally.
+
+**Verification / audit status:** primary Researcher output completed; Project Lead OC1 acceptance pending; no Independent Review/Audit activated.
+
+**Decision needed:** accept or return `TP-RL-001-OC1-v0.1`, verify method/corpus compliance, then formulate exact route handoff without activating it.
+
+**Next step:** Research Project Lead acceptance / route check only.
+
+### Ownership Returned To
+
+**Research Project Lead v0.1.**
+
+Researcher execution ownership is discharged. No subsequent route is activated by this Event.
