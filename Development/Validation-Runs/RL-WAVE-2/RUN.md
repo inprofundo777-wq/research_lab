@@ -4087,3 +4087,42 @@ Lead ограниченно сверил revised package с Event 041, Formation
 Researcher, `CV-IP-001-ACTS-01`, Stage 0, independent subject-matter review, Draft Stage 4 и Book-Level Close Audit **NOT ACTIVATED**. Новый корпус и Full Project не активированы.
 
 **Ownership returned to Owner.** Lead retains no execution or audit authority from this correction.
+
+
+---
+
+## Event 046 — Focused Auditor Re-check Dependency Block: Independence
+
+▶ Основная роль — Research Auditor v0.1 — Scoped Active  
+▶ Основное задание — focused re-check of R1 after Event 045  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Installation Audit / focused re-check  
+**Дата:** 2026-09-24.
+
+### Target and activation check
+
+Owner requested the focused re-check of [R1 — Revised Installation Package](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package-R1.md) against material findings A/B of Event 044 and new material deviations. The target is available. The Event 045 handoff is complete.
+
+However, the **current conversation branch produced R1 and Event 045 as Project Lead**. The Research Lab Independence and Audit Standard requires an independent Auditor; the Auditor Operating Model requires a fresh branch when independence is required. A change of role label within this same branch does not create independent verification. This is a material configuration dependency even though the target itself is available.
+
+### Procedural decision
+
+**BLOCK — INDEPENDENCE CONDITION NOT SATISFIED IN THIS BRANCH.**
+
+No independent substantive PASS / PASS WITH CONDITIONS / RETURN is issued for R1 here. Event 044's prior `RETURN` remains **OPEN**. This block is about auditor independence; it is not a finding that either R1 correction failed.
+
+A non-independent reading indicates where the re-check should focus: R1 §2 delays all historical comparisons until a fixed fresh Stage 0–3 book-wide snapshot; R1 §§3, 5, 8–10 distinguish the independent subject-matter review from a later mandatory Book-Level Close Audit and retain its capability dependency. These observations are **not** independent acceptance of the corrections.
+
+### Recovery route / exact fresh-branch assignment
+
+Owner should send this same RUN.md link to a **fresh Auditor branch with no participation in producing R1**. The bounded Assignment is:
+
+> Research Auditor v0.1 — Installation Audit / focused re-check. Read Events 043–046, the original Installation Package, Event 044 findings A/B, Event 045 and the complete R1. Verify only: (A) the historical `doc-*` / fresh `rr-*` access and comparison timing, including the sealed book-wide snapshot and no early local disclosure; (B) the route `Draft Stage 4 → independent subject-matter review → Book-Level Close Audit → Owner recognition of close`, including separate audit authority and a blocked close while capability is unvalidated; and (C) absence of new material deviations from the parts Event 044 already passed. Return one whole independent verdict append-only in this RUN.md and return ownership to Owner. Do not activate Researcher, CV-IP-001-ACTS-01 or Stage 0.
+
+### Status and ownership
+
+Independent focused re-check: **NOT COMPLETED**.  
+R1: **SUBMITTED / AUDIT RETURN OPEN**.  
+Researcher, `CV-IP-001-ACTS-01`, Stage 0, independent subject-matter review, Draft Stage 4 and Book-Level Close Audit: **NOT ACTIVATED**.
+
+**Ownership returned to Owner** for routing the existing assignment to a fresh independent Auditor branch.
