@@ -8,11 +8,11 @@
 **System Audit:** Event 036 — PASS WITH CONDITIONS  
 **Owner Decision:** Event 037 — Scoped Active approved in the named envelope  
 **Documentation alignment:** `CS-RL-002` — COMPLETE  
-**Current Gate:** Project Lead Installation only for IP-001 Acts book cycle, Event 041  
-**Current Owner:** Research Project Lead v0.1 — Installation only  
-**Status:** 🟢 WAVE 2 CLOSED / IP-001 FORMATION ACCEPTED — INSTALLATION AUTHORIZED  
-**Active Target:** Acts book-cycle Installation; no Stage 0 or research execution  
-**Next Decision Owner:** Owner after Project Lead Installation handoff  
+**Current Gate:** Independent Installation Audit of IP-001 ACTS-RR, Event 043  
+**Current Owner:** Research Auditor v0.1 — Installation Audit only  
+**Status:** 🟢 WAVE 2 CLOSED / IP-001 INSTALLATION COMPLETE — AUDIT AUTHORIZED  
+**Active Target:** Audit of Event 042 package; no Stage 0 or Researcher execution  
+**Next Decision Owner:** Owner after Auditor verdict  
 **Canonical record:** this file
 
 Owner should normally transfer only the link to this Run Record. The receiving role reads the Current State, Process Map, its Assignment Event and linked immutable target artifact.
@@ -39,6 +39,7 @@ The append-only Events preserve provenance. For operational recovery, the **late
 | Documentation alignment | registry, role entries, Run navigation, maps, log and Snapshot aligned | COMPLETE | [CS-RL-002](../../Change-Sets/CS-RL-002-Scoped-Active-Documentation-Alignment.md) + Event 038 | Owner |
 | IP-001 Acts re-entry Formation | staged full-book route recommended with capability and independent-verification dependencies | COMPLETE / OWNER GATE | Events 039–040 + [Formation result](./Artifacts/FP-IP-001-Re-entry-Formation.md) | Owner |
 | IP-001 Acts Installation decision | migration closed; Project Lead authorized to design staged book cycle, with separate execution gate | APPROVED / INSTALLATION ONLY | Event 041 | Project Lead |
+| IP-001 Acts Installation and Owner audit decision | staged design complete; independent Installation Audit authorized | COMPLETE / AUDIT ACTIVE | Events 042–043 + [Installation Package](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package.md) | Auditor → Owner |
 
 No phase in this table activates new research. A new Request, corpus, IP-001 re-entry or validation cycle requires a new explicit Owner Assignment.
 
@@ -3934,3 +3935,39 @@ Romans pilot не повторяется. Migration question не переотк
 **Returned to Owner for a separate decision.**
 
 No research execution authority remains with Project Lead after this handoff.
+
+
+---
+
+## Event 043 — Owner Decision: Independent Installation Audit of IP-001 ACTS-RR
+
+### Decision
+
+**APPROVED — INDEPENDENT INSTALLATION AUDIT OF THE IP-001 ACTS BOOK-CYCLE PACKAGE ONLY.**
+
+Owner accepts the Event 042 Installation handoff for audit and activates **Research Auditor v0.1 — Scoped Active / Installation Audit**. This is authorization to assess the Installation, not acceptance of the book-cycle design as independently verified and not permission to execute the capability check or any research stage.
+
+### Audit assignment
+
+**Primary role:** Research Auditor v0.1.  
+**Mode:** Independent Installation Audit.  
+**Target:** [IP-001 ACTS-RR — Staged Book-cycle Installation Package](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package.md), as handed off in Event 042.  
+**Governing inputs:** Events 039–043; [FP-IP-001 Formation](./Artifacts/FP-IP-001-Re-entry-Formation.md); current Research Lab Constitution and Methodology; IP-001 Protocol v0.2, Research_Criteria.md, Primary Observation Output Contract v0.2; ACTS historical README; applicable role and audit standards. Treat the Installation Package as the object under audit, not as a substitute for governing sources.
+
+Independently assess:
+
+1. whether the proposed stages, transition thresholds and aggregation preserve the local path from biblical text through evidence, attribution, action/relation distinction, judgment and uncertainty to a proportional book result;
+2. whether the historical `doc-*` and fresh `rr-*` generations are separated so that old maps and conclusions cannot serve as a fresh-pass answer key;
+3. whether `CV-IP-001-ACTS-01` is sufficiently bounded, discriminating and outside Stage 0, with workable PASS / PASS WITH LIMITS / FAIL criteria and a stop on material attribution error;
+4. whether the Installation assigns only capabilities established for the current Scoped Active roles, explicitly routes independent verification and Stage 4 book-level close as unvalidated dependencies, and maintains separate Owner gates;
+5. whether Protocol, Criteria and Stage 1 Output Contract are mutually consistent for this Installation, including any material semantic loss or change introduced by the recent Russian redaction of Protocol v0.2 and Criteria. Compare the previous Git revision only where needed to test a concrete governing-document discrepancy; this audit does not authorize rewriting those documents;
+6. whether stop/return conditions and the exact next Owner gate are adequate before any Researcher activity.
+
+Return one whole audit result: target verified; evidence for each material finding; severity and verdict (`PASS / PASS WITH CONDITIONS / RETURN / BLOCK` under applicable standards); required correction if any; precise recommended next Owner decision; and ownership returned to Owner. Append the result to this Run Record and link any necessary full audit artifact. Do not rewrite Event 042 or the immutable Installation Package; material correction, if required, is a separate Lead return after Owner decision.
+
+### Authority boundary
+
+**Authorized:** Research Auditor v0.1 performs Installation Audit only and records its independent verdict.  
+**Not authorized:** `CV-IP-001-ACTS-01`, Researcher assignment, Stage 0, textual research, independent subject-matter review of findings, Stage 4, new corpus or Full Project execution.  
+**Next gate:** Auditor verdict → Owner decides whether to authorize a bounded Researcher readiness check, return the Installation for correction, defer or close. A PASS alone does not activate the check.  
+**Ownership transferred to:** Research Auditor v0.1 for this audit only.
