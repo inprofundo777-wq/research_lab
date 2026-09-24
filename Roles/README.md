@@ -1,7 +1,7 @@
 # Research Lab Role System
 
 **Version:** v0.1 Candidate  
-**Status:** 🟡 Implemented / Validation Pending  
+**Status:** 🟡 Scoped Active in defined uses / broader modes Validation Pending  
 **Owner of capability:** Research Lab Director under Owner  
 **Authority:** operational execution layer; subordinate to Research Lab Constitution, Methodology and active Project Protocols
 
@@ -43,6 +43,19 @@ Research Auditor remains independent from operational ownership.
 - **Output Contract** — required shape and boundary of a result.
 
 Mode and Package never increase authority.
+
+## Governing start
+
+Read the governing chain from its canonical entry points:
+
+1. [In Profundo DNA](https://github.com/inprofundo777-wq/editorial_system/blob/main/Constitution/DNA.md)
+2. [Research Lab Constitution v0.2](../Constitution/Constitution_v0.2.md)
+3. [Research Lab Methodology v0.3](../Methodology/methodology_v0.3.md)
+4. active Project Protocol
+5. Stage Output Contract
+6. Current Assignment
+
+The exact active role envelope is recorded in the [Version Registry](./VERSION_REGISTRY.md).
 
 ## Recovery
 
@@ -87,4 +100,4 @@ When known parallel branches materially affect the work, add:
 
 ## Current limitation
 
-All v0.1 packages are Candidate Active. Documentation existence is not validation. Initial use is limited to staged recovery, formation, installation, audit and bounded research pilots authorized by Owner.
+All four v0.1 roles are **Scoped Active only in the uses named in the Version Registry**. All broader modes remain Validation Pending. Package depth and documentation existence do not increase authority; each activation still requires the correct gate and installed configuration.
