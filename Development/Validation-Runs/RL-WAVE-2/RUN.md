@@ -3447,3 +3447,79 @@ Director route re-evaluation is complete.
 
 **Current Gate:** Owner Decision on RQ-RL-001 disposition.  
 **Ownership returned to:** **Owner**.
+
+
+---
+
+## Event 035 — Owner Decision: Close RQ-RL-001 Current Stewardship-Link Inquiry
+
+### Decision
+
+**APPROVED — CLOSE RQ-RL-001 CURRENT STEWARDSHIP-LINK INQUIRY AT THE ACCEPTED BOUNDED RESULT; RETAIN THE REFORMULATED NON-STEWARDSHIP QUESTION AS A FUTURE REQUEST CANDIDATE ONLY.**
+
+Owner accepts the Director recommendation in Event 034.
+
+### 1. Closure
+
+The current RQ-RL-001 stewardship-link inquiry is **CLOSED** at the accepted bounded result:
+
+**LOCAL WARRANT NOT ESTABLISHED WITHIN THE BOUNDED LOCI.**
+
+The controlling bounded conclusion remains:
+
+- Мф. 6:19–34 and Лк. 12:13–34 support trust/provision and Godward material orientation/responsibility;
+- Luke additionally contains explicit giving;
+- neither bounded locus establishes entrustedness/delegated stewardship as a distinct local link between giving and trust/provision.
+
+This closure is bounded to the tested inquiry. It does not assert that stewardship/entrustedness is absent from broader biblical theology.
+
+### 2. Future Request candidate retained
+
+The following reformulated question is retained **only as a future Request candidate**:
+
+> Как Мф. 6:19–34 и Лк. 12:13–34 связывают отношение к материальным благам с доверием Божьему обеспечению, верностью/ориентацией к Богу и щедрым распоряжением или отдачей — без предположения, что эти отношения образуют модель stewardship/entrustedness?
+
+Status: **FUTURE REQUEST CANDIDATE ONLY — NOT ACTIVATED.**
+
+It is not a new Assignment, Formation task, Probe, Review or Project. Any future activation requires a separate Owner decision and the appropriate route from its own entry point.
+
+### 3. No activation / no expansion
+
+This Owner decision does **not** activate:
+
+- any new biblical corpus;
+- Researcher;
+- Project Lead;
+- Formation for the retained candidate;
+- another Textual Probe;
+- Limited Review;
+- Full Project;
+- broader stewardship/entrustedness research;
+- publication/application;
+- Independent Review / Research Audit;
+- any subsequent research stage.
+
+No corpus is selected for a broader stewardship question.
+
+### 4. Final closure status
+
+| Item | Final status |
+|---|---|
+| RQ-RL-001 current stewardship-link inquiry | **CLOSED** |
+| Accepted terminal bounded result | **LOCAL WARRANT NOT ESTABLISHED WITHIN THE BOUNDED LOCI** |
+| TP-RL-001 | COMPLETE / CLOSED |
+| New corpus | NOT ACTIVATED |
+| Researcher | NOT ACTIVATED |
+| Full Project | NOT ACTIVATED |
+| Subsequent research stage | NOT ACTIVATED |
+| Reformulated non-stewardship question | FUTURE REQUEST CANDIDATE ONLY / NOT ACTIVATED |
+| Broader stewardship question | NOT ACTIVATED |
+| Current research execution | STOPPED / CLOSED |
+
+### 5. Ownership
+
+The approved closure is complete.
+
+**Final ownership / status returned to:** **Owner**.
+
+No active research route remains under RQ-RL-001.
