@@ -3708,3 +3708,83 @@ No Constitution, Methodology, research artifact or IP-001 file was changed. No n
 
 Ownership returned to **Owner**. Any next Research Lab work requires a new explicit Assignment.
 
+
+
+---
+
+## Event 039 — Owner Authorization: IP-001 Protocol-Normalized Re-entry Formation
+
+### Decision
+
+**AUTHORIZED — RESEARCH LAB DIRECTOR BOUNDED FORMATION FOR PROTOCOL-NORMALIZED RE-ENTRY OF IP-001, WITH ACTS AS PROPOSED FIRST FULL CORPUS.**
+
+Owner authorizes **Research Lab Director v0.1 — Scoped Active** to perform **bounded Formation only** for the protocol-normalized re-entry of IP-001.
+
+The book of Acts is the **proposed first full corpus** for Formation evaluation. This designation is a Formation input, not authorization to begin Acts research.
+
+### Formation mandate
+
+Director must determine, within bounded Formation:
+
+1. the proportionate scale of the IP-001 re-entry;
+2. the required research stages for a protocol-normalized full-corpus pass;
+3. the permissible aggregation of outputs without loss of traceability, attribution, uncertainty, inclusion/exclusion judgment or evidence-to-conclusion discipline;
+4. the Researcher capability required for the route and any material capability gap relative to the currently Scoped Active Researcher v0.1;
+5. the necessary audit / independent verification points, especially where current role modes or book-level / Full Project functions remain Validation Pending;
+6. the proportionate execution route to recommend to Owner after Formation;
+7. the boundary between historical Acts material and fresh protocol-normalized research.
+
+Formation must preserve the established re-entry principle: historical Acts outputs may remain historical evidence / calibration material, but must not function as an answer key for a fresh protocol-normalized pass.
+
+### Proposed corpus / architecture context
+
+Formation is to evaluate Acts as the proposed first full corpus within the current IP-001 architecture. The existing migrated Acts corpus remains historical material in the normalized IP-001 structure and is not thereby converted into fresh research output.
+
+Director may inspect the current Methodology, IP-001 Protocol/structure, historical Acts corpus and relevant role/capability documentation as Formation evidence. Inspection does not activate research execution.
+
+### Required Formation result
+
+The Director handoff must return a bounded Formation recommendation that makes explicit:
+
+- proposed route and scale;
+- stage architecture;
+- output aggregation model and traceability safeguards;
+- role/capability configuration needed for execution;
+- identified Researcher capability gap, if any;
+- audit / verification gates;
+- treatment of historical Acts material;
+- material risks / stop conditions;
+- exact next Owner Decision Request.
+
+If the required route exceeds the currently validated bounded role-system envelope, Director must state that explicitly and route the capability/validation dependency to Owner rather than silently expanding authority.
+
+### Not authorized
+
+This Event does **not** authorize:
+
+- research execution;
+- Project Lead Installation;
+- Stage 0;
+- fresh Acts observation or exegesis;
+- Researcher activation;
+- Auditor activation;
+- Full Project execution;
+- any new corpus beyond Formation consideration of Acts;
+- rewriting historical Acts research;
+- changes to Constitution, Methodology, permanent role authority or IP-001 research content.
+
+Formation may recommend such later work where proportionate, but may not activate it.
+
+### Next Gate
+
+Owner authorization
+→ Director bounded Formation only
+→ Formation handoff with exact route recommendation
+→ Owner decision
+→ no Installation, Stage 0 or research execution before that decision.
+
+### Ownership
+
+**Transferred to:** Research Lab Director v0.1 — bounded Formation for IP-001 protocol-normalized re-entry only.
+
+Owner retains authority over Installation, Stage 0, research execution, role/capability expansion, audit activation and any Full Project route.
