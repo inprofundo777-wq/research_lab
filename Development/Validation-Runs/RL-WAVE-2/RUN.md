@@ -3523,3 +3523,83 @@ The approved closure is complete.
 **Final ownership / status returned to:** **Owner**.
 
 No active research route remains under RQ-RL-001.
+
+---
+
+## Event 036 — RL-WAVE-2 System Validation Audit
+
+▶ Основная роль — Research Auditor v0.1 — Candidate Active / Validation Pending  
+▶ Основное задание — RL-WAVE-2 System Validation Audit  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — System Audit  
+**Дата:** 2026-09-24.  
+**Назначение:** Owner, после Event 035.  
+**Объект:** Role System v0.1 в пределах одного завершённого цикла RL-WAVE-2; это аудит системы исполнения и передачи результатов, а не новая содержательная экспертиза RQ-RL-001.
+
+### 1. Target, method and independence
+
+Прочитан полный RUN.md до Event 035 включительно; сопоставлены последовательность назначений, результаты, возвраты, решения Owner, зафиксированные ограничения и канонические входы Role System/Research Auditor. Для проверки системы используются следы в Events 001–035 и ссылки на сохранённые артефакты; данный аудит не переисполняет Formation, внешний поиск, литературное сопоставление либо экзегезу и не присваивает им новый независимый substantive verdict.
+
+Исследовательские результаты Stage 1, LR-RL-001 и TP-RL-001 приняты Project Lead как **internal stage acceptance**, затем использованы Director и Owner для маршрута. Они не получали независимый Research Audit или Independent Review на каждом позднем research gate. В Event 021 прямо раскрыта ситуация, когда принимающая ветка прежде произвела Event 020: её проверка не заявлена независимой. Настоящий System Audit проверяет точность этого разграничения и работоспособность handoff; он не превращает прежнюю внутреннюю проверку в независимую задним числом. Независимость настоящего Auditor относится к системному суждению по уже зафиксированному Run Record; выводы ограничены достоверностью и полнотой этой записи.
+
+**Применимый статус до решения Owner:** все четыре v0.1 остаются Candidate Active / Validation Pending по Roles/VERSION_REGISTRY.md. Вердикт ниже сам по себе не меняет Registry или постоянные полномочия.
+
+### 2. Evidence по компонентам цикла
+
+| Компонент | Подтверждённая практика | Граница доказательства |
+|---|---|---|
+| Fresh-context recovery | Event 001: четыре роли восстановили identity, hierarchy, entry и stop; Project Lead и Researcher остановились при отсутствии обязательных входов | Один recovery wave; не проверены все режимы и иные типы проектов |
+| Formation | Events 002–009: Director создал Formation, получил обоснованный RETURN за преждевременный Full Project, исправил маршрут на Limited Probe; Auditor подтвердил bounded correction | Один тематический Request; изначальная пропорциональность маршрута не сработала без аудита |
+| Installation | Events 010–015: Lead установил Limited Probe с Coverage Review первым шагом; независимый IA-RL-001 дал PASS. Events 023–024 и 029–030: отдельные установки Limited Review и Textual Probe удержали границы до исполнения | Независимый audit был только у первой Installation; две поздние установки имели Owner gate, без отдельного независимого audit |
+| Research execution | Events 016–021: честный BLOCK при недостаточной scholarly coverage, точечный lawful-access recovery и один обоснованный LIMITED REVIEW SUFFICIENT. Events 025–027: ограниченное сравнение источников выделило specific textual uncertainty. Events 031–033: отдельный анализ Matthew и Luke вернул отрицательный локальный outcome | Один небольшой набор источников, два текстовых loci и один цикл; нет независимого подтверждения поздних substantive claims или large-project/Book Cycle |
+| Stage handoff / acceptance | Events 019, 021, 027, 033: Lead различил blocked handoff и принятый OC1, проверил полноту, corpus, основания judgment, вернул route Director; Events 022, 028, 034: Director принял закрытые handoff, предложил Owner пропорциональный маршрут | Переходы работали при подробных Event-specific указаниях; устойчивость более короткого стандартного handoff отдельно не испытана |
+| Correct Stop / authority | Events 003 и 007: Auditor блокировал отсутствующий target; 018–020: Researcher и Lead не выдали искусственный gate и не купили доступ; 021–035: каждая новая установка/исполнение имела Owner gate; 034–035 закрыли линию без расширения corpus | Нет проверки на сильном конфликте полномочий, обязательном платном ресурсе или независимом close dispute |
+| Одна общая ссылка | RUN.md использован как точка задания, append-only результата и следующего gate; Owner не пересылал заново полный пакет, артефакты привязаны ссылками | Исторический Current State и Process Map вверху файла остались на Stage 1, хотя Events 021–035 уже закрыли цикл; читатель обязан применять правило «позднейший Event управляет» |
+| Ограниченный отрицательный результат | Events 032–035: локальный entrustedness warrant не установлен; сохранены позитивные trust/provision и асимметрия Luke/Matthew; Director рекомендовал закрыть текущую stewardship-link линию, Owner её закрыл, future candidate не активирован | Отрицательный вывод ограничен Мф. 6:19–34 и Лк. 12:13–34 и конкретным discriminator; не служит выводом обо всём библейском богословии stewardship |
+
+### 3. Role-by-role validation judgment
+
+| Роль | Что валидировано | Оставшийся validation debt | Bounded production use / статус |
+|---|---|---|---|
+| **Research Lab Director v0.1** | Formation с исправлением после аудита; повторная route re-evaluation после Coverage Review, Limited Review и отрицательного Probe; точные Owner requests и закрытие вместо автоматического Full Project (002, 006, 022, 028, 034) | Первичный Full Project route был непропорционален (004); нет опыта иных Request types, конфликта Auditor/Director и большого проекта | **Пригоден для bounded Formation и route/close decisions с Owner gate.** Предложить Owner scoped Active для этого типа работы; до записи решения в Registry остаётся Candidate Active. Более широкий Director scope остаётся непроверенным |
+| **Research Project Lead v0.1** | Установка трёх разных bounded методов, OC1 и Protocol, разделение Installation/Execution, приём BLOCK и восстановление Stage 1, три приёмки Researcher outputs, возврат Director без самозапуска следующего шага (011–015, 019–021, 024, 027, 030, 033) | Вторая и третья Installation и поздние substantive acceptances не проверены независимо; не испытаны Full Project, многосоставная команда, book-level close | **Пригоден для bounded Installation и Stage Coordination при фиксированных OC, source boundary и Owner gates.** Предложить scoped Active; до изменения Registry Candidate Active |
+| **Researcher v0.1** | Честный source/access ledger и корректный BLOCK (018); bounded recovery без оплаты и подмены abstract прочитанным текстом (020); разграничение scholarly claims и своей экзегезы (026); отрицательное первичное наблюдение с отдельными loci и ограничением вывода (032) | Поздний substantive output имеет internal Lead acceptance, но не independent subject-matter Review; малая source/corpus выборка; не испытаны Book Cycle, более сложный corpus, командная независимая перепроверка | **Пригоден для bounded exploratory research с Protocol/OC, явной неопределённостью и Lead acceptance.** Для результатов с более высокой ставкой назначать отдельную независимую проверку по реальному trigger. Предложить scoped Active; до изменения Registry Candidate Active |
+| **Research Auditor v0.1** | Fresh-context recovery, dependency BLOCK, substantive Formation RETURN, focused re-check PASS и independent Installation Audit PASS (001, 003–009, 013–015); нынешний System Audit различает проверенную способность и пробелы | Не испытаны independent audit поздних research outputs, Project/Book Close, severity edge cases, unresolved conflict и повторяемость System Audit; в стандарте нет явной severity rubric для PASS WITH CONDITIONS / RETURN / BLOCK | **Пригоден для bounded Formation и Installation Audit.** Предложить scoped Active только для этих audit objects; System Audit сейчас подтверждает способность сформулировать системную оценку, но единичный self-involving cycle не валидирует весь audit scope. Иные audit modes — Candidate Active/validation pending |
+
+Статус **scoped Active** здесь является рекомендацией Owner по версии и разрешённым видам работы, а не заявлением, что весь текст v0.1 уже проверен на всех объектах. Если Registry не может выразить разные scopes внутри одной версии, разумно сохранить соответствующую роль Candidate Active до точечного оформления границы либо выбрать новую версию; текущий Audit не меняет её сам.
+
+### 4. Role System judgment
+
+**Подтверждено:** иерархия Owner → Director → Lead → Researcher, независимый Auditor на назначенных объектах, pinning роли/Package/Mode/Protocol/OC, раздельные gate на Installation и Execution, append-only provenance, возможность остановиться на недостаточном evidence и возможность завершить исследование отрицательным bounded result. В данном Run ограничения полномочий реально повлияли на решения, а не остались декларацией.
+
+**Остаётся:** проверка иной исследовательской темы и масштаба, независимое содержательное Review после primary-text output, Research/Project/Book Close Audit, handling material authority conflict и ресурсной зависимости, повторяемость handoff при меньшей административной насыщенности. Это validation debt, а не основание объявлять события 001–035 неуспешными. Нельзя выдавать принятый TP-RL-001 за independently audited theological conclusion или применять локальное закрытие ко всему stewardship question.
+
+**Работа через одну ссылку прошла с операционной оговоркой.** Модель append-only позволила передавать задания, решения и ссылки на immutable artifacts без ручной пересылки; одновременно шапка Current State/Process Map фиксирует устаревший Stage 1 как «текущий», тогда как Event 035 закрывает RQ-RL-001. Это реальный риск ошибочной активации для fresh-context reader. Исторические Events исправлять нельзя; канонический read rule должен явно направлять к последнему Event и его state delta, а следующая редакция Run Record или навигации должна устранить ложную актуальность шапки без переписывания истории.
+
+### 5. Documentation disposition before next real research
+
+**Минимальные точечные исправления до следующего реального запуска:**
+
+1. В canonical entry/Run navigation установить явный порядок чтения: последний Owner/accepted Event управляет состоянием при расхождении с историческими Current State и Process Map; либо законно обновлять эти два поля по Run Write Authority после append-only Event. Для данного RUN terminal state — Event 035 CLOSED, никакого активного Researcher/stage. Устранить риск ложной Stage 1 activation.
+2. При положительном Owner status decision зафиксировать в Version Registry **точный scoped Active use** для каждой роли (в том числе ограниченные объекты Auditor) и оставшиеся Candidate modes; не оставлять общий Active как неограниченное полномочие. Пока этого нет, действуют нынешние Candidate Active ограничения.
+3. Сделать надёжной прямую навигацию к обязательному DNA и governing sources из role entry; историческая неопределённость этого входа зафиксирована Events 001 и 018. Если ссылка уже существует в другом месте, достаточно исправить canonical route, не переписывая пакеты.
+
+**Развитие без блокировки следующего bounded запуска:** компактный Formation → Installation handoff contract; явный severity rubric для Auditor; порог Existing Research Orientation и правило, когда независимый Review/Audit обязателен после research output; уменьшение объёма повторяющихся status blocks при сохранении доказательств и append-only provenance. Это узкие documentation candidates для отдельного Owner-controlled change, не изменения, внесённые настоящим Event. До формализации следует задавать точный Event-specific Protocol/OC, критерии проверки и триггеры независимости в новом Assignment.
+
+### 6. Verdict, conditions and exact Owner decision request
+
+**SYSTEM AUDIT VERDICT: PASS WITH CONDITIONS — BOUNDED PRODUCTION CAPABILITY DEMONSTRATED; GENERAL ROLE SYSTEM VALIDATION NOT ESTABLISHED.**
+
+Conditions относятся к корректной маркировке области применения и устранению навигационного риска до следующего запуска, а не к переоткрытию RQ-RL-001. Подтверждены четыре роли в указанных выше bounded functions и цепочка исследования до Owner-approved close. Универсальная готовность ко всем режимам, book-level/Full Project и независимое подтверждение последнего theological result не заявляются.
+
+**OWNER DECISION REQUIRED — status of the four v0.1 roles and Role System.** Просьба принять либо вернуть следующую точную конфигурацию:
+
+1. **Director v0.1:** scoped Active — bounded Formation и route/close recommendation под Owner gate.
+2. **Project Lead v0.1:** scoped Active — bounded Installation, Stage Coordination и internal OC acceptance под pinned Protocol/OC.
+3. **Researcher v0.1:** scoped Active — bounded coverage review, limited scholarly synthesis и bounded textual probe с Lead acceptance; independent verification по явно назначенному trigger.
+4. **Auditor v0.1:** scoped Active — Formation Audit и Installation Audit; research-output, Project/Book Close и прочие неиспытанные modes остаются validation pending.
+5. **Role System v0.1:** признать пригодным только для bounded production route с Owner gates; не утверждать unrestricted/general validation. Поручить отдельное точечное оформление Registry/navigation из §5 до нового real research; не изменять роль/Constitution/Methodology этим решением задним числом.
+
+Если Owner предпочитает сохранить все четыре версии Candidate Active, просится явно подтвердить это как продолжение controlled validation и указать, какой дополнительный test требуется для каждого неснятого статуса. Решение о статусе остаётся у Owner; до него Registry не изменён.
+
+**Return / exit:** System Audit завершён. Ownership и решение о статусах возвращены **Owner**. RQ-RL-001 остаётся CLOSED по Event 035; future non-stewardship question — только неактивный кандидат. Новый corpus, IP-001, Research Project, Researcher assignment и следующий этап не активированы.
