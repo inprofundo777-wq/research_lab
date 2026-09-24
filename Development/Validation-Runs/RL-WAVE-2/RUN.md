@@ -4036,3 +4036,54 @@ Independent research verification / Draft Stage 4 / book close: NOT ACTIVATED.
 New corpus / Full Project: NOT ACTIVATED.
 
 Audit result and requested correction returned to **Owner**. Research Auditor retains no Installation, execution or next-gate ownership.
+
+
+---
+
+## Event 045 — Project Lead Bounded Installation Correction after Event 044
+
+▶ Основная роль — Research Project Lead v0.1 — Scoped Active  
+▶ Основное задание — исправить Installation Package в пределах findings A/B Event 044  
+■ Второстепенная роль — не активирована  
+◆ Активный мод — Installation correction only  
+**Дата:** 2026-09-24.
+
+### Revised target and correction status
+
+Event 044 принят как независимый `RETURN — BOUNDED MATERIAL CORRECTION REQUIRED`. Подготовлена **одна цельная заменяющая редакция**:
+
+[IP-001 ACTS-RR — Staged Book-cycle Installation Package — Revised after Event 044](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package-R1.md).
+
+Первоначальный [Installation Package Event 042](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package.md) остаётся неизменным историческим target предыдущего аудита. `R1` является новым target для focused Auditor re-check; исправление Lead само не закрывает audit `RETURN`.
+
+### Finding A — historical / fresh boundary corrected
+
+Revised §2 закрывает historical `research-000.md`, все `doc-*`, `Summary.md`, `Book.md` и book-wide conclusions на протяжении CV и всего самостоятельного fresh Stage 0–3. Фиксация отдельной `rr-001_*` unit **не открывает** доступ к отдельной исторической unit или общей сводке: раннее локальное сравнение в этой Installation не предусматривается.
+
+Первый historical comparison gate установлен после последовательного fresh Stage 0, принятых существенных Stage 1 judgments и фиксации Stage 2 map / provisional Stage 3 groups по всему корпусу. До доступа к historical material сохраняется проверяемый snapshot `rr-000_*`–`rr-003_*` со ссылками на неизменяемую revision, unresolved cases и приёмкой. Затем сравнение действует отдельным слоем, сначала local-to-local, затем book-wide-to-book-wide. Совпадение не повышает уверенность автоматически; material divergence получает Verification Flag и, если нужно, bounded supplement с сохранением pre-comparison judgment. При незавершённом fresh охвате действует STOP/return.
+
+### Finding B — Book-Level Close Audit route corrected
+
+Revised §§3, 5, 8–10 устанавливают будущую последовательность:
+
+`Draft Stage 4 → required independent subject-matter review → Book-Level Close Audit → Owner recognition of close`.
+
+Review проверяет предметные текстовые и интерпретационные выводы; отдельный Audit проверяет соблюдение governing documents, контрактов, traceability, независимости и полноты material verification. Internal Lead acceptance не заменяет ни один из них. Текущий Research Auditor v0.1 сохраняет Scoped Active **только** для Formation/Installation Audit; book-close audit capability остаётся Validation Pending. До отдельной Owner-authorized validation, назначения независимого Book-Level Close Auditor и audit contract книжное закрытие **BLOCKED**. Dedicated Stage 4 contract и subject-matter reviewer также требуют отдельных решений. Ни одна из этих функций не назначена R1 автоматически.
+
+### Preserved scope and internal verification
+
+Lead ограниченно сверил revised package с Event 041, Formation, Protocol v0.2, Criteria, Stage 1 OC v0.2 и двумя findings Event 044. Staged architecture, transition thresholds, aggregation/recoverability model, четыре unit types и PASS/PASS WITH LIMITS/FAIL у `CV-IP-001-ACTS-01`, Stage 1 OC integration, stop conditions и разделение Owner gates сохранены без нового исследования или перепроектирования. Governing Methodology, Protocol, Criteria, OC и исторические Acts files не менялись; Formation и Romans pilot не повторялись.
+
+**Lead internal correction check: COMPLETE. Independent focused re-check: NOT ACTIVATED / PENDING OWNER DECISION.** Предыдущее audit `RETURN` остаётся открытым до verdict Auditor по R1.
+
+### Exact Owner Decision Request
+
+**RECOMMENDATION: APPROVE — RESEARCH AUDITOR v0.1 FOCUSED RE-CHECK OF R1 ONLY.** Проверить полное исполнение finding A (момент snapshot и отсутствие раннего historical answer key), finding B (обязательный отдельный post-Draft Book-Level Close Audit с неподтверждённой capability) и отсутствие новых material deviations. Ранее пройденные элементы не аудировать заново без нового противоречия. Auditor возвращает один verdict и ownership Owner.
+
+После возможного re-check PASS Owner может **отдельно** решить, разрешать ли только `CV-IP-001-ACTS-01` с заранее зафиксированной выборкой и условиями. Ни PASS re-check, ни PASS readiness check не запускают Stage 0 автоматически.
+
+### Activation and ownership
+
+Researcher, `CV-IP-001-ACTS-01`, Stage 0, independent subject-matter review, Draft Stage 4 и Book-Level Close Audit **NOT ACTIVATED**. Новый корпус и Full Project не активированы.
+
+**Ownership returned to Owner.** Lead retains no execution or audit authority from this correction.
