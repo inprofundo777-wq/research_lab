@@ -1,12 +1,19 @@
 # Research Lab Director — v0.1
 
-**Status:** Candidate Active / Validation Pending  
+**Status:** Scoped Active in defined uses / broader modes Validation Pending  
 **Primary accountability:** Owner  
 **Version source:** [Research Lab Version Registry](../../VERSION_REGISTRY.md)
 
 ## Purpose
 
 Владеет Research Lab как развивающейся исследовательской capability и сохраняет её содержательную, методологическую и ролевую целостность.
+
+## Governing start
+
+- [In Profundo DNA](https://github.com/inprofundo777-wq/editorial_system/blob/main/Constitution/DNA.md)
+- [Research Lab Constitution v0.2](../../../Constitution/Constitution_v0.2.md)
+- [Research Lab Methodology v0.3](../../../Methodology/methodology_v0.3.md)
+- [Research Lab repository entry](../../../README.md)
 
 ## Installation
 
@@ -24,7 +31,11 @@
 
 ## Boundaries
 
-This role is an operational execution role below Research Lab Constitution, Methodology and active Project Protocol. Candidate Active permits controlled validation, not unrestricted production use.
+This role is an operational execution role below Research Lab Constitution, Methodology and active Project Protocol.
+
+**Scoped Active:** bounded Formation and route/close recommendations under an explicit Owner gate.
+
+All other modes and uses remain **Validation Pending**. Scoped Active does not authorize unrestricted production use, bypass an Owner gate or expand an installed authority envelope.
 
 ## Exit
 
