@@ -4192,3 +4192,124 @@ Lead оценивает только readiness по R1 §7: `PASS` при лок
 Разрешение не распространяется на Stage 0, свежий полный `rr-*` проход, independent subject-matter review, Draft Stage 4, Book-Level Close Audit, иной корпус или Full Project. `PASS` или `PASS WITH LIMITS` по CV не запускает Stage 0 автоматически. **Следующий Owner gate после результата CV — отдельное решение о Stage 0 либо о корректировке конфигурации при ограниченном/неуспешном результате.** Книжное закрытие сохраняет зависимости R1 §§8–9 и не разрешено.
 
 **Current ownership:** Research Project Lead v0.1 — только фиксация корректной выборки, ограниченный handoff Researcher и оценка CV; Researcher получает полномочие только на названный check после фиксации assignment. Ownership возвращается Owner с результатом или STOP.
+
+
+---
+
+## Event 049 — CV-IP-001-ACTS-01 Execution Assignment
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Задание — CV-IP-001-ACTS-01: Narrative Book-scale Readiness Check — execution assignment**  
+■ **Исполнитель — Researcher v0.1, bounded capability-validation execution only**  
+◆ **Lead mode — Stage Coordination / capability validation handoff**  
+**Дата:** 2026-09-25.
+
+### 1. Authority and selection provenance
+
+Event 048 принят как разрешение только bounded readiness check. Настоящий Event фиксирует выборку **до** доступа Researcher и не запускает Stage 0.
+
+Четыре units выбраны по структурным признакам самого библейского текста Деяний, исследовательскому вопросу IP-001, действующим Protocol v0.2 и Research Criteria v0.2. При выборе **не использовались** historical \`research-000.md\`, \`doc-*\`, \`Summary.md\` или \`Book.md\` как candidate list, classification guide или answer key. Historical outputs остаются sealed согласно R1 §2.
+
+### 2. Fixed four-unit sample
+
+| Type R1 §7 | Fixed biblical unit | Why this unit tests the capability |
+|---|---|---|
+| **1 — explicit candidate Christ agency** | **Деян. 9:10–17** | В повествовании «Господь» обращается к Анании, даёт ему повеление и сообщает о Савле; внутри unit присутствуют прямые речевые действия и последующая идентификационная связь с явившимся Савлу Иисусом. Проверяет способность установить субъект по локальному evidence, не усиливая вывод шире текста. |
+| **2 — competing Father / Spirit / Human attribution risk** | **Деян. 13:1–4** | Святой Дух прямо говорит, отделяет Варнаву и Савла и посылает их; люди постятся, молятся, возлагают руки и отпускают. Unit проверяет сохранение Spirit/Human agency и запрет превращать христологическую значимость миссии в непосредственное действие Христа. |
+| **3 — mediation / relation case** | **Деян. 3:12–16** | Исцеление объясняется через имя Иисуса и веру в Его имя, тогда как Пётр отрицает собственную силу/благочестие и описывает совершившееся исцеление посредством этой связи. Unit проверяет различение mediation / relation / theological connection и Direct Christ Agency без автоматического перехода от «через имя» к «Христос непосредственно совершил действие». |
+| **4 — ambiguity / borderline case** | **Деян. 16:6–10** | В одной narrative sequence названы Святой Дух, «Дух Иисуса», видение и вывод команды, что Бог призвал их благовествовать. Unit проверяет способность сохранить различимые attribution levels, не устранить ambiguity и поставить Verification Flag, если идентификация действующего субъекта materially зависит от текста/перевода/контекста. |
+
+**Sample lock:** эти четыре loci не заменяются в ходе check. Если какая-либо unit оказывается технически недоступной или assignment требует material reinterpretation границ, Researcher делает STOP → Lead; Lead возвращает Owner, а не подбирает новую unit молча.
+
+### 3. Governing inputs available to Researcher
+
+Researcher использует только:
+
+1. Research Lab Methodology v0.3;
+2. IP-001 Protocol v0.2;
+3. IP-001 Research Criteria v0.2;
+4. применимый минимальный result contract из R1 §7 с дисциплиной Stage 1 OC v0.2 для evidence/attribution/recoverability;
+5. biblical source; основной рабочий перевод — Синодальный (RST);
+6. настоящий Event 049.
+
+**Prohibited working inputs:** historical Acts \`research-000.md\`, все \`doc-*\`, \`Summary.md\`, \`Book.md\`, historical classifications/groups/conclusions. Не проводить historical comparison.
+
+### 4. Required Researcher output
+
+Для **каждой** из четырёх units вернуть:
+
+- **Research Unit** — точные границы;
+- **Relevant Evidence** — только material, реально влияющий на judgment;
+- **Attribution** — Father/God / Christ / Spirit / Human / Unclear; несколько субъектов сохраняются раздельно;
+- **Action / Relation / Mediation distinction** — где применимо;
+- **Provisional Research Judgment** — INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE;
+- **Observation** — локальное наблюдение на русском;
+- **Material Limitation / Uncertainty**;
+- **Verification Flag** — только при реальном trigger, с указанием, что именно может изменить judgment.
+
+После четырёх units вернуть также:
+
+1. **Aggregation rationale:** почему выбранная компактность не скрыла independent evidence → attribution → judgment для каждой unit.
+2. **Over-attribution risk:** минимум один конкретный риск ошибочно приписать Христу действие другого субъекта / mediation / relation и как Researcher его контролировал.
+3. **Historical-isolation declaration:** подтверждение, что historical Acts outputs не использовались.
+4. **Self-reported capability status:** \`PASS / PASS WITH LIMITS / FAIL\` с кратким основанием. Этот self-status не связывает Lead.
+
+### 5. Capability boundary
+
+Это **не Stage 0** и не частичный Stage 0. Результат:
+- не создаёт \`rr-000_*\`;
+- не является corpus map;
+- не засчитывается как завершённое Stage 1 observation;
+- не открывает historical comparison gate;
+- не разрешает просмотр остальных Деяний как active research corpus;
+- не активирует следующий stage.
+
+Researcher не должен искать дополнительные Acts candidates, строить book pattern/group или делать book-level conclusion.
+
+### 6. Lead acceptance rubric after handoff
+
+Lead выдаёт ровно один status:
+
+**PASS** — все четыре units locally recoverable; material subject-attribution error отсутствует; ambiguity/negative evidence сохранены; historical isolation соблюдена; Relation/Mediation не превращены в Direct Agency; compression не разрушает reasoning.
+
+**PASS WITH LIMITS** — material attribution error отсутствует, но обнаружена повторяемая procedural weakness в granularity / verification / presentation, которую можно явно ограничить условием будущего Stage 0.
+
+**FAIL** — хотя бы один material subject-attribution error; historical answer-key use; systematic over-attribution to Christ; потеря material ambiguity/negative evidence; unrecoverable evidence→judgment path; либо выполнение требует полномочий вне bounded check.
+
+Lead acceptance является capability judgment, **не independent subject-matter review**.
+
+### 7. Stop conditions
+
+Immediate STOP → Project Lead, без продолжения check, если:
+- требуется заменить fixed unit;
+- требуется historical Acts material;
+- необходимо перейти к full-book coverage;
+- возникает material conflict Methodology/Protocol/Criteria/contract;
+- Researcher не может сохранить attribution/recoverability в пределах assignment;
+- требуется authority вне bounded capability check.
+
+Lead при material dependency возвращает Owner точную зависимость. Stage 0 не запускается.
+
+### 8. Researcher handoff
+
+**Researcher assignment:** выполнить только четыре fixed units и вернуть один цельный readiness-check result append-only в этот RUN.md либо как linked artifact + compact Event, с ownership → Research Project Lead.
+
+После handoff Lead проверяет результат по §6, append-only фиксирует \`PASS / PASS WITH LIMITS / FAIL\` и возвращает ownership Owner.
+
+### Activation state after Event 049
+
+| Item | State |
+|---|---|
+| CV-IP-001-ACTS-01 | **ACTIVATED — bounded four-unit check only** |
+| Researcher | **ACTIVATED for Event 049 only** |
+| Fixed sample | **LOCKED** |
+| Historical Acts outputs | **SEALED / PROHIBITED INPUT** |
+| Stage 0 | **NOT AUTHORIZED / NOT STARTED** |
+| Fresh full-book rr-* pass | **NOT AUTHORIZED** |
+| Independent subject-matter review | **NOT ACTIVATED** |
+| Stage 4 / Book-Level Close Audit | **NOT ACTIVATED** |
+| New corpus / Full Project | **NOT ACTIVATED** |
+
+### Ownership transferred to
+
+**Researcher v0.1 — for CV-IP-001-ACTS-01 execution only.**
