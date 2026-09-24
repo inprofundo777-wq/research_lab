@@ -3,7 +3,7 @@
 **System:** In Profundo Research Lab  
 **Document Type:** Development Map  
 **Status:** 🟢 Living Document  
-**Updated:** 2026-09-14
+**Updated:** 2026-09-24
 
 ---
 
@@ -51,7 +51,7 @@
 
 # 3. Research Lab
 
-## 🔬 RESEARCH LAB — 🟢
+## 🔬 RESEARCH LAB — 🟢 foundation / 🟡 role maturity
 
 Research Lab является общей исследовательской системой In Profundo для дисциплинированного исследования Священного Писания.
 
@@ -69,58 +69,62 @@ Research Lab является общей исследовательской си
 
 ● Constitution Research Lab v0.2  
 ● Methodology Research Lab v0.3  
-● общая исследовательская capability проверена реальной практикой  
-● исследование отделено от последующей редакционной и публикационной работы  
+● общая исследовательская capability подтверждена практикой  
+● исследование отделено от редакционной и публикационной работы  
 
-Constitution и Methodology относятся ко всему Research Lab.
+### Role Architecture — 🟡 Scoped Active
 
-Research Question, Scope, Protocol, Output Contracts, validation, Research Outputs и Synthesis принадлежат конкретному Research Project.
+Owner 23.09.2026 утвердил ограниченно действующий статус четырёх ролей v0.1 после завершённого Wave 2:
 
-### Role Architecture — 🟡 Owner Confirmed / Implementation and Validation
+● Director — ограниченное формирование исследования и рекомендации о маршруте/закрытии под решением Owner  
+● Project Lead — ограниченная установка исследования, координация стадий и приём результата по контракту  
+● Researcher — обзор покрытия, ограниченный научный синтез и ограниченная текстовая проверка  
+● Auditor — аудит формирования и установки исследования  
+○ остальные режимы и поздний аудит исследовательских выводов остаются Validation Pending  
 
-Owner 14.09.2026 подтвердил:
+● Fresh-context Recovery  
+● Formation Pilot  
+● Installation Pilot  
+● Existing Research Coverage Review  
+● Narrowed Limited Review  
+● Bounded Textual Probe  
+● корректное принятие отрицательного результата и Close  
+● System Audit — PASS WITH CONDITIONS  
+● Owner transition — Scoped Active  
+● документационное выравнивание CS-RL-002  
 
-~~~text
-Owner
-→ Research Lab Director
-→ Research Project Lead
-→ Researcher
-
-independent Research Auditor
-~~~
-
-Role System v0.1 создан как Candidate Active execution layer. Он подчинён Constitution, Methodology и Project Protocols.
-
-● RR-RL-001 — Owner Confirmed  
-● CS-RL-001 — Approved for Controlled Write  
-● Role System Core v0.1  
-● Director / Project Lead / Researcher / Auditor packages v0.1  
-● Research Request Map, Formation and process templates  
-◐ Fresh-context Recovery validation  
-○ Formation Pilot  
-○ Installation Pilot  
-○ Micro Research Cycle  
-
-Наличие документов не означает practical maturity. Ролевой слой остаётся 🟡 до staged validation.
+Ролевой слой остаётся 🟡: испытанный контур можно использовать в названных пределах, но он ещё не доказан во всех режимах и на нескольких независимых исследованиях.
 
 ---
 
 # 4. Research Projects
 
                     🔬 RESEARCH LAB
-                         🟢
+                         🟡
                           │
-              ┌───────────┴───────────┐
-              │                       │
-      Constitution v0.2         Methodology v0.3
-              🟢                       🟢
-              └───────────┬───────────┘
-                          │
-                 ОБЩЕЕ ОСНОВАНИЕ
-                          │
-             ┌────────────┴────────────┐
-             ▼                         ▼
-        🔎 IP-001 🟡               🔎 IP-002 ⚪
+              ┌───────────┼───────────┐
+              ▼           ▼           ▼
+        RQ-RL-001 ●   IP-001 ⚪   IP-002 ⚪
+          закрыт        пауза       не активирован
+
+## RQ-RL-001 — Generosity, Trust and Entrusted Resources — ● CLOSED
+
+● Formation и независимый Audit  
+● Existing Research Coverage Review  
+● Narrowed Limited Review  
+● Textual Probe по Мф. 6:19–34 и Лк. 12:13–34  
+● принят ограниченный отрицательный результат: отдельное звено entrustedness / delegated stewardship в заданных loci не установлено  
+● Owner закрыл stewardship-link inquiry на принятом bounded result  
+
+Возможный вопрос о generosity / trust без предположения stewardship сохранён только как неактивный future Request candidate.
+
+## IP-001 — ⚪ PAUSED
+
+Существующие материалы сохранены. Перезапуск требует отдельного Owner Launch Decision; текущий scoped-active transition его не активирует.
+
+## IP-002 — ⚪ NOT ACTIVATED
+
+Направление существует только как будущая возможность.
 
 ---
 
@@ -383,35 +387,31 @@ IP-002 не обязан копировать структуру IP-001 там, 
 
 # 10. Текущее положение
 
-    🔬 RESEARCH LAB                                      🟢
+    🔬 RESEARCH LAB                                      🟡
     │
     ├── 📜 Foundation                                   🟢
     │     ● Constitution v0.2
     │     ● Methodology v0.3
     │
     ├── 👥 Role System v0.1                            🟡
-    │     ● architecture Owner Confirmed
-    │     ● Candidate role packages implemented
-    │     ◐ staged validation
+    │     ● Wave 2 завершён
+    │     ● четыре роли Scoped Active в точных пределах
+    │     ● прямые входы к DNA и governing documents
+    │     ○ остальные режимы Validation Pending
     │
-    ├── 🔎 IP-001                                       🟡
-    │     ● Research Question + Scope
-    │     ● Protocol
-    │     ● Output Contract
-    │     ● methodological validation
-    │     ○ full restart requires separate Owner Launch Decision
-    │     ○ ранее исследованный corpus
-    │     ○ оставшийся New Testament corpus
-    │     ○ Cross-corpus Verification
-    │     ○ Broader Synthesis
-    │     ○ System Review
-    │     ○ Knowledge Transfer
+    ├── 🔎 RQ-RL-001                                    🟢
+    │     ● bounded cycle завершён
+    │     ● отрицательный результат принят
+    │     ● Request закрыт Owner
+    │
+    ├── 🔎 IP-001                                       ⚪
+    │     ● существующая архитектура сохранена
+    │     ○ возможный restart — только отдельным Owner gate
     │
     └── 🔎 IP-002                                       ⚪
-          ○ направление определено
           ○ Research Project не активирован
 
-**СЕЙЧАС → Role System v0.1 реализован как Candidate Active; ближайший переход — Fresh-context Recovery validation. IP-001 сохранён без разрешения Full Restart.**
+**СЕЙЧАС → активного исследования нет. Следующий содержательный шаг требует нового Owner assignment; ближайший системный вопрос — запускать ли отдельный ограниченный цикл IP-001 либо сначала продолжить validation ролей на другом bounded case.**
 
 ---
 
