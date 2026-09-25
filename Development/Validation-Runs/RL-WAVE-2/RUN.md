@@ -4662,3 +4662,119 @@ If Owner does not authorize Stage 0, no further research action follows from thi
 **Owner — for a separate Stage 0 decision.**
 
 Project Lead retains no Stage 0 execution authority from Event 048.
+
+
+---
+
+## Event 052 — Owner Decision: Authorize IP-001 ACTS-RR Stage 0 Only
+
+### Decision
+
+**APPROVED — IP-001 ACTS-RR STAGE 0 BOOK CORPUS MAP EXECUTION ONLY.**
+
+Owner принимает Event 051 \`CV-IP-001-ACTS-01: PASS\` и отдельно разрешает следующий установленный gate: **Stage 0 — Book Corpus Map для книги Деяний**.
+
+Это разрешение активирует только Stage 0 в пределах R1 и действующих Methodology v0.3, IP-001 Protocol v0.2 и Research Criteria v0.2. Оно не является разрешением Stage 1, historical comparison или любого последующего research stage.
+
+### Language rule for research output
+
+Owner дополнительно фиксирует язык рабочего исследовательского результата:
+
+**Смысловая часть исследования выполняется на русском языке.**
+
+На русском формулируются:
+- исследовательские наблюдения;
+- основания включения и исключения;
+- объяснение релевантного evidence;
+- аргументация attribution;
+- ограничения и неопределённости;
+- описания boundary cases;
+- причины постановки Verification Flags;
+- промежуточные и последующие содержательные выводы.
+
+Английский может сохраняться как технический язык системы: имена стадий, файлов и контрактов, identifiers, устойчивые status labels и controlled vocabulary (\`Stage 0\`, \`Research Unit\`, \`Evidence\`, \`Attribution\`, \`Verification Flag\`, \`INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE\` и аналогичные технические обозначения).
+
+Это языковое правило применяется к Stage 0 и последующим отдельно разрешённым research stages, пока Owner не установит иное. Оно не требует переписывать Event 050 или иные уже принятые validation outputs.
+
+### Stage 0 execution scope
+
+**Research Project Lead v0.1** получает ограниченное поручение оформить Stage 0 execution assignment и передать его **Researcher v0.1**, чья readiness подтверждена Event 051.
+
+Stage 0 должен обеспечить:
+
+1. последовательное покрытие **Деяний 1–28** по библейскому тексту;
+2. recoverable coverage ledger, позволяющий установить, что вся книга действительно просмотрена;
+3. candidate loci, отобранные по действующим Research Criteria, с кратким русскоязычным основанием/критерием;
+4. material negative/contextual boundary cases, необходимые для контроля over-attribution и границ корпуса;
+5. \`Verification Flags\` там, где ambiguity / attribution / translation / syntax / context могут materially изменить дальнейший judgment;
+6. отсутствие финальных Stage 1 judgments и book-level synthesis.
+
+Гранулярность может быть narrative/pericope based; обязательный file-per-passage не вводится. Lead должен сохранить recoverability и установить точный output/handoff format до исполнения.
+
+### Historical isolation
+
+На протяжении всего Stage 0 остаются **SEALED / PROHIBITED INPUT**:
+
+- historical \`research-000.md\`;
+- все historical \`doc-*\`;
+- historical \`Summary.md\`;
+- historical \`Book.md\`;
+- historical Acts candidate maps, classifications, groups и conclusions.
+
+Researcher не использует их для поиска loci, сверки полноты, проверки собственных наблюдений или как answer key.
+
+**Historical comparison remains NOT AUTHORIZED.**
+
+Первый historical-comparison gate остаётся только там, где его устанавливает R1 после самостоятельного fresh Stage 0–3 snapshot. Настоящий Owner decision этот gate не изменяет.
+
+### Stage boundary
+
+Stage 0 создаёт предварительную карту корпуса, а не финальную классификацию.
+
+Researcher на Stage 0:
+- не обязан выдавать \`INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE\` как окончательный Research Judgment;
+- не выполняет Stage 1 observations вместо будущего Stage 1;
+- не формирует Stage 2 patterns;
+- не строит Stage 3 groups;
+- не делает Stage 4 book synthesis;
+- не открывает historical comparison.
+
+Если для включения candidate требуется неопределённость, она сохраняется как причина включения / boundary note / \`Verification Flag\`, а не разрешается преждевременно.
+
+### Acceptance and next gate
+
+После завершения Stage 0 Researcher возвращает цельный output **Research Project Lead v0.1**.
+
+Lead проверяет:
+- полное покрытие Acts 1–28;
+- recoverability candidate loci и material boundary cases;
+- соответствие Criteria;
+- отсутствие premature Stage 1 judgment/synthesis;
+- historical isolation;
+- корректность Verification Flags;
+- соблюдение русскоязычного semantic-output rule.
+
+Lead записывает acceptance decision append-only и возвращает ownership Owner.
+
+**Даже успешная Stage 0 acceptance не активирует Stage 1 автоматически.**
+
+Следующий gate после принятого Stage 0 — отдельное Owner decision о Stage 1.
+
+### Activation state
+
+| Item | State after Event 052 |
+|---|---|
+| CV-IP-001-ACTS-01 | **COMPLETE / PASS** |
+| Stage 0 | **AUTHORIZED** |
+| Researcher | **TO BE ACTIVATED by Lead assignment for Stage 0 only** |
+| Historical Acts outputs | **SEALED / PROHIBITED INPUT** |
+| Historical comparison | **NOT AUTHORIZED** |
+| Stage 1 | **NOT AUTHORIZED** |
+| Stage 2–4 | **NOT AUTHORIZED** |
+| Independent subject-matter review | **NOT ACTIVATED** |
+| Book-Level Close Audit | **NOT ACTIVATED** |
+| New corpus / Full Project | **NOT ACTIVATED** |
+
+### Current ownership
+
+**Research Project Lead v0.1 — Stage 0 installation/handoff only.**
