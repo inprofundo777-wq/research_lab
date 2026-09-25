@@ -5811,3 +5811,162 @@ Stage 1 выполнен только как Primary Observation.
 **Ownership → Research Project Lead v0.1.**
 
 Researcher ownership по Event 058 завершён. Stage 2 остаётся `NOT ACTIVATED`.
+
+
+---
+
+## Event 060 — Project Lead Acceptance: ACTS-RR Stage 1 Primary Observation
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Объект — Event 059 / \`rr-001_Acts_Primary_Observations.md\`**  
+■ **Решение — ACCEPT**  
+◆ **Активный режим — Stage 1 acceptance only**  
+**Дата:** 2026-09-25.
+
+### Decision
+
+**EVENT 059 ACCEPTED.**
+
+**IP-001 ACTS-RR STAGE 1 — COMPLETE / ACCEPTED.**
+
+Project Lead проверил Stage 1 artifact по Event 058, действующему Protocol, Research Criteria и Primary Observation Output Contract v0.2.
+
+### 1. Completeness
+
+Все 19 Stage 0 Candidates \`C01–C19\` получили explicit local Research Judgment.
+
+Все 26 Material Boundary / Negative Cases \`B01–B26\` имеют traceable disposition; \`B07\` корректно интегрирован в \`U06\` без потери отдельной boundary-функции.
+
+Все 20 R1 Verification Queue triggers \`V01–V20\` получили один из установленных Event 058 statuses.
+
+Три material loci, обнаруженные при Stage 1 fresh reading, не были скрыто приписаны Stage 0:
+- \`O01 — Деян. 4:10\`;
+- \`O02 — Деян. 10:42\`;
+- \`O03 — Деян. 13:47\`.
+
+Их provenance сохранён. Omission handling принимается как корректное применение Protocol: позднее найденный материал может быть добавлен с сохранением происхождения решения.
+
+**Stage 1 completeness: ACCEPTED.**
+
+### 2. Output Contract / recoverability
+
+Для substantive units восстанавливается требуемая цепочка:
+
+\`Research Unit → Relevant Evidence → Attribution → Agency/Evidence Type → Research Judgment → Observation → Limitation/Uncertainty → Verification need\`.
+
+\`INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE\` используются как статус отношения текста к вопросу, а не как скрытая шкала доказанности Direct Christ Action.
+
+**Primary Observation Output Contract v0.2: SATISFIED.**
+
+### 3. Attribution and agency discipline
+
+Material subject distinctions сохранены.
+
+В частности:
+- \`U02 / 2:32–36\` различает действие Отца и действие вознесённого Иисуса;
+- \`U04 / 3:1–16\` сохраняет Jesus-name/faith mediation и не превращает её автоматически в простой direct-action clause;
+- \`U06 / 7:55–60\` различает небесное положение/обращение к Иисусу и фактически рассказанное действие;
+- \`U09 / 9:32–35\` сохраняет различие между explicit apostolic attribution «Иисус Христос исцеляет тебя» и narrator-level grammatical attribution;
+- \`U12 / 16:6–10\` не закрывает RST/Greek attribution problem предположением;
+- \`U14 / 16:16–18\` сохраняет человеческого grammatical speaker и Jesus-name authority/mediation;
+- \`D19 / 19:11–20\` удерживает Бога как explicit miracle subject;
+- \`D20 / 20:28\` не разрешает textual/referential issue из doctrinal expectation.
+
+Father-God / Christ / Spirit / Human / Angel / Unclear не схлопнуты.
+
+**Attribution / Agency discipline: ACCEPTED.**
+
+### 4. Verification Queue
+
+Stage 1 не обязан был принудительно закрыть все material ambiguities.
+
+Приняты следующие retained issues:
+- \`V01\` — 1:24–26;
+- \`V03\` — 2:47;
+- \`V04\` — 3:6,12–16;
+- \`V05\` — 4:29–31;
+- \`V10\` — 11:20–21;
+- \`V11\` — 12:11;
+- \`V12\` — 14:3;
+- \`V13\` — 16:6–10;
+- \`V14\` — 16:14;
+- \`V18\` — 20:28;
+- new \`O03\` trigger — 13:47.
+
+Locally resolved/not-material dispositions имеют явное основание. Их принятие на Stage 1 не запрещает позднее повторное открытие, если Stage 2/3 или Material Verification покажут, что вопрос materially влияет на pattern/group/book conclusion.
+
+**Verification handling: ACCEPTED for Stage 1.**
+
+### 5. Stage 1-discovered omissions
+
+\`O01\`, \`O02\`, \`O03\` materially дополняют accepted Stage 0 map, но не требуют возврата к полному Stage 0 re-run.
+
+Причина: Protocol прямо допускает исправление позднее найденного пропуска с сохранением provenance. Все три loci уже получили локальный Stage 1 analysis; новый material verification trigger O03 явно сохранён.
+
+Для дальнейших fresh stages эти три units считаются частью принятого Stage 1 evidence set с provenance \`Stage 1-discovered omission\`; они не переписываются задним числом как Stage 0 findings.
+
+### 6. Source / isolation / language
+
+Artifact фиксирует:
+- primary text RST;
+- approved primary carrier \`bible.by\`;
+- accepted R1 Stage 0 только как routing input;
+- historical Acts outputs не открывались/не использовались;
+- rejected Event 054 artifact не открывался/не использовался;
+- historical comparison не проводился.
+
+Смысловая часть выполнена преимущественно на русском; английский используется главным образом как technical/controlled vocabulary.
+
+**Source, isolation and semantic-language requirements: ACCEPTED.**
+
+### 7. Scope boundary
+
+Stage 1 artifact не строит:
+- Stage 2 repetition/pattern map;
+- Stage 3 groups;
+- Stage 4 synthesis;
+- book-level conclusion;
+- historical comparison.
+
+Independent subject-matter review не активирован.
+
+**No material Stage 2+ drift found.**
+
+### 8. Acceptance boundary and next gate
+
+Настоящий acceptance подтверждает завершение **Stage 1 Primary Observation only**.
+
+Он не:
+- превращает каждый \`INCLUDE\` в Direct Christ Action;
+- закрывает retained Verification issues;
+- разрешает historical comparison;
+- активирует Stage 2, Stage 3, Material Verification или Stage 4;
+- валидирует independent review/book-close capability.
+
+По Installation R1 следующий возможный Owner gate — **Stage 2–3 execution**, который Owner может разрешить совместно только после принятого Stage 1, при сохранении внутреннего Lead gate между Stage 2 и Stage 3.
+
+Project Lead рекомендует следующий bounded route:
+
+> **AUTHORIZE STAGE 2 — REPETITION / STABLE EVIDENCE MAP FIRST. PROJECT LEAD SHALL INSTALL THE EXACT STAGE 2 ASSIGNMENT; STAGE 3 SHALL REMAIN INACTIVE UNTIL LEAD ACCEPTS STAGE 2 OR OWNER EXPLICITLY AUTHORIZES THE INSTALLED COMBINED STAGE 2–3 ROUTE. HISTORICAL OUTPUTS REMAIN SEALED AND HISTORICAL COMPARISON PROHIBITED.**
+
+Эта рекомендация выбирает более строгий последовательный вариант и не активирует следующий stage сама.
+
+### Current-State Delta after Event 060
+
+| Item | State |
+|---|---|
+| Stage 0 R1 | **COMPLETE / ACCEPTED** |
+| Stage 1 | **COMPLETE / ACCEPTED** |
+| Accepted Stage 1 artifact | **\`rr-001_Acts_Primary_Observations.md\`** |
+| Stage 1 discovered omissions | **O01–O03 accepted with provenance** |
+| Retained material verification issues | **V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03** |
+| Historical Acts outputs | **SEALED** |
+| Historical comparison | **PROHIBITED** |
+| Stage 2 | **NOT ACTIVATED** |
+| Stage 3–4 | **NOT ACTIVATED** |
+| Independent subject-matter review | **NOT ACTIVATED** |
+| Current owner | **Owner** |
+
+### Ownership
+
+**Owner.**
