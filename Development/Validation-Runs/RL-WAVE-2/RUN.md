@@ -4313,3 +4313,237 @@ Lead при material dependency возвращает Owner точную зави
 ### Ownership transferred to
 
 **Researcher v0.1 — for CV-IP-001-ACTS-01 execution only.**
+
+
+---
+
+## Event 050 — CV-IP-001-ACTS-01 Researcher Handoff
+
+▶ **Основная роль — Researcher v0.1**  
+▶ **Основное задание — CV-IP-001-ACTS-01: Narrative Book-scale Readiness Check**  
+■ **Второстепенная роль — не активирована**  
+◆ **Активный режим — bounded capability-validation execution**  
+**Дата:** 2026-09-25.
+
+### 1. Governing boundary
+
+Execution performed only under:
+
+- Research Lab Methodology v0.3;
+- IP-001 Protocol v0.2;
+- IP-001 Research Criteria v0.2;
+- applicable minimal result contract from Event 049 with Stage 1 Output Contract v0.2 discipline for evidence / attribution / recoverability;
+- biblical source, working translation RST;
+- Event 049.
+
+This was **not Stage 0**, did not create `rr-000_*` or any fresh book-cycle output, did not scan Acts for additional candidates, did not form book-level patterns/groups/conclusions, and did not activate any later research stage.
+
+Historical Acts outputs remained sealed throughout this execution.
+
+---
+
+### 2. Unit 1 — Acts 9:10–17
+
+**Research Unit:** Деян. 9:10–17.
+
+**Relevant Evidence:**
+- v.10: «Господь» обращается к Анании в видении: «Анания!»; Анания отвечает: «я, Господи».
+- vv.11–12: тот же говорящий субъект даёт Анании конкретное повеление идти к Савлу и сообщает о состоянии Савла и его видении.
+- vv.13–14: Анания отвечает тому же «Господу», упоминая «святых Твоих» и власть вязать «призывающих имя Твоё».
+- vv.15–16: «Господь» продолжает речь и определяет Савла как избранный сосуд, предназначенный возвещать «имя Моё».
+- v.17: Анания, войдя к Савлу, говорит: «Господь Иисус, явившийся тебе на пути, которым ты шёл, послал меня...».
+
+**Attribution:**  
+Christ — primary attributed subject of the speech/action sequence; Human — Ananias acts in response.
+
+**Action / Relation / Mediation distinction:**
+- Direct Christ Action: calling Ananias, instructing him where to go, disclosing Saul-related information, declaring Saul's mission, sending Ananias.
+- Human Action: Ananias goes, enters the house, lays hands on Saul and speaks.
+- Mediation: Ananias is the human agent sent by the Lord Jesus; his actions should not be collapsed into direct Christ action unless the text explicitly says so.
+- Relation: Saul is related to Jesus through Jesus' name and prior appearance; this relation supports identification but is not itself a separate Christ action.
+
+**Provisional Research Judgment:** `INCLUDE`.
+
+**Observation:**  
+Within the unit, the initially titled speaker «Господь» is locally identified by Ananias in v.17 as «Господь Иисус, явившийся тебе...», and the same speech chain includes commands, disclosure and sending. The unit therefore provides locally recoverable evidence of continuing post-ascension action attributed to Jesus: He addresses Ananias and commissions him concerning Saul. The human execution remains distinguishable from Christ's initiating/sending action.
+
+**Material Limitation / Uncertainty:**  
+The identification depends on reading vv.10–16 and v.17 as one continuous narrative referent for «Господь». Within the fixed unit that continuity is strong. The unit does not authorize treating everything Ananias subsequently does as a direct act of Christ.
+
+**Confidence:**  
+🟢 HIGH.
+
+**Verification Flag:** none required. The subject identification is materially resolved inside the unit itself.
+
+---
+
+### 3. Unit 2 — Acts 13:1–4
+
+**Research Unit:** Деян. 13:1–4.
+
+**Relevant Evidence:**
+- v.2: while the prophets/teachers minister to the Lord and fast, **the Holy Spirit says**: «отделите Мне Варнаву и Савла на дело, к которому Я призвал их».
+- v.3: the humans fast, pray, lay hands on them and release/send them.
+- v.4: Barnabas and Saul are described as **sent forth by the Holy Spirit**.
+
+**Attribution:**  
+Spirit — direct speaking, calling/separating and sending attribution; Human — fasting, praying, laying on hands, releasing.  
+Christ — no direct action attributed within this fixed unit.
+
+**Action / Relation / Mediation distinction:**
+- Direct Spirit Action: speaking, claiming/calling Barnabas and Saul for the work, and sending them.
+- Human Action: communal fasting/prayer, laying on hands, release.
+- Mediation: the community's releasing action operates alongside the Spirit's sending, but the text explicitly keeps the Spirit as the sending subject in v.4.
+- Relation: «ministering to the Lord» establishes a devotional/theological relation; it does not transfer the Spirit's explicitly narrated actions to Christ.
+
+**Provisional Research Judgment:** `CONTEXTUAL`.
+
+**Observation:**  
+This unit is materially relevant to IP-001 because it supplies negative attribution evidence: the narrative directly assigns speech and missionary sending to the Holy Spirit while preserving distinct human actions. The Christological significance of the mission or the phrase «служили Господу» does not override the explicit Spirit attribution.
+
+**Material Limitation / Uncertainty:**  
+The referent of «Господу» in v.2 may be christologically significant, but no action in vv.2–4 that is under examination is grammatically assigned there to Christ. The readiness check must therefore avoid importing Christ agency from the worship relation into the Spirit's direct actions.
+
+**Confidence:**  
+🟢 HIGH.
+
+**Verification Flag:** none required. The attribution of the operative actions to the Holy Spirit is explicit in the unit.
+
+---
+
+### 4. Unit 3 — Acts 3:12–16
+
+**Research Unit:** Деян. 3:12–16.
+
+**Relevant Evidence:**
+- v.12: Peter explicitly denies that the man's walking resulted from «our own power or piety».
+- vv.13–15: Peter speaks of «the God of Abraham...», who glorified «His Servant Jesus»; humans delivered/denied/killed Jesus; God raised Him from the dead.
+- v.16: concerning the healed man, Peter states that «His name» strengthened the man, and that «faith which is through Him» gave him the complete healing witnessed by the audience.
+
+**Attribution:**  
+Father/God — glorifies Jesus and raises Him from the dead; Human — Peter/John are expressly denied as autonomous causal source and humans are also agents in Jesus' rejection/killing; Christ — present as the one whose name and mediating relation are central to the healing claim, but direct agency in the healing is not grammatically stated in the same simple form as God's actions in vv.13,15.  
+For the healing event itself: attribution is mediated/relational and requires restraint.
+
+**Action / Relation / Mediation distinction:**
+- Direct God Action: glorifying Jesus; raising Jesus from the dead.
+- Human Action: rejection/killing of Jesus; Peter's speaking; Peter rejects «our own power/piety» as the explanatory source of the healing.
+- Relation/Mediation: the healing is explained «by faith in His name» / «the faith which is through Him». This establishes a Christ-related mediating structure.
+- Direct Christ Agency: not to be asserted merely from the formula involving Jesus' name and faith through Him.
+
+**Provisional Research Judgment:** `BORDERLINE`.
+
+**Observation:**  
+The unit strongly establishes that the healing cannot be attributed to the apostles' own power, and it makes Jesus' name and faith mediated through Him essential to the explanation. At the same time, the narrative statement in this unit does not simply say «Jesus healed him». Therefore the evidence is significant for IP-001 but must remain classified as mediation/relation rather than automatically upgraded to direct Christ agency.
+
+**Material Limitation / Uncertainty:**  
+The phraseology of v.16 allows a strong Christological causal connection, but the precise agency structure is less explicit than in a clause with Jesus as grammatical subject of the healing verb. Treating the mediation formula as equivalent to direct agency would exceed the local evidence.
+
+**Confidence:**  
+🟡 MEDIUM.
+
+**Verification Flag:**  
+**Yes — philological/syntactic verification.** Verify the exact syntactic force and referential structure of Acts 3:16 («ἐπὶ τῇ πίστει τοῦ ὀνόματος αὐτοῦ... ἡ πίστις ἡ δι’ αὐτοῦ») because the distinction between Christ as direct healing subject and Christ as the mediating ground/relation can materially affect the judgment `BORDERLINE` versus a stronger inclusion category. This check is not performed here because the bounded readiness task requires preserving the trigger, not expanding into a full exegetical verification.
+
+---
+
+### 5. Unit 4 — Acts 16:6–10
+
+**Research Unit:** Деян. 16:6–10.
+
+**Relevant Evidence:**
+- v.6: Paul and companions are prevented **by the Holy Spirit** from preaching the word in Asia.
+- v.7: they attempt to go into Bithynia, but **the Spirit of Jesus** does not permit them.
+- v.8: the team passes by Mysia and comes to Troas.
+- v.9: Paul receives a night vision of a Macedonian man pleading for help.
+- v.10: after the vision, the group concludes that **God had called us** to preach the gospel to them.
+
+**Attribution:**  
+Spirit — explicit in v.6; «Spirit of Jesus» — explicit wording in v.7, with the relation between Christ and Spirit needing to remain distinct from collapsing the Spirit into Christ as direct subject; God — retrospective attribution of calling in v.10; Human — travel attempts, discernment/conclusion and movement of the missionary team; Christ — relationally present in «Spirit of Jesus», but direct Christ agency is not independently isolated by the unit without further interpretive work.
+
+**Action / Relation / Mediation distinction:**
+- Direct Spirit Action: preventing proclamation in Asia (v.6).
+- Spirit-of-Jesus Action: not permitting entry into Bithynia (v.7); the acting grammatical subject remains «Spirit of Jesus».
+- Divine Call: the team interprets the vision as God calling them to Macedonia (v.10).
+- Human Action: route decisions, attempted travel, seeing/receiving the vision by Paul, collective inference and travel response.
+- Relation: «Spirit of Jesus» is a relation/genitival designation that connects the Spirit to Jesus; it must not be mechanically converted into «Jesus directly forbade them».
+- Mediation/vision: the Macedonian vision mediates guidance, but v.10 attributes the underlying call to God.
+
+**Provisional Research Judgment:** `BORDERLINE`.
+
+**Observation:**  
+The unit preserves multiple attribution levels inside one narrative sequence: Holy Spirit restrains, the «Spirit of Jesus» restrains, a vision is given to Paul, and the team concludes that God called them. This is directly relevant to IP-001 because it tests whether Christ can be named as the acting subject when the text instead names the Spirit in relation to Jesus and later God as caller. The evidence does not justify flattening these levels into one undifferentiated «Christ directed the mission» claim.
+
+**Material Limitation / Uncertainty:**  
+The decisive ambiguity is not whether guidance occurred, but how the designation «Spirit of Jesus» should be handled for IP-001 attribution. The expression may carry strong Christological significance, yet the grammatical subject is «Spirit», and v.10 uses «God» for the call. A stronger Christ-agency judgment would therefore depend on a controlled lexical/syntactic/contextual determination of the genitive/relation and the narrative attribution structure.
+
+**Confidence:**  
+⚪ UNRESOLVED for direct-Christ attribution; HIGH that the text explicitly distinguishes Spirit / Spirit-of-Jesus / God / human levels.
+
+**Verification Flag:**  
+**Yes — philological/contextual verification.** Verify the force of «τὸ πνεῦμα Ἰησοῦ» in Acts 16:7 and its relation to the explicit Holy Spirit attribution in v.6 and God attribution in v.10. This could materially change whether the unit remains `BORDERLINE` as a Christ-agency candidate or is better retained only as contextual subject-boundary evidence.
+
+---
+
+### 6. Aggregation rationale
+
+All four fixed units are returned inside one compact handoff because the capability check tests recoverability, not file granularity. Local recoverability is preserved by keeping a complete independent chain for each unit:
+
+> Research Unit → Relevant Evidence → Attribution → Action / Relation / Mediation distinction → Provisional Research Judgment → Observation → Material Limitation / Uncertainty → Verification Flag where triggered.
+
+No unit depends on a conclusion from another unit. No cross-unit pattern, frequency claim, group, or book-level synthesis has been formed. The shared container is therefore administrative compression only, not epistemic aggregation.
+
+---
+
+### 7. Over-attribution risk
+
+A concrete over-attribution risk appears in **Acts 13:1–4**: because the community is «ministering to the Lord» and the mission is christologically significant, it would be easy to paraphrase the event as «Christ called and sent Barnabas and Saul». The local text, however, explicitly assigns speech and sending to the **Holy Spirit**. This was controlled by keeping devotional relation to «the Lord» distinct from the operative subject of vv.2 and 4.
+
+A second risk appears in **Acts 3:16**: «through His name / faith through Him» could be compressed into «Christ directly healed the man». The output instead preserves this as mediation/relation and raises a Verification Flag before any stronger agency claim.
+
+A third risk appears in **Acts 16:7**: «Spirit of Jesus» could be simplified to «Jesus prevented them». The output retains the grammatical subject «Spirit» and treats the Jesus relation as a distinct attribution problem pending verification.
+
+---
+
+### 8. Historical-isolation declaration
+
+**Historical Acts outputs were not used.**
+
+During this execution I did not read, query, inspect, compare against, or use as an answer key:
+
+- `research-000.md`;
+- any `doc-*`;
+- `Summary.md`;
+- `Book.md`;
+- historical Acts classifications, groups or conclusions.
+
+No historical comparison was performed. Evidence selection and judgments above were formed only from Event 049 governing inputs and the four fixed biblical units.
+
+---
+
+### 9. Self-reported capability status
+
+**PASS WITH LIMITS**
+
+**Basis:** all four units remain locally recoverable; no material subject-attribution collapse occurred; Spirit, God, Human and Christ-related mediation were kept distinct; negative evidence and ambiguity were preserved; historical isolation was maintained; no scope expansion or book-level inference occurred.
+
+The limit is substantive and local rather than procedural failure: two of the four deliberately difficult units (Acts 3:12–16 and 16:6–10) contain agency distinctions whose final strength materially depends on targeted philological/contextual verification. The current output correctly surfaces those triggers instead of resolving them by assumption. Final readiness judgment belongs to Research Project Lead.
+
+---
+
+### 10. Handoff
+
+**Result:** bounded four-unit readiness check completed under Event 049.
+
+**Scope compliance:** fixed sample preserved; no Stage 0; no full-book coverage; no `rr-*`; no historical comparison; no book-level pattern/group/conclusion.
+
+**Verification still open:** Acts 3:16 mediation/direct-agency distinction; Acts 16:7 «Spirit of Jesus» attribution structure.
+
+**Decision needed:** Research Project Lead applies Event 049 §6 acceptance rubric and records exactly one Lead status: `PASS / PASS WITH LIMITS / FAIL`.
+
+**Next action:** Project Lead capability judgment only. No next research stage is activated.
+
+### Ownership Returned To
+
+**Research Project Lead v0.1.**
+
+Researcher ownership for `CV-IP-001-ACTS-01` is discharged. Stage 0 and every subsequent research stage remain inactive.
