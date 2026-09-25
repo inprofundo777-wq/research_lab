@@ -5445,3 +5445,277 @@ Project Lead возвращает ownership Owner.
 ### Ownership
 
 **Owner.**
+
+
+---
+
+## Event 058 — Owner Decision + Project Lead Stage 1 Execution Assignment
+
+▶ **Owner Decision — APPROVED: proceed to Stage 1 conditional on Lead acceptance of Event 056**  
+▶ **Condition status — SATISFIED by Event 057**  
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Исполнитель — Researcher v0.1**  
+◆ **Активный режим — Stage 1 Primary Observation only**  
+**Дата:** 2026-09-25.
+
+### 1. Owner authorization and condition resolution
+
+Owner authorizes **Stage 1 — Primary Observation** conditional on Project Lead acceptance of Event 056 clean Stage 0.
+
+Event 057 has already accepted Event 056 and established:
+
+**IP-001 ACTS-RR STAGE 0 — COMPLETE / ACCEPTED.**
+
+Therefore the Owner condition is satisfied and Project Lead now installs the exact Stage 1 assignment below.
+
+This authorization does **not** activate Stage 2–4, historical comparison, independent subject-matter review, or Book-Level Close Audit.
+
+### 2. Governing inputs
+
+Stage 1 is governed by:
+
+1. Research Lab Methodology v0.3;
+2. IP-001 Protocol v0.2;
+3. IP-001 Research Criteria;
+4. IP-001 Primary Observation Output Contract v0.2;
+5. IP-001 ACTS-RR Installation Package R1;
+6. accepted Stage 0 artifact \`Research/IP-001/Research/ACTS/rr-000_Acts_Stage0_Corpus_Map-R1.md\`;
+7. Event 057 acceptance;
+8. this Event 058;
+9. biblical text, with Russian Synodal Translation (RST) as primary working translation.
+
+The accepted R1 Stage 0 map is the only fresh corpus map authorized as Stage 1 routing input. It identifies units for local research but does not predetermine Stage 1 judgments.
+
+### 3. Research question
+
+> **Какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?**
+
+Stage 1 answers this question **locally per research unit**. It does not yet construct book-wide patterns, groups or conclusions.
+
+### 4. Source and language discipline
+
+The substantive research output must be in **Russian**: textual reasoning, attribution analysis, observations, limitations, uncertainty and explanations of judgments.
+
+English may remain only for technical identifiers, filenames, controlled labels and statuses such as \`INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE\`, \`HIGH / MEDIUM / LOW / UNRESOLVED\`, \`Verification Flag\`.
+
+Primary biblical text: **RST**.
+
+Owner-approved RST carriers remain:
+- \`https://bible.by/\`
+- \`https://old.bibleonline.ru/\`
+- \`https://azbyka.ru/biblia/\`
+- \`https://www.bible.com/ru\`
+- \`https://ekzeget.ru/\`
+
+Use one approved carrier as the primary RST carrier and state it in provenance. If a material judgment depends on wording/translation, apply the Protocol's trigger-based verification discipline rather than silently changing translations.
+
+### 5. Historical and failed-output isolation
+
+Throughout Stage 1 the following remain **SEALED / PROHIBITED INPUT**:
+
+- historical \`research-000.md\`;
+- all historical \`doc-*\`;
+- historical \`Summary.md\`;
+- historical \`Book.md\`;
+- historical Acts maps/classifications/groups/conclusions;
+- rejected Event 054 \`rr-000_Acts_Stage0_Corpus_Map.md\`.
+
+Historical comparison remains **PROHIBITED**.
+
+The accepted R1 Stage 0 map may be used to route Stage 1 units, but its provisional attribution, candidate type or uncertainty is not an answer key. Every Stage 1 judgment must be reconstructed from the biblical text and allowed local context.
+
+### 6. Stage 1 corpus and completeness
+
+Researcher must process **all 19 Candidate entries** from accepted R1 Stage 0:
+
+\`C01–C19\`.
+
+Researcher must also process each of the **26 Material Boundary / Negative Cases \`B01–B26\`** to the degree necessary to give it an explicit local Stage 1 disposition. Boundary cases may be handled compactly where evidence is straightforward, but they must not disappear from the record.
+
+Every Stage 0 Candidate must receive a Stage 1 \`Research Judgment\`. Every material boundary case must remain traceable either:
+- as its own research unit; or
+- as an explicitly linked boundary/context unit inside the relevant candidate analysis.
+
+If Stage 1 fresh reading discovers a material locus omitted from Stage 0, do not silently add it as though it had always been mapped. Record it as **Stage 1 discovered omission**, give provenance/reason, analyze it locally if within the same research question, and flag it for Lead completeness review.
+
+### 7. Required local Output Contract
+
+For every significant research unit preserve the recoverable chain:
+
+**Research Unit → Relevant Evidence → Attribution → Research Judgment → Observation → Limitation / Uncertainty**
+
+Required fields:
+
+**Research Unit / ID**  
+Exact locus and relation to R1 \`C##\` or \`B##\`.
+
+**Relevant Evidence**  
+The textual wording/facts materially supporting the judgment. Quote only what is needed; explain the evidence in Russian.
+
+**Attribution**  
+Who is acting or being described: Father-God / Christ / Spirit / Human / Angel / Multiple / Unclear. Distinguish explicit grammatical subject from theological relation.
+
+**Agency / Evidence Type where material**  
+Direct Action / Mediated Action / Role / Relation / Result / Theological Connection / Unresolved.
+
+**Research Judgment**  
+Exactly one primary status:
+- \`INCLUDE\`
+- \`BORDERLINE\`
+- \`CONTEXTUAL\`
+- \`EXCLUDE\`
+
+**Observation**  
+A concise Russian research observation stating what this locus actually contributes to IP-001.
+
+**Limitation / Uncertainty**  
+Any material limitation, alternative reading, attribution ambiguity, temporal issue, or scope boundary.
+
+**Confidence**  
+Use \`HIGH / MEDIUM / LOW / UNRESOLVED\` where it materially helps review; do not add mechanically.
+
+**Verification Flag**  
+\`YES/NO\`. If YES, state the exact question and why its resolution could materially change Attribution, Agency or Research Judgment.
+
+### 8. Judgment discipline
+
+Apply the current Protocol definitions:
+
+- \`INCLUDE\` — sufficient meaningful grounds for further research; it does not itself mean a final book-level conclusion or automatically mean Direct Christ Action.
+- \`BORDERLINE\` — relevant, but subject, agency type or evidential force remains materially disputed.
+- \`CONTEXTUAL\` — useful for understanding or subject-boundary control but not sufficient direct evidence of the sought action.
+- \`EXCLUDE\` — after examination, the text does not provide sufficient grounds for IP-001.
+
+Do not inflate \`INCLUDE\` to mean “proved direct action.” Keep \`Research Judgment\` distinct from \`Agency / Evidence Type\`.
+
+### 9. Verification discipline during Stage 1
+
+The 20 R1 Verification Queue triggers must be explicitly revisited at the corresponding units.
+
+Stage 1 may perform **bounded trigger-based verification** where the current Protocol already requires it to make a responsible local judgment:
+- local/narrative context;
+- comparison of approved translations where wording materially matters;
+- Greek lexical/syntactic check where substantial ambiguity remains.
+
+Do not perform universal philological analysis.
+
+For each R1 trigger, Stage 1 must record one of:
+- **RESOLVED LOCALLY** — with evidence and effect on judgment;
+- **RETAINED FOR MATERIAL VERIFICATION** — with exact unresolved question;
+- **NOT MATERIAL AFTER LOCAL JUDGMENT** — with reason.
+
+A difficult question need not be forced closed. \`BORDERLINE\` / \`UNRESOLVED\` is valid where warranted.
+
+Independent verification is **not activated** by this Event. If a judgment cannot responsibly be made without authority/capability reserved for later independent verification, preserve the issue and continue only where the local Stage 1 judgment can be bounded.
+
+### 10. Aggregation and artifact design
+
+Stage 1 does not require one file per passage.
+
+Researcher may use one or several \`rr-001_*\` artifacts, provided every material unit is independently recoverable and the aggregation does not:
+- mix distinct attribution judgments;
+- hide BORDERLINE/EXCLUDE/negative evidence;
+- erase local uncertainty;
+- create premature Stage 2 patterns;
+- make reasoning dependent on sealed historical outputs.
+
+Preferred compact implementation: one coherent Stage 1 artifact with stable unit IDs and a completeness index, unless size/readability materially requires splitting.
+
+Suggested name:
+
+\`Research/IP-001/Research/ACTS/rr-001_Acts_Primary_Observations.md\`
+
+### 11. Required completeness index
+
+At the beginning or end of Stage 1 output include a table covering:
+
+- all \`C01–C19\`;
+- all \`B01–B26\`;
+- resulting Stage 1 unit/reference;
+- Research Judgment;
+- Verification status;
+- any Stage 1-discovered omission.
+
+This index is a traceability control, not Stage 2 aggregation. Do not count statuses into book-level claims or infer patterns from them.
+
+### 12. Explicit prohibitions
+
+During this assignment Researcher must not:
+
+- open/use historical Acts outputs;
+- compare fresh results with historical results;
+- use rejected Event 054 map;
+- perform Stage 2 repetition/pattern mapping;
+- create Stage 3 groups/classification;
+- create Stage 4 book synthesis/conclusion;
+- infer a book-wide answer from status counts;
+- treat theological significance as direct agency;
+- transfer Father/Spirit/Human/Angel action to Christ without textual warrant;
+- turn Relation or Mediation into Direct Action by label;
+- activate independent review or book-close functions;
+- expand to another biblical book.
+
+### 13. Completion threshold
+
+Stage 1 may be submitted to Project Lead only when:
+
+1. all 19 accepted Stage 0 Candidates have explicit local judgments;
+2. all 26 material Boundary / Negative Cases are traceably dispositioned;
+3. all 20 R1 Verification Queue triggers have explicit Stage 1 status;
+4. any newly discovered material omission is provenance-marked;
+5. evidence → attribution/agency → judgment → observation → limitation is locally recoverable;
+6. negative evidence and ambiguity remain visible;
+7. historical/rejected-output isolation is declared;
+8. substantive output is in Russian;
+9. no Stage 2+ synthesis has been performed.
+
+### 14. Researcher handoff
+
+On completion Researcher shall append a new Event to this RUN.md containing:
+
+- artifact link(s);
+- completion status for \`C01–C19\`;
+- completion status for \`B01–B26\`;
+- Verification Queue disposition summary;
+- list of Stage 1-discovered omissions, if any;
+- historical-isolation and rejected-map-isolation declarations;
+- source provenance;
+- scope-compliance statement;
+- unresolved material questions;
+- ownership → Research Project Lead.
+
+Do not activate Stage 2.
+
+### 15. Project Lead acceptance after handoff
+
+Lead will evaluate:
+- Stage 1 completeness;
+- local Output Contract compliance;
+- attribution/agency discipline;
+- adequacy of judgments and limitations;
+- treatment of Verification triggers;
+- preservation of negative evidence;
+- recoverability;
+- source/language/historical isolation;
+- absence of Stage 2+ drift.
+
+A Lead acceptance of Stage 1 will **not** itself activate Stage 2. Ownership returns to Owner for a separate gate.
+
+### Current-State Delta after Event 058
+
+| Item | State |
+|---|---|
+| Stage 0 R1 | **COMPLETE / ACCEPTED** |
+| Stage 1 | **AUTHORIZED / ACTIVATED** |
+| Researcher | **ACTIVATED — Stage 1 only** |
+| Accepted Stage 0 map | **\`rr-000_Acts_Stage0_Corpus_Map-R1.md\`** |
+| Historical Acts outputs | **SEALED / PROHIBITED INPUT** |
+| Rejected Event 054 map | **PROHIBITED INPUT** |
+| Historical comparison | **PROHIBITED** |
+| Stage 2–4 | **NOT ACTIVATED** |
+| Independent subject-matter review | **NOT ACTIVATED** |
+| Book-Level Close Audit | **NOT ACTIVATED** |
+
+### Ownership
+
+**Researcher v0.1 — Stage 1 execution only.**
