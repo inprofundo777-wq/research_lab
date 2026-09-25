@@ -5098,3 +5098,131 @@ Stage 0 artifact сам по себе не разрешает Stage 1. Все ma
 **Ownership → Research Project Lead v0.1.**
 
 Researcher ownership по Event 053 завершён. Stage 1 и последующие stages остаются неактивными до отдельного gate.
+
+
+---
+
+## Event 055 — Project Lead Return: Stage 0 Source-Integrity Failure / Clean Re-run Required
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Объект проверки — Event 054 / rr-000 Acts Stage 0 handoff**  
+■ **Решение — RETURN FOR CLEAN RE-RUN**  
+◆ **Активный режим — Stage 0 acceptance / source-integrity correction**  
+**Дата:** 2026-09-25.
+
+### 1. Acceptance decision
+
+**STAGE 0 NOT ACCEPTED.**
+
+**VERDICT: RETURN — FULL CLEAN STAGE 0 RE-RUN REQUIRED.**
+
+После Event 054 Owner выявил material source-integrity failure: при выполнении прохода в качестве источника библейского текста был использован ресурс Свидетелей Иеговы, тогда как artifact заявляет основным рабочим текстом Синодальный перевод (RST).
+
+Для IP-001 такой источник не допускается как базовый biblical-text source или как средство восстановления/проверки RST. Движение Свидетелей Иеговы находится вне исторических ветвей христианства; его конфессиональная текстовая и интерпретационная рамка не принимается Research Lab как нормативный источник библейского текста для данного проекта. Отдельные аргументы авторов этой традиции в будущей исследовательской работе могут рассматриваться только как внешний критический материал при независимой проверке по первичному тексту и надёжным академическим/христианским источникам; это не даёт их ресурсу статуса основного текстового источника.
+
+Поскольку Stage 0 представляет последовательный corpus pass, невозможно надёжно ограничить влияние неверного source provenance несколькими entries. Исправление ссылок или выборочная сверка недостаточны.
+
+### 2. Status of Event 054 artifact
+
+\`Research/IP-001/Research/ACTS/rr-000_Acts_Stage0_Corpus_Map.md\` из Event 054:
+
+**REJECTED AS STAGE 0 RESEARCH OUTPUT — MUST NOT BE USED AS INPUT OR ANSWER KEY FOR THE RE-RUN.**
+
+Он сохраняется только как audit/provenance record ошибочного прохода и не является accepted fresh map. Его:
+- нельзя использовать как candidate list;
+- нельзя использовать для completeness check;
+- нельзя копировать как структуру найденных loci;
+- нельзя сверять с новым проходом до его завершения;
+- нельзя использовать для восстановления Verification Queue или boundary cases.
+
+Event 054 остаётся append-only историческим record и не переписывается.
+
+### 3. Required recovery method — clean-room Stage 0
+
+Researcher должен выполнить **полный Stage 0 заново с чистого листа**, последовательно прочитав Деяния 1–28.
+
+Новый проход:
+- начинается без candidate list из rejected rr-000;
+- не использует Event 054 counts как target;
+- не использует rejected map для проверки полноты;
+- заново формирует Coverage Ledger, Candidate Map, Material Boundary / Negative Cases и Verification Queue;
+- сохраняет прежние methodological / historical-isolation boundaries Event 053;
+- остаётся Stage 0 only.
+
+Historical Acts \`research-000.md\`, \`doc-*\`, \`Summary.md\`, \`Book.md\` также остаются SEALED. Таким образом, при re-run запрещены **оба** потенциальных answer-key слоя: historical generation и rejected Event 054 fresh map.
+
+### 4. Authorized biblical-text sources
+
+Для нового прохода основной текст — **русский Синодальный перевод**. Допустимые Owner-approved источники библейского текста:
+
+- \`https://bible.by/\`
+- \`https://old.bibleonline.ru/\`
+- \`https://azbyka.ru/biblia/\`
+- \`https://www.bible.com/ru\`
+- \`https://ekzeget.ru/\`
+
+Researcher должен явно указать, какой из этих ресурсов использован как основной carrier RST, и при material textual uncertainty может сверить RST по другому источнику из этого approved list. Для вопросов, которые действительно требуют Greek/textual verification, действует отдельный \`Verification Flag\`; Stage 0 не подменяется произвольным переводом или конфессиональным пересказом.
+
+Неавторизованный biblical-text source не должен использоваться без STOP → Project Lead / Owner.
+
+### 5. Semantic language rule
+
+Смысловая часть нового Stage 0 остаётся **на русском языке**. Английский допускается только для технических identifiers, filenames, controlled labels и status vocabulary.
+
+### 6. Output identity and provenance
+
+Новый clean re-run должен быть сохранён как **новая fresh revision**, не путём тихой замены rejected output без provenance.
+
+Researcher создаёт новый цельный artifact с явной пометкой clean re-run after Event 055. Имя должно сохранять generation \`rr-000\` и отличать новую revision, например:
+
+\`Research/IP-001/Research/ACTS/rr-000_Acts_Stage0_Corpus_Map-R1.md\`
+
+В header обязательно:
+- Event 055 clean re-run;
+- основной approved RST source;
+- декларация, что rejected Event 054 artifact не использовался;
+- декларация historical isolation.
+
+### 7. Execution contract
+
+Все substantive требования Event 053 §§3, 5–11, 13–15 продолжают действовать, кроме того, что настоящий Event 055 усиливает source provenance и clean-room isolation.
+
+Completion threshold остаётся:
+- fresh sequential coverage Acts 1–28;
+- каждая глава recoverable;
+- candidates заново выявлены из approved biblical text;
+- material boundary/negative cases заново выявлены;
+- Verification Flags имеют конкретные triggers;
+- нет Stage 1 final judgments / Stage 2–4 synthesis;
+- historical outputs не использованы;
+- rejected Event 054 map не использована;
+- semantic output на русском;
+- новый artifact имеет явный source provenance.
+
+### 8. Handoff requirement
+
+После clean re-run Researcher append-only добавляет новый Event в RUN.md с:
+- ссылкой на новый artifact;
+- использованным approved biblical-text source;
+- coverage status Acts 1–28;
+- candidate/boundary counts;
+- Verification Queue summary;
+- historical-isolation declaration;
+- rejected-map-isolation declaration;
+- scope compliance;
+- ownership → Project Lead.
+
+Project Lead проведёт Stage 0 acceptance **по новому artifact**, не используя Event 054 substantive map как benchmark.
+
+### 9. Activation boundary
+
+Stage 0 остаётся **AUTHORIZED / RETURNED FOR CLEAN RE-RUN**.  
+Researcher повторно активируется только для clean Stage 0 re-run.  
+Stage 1 **NOT AUTHORIZED**.  
+Historical comparison **NOT AUTHORIZED**.  
+Rejected Event 054 map **SEALED AS FAILED OUTPUT / NOT RESEARCH INPUT**.  
+Stage 2–4, independent review и book close не активированы.
+
+### Ownership transferred to
+
+**Researcher v0.1 — clean Stage 0 re-run only.**
