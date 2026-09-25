@@ -5017,3 +5017,84 @@ Immediate STOP → Project Lead если:
 ### Ownership transferred to
 
 **Researcher v0.1 — Stage 0 execution only.**
+
+
+---
+
+## Event 054 — ACTS-RR Stage 0 Researcher Handoff
+
+▶ **Основная роль — Researcher v0.1**  
+▶ **Основное задание — IP-001 ACTS-RR Stage 0: Book Corpus Map**  
+■ **Второстепенная роль — не активирована**  
+◆ **Активный режим — Stage 0 execution only**  
+**Дата:** 2026-09-25.
+
+### Result artifact
+
+`Research/IP-001/Research/ACTS/rr-000_Acts_Stage0_Corpus_Map.md`
+
+Artifact создан как один цельный fresh `rr-000` output в соответствии с Event 053.
+
+### Coverage status
+
+**Acts 1–28: COMPLETE.**
+
+Все 28 глав имеют явный `Coverage Ledger` record. Главы без выявленных candidates не пропущены и отмечены как `none identified at Stage 0`.
+
+### Candidate / boundary counts
+
+- **Candidate entries:** 20
+- **Material Boundary / Negative Cases:** 25
+- **Verification Queue:** 15 items
+
+### Verification Queue summary
+
+Material triggers сохранены для:
+- referent/title identification: Acts 1:24–26; 11:20–21; 14:3; 18:9–10; 22:17–21;
+- Father/Christ/Spirit agency structure: Acts 2:33; 15:7–29; 16:6–10;
+- Direct Agency / Mediation / Relation distinction: Acts 3:16; 4:29–31; 7:55–60; 19:11–20; 26:16–18;
+- syntax/subject attribution: Acts 5:31;
+- textual/translation/Greek issue materially affecting attribution: Acts 20:28.
+
+Stage 0 не выполнял глубокую verification; сохранены только конкретные triggers для последующего разрешённого этапа.
+
+### Historical-isolation declaration
+
+Historical Acts outputs **не открывались, не читались и не использовались**:
+- `research-000.md`;
+- historical `doc-*`;
+- `Summary.md`;
+- `Book.md`;
+- historical Acts maps/classifications/groups/conclusions.
+
+Они не использовались ни для поиска candidates, ни для completeness check, ни как answer key. Historical comparison не проводился.
+
+Fresh map возникла из последовательного чтения библейского текста Деяний 1–28 по governing criteria.
+
+### Scope compliance
+
+Stage 0 выполнен только как Book Corpus Map.
+
+Не выполнялись:
+- Stage 1 final judgments;
+- `INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE` classification;
+- Stage 2 repetition/pattern mapping;
+- Stage 3 groups;
+- Stage 4 synthesis;
+- book-level conclusion;
+- historical comparison;
+- расширение на другой corpus.
+
+Смысловая часть artifact выполнена на русском языке. Technical identifiers/labels сохранены на английском только там, где это системный язык.
+
+### Unresolved dependencies
+
+Stage 0 artifact сам по себе не разрешает Stage 1. Все material ambiguities сохранены в `Verification Queue`; их наличие не препятствовало созданию карты, поскольку Event 053 требовал сохранить triggers, а не решать их предположением.
+
+### Handoff
+
+**Stage 0 execution: COMPLETE — submitted for Project Lead acceptance.**
+
+**Ownership → Research Project Lead v0.1.**
+
+Researcher ownership по Event 053 завершён. Stage 1 и последующие stages остаются неактивными до отдельного gate.
