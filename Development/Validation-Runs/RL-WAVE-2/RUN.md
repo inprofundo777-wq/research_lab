@@ -4547,3 +4547,118 @@ The limit is substantive and local rather than procedural failure: two of the fo
 **Research Project Lead v0.1.**
 
 Researcher ownership for `CV-IP-001-ACTS-01` is discharged. Stage 0 and every subsequent research stage remain inactive.
+
+
+---
+
+## Event 051 — Project Lead Acceptance of CV-IP-001-ACTS-01
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Задание — Event 050 readiness-result acceptance under Event 049 §6**  
+■ **Второстепенная роль — не активирована**  
+◆ **Активный режим — Stage Coordination / capability judgment**  
+**Дата:** 2026-09-25.
+
+### 1. Decision
+
+**EVENT 050 ACCEPTED.**  
+**CV-IP-001-ACTS-01: PASS.**
+
+Researcher self-reported \`PASS WITH LIMITS\`; Lead does **not** adopt that status. The two open Verification Flags in Acts 3:16 and Acts 16:7 are expected evidence of correct trigger discipline in deliberately difficult units. They are not a repeated procedural weakness in granularity, verification handling or presentation and therefore do not satisfy the Event 049 definition of \`PASS WITH LIMITS\`.
+
+The readiness check demonstrates the bounded capability it was designed to test. It does not establish the final exegesis of those two loci and does not authorize Stage 0.
+
+### 2. Acceptance against Event 049 §6
+
+| PASS criterion | Lead judgment |
+|---|---|
+| All four units locally recoverable | **PASS.** Each unit preserves evidence → attribution → distinction → judgment → observation → limitation/verification. |
+| No material subject-attribution error | **PASS.** Acts 9 retains Christ vs Ananias; Acts 13 retains Spirit vs human; Acts 3 retains God/human/Christ-related mediation; Acts 16 retains Spirit / Spirit-of-Jesus / God / human levels. |
+| Ambiguity / negative evidence preserved | **PASS.** Acts 13 functions as explicit negative attribution control; Acts 3 and 16 preserve unresolved agency distinctions rather than resolving them toward Christ. |
+| Historical isolation | **PASS.** Event 050 gives the required explicit declaration; no historical comparison is reported. |
+| Relation / Mediation not converted into Direct Agency | **PASS.** The difficult Acts 3 and Acts 16 cases are specifically restrained and flagged. |
+| Compression preserves reasoning | **PASS.** One handoff container does not merge the four independent reasoning chains. |
+
+No Event 049 FAIL trigger is present.
+
+### 3. Unit-level capability findings
+
+**Acts 9:10–17 — explicit candidate Christ agency:** Researcher used the internal narrative identification in v.17 to support the referent of «Господь» while keeping Ananias's human execution distinct from Christ's initiating/sending actions. This demonstrates local attribution without importing a book-level conclusion.
+
+**Acts 13:1–4 — competing attribution:** explicit Holy Spirit speech/sending and human actions were preserved. «Служили Господу» was not used to overwrite the operative subject. This is the intended over-attribution control.
+
+**Acts 3:12–16 — mediation/relation:** Researcher did not convert Jesus' name / faith-through-Him language into an unqualified direct-healing attribution. The philological/syntactic Verification Flag is correctly triggered because stronger classification could materially depend on the construction.
+
+**Acts 16:6–10 — ambiguity/borderline:** Researcher retained Holy Spirit, «Spirit of Jesus», God and human levels. The unresolved direct-Christ attribution and targeted verification flag demonstrate the required ambiguity discipline.
+
+### 4. Why the result is PASS, not PASS WITH LIMITS
+
+Event 049 reserves \`PASS WITH LIMITS\` for a **repeatable procedural weakness** that can be bounded by an additional future Stage 0 condition, provided no material attribution error exists.
+
+Event 050 instead shows:
+- correct recognition of two intentionally difficult textual dependencies;
+- correct refusal to solve them by assumption;
+- correctly scoped Verification Flags;
+- no repeated defect in output granularity, attribution method, historical isolation, compression or authority handling.
+
+Open textual questions belong to later authorized verification when materially triggered. Treating their existence as a capability defect would penalize the very uncertainty discipline the check was designed to validate.
+
+Accordingly no additional procedural restriction beyond the already installed R1 controls is required for Stage 0 readiness.
+
+### 5. Confirmed capability boundary
+
+The PASS confirms only that Researcher v0.1 can be considered ready, under the current Methodology / Protocol / Criteria and staged Lead supervision, to perform a separately authorized **Stage 0 Book Corpus Map** for Acts while preserving:
+
+- sequential text-led work rather than historical-answer-key recovery;
+- subject attribution discipline;
+- Action / Relation / Mediation distinctions;
+- ambiguity, negative evidence and verification triggers;
+- local recoverability under compact output.
+
+It does **not** validate:
+- Stage 1–4 execution automatically;
+- final judgments on Acts 3:16 or Acts 16:7;
+- independent subject-matter review capability;
+- Stage 4 synthesis capability;
+- Book-Level Close Audit capability;
+- unrestricted full-book authority outside the installed staged gates.
+
+### 6. Activation boundary
+
+\`CV-IP-001-ACTS-01\`: **COMPLETE / PASS**.  
+Researcher Event 049 execution authority: **DISCHARGED**.  
+Stage 0: **NOT AUTHORIZED / NOT STARTED**.  
+Fresh \`rr-*\` full-book pass: **NOT STARTED**.  
+Historical comparison gate: **CLOSED**.  
+Independent subject-matter review: **NOT ACTIVATED**.  
+Stage 4 / Book-Level Close Audit: **NOT ACTIVATED**.  
+New corpus / Full Project: **NOT ACTIVATED**.
+
+### 7. Exact next Owner gate
+
+**Project Lead recommendation:**
+
+> **APPROVE — IP-001 ACTS-RR STAGE 0 BOOK CORPUS MAP EXECUTION ONLY, UNDER R1 AND THE CURRENT METHODOLOGY / IP-001 PROTOCOL / RESEARCH CRITERIA. ACTIVATE RESEARCHER v0.1 FOR STAGE 0 ONLY. KEEP ALL HISTORICAL ACTS OUTPUTS SEALED. REQUIRE COMPLETE ACTS 1–28 COVERAGE LEDGER, CANDIDATE LOCI WITH CRITERION/REASON, MATERIAL BOUNDARY CASES AND VERIFICATION FLAGS, FOLLOWED BY PROJECT LEAD ACCEPTANCE. DO NOT AUTHORIZE STAGE 1 OR HISTORICAL COMPARISON.**
+
+If Owner does not authorize Stage 0, no further research action follows from this PASS.
+
+### 8. Current-State Delta
+
+| Item | State after Event 051 |
+|---|---|
+| Event 050 Researcher handoff | **ACCEPTED** |
+| CV-IP-001-ACTS-01 | **COMPLETE / PASS** |
+| Researcher readiness for separately gated Stage 0 | **CONFIRMED** |
+| Current owner | **Owner** |
+| Stage 0 | **NOT AUTHORIZED / NOT STARTED** |
+| Stage 1+ | **NOT AUTHORIZED** |
+| Historical Acts outputs | **SEALED** |
+| Historical comparison | **NOT AUTHORIZED** |
+| Fresh full-book rr-* | **NOT STARTED** |
+| Independent review / book-close capabilities | **UNCHANGED / future dependencies** |
+
+### Ownership Returned To
+
+**Owner — for a separate Stage 0 decision.**
+
+Project Lead retains no Stage 0 execution authority from Event 048.
