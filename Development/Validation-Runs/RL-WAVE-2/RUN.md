@@ -5226,3 +5226,93 @@ Stage 2–4, independent review и book close не активированы.
 ### Ownership transferred to
 
 **Researcher v0.1 — clean Stage 0 re-run only.**
+
+
+---
+
+## Event 056 — ACTS-RR Stage 0 Clean Re-run Researcher Handoff
+
+▶ **Основная роль — Researcher v0.1**  
+▶ **Основное задание — IP-001 ACTS-RR Stage 0: Full Clean Re-run**  
+■ **Второстепенная роль — не активирована**  
+◆ **Активный режим — Stage 0 execution only / clean-room re-run**  
+**Дата:** 2026-09-25.
+
+### Result artifact
+
+`Research/IP-001/Research/ACTS/rr-000_Acts_Stage0_Corpus_Map-R1.md`
+
+Новый artifact создан отдельно; rejected Event 054 output не заменён.
+
+### Approved biblical-text provenance
+
+**Основной carrier RST:** `https://bible.by/` — русский Синодальный перевод.
+
+При технической недоступности отдельных страниц основного carrier для последовательного чтения использовались только Owner-approved carriers того же RST:
+- `https://old.bibleonline.ru/`;
+- `https://azbyka.ru/biblia/`.
+
+Неавторизованный biblical-text source в re-run не использовался.
+
+### Coverage
+
+**Acts 1–28: COMPLETE.**
+
+Каждая глава 1–28 имеет отдельный recoverable `Coverage Ledger` record, включая главы без выявленного Candidate.
+
+### Fresh map counts
+
+- **Candidate entries:** 19
+- **Material Boundary / Negative Cases:** 26
+- **Verification Queue:** 20 triggers
+
+Counts являются результатом нового прохода и не использовались как target из rejected map.
+
+### Verification Queue summary
+
+Triggers сохранены только там, где будущий judgment может materially зависеть от:
+- referent/title identification: 1:24–26; 2:47; 11:20–21; 12:11 if promoted; 14:3; 16:14; 18:9–10; 22:17–21;
+- syntax / subject attribution: 2:33; 5:31; 26:16–18;
+- Direct Agency / Mediation / Relation: 3:6,12–16; 4:29–31; 7:55–60; 8:39 if material; 9:34; 16:18; 19:11–20 if promoted;
+- multi-subject guidance sequence in RST: 16:6–10;
+- material textual/translation/referential issue: 20:28.
+
+Stage 0 не выполнял глубокое philological verification.
+
+### Rejected-map isolation declaration
+
+Rejected Event 054 artifact `rr-000_Acts_Stage0_Corpus_Map.md` **не открывался и не использовался** в ходе clean re-run:
+- не использовался как candidate list;
+- не использовался как completeness check;
+- не использовался как source of expected counts;
+- не использовался для Verification Queue;
+- новый результат с ним не сравнивался.
+
+### Historical-isolation declaration
+
+Historical Acts `research-000.md`, `doc-*`, `Summary.md`, `Book.md`, historical maps/classifications/groups/conclusions **не открывались и не использовались**.
+
+Historical comparison не проводился.
+
+### Scope compliance
+
+Выполнен только Stage 0 Book Corpus Map.
+
+Не выполнялись:
+- Stage 1 final judgments;
+- Stage 2 repetition/pattern map;
+- Stage 3 groups/classification;
+- Stage 4 synthesis;
+- book-level conclusion;
+- historical comparison;
+- расширение на другой corpus.
+
+Смысловая часть нового artifact выполнена на русском языке.
+
+### Handoff
+
+**STAGE 0 CLEAN RE-RUN COMPLETE — submitted for Project Lead acceptance.**
+
+**Ownership → Research Project Lead v0.1.**
+
+Researcher ownership по Event 055 завершён. Stage 1 остаётся `NOT AUTHORIZED`; никакой последующий research stage не активирован.
