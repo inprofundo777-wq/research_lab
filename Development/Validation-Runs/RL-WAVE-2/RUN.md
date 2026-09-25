@@ -6229,3 +6229,129 @@ Lead acceptance does not activate Stage 3. Ownership then returns to Owner for t
 ### Ownership
 
 **Researcher v0.1 — Stage 2 execution only.**
+
+
+---
+
+## Event 062 — ACTS-RR Stage 2 Researcher Handoff
+
+▶ **Основная роль — Researcher v0.1**  
+▶ **Задание — IP-001 ACTS-RR Stage 2: Repetition / Stable Evidence Map**  
+◆ **Активный режим — Stage 2 execution only**  
+**Дата:** 2026-09-26.
+
+### Result artifact
+
+`Research/IP-001/Research/ACTS/rr-002_Acts_Repetition_Stable_Evidence_Map.md`
+
+### Evidence Inventory
+
+**COMPLETE.**
+
+Traceably covered:
+- `U01–U19`;
+- `D01–D26` with D07 retained as linked/integrated into U06;
+- `O01–O03` with Stage 1-discovered omission provenance preserved.
+
+### Repetition / Stable Evidence structures
+
+Created **7** Stage 2 descriptive structures:
+
+- `R01` — repeated direct appearance/speech of risen Jesus to Paul;
+- `R02` — repeated commissioning/sending by Christ;
+- `R03` — repeated Jesus-name mediation in healing/deliverance with human action kept distinct;
+- `R04` — repeated explicit Father-God agency beside Christological material;
+- `R05` — repeated explicit Spirit agency that must not be transferred to Christ;
+- `R06` — repeated Human/Angel agency in Christologically relevant narratives;
+- `R07` — repeated unresolved title `Lord` as an attribution boundary.
+
+These are Stage 2 comparison structures only and are not Stage 3 groups/classification.
+
+### Strong Singular Evidence
+
+Preserved **5** material singular items:
+- `S01` — U02 / Acts 2:32–36;
+- `S02` — U09 / Acts 9:32–35;
+- `S03` — U05 / Acts 5:30–32;
+- `S04` — U06 / Acts 7:55–60;
+- `S05` — D20 / Acts 20:22–32.
+
+No singular item was forced into repetition merely to create a pattern.
+
+### Repeated Boundaries / Negative Evidence
+
+Preserved **6** recurring controls:
+- explicit Father-God attribution;
+- explicit Spirit attribution;
+- Human/Angel agency;
+- Christ Role/Relation/content != narrated Direct Action;
+- Jesus-name mediation != Jesus as grammatical acting subject;
+- unresolved `Lord` referent != confirmed Christ attribution.
+
+### Non-merges / false similarities
+
+Recorded **8** explicit anti-overaggregation controls, including:
+- direct Christ speech/appearance vs apostolic action in Jesus’ name;
+- Christ Role vs Christ Action;
+- prayer to Christ vs narrated fulfillment;
+- God acting through humans vs Christ acting through humans;
+- unresolved `Lord` vs explicit Jesus self-identification;
+- related Saul/Paul retellings vs independent action-types;
+- Jesus-name mediation vs explicit “Jesus heals” attribution;
+- Spirit action vs Christ action in mixed guidance sequences.
+
+### Verification carry-forward
+
+**COMPLETE.**
+
+All Event 060 retained issues carried forward without resolution:
+
+`V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03`.
+
+Stage 2 records whether each item:
+- prevents positive repetition membership;
+- may alter repetition strength/Agency;
+- or remains isolated.
+
+No retained issue was resolved through theological harmonization, historical comparison or independent review.
+
+### O01–O03 provenance
+
+Confirmed:
+- O01 — Acts 4:10 — Stage 1-discovered omission; participates in R03;
+- O02 — Acts 10:42 — Stage 1-discovered omission; contributes only to Role/Action boundary;
+- O03 — Acts 13:47 — Stage 1-discovered omission; remains unresolved and contributes only to ambiguous-Lord boundary pending verification.
+
+No omission was retroactively relabeled as Stage 0 evidence.
+
+### Isolation declarations
+
+Historical Acts `research-000.md`, historical `doc-*`, `Summary.md`, `Book.md`, historical maps/groups/conclusions **не открывались и не использовались**.
+
+Rejected Event 054 map **не открывался и не использовался**.
+
+Historical comparison **не проводился**.
+
+### Scope compliance
+
+Stage 2 выполнен только как Repetition / Stable Evidence Map.
+
+Не выполнялись:
+- Stage 3 provisional groups/classification;
+- Material Verification;
+- independent subject-matter review;
+- Stage 4 synthesis/book conclusion;
+- historical comparison;
+- cross-book expansion.
+
+Frequency не использовалась как мера evidential strength.
+
+### Handoff
+
+**STAGE 2 REPETITION / STABLE EVIDENCE MAP COMPLETE — submitted for Project Lead acceptance.**
+
+**Ownership → Research Project Lead v0.1.**
+
+Researcher ownership по Event 061 завершён.
+
+Stage 3 остаётся `NOT ACTIVATED`.
