@@ -4778,3 +4778,242 @@ Lead записывает acceptance decision append-only и возвращае�
 ### Current ownership
 
 **Research Project Lead v0.1 — Stage 0 installation/handoff only.**
+
+
+---
+
+## Event 053 — Stage 0 Execution Assignment: ACTS-RR Book Corpus Map
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Задание — IP-001 ACTS-RR Stage 0 execution assignment**  
+■ **Исполнитель — Researcher v0.1, Stage 0 only**  
+◆ **Lead mode — Stage Coordination / execution handoff**  
+**Дата:** 2026-09-25.
+
+### 1. Authority
+
+Event 052 принят как Owner authorization **только Stage 0 — Book Corpus Map для Деяний 1–28**.
+
+Настоящий Event устанавливает точный execution assignment и активирует Researcher v0.1 только в этих границах. Он не разрешает Stage 1, historical comparison или последующие stages.
+
+### 2. Governing sources
+
+Researcher работает под:
+
+1. Research Lab Methodology v0.3;
+2. IP-001 Protocol v0.2;
+3. IP-001 Research Criteria v0.2;
+4. IP-001 ACTS-RR Installation Package R1;
+5. Event 052;
+6. настоящим Event 053;
+7. библейским текстом; основной рабочий перевод — Синодальный (RST).
+
+При конфликте execution wording с governing documents Researcher не импровизирует, а делает STOP → Project Lead с точным описанием конфликта.
+
+### 3. Research question and Stage 0 purpose
+
+Рабочий вопрос IP-001:
+
+> **Какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?**
+
+Stage 0 не отвечает на этот вопрос окончательно. Его задача — провести **последовательный fresh pass всей книги Деяний 1–28** и создать предварительную, проверяемую карту материала для будущего Stage 1.
+
+Stage 0 должен быть чувствителен не только к очевидным кандидатам, но и к местам, где direct agency может быть спутана с Relation, Mediation, действием Отца/Бога, Святого Духа или человека.
+
+### 4. Mandatory historical isolation
+
+На всём Stage 0 запрещены как working input или answer key:
+
+- historical \`research-000.md\`;
+- все historical \`doc-*\`;
+- historical \`Summary.md\`;
+- historical \`Book.md\`;
+- historical Acts candidate maps, classifications, groups, conclusions;
+- любые выписки из них, позволяющие восстановить старую карту.
+
+Не использовать их:
+- для поиска candidates;
+- для проверки, не пропущено ли место;
+- для выбора chapter/pericope;
+- для сверки classification;
+- для подтверждения или изменения fresh observations.
+
+**Historical comparison NOT AUTHORIZED.**
+
+Если historical material оказался случайно раскрыт так, что может повлиять на ещё не зафиксированный fresh pass, Researcher делает STOP и фиксирует contamination risk; не продолжает молча.
+
+### 5. Language rule
+
+**Вся смысловая часть Stage 0 выполняется на русском языке.**
+
+На русском должны быть основания отбора, observations, boundary notes, объяснение attribution, uncertainties и причины Verification Flags.
+
+Английский разрешён для технических labels/identifiers, например: \`Stage 0\`, \`Coverage Ledger\`, \`Candidate\`, \`Boundary Case\`, \`Attribution\`, \`Verification Flag\`, имён файлов и устойчивых status labels.
+
+### 6. Required execution method
+
+Researcher проходит **Деяния последовательно от главы 1 до главы 28**, опираясь на библейский текст, а не на поиск заранее известных мест.
+
+Рабочая гранулярность свободная: chapter / narrative block / pericope / несколько связанных стихов. Обязательный file-per-passage не вводится.
+
+Для каждого chapter должно быть recoverable подтверждение покрытия. Пустая глава не исчезает из record: если material candidates не выявлены, это явно фиксируется в Coverage Ledger.
+
+Stage 0 должен сохранять достаточный контекст, чтобы будущий Stage 1 мог восстановить, почему locus попал или не попал в рабочую карту, но не должен выполнять за Stage 1 полноценный final judgment.
+
+### 7. Required output — A. Coverage Ledger
+
+Создать последовательный ledger **Acts 1–28**.
+
+Для каждой главы минимум:
+
+| Chapter | Coverage | Candidate loci | Material boundary / negative loci | Verification need | Note |
+|---|---|---|---|---|---|
+
+Требования:
+- каждая глава 1–28 присутствует;
+- \`Coverage = COMPLETE\` только после фактического fresh reading;
+- если candidates нет, указать \`none identified at Stage 0\`, а не оставлять поле пустым;
+- candidate/boundary references должны вести к локальным entries ниже;
+- ledger не является book synthesis и не содержит frequency/pattern claims.
+
+### 8. Required output — B. Candidate Map
+
+Для каждого candidate locus создать компактный entry:
+
+**ID:** \`S0-ACTS-###\`  
+**Text locus:** точные стихи / narrative boundary  
+**Candidate type:** краткий технический label  
+**Relevant textual signal:** что именно в тексте вызвало включение  
+**Provisional Attribution:** Christ / Father-God / Spirit / Human / Unclear / Mixed — только настолько, насколько нужно для Stage 0  
+**Почему locus включён:** русскоязычное основание по действующим Criteria  
+**Action / Relation / Mediation risk:** если применимо  
+**Stage 0 uncertainty:** существенная неопределённость, которую нельзя потерять  
+**Verification Flag:** YES/NO; если YES — точный trigger
+
+Stage 0 candidate entry **не обязан** и по умолчанию не должен выдавать окончательный \`INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE\`. Если технический status нужен для навигации, использовать \`CANDIDATE / BOUNDARY / CONTEXT ONLY\`, не подменяя Stage 1 judgment.
+
+### 9. Required output — C. Material Boundary / Negative Cases
+
+Отдельно сохранить loci, которые materially помогают не переоценить Christ agency, например когда:
+
+- действие явно приписано Father/God;
+- действие явно приписано Holy Spirit;
+- человеческое действие может быть ошибочно прочитано как действие Христа;
+- имя/вера/молитва/видение/посредничество создают Christological relation, но direct agency неочевидна;
+- место внешне похоже на candidate, но subject attribution остаётся иным или неясным;
+- отрицательное свидетельство ограничивает будущую формулировку.
+
+Не требуется каталогизировать каждое действие Бога/Духа/людей в Деяниях. Включать **material boundary cases**, реально полезные для IP-001 и контроля over-attribution.
+
+Boundary entry использует тот же recoverable минимум: locus → signal → attribution → причина сохранения → uncertainty/verification need.
+
+### 10. Verification Flags
+
+Поставить \`Verification Flag\` только если дальнейший judgment может materially зависеть от:
+
+- греческого текста / синтаксиса;
+- варианта перевода;
+- referent/pronoun/title identification;
+- локального или narrative context;
+- distinction Direct Agency / Mediation / Relation;
+- competing subject attribution.
+
+Stage 0 **не обязан выполнять** такую проверку, если для карты достаточно корректно сохранить trigger. Не решать сложный вопрос предположением ради чистоты карты.
+
+### 11. Explicit prohibitions
+
+Researcher не должен на Stage 0:
+
+- выдавать финальную классификацию всех candidates;
+- строить Stage 2 repetition/pattern map;
+- формировать Stage 3 groups;
+- делать book-level synthesis;
+- сравнивать fresh findings с historical Acts outputs;
+- читать historical files для контроля полноты;
+- объявлять вывод «что Деяния учат в целом»;
+- расширяться на другую книгу;
+- запускать philological deep dive без material Stage 0 trigger;
+- считать Stage 0 entries завершёнными Stage 1 observations.
+
+### 12. Output artifact and naming
+
+Stage 0 должен быть возвращён как **один цельный fresh artifact**, предпочтительно:
+
+\`Research/IP-001/Research/ACTS/rr-000_Acts_Stage0_Corpus_Map.md\`
+
+Если существующая canonical naming convention требует минимального технического изменения имени, Researcher фиксирует его в handoff; смысл и generation \`rr-000\` сохраняются.
+
+Artifact должен содержать:
+
+1. header/provenance;
+2. governing inputs и historical-isolation declaration;
+3. Coverage Ledger Acts 1–28;
+4. Candidate Map;
+5. Material Boundary / Negative Cases;
+6. Verification Queue;
+7. Stage 0 limitations;
+8. completion/handoff statement.
+
+Не создавать отдельные files per candidate без material operational need.
+
+### 13. Completion threshold
+
+Stage 0 можно передать Lead только если одновременно:
+
+- Acts 1–28 имеют \`COMPLETE\` coverage;
+- каждый candidate и material boundary locus recoverable;
+- существенные attribution ambiguities не скрыты;
+- Verification Flags имеют конкретный trigger;
+- historical isolation подтверждена;
+- отсутствуют Stage 1 final judgments и book synthesis;
+- смысловая часть написана на русском;
+- artifact сохранён как fresh \`rr-000\` generation.
+
+Если хотя бы один пункт не выполнен — Researcher не объявляет Stage 0 complete.
+
+### 14. Handoff to Project Lead
+
+После completion Researcher:
+
+1. сохраняет цельный Stage 0 artifact;
+2. append-only добавляет в этот RUN.md компактный Event с:
+   - ссылкой на artifact;
+   - coverage status Acts 1–28;
+   - количеством candidate entries;
+   - количеством material boundary entries;
+   - Verification Queue summary;
+   - historical-isolation declaration;
+   - scope-compliance statement;
+   - unresolved dependencies, если есть;
+3. возвращает ownership **Research Project Lead v0.1**.
+
+Lead затем проводит только Stage 0 acceptance по Event 052/053 и возвращает Owner отдельный gate. Lead acceptance не запускает Stage 1.
+
+### 15. STOP conditions
+
+Immediate STOP → Project Lead если:
+
+- historical contamination произошла до завершения fresh pass;
+- невозможно подтвердить coverage Acts 1–28;
+- governing documents materially конфликтуют;
+- требуется authority Stage 1+ для продолжения;
+- output невозможно сделать recoverable без изменения установленной architecture;
+- требуется смена research question или corpus.
+
+### Activation state after Event 053
+
+| Item | State |
+|---|---|
+| Stage 0 | **ACTIVATED / IN EXECUTION** |
+| Researcher | **ACTIVATED for Stage 0 only** |
+| Required corpus | **Acts 1–28** |
+| Historical Acts outputs | **SEALED / PROHIBITED INPUT** |
+| Historical comparison | **NOT AUTHORIZED** |
+| Stage 1 | **NOT AUTHORIZED** |
+| Stage 2–4 | **NOT AUTHORIZED** |
+| Independent subject-matter review | **NOT ACTIVATED** |
+| Book-Level Close Audit | **NOT ACTIVATED** |
+
+### Ownership transferred to
+
+**Researcher v0.1 — Stage 0 execution only.**
