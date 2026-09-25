@@ -5970,3 +5970,262 @@ Project Lead рекомендует следующий bounded route:
 ### Ownership
 
 **Owner.**
+
+
+---
+
+## Event 061 — Owner Decision + Project Lead Stage 2 Execution Assignment
+
+▶ **Owner Decision — APPROVED: proceed to Stage 2**  
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Исполнитель — Researcher v0.1**  
+◆ **Активный режим — Stage 2 Repetition / Stable Evidence Map only**  
+**Дата:** 2026-09-25.
+
+### 1. Authorization
+
+Owner authorizes **Stage 2 — Repetition / Stable Evidence Map** after accepted Stage 1 (Event 060).
+
+Project Lead installs the exact Stage 2 assignment below.
+
+Stage 3, Material Verification, historical comparison and Stage 4 remain **NOT ACTIVATED**.
+
+### 2. Governing inputs
+
+Stage 2 is governed by:
+
+1. Research Lab Methodology v0.3;
+2. IP-001 Protocol v0.2;
+3. IP-001 Research Criteria;
+4. IP-001 ACTS-RR Installation Package R1;
+5. accepted Stage 0 map \`rr-000_Acts_Stage0_Corpus_Map-R1.md\` for provenance/coverage only;
+6. accepted Stage 1 artifact \`rr-001_Acts_Primary_Observations.md\` as the primary evidence input;
+7. Event 060 Lead acceptance;
+8. this Event 061.
+
+Research question remains:
+
+> **Какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?**
+
+### 3. Stage 2 purpose
+
+Stage 2 does **not** repeat Stage 1 exegesis and does not yet create final research groups.
+
+Its task is to compare the accepted independent local observations across Acts and identify, with exact traceability:
+
+- genuinely repeated actions / attribution structures;
+- stable evidence structures that recur in more than one independent locus;
+- strong singular evidence that must remain visible even without repetition;
+- repeated attribution boundaries / negative evidence;
+- apparent similarities that must **not** be merged because subject, Agency or Evidence Type differs;
+- unresolved cases that cannot responsibly support a repetition claim before later Verification.
+
+Frequency is not strength. A repeated weak/ambiguous construction does not outrank a strong singular explicit attribution.
+
+### 4. Historical isolation
+
+Historical Acts outputs remain **SEALED**:
+- \`research-000.md\`;
+- historical \`doc-*\`;
+- \`Summary.md\`;
+- \`Book.md\`;
+- historical maps/groups/conclusions.
+
+Rejected Event 054 map remains prohibited input.
+
+Historical comparison remains **PROHIBITED**.
+
+Stage 2 must be derived from accepted fresh \`rr-001\` evidence, not from memory or historical classifications.
+
+### 5. Language
+
+Substantive reasoning, descriptions of repetitions, boundaries, differences, limitations and conclusions of this stage must be in **Russian**.
+
+English may remain for filenames, IDs, technical labels and controlled vocabulary.
+
+### 6. Required Stage 2 output
+
+Create a fresh Stage 2 artifact, preferably:
+
+\`Research/IP-001/Research/ACTS/rr-002_Acts_Repetition_Stable_Evidence_Map.md\`
+
+The artifact must contain at least the following layers.
+
+#### A. Evidence Inventory
+
+Compact index of all accepted Stage 1 substantive units:
+- \`U01–U19\`;
+- \`D01–D26\` / linked B07;
+- \`O01–O03\`.
+
+For each, preserve:
+- locus;
+- Stage 1 judgment;
+- Agency / Evidence Type;
+- whether it participates in a Stage 2 repetition, is strong singular evidence, boundary/negative evidence, or remains unresolved.
+
+This is traceability, not a new Stage 1 judgment.
+
+#### B. Repetition / Stable Evidence Map
+
+For every proposed repeated structure provide:
+
+- Stage 2 ID, e.g. \`R01\`;
+- concise Russian description;
+- constituent Stage 1 units with exact loci;
+- common feature actually shared;
+- material differences between constituents;
+- subject/Agency type;
+- strength/limits of repetition claim;
+- unresolved/verification-dependent members, if any.
+
+A repetition requires more than thematic resemblance. Units may be joined only when the shared feature is supported by their accepted local observations.
+
+#### C. Strong Singular Evidence
+
+List accepted Stage 1 evidence that is materially important but should **not** be forced into a repetition merely to create a pattern.
+
+For each:
+- Stage 1 unit/locus;
+- why it is strong/material;
+- why it remains singular or structurally distinct;
+- any limitation/verification dependency.
+
+#### D. Repeated Boundaries / Negative Evidence
+
+Identify recurring controls such as:
+- explicit Father-God agency;
+- explicit Spirit agency;
+- Human/Angel agency;
+- Christ as Role/Relation/content without narrated direct action;
+- Jesus-name mediation that must not be flattened into Direct Action;
+- ambiguous \`Lord\` referents.
+
+Only claim a repeated boundary where multiple independent Stage 1 units actually support it.
+
+#### E. Non-merges / False Similarities
+
+Explicitly record materially tempting combinations that must remain separate, for example:
+- direct Christ speech/appearance vs apostolic action in Jesus' name;
+- Christ Role vs Christ Action;
+- prayer addressed to Christ vs narrated fulfillment by Christ;
+- God acting through humans vs Christ acting through humans;
+- title \`Lord\` with unresolved referent vs explicit self-identification as Jesus.
+
+This section is a required anti-overaggregation control.
+
+#### F. Verification Carry-forward
+
+Carry forward all material unresolved issues accepted in Event 060:
+
+\`V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03\`.
+
+For each state whether it:
+- currently prevents membership in a proposed repetition;
+- may change the boundary/strength of a repetition;
+- is presently isolated and does not affect Stage 2 map materially.
+
+Do **not** resolve these by new independent/theological/historical review in Stage 2.
+
+### 7. Treatment of Stage 1-discovered omissions
+
+\`O01–O03\` are part of the accepted Stage 1 evidence set with provenance **Stage 1-discovered omission**.
+
+They may participate in Stage 2 comparison on equal evidential terms after their local Stage 1 judgments, but their provenance must remain visible.
+
+### 8. Stage 2 analytical discipline
+
+Researcher must:
+
+- compare only accepted fresh local evidence;
+- preserve exact constituent references;
+- distinguish repetition from evidential strength;
+- preserve strong singular evidence;
+- preserve negative evidence;
+- keep \`INCLUDE\` distinct from Direct Christ Action;
+- keep Direct / Mediated Action / Role / Relation / Result distinct;
+- keep Father-God / Christ / Spirit / Human / Angel / Unclear distinct;
+- avoid counting statuses as proof;
+- avoid turning unresolved cases into pattern support by assumption.
+
+Stage 2 may observe that several units share a structure. It must not yet turn those structures into Stage 3 research groups or a book-level taxonomy.
+
+### 9. Explicit prohibitions
+
+Researcher must not:
+
+- reopen or rewrite accepted Stage 1 judgments without a material contradiction; if one is discovered, flag STOP/return to Lead;
+- open/use historical Acts outputs;
+- use rejected Event 054 map;
+- perform historical comparison;
+- perform independent subject-matter verification;
+- resolve retained Verification items by theological harmonization;
+- create Stage 3 provisional groups/classification;
+- create Stage 4 synthesis/book conclusion;
+- infer an answer for Acts as a whole from frequency;
+- expand to another corpus.
+
+### 10. Completion threshold
+
+Stage 2 may be submitted only when:
+
+1. all accepted Stage 1 units are traceable in the Evidence Inventory;
+2. every claimed repetition has exact constituent units and stated common feature;
+3. material differences within repetitions remain visible;
+4. strong singular evidence is preserved;
+5. repeated boundary/negative evidence is preserved;
+6. material false similarities/non-merges are explicit;
+7. all retained Verification issues from Event 060 are carried forward;
+8. O01–O03 provenance remains visible;
+9. historical/rejected-output isolation is declared;
+10. no Stage 3/4 synthesis has occurred.
+
+### 11. Handoff
+
+On completion Researcher shall append a new Event to this RUN.md containing:
+
+- artifact link;
+- Evidence Inventory completeness status;
+- list/count of proposed repetition structures;
+- list/count of strong singular items;
+- summary of repeated boundaries;
+- summary of non-merges;
+- Verification carry-forward status;
+- O01–O03 provenance confirmation;
+- historical/rejected-output isolation declarations;
+- scope compliance;
+- unresolved dependencies;
+- ownership → Research Project Lead.
+
+Do not activate Stage 3.
+
+### 12. Project Lead acceptance
+
+Lead will review:
+- completeness/traceability;
+- whether repetitions are genuinely supported;
+- whether differences and singular evidence were preserved;
+- whether negative evidence survived aggregation;
+- whether unresolved cases were kept provisional;
+- whether Stage 2 avoided premature Stage 3 grouping;
+- isolation/language/scope compliance.
+
+Lead acceptance does not activate Stage 3. Ownership then returns to Owner for the next gate.
+
+### Current-State Delta after Event 061
+
+| Item | State |
+|---|---|
+| Stage 0 | **COMPLETE / ACCEPTED** |
+| Stage 1 | **COMPLETE / ACCEPTED** |
+| Stage 2 | **AUTHORIZED / ACTIVATED** |
+| Researcher | **ACTIVATED — Stage 2 only** |
+| Historical Acts outputs | **SEALED** |
+| Historical comparison | **PROHIBITED** |
+| Stage 3–4 | **NOT ACTIVATED** |
+| Material Verification | **NOT ACTIVATED** |
+| Independent subject-matter review | **NOT ACTIVATED** |
+
+### Ownership
+
+**Researcher v0.1 — Stage 2 execution only.**
