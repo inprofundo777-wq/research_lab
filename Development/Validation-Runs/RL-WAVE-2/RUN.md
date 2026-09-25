@@ -5719,3 +5719,95 @@ A Lead acceptance of Stage 1 will **not** itself activate Stage 2. Ownership ret
 ### Ownership
 
 **Researcher v0.1 — Stage 1 execution only.**
+
+
+---
+
+## Event 059 — ACTS-RR Stage 1 Researcher Handoff
+
+▶ **Основная роль — Researcher v0.1**  
+▶ **Основное задание — IP-001 ACTS-RR Stage 1: Primary Observation**  
+■ **Второстепенная роль — не активирована**  
+◆ **Активный режим — Stage 1 execution only**  
+**Дата:** 2026-09-25.
+
+### Result artifact
+
+`Research/IP-001/Research/ACTS/rr-001_Acts_Primary_Observations.md`
+
+### Completion status
+
+- **C01–C19:** COMPLETE — все 19 accepted Stage 0 Candidates получили explicit local Stage 1 Research Judgment.
+- **B01–B26:** COMPLETE — все 26 Material Boundary / Negative Cases получили traceable disposition; B07 интегрирован в тот же local unit, что C06.
+- **V01–V20:** COMPLETE AS TO STAGE 1 DISPOSITION — каждый R1 Verification Queue trigger получил один из требуемых Event 058 statuses.
+
+### Verification Queue disposition summary
+
+**RESOLVED LOCALLY:** V02, V06, V07, V09, V15, V16, V19, V20.
+
+**NOT MATERIAL AFTER LOCAL JUDGMENT:** V08, V17.
+
+**RETAINED FOR MATERIAL VERIFICATION:** V01, V03, V04, V05, V10, V11, V12, V13, V14, V18.
+
+Новый trigger из Stage 1-discovered omission O03 также **RETAINED FOR MATERIAL VERIFICATION**: Деян. 13:47 — referent «Господь» и механизм применения цитаты как command.
+
+Independent verification этим Event не активируется.
+
+### Stage 1-discovered omissions
+
+Три loci provenance-marked как обнаруженные во время Stage 1 и не приписаны Stage 0 задним числом:
+
+1. **O01 — Деян. 4:10** — healing attribution через имя Иисуса; `INCLUDE`, linked to existing mediation verification.
+2. **O02 — Деян. 10:42** — Иисус как назначенный Богом Судия живых и мёртвых; `CONTEXTUAL` Role.
+3. **O03 — Деян. 13:47** — «так заповедал нам Господь» + scriptural quotation applied to mission; `BORDERLINE`, new material verification trigger.
+
+Эти omissions передаются Lead для completeness review.
+
+### Source provenance
+
+Primary biblical text: **Russian Synodal Translation (RST)**.  
+Primary approved carrier: `https://bible.by/`.
+
+Accepted `rr-000_Acts_Stage0_Corpus_Map-R1.md` использовался только как routing input. Его provisional labels не использовались как answer key; Stage 1 judgments реконструированы по biblical text/local context.
+
+### Isolation declarations
+
+Historical Acts `research-000.md`, historical `doc-*`, `Summary.md`, `Book.md`, historical maps/classifications/groups/conclusions **не открывались и не использовались**.
+
+Rejected Event 054 `rr-000_Acts_Stage0_Corpus_Map.md` **не открывался и не использовался**.
+
+Historical comparison **не проводился**.
+
+### Scope compliance
+
+Stage 1 выполнен только как Primary Observation.
+
+Не выполнялись:
+- Stage 2 repetition/pattern mapping;
+- Stage 3 groups/classification;
+- Stage 4 synthesis;
+- book-level conclusion;
+- historical comparison;
+- independent subject-matter review;
+- расширение на другой corpus.
+
+`INCLUDE` не использован как синоним Direct Christ Action; Relation, Mediation, Role и explicit Father/Spirit/Human/Angel actions сохранены отдельно.
+
+### Unresolved material questions
+
+На следующий разрешённый verification gate сохранены material issues:
+- Lord/title referents: 1:24–26; 2:47; 11:20–21; 12:11; 14:3; 16:14;
+- Direct Agency / Mediation force: 3:16; 4:29–31;
+- RST/Greek attribution sequence: 16:6–10;
+- textual/referential issue: 20:28;
+- new Stage 1 omission: 13:47.
+
+Их наличие не скрыто и не закрыто предположением.
+
+### Handoff
+
+**STAGE 1 PRIMARY OBSERVATION EXECUTION COMPLETE — submitted for Project Lead acceptance.**
+
+**Ownership → Research Project Lead v0.1.**
+
+Researcher ownership по Event 058 завершён. Stage 2 остаётся `NOT ACTIVATED`.
