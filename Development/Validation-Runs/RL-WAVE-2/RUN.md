@@ -5316,3 +5316,132 @@ Historical comparison не проводился.
 **Ownership → Research Project Lead v0.1.**
 
 Researcher ownership по Event 055 завершён. Stage 1 остаётся `NOT AUTHORIZED`; никакой последующий research stage не активирован.
+
+
+---
+
+## Event 057 — Project Lead Acceptance: ACTS-RR Stage 0 Clean Re-run
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Объект — Event 056 / \`rr-000_Acts_Stage0_Corpus_Map-R1.md\`**  
+■ **Решение — ACCEPT**  
+◆ **Активный режим — Stage 0 acceptance only**  
+**Дата:** 2026-09-25.
+
+### Decision
+
+**EVENT 056 ACCEPTED.**
+
+**IP-001 ACTS-RR STAGE 0 — COMPLETE / ACCEPTED.**
+
+Project Lead проверил новый clean-room artifact по Event 053 и усиленным требованиям Event 055. Rejected Event 054 map не использовался как substantive benchmark при acceptance.
+
+### 1. Source provenance / clean-room integrity
+
+R1 явно фиксирует:
+- clean re-run after Event 055;
+- основной approved RST carrier: \`bible.by\`;
+- при технической недоступности — только Owner-approved RST carriers \`old.bibleonline.ru\` и \`azbyka.ru/biblia\`;
+- неавторизованные biblical-text sources не использовались;
+- rejected Event 054 artifact не открывался и не использовался;
+- historical Acts outputs не открывались и не использовались.
+
+Source-integrity defect Event 054 в новом artifact не повторён.
+
+### 2. Coverage acceptance
+
+Acts 1–28 представлены в последовательном \`Coverage Ledger\`; каждая глава имеет явный coverage record.
+
+**Coverage Acts 1–28: ACCEPTED AS COMPLETE.**
+
+Карта содержит:
+- 19 Candidate entries;
+- 26 Material Boundary / Negative Cases;
+- 20 Verification Queue triggers.
+
+Counts принимаются только как свойства R1 и не сравниваются с rejected Event 054 output.
+
+### 3. Research-discipline acceptance
+
+R1 сохраняет требуемые границы Stage 0:
+
+- Candidate не объявлен доказанным Christ action;
+- финальные \`INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE\` judgments не вынесены;
+- Father-God / Christ / Spirit / Human / angel / unclear attribution не схлопнуты;
+- Action / Relation / Mediation risks сохранены;
+- material negative/boundary evidence явно удерживается;
+- ambiguity не закрывается предположением;
+- Verification Flags имеют локальные material triggers;
+- Stage 2 patterns, Stage 3 groups и Stage 4 synthesis не построены;
+- historical comparison не проводился.
+
+Особенно значимо, что карта сохраняет как candidates не только explicit self-identifying Christ speech/appearance loci, но и действительно спорные места — например \`2:33\`, \`3:1–16\`, \`5:30–32\`, \`11:19–24\`, \`16:6–18\`, \`20:28\` — не разрешая их преждевременно. Одновременно explicit non-Christ attribution сохранена как boundary control.
+
+### 4. Recoverability
+
+Связка:
+
+\`Coverage Ledger → Candidate/Boundary ID → locus → textual signal → provisional attribution → reason → Action/Relation/Mediation risk → uncertainty → Verification Flag\`
+
+достаточна для локального восстановления основания включения и для будущего Stage 1 без обязательного file-per-passage.
+
+**Recoverability: ACCEPTED.**
+
+### 5. Language rule
+
+Смысловая часть R1 преимущественно выполнена на русском. Английский сохранён главным образом в технических labels/controlled vocabulary.
+
+**Owner semantic-language requirement: ACCEPTED.**
+
+Это acceptance не отменяет требование и дальше формулировать substantive reasoning и research conclusions на русском.
+
+### 6. Acceptance boundary
+
+Настоящее решение подтверждает только успешное завершение **Stage 0 Book Corpus Map**.
+
+Оно не означает:
+- что любой из 19 candidates уже является \`INCLUDE\`;
+- что 20 Verification triggers уже разрешены;
+- что Stage 1 выполнен или автоматически разрешён;
+- что historical comparison открыт;
+- что Stage 2–4 активированы;
+- что independent subject-matter review или Book-Level Close Audit активированы.
+
+Rejected Event 054 artifact остаётся failed provenance record и не возвращается в research input.
+
+Historical \`research-000.md\`, \`doc-*\`, \`Summary.md\`, \`Book.md\` остаются **SEALED**.
+
+### 7. Next Owner gate
+
+Project Lead возвращает ownership Owner.
+
+Следующий установленный gate — отдельное решение Owner о **Stage 1 local research judgments** по принятой R1 Stage 0 map и действующему Stage 1 Output Contract v0.2.
+
+Если Owner разрешает Stage 1, Project Lead должен до Researcher execution установить точный Stage 1 assignment, сохраняя:
+- R1 как единственный accepted fresh Stage 0 map;
+- historical outputs sealed;
+- sequential/local recoverability;
+- действующий \`Research Unit → Relevant Evidence → Attribution → Research Judgment → Observation → Limitation / Uncertainty\`;
+- \`INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE\`;
+- Verification Flags без преждевременного снятия;
+- русскоязычный substantive output;
+- отсутствие Stage 2+ и historical comparison.
+
+### Current-State Delta after Event 057
+
+| Item | State |
+|---|---|
+| Stage 0 R1 | **COMPLETE / ACCEPTED** |
+| Event 054 original Stage 0 | **REJECTED / FAILED PROVENANCE RECORD ONLY** |
+| Accepted fresh map | **\`rr-000_Acts_Stage0_Corpus_Map-R1.md\`** |
+| Historical Acts outputs | **SEALED** |
+| Historical comparison | **NOT AUTHORIZED** |
+| Stage 1 | **NOT AUTHORIZED** |
+| Stage 2–4 | **NOT AUTHORIZED** |
+| Independent subject-matter review | **NOT ACTIVATED** |
+| Book-Level Close Audit | **NOT ACTIVATED** |
+| Current owner | **Owner** |
+
+### Ownership
+
+**Owner.**
