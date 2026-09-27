@@ -8,11 +8,11 @@
 **System Audit:** Event 036 — PASS WITH CONDITIONS  
 **Owner Decision:** Event 037 — Scoped Active approved in the named envelope  
 **Documentation alignment:** `CS-RL-002` — COMPLETE  
-**Current Gate:** Independent Installation Audit of IP-001 ACTS-RR, Event 043  
-**Current Owner:** Research Auditor v0.1 — Installation Audit only  
-**Status:** 🟢 WAVE 2 CLOSED / IP-001 INSTALLATION COMPLETE — AUDIT AUTHORIZED  
-**Active Target:** Audit of Event 042 package; no Stage 0 or Researcher execution  
-**Next Decision Owner:** Owner after Auditor verdict  
+**Current Gate:** Event 063 — Project Lead bounded Stage 2 language correction route  
+**Current Owner:** Research Project Lead v0.1 — Event 062 review/correction only  
+**Status:** ACTS-RR STAGE 2 SUBMITTED / NOT ACCEPTED — LANGUAGE CORRECTION AUTHORIZED  
+**Active Target:** rr-002 language normalization; no Stage 3  
+**Next Decision Owner:** Owner after Lead re-check and Stage 2 disposition  
 **Canonical record:** this file
 
 Owner should normally transfer only the link to this Run Record. The receiving role reads the Current State, Process Map, its Assignment Event and linked immutable target artifact.
@@ -40,6 +40,7 @@ The append-only Events preserve provenance. For operational recovery, the **late
 | IP-001 Acts re-entry Formation | staged full-book route recommended with capability and independent-verification dependencies | COMPLETE / OWNER GATE | Events 039–040 + [Formation result](./Artifacts/FP-IP-001-Re-entry-Formation.md) | Owner |
 | IP-001 Acts Installation decision | migration closed; Project Lead authorized to design staged book cycle, with separate execution gate | APPROVED / INSTALLATION ONLY | Event 041 | Project Lead |
 | IP-001 Acts Installation and Owner audit decision | staged design complete; independent Installation Audit authorized | COMPLETE / AUDIT ACTIVE | Events 042–043 + [Installation Package](./Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package.md) | Auditor → Owner |
+| ACTS-RR Stage 2 language correction | Event 062 not yet accepted; bounded correction routed to Lead; Lab-wide norm package proposed | CORRECTION AUTHORIZED / METHODOLOGY NOT AMENDED | Events 061–063 + [CS-RL-003 proposal](../../Change-Sets/CS-RL-003-Research-Language-Norm-Proposal.md) | Lead → Owner |
 
 No phase in this table activates new research. A new Request, corpus, IP-001 re-entry or validation cycle requires a new explicit Owner Assignment.
 
@@ -6355,3 +6356,36 @@ Frequency не использовалась как мера evidential strength.
 Researcher ownership по Event 061 завершён.
 
 Stage 3 остаётся `NOT ACTIVATED`.
+
+
+---
+
+## Event 063 — Owner Decision: Stage 2 Language Correction and Lab-wide Language Norm Proposal
+
+### Decision
+
+Owner approves the Director's two-track recommendation after the Event 062 handoff. **Stage 2 is submitted but not accepted.** This decision authorizes Project Lead to review Event 062, record a **RETURN FOR BOUNDED LANGUAGE CORRECTION**, and assign the corresponding bounded correction to Researcher within the existing Stage 2 route. It does not authorize a new research pass or Stage 3.
+
+Separately, Owner approves preparation of a Lab-wide language-norm change package. The Director prepared [CS-RL-003 — Граница языка исследовательского содержания](../../Change-Sets/CS-RL-003-Research-Language-Norm-Proposal.md) as a **proposal**, not an amendment already in force. The current Methodology v0.3 remains unchanged pending a separate approval of the exact normative wording/version.
+
+### Project Lead assignment — Event 062 review and bounded correction only
+
+Accept Event 062 as the submitted Researcher Stage 2 output, not as an accepted Stage 2 result. Verify the reported language defect across the **entire** `rr-002_Acts_Repetition_Stable_Evidence_Map.md`, including the Evidence Inventory, R01–R07, S01–S05, repeated boundaries, NB01–NB06, NM01–NM08, verification carry-forward and handoff summary. Record a compact Lead **RETURN FOR BOUNDED LANGUAGE CORRECTION** append-only, with the exact Researcher correction assignment and a re-check contract.
+
+The Researcher shall produce a **whole replacement edition** of `rr-002`: render substantive biblical evidence, subjects, action/relation types, differences, limits and research reasoning in Russian, using the Russian working text's wording where warranted. Preserve technical IDs, filenames, formal statuses, all unit/locus links, the R/S/NB/NM structures, judgments, evidence-to-claim relationships, verification dispositions and provenance. In particular, do not mechanically convert `Father-God` to «Бог Отец» where the locus says only «Бог»; do not resolve an uncertain «Господь» by translation. The existing English labels in Event 061 are **examples of distinctions, not mandated prose wording**.
+
+The replacement must not change `U01–U19`, `D01–D26`, `O01–O03` coverage; reopen accepted Stage 1 decisions; inspect historical `doc-*`; resolve retained verification questions; create new Stage 3 groups; or change the strength of claims. If the language correction exposes a **material attribution, judgment or inferential discrepancy**, stop treating that item as editorial and return the exact case to Lead/Owner for a research decision. Do not hide such a discrepancy in translation.
+
+After the complete replacement, Lead performs a focused re-check of semantic equivalence, language compliance and unchanged traceability/verification status. Lead then accepts or returns Stage 2 under its own authority and reports the result append-only. Lead acceptance alone does **not** activate Stage 3.
+
+### Methodology package boundary
+
+The proposed CS-RL-003 may be considered on its own Owner gate. It clarifies §1.1 for the whole Lab, especially the difference between an English field name and a Russian field value, and requires subject naming to stay within textual warrant. This proposal does not hold up the Stage 2 correction: the current Methodology and Event 061 already require substantive Russian reasoning.
+
+No automatic mass rewrite or retroactive cancellation of accepted Stage 1 follows from this decision. Any material semantic issue found there requires its own bounded review route.
+
+### Activation / ownership
+
+**Authorized:** Lead Stage 2 review, bounded language-correction assignment, focused re-check; Director's proposed CS-RL-003 package preparation.  
+**Not authorized:** Stage 3, Material Verification, Stage 4, historical comparison, new corpus, independent research review, or implementation of CS-RL-003 in the live Methodology.  
+**Ownership:** Research Project Lead v0.1 for Event 062 disposition and correction; the normative proposal is returned to Owner for its separate decision.
