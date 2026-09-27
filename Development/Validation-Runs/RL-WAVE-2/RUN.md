@@ -6389,3 +6389,185 @@ No automatic mass rewrite or retroactive cancellation of accepted Stage 1 follow
 **Authorized:** Lead Stage 2 review, bounded language-correction assignment, focused re-check; Director's proposed CS-RL-003 package preparation.  
 **Not authorized:** Stage 3, Material Verification, Stage 4, historical comparison, new corpus, independent research review, or implementation of CS-RL-003 in the live Methodology.  
 **Ownership:** Research Project Lead v0.1 for Event 062 disposition and correction; the normative proposal is returned to Owner for its separate decision.
+
+
+---
+
+## Event 064 — Project Lead Return: Stage 2 Bounded Language Correction Required
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Основание — Event 063 / review of Event 062**  
+■ **Решение — RETURN FOR BOUNDED LANGUAGE CORRECTION**  
+◆ **Активный режим — Stage 2 language correction only**  
+**Дата:** 2026-09-27.
+
+### 1. Lead disposition
+
+Event 062 принят как **переданный, но не принятый** результат Stage 2.
+
+Проверка \`rr-002_Acts_Repetition_Stable_Evidence_Map.md\` подтверждает language-contract defect: английский язык вышел за пределы технических идентификаторов, имён файлов и controlled statuses и вошёл в смысловой исследовательский слой.
+
+Дефект прослеживается не локально, а по всему документу, включая:
+- Evidence Inventory;
+- \`R01–R07\`;
+- \`S01–S05\`;
+- \`NB01–NB06\`;
+- \`NM01–NM08\`;
+- Verification Carry-forward;
+- completion/limitations wording.
+
+Примеры типа \`possible Direct Action + Result\`, \`Father-God action\`, \`Christ Role\`, \`Human/Angel\`, \`post-ascension visionary/heavenly communication\`, \`stable attribution boundary\` являются не только техническими labels, а смысловыми характеристиками исследуемого свидетельства. По Event 061 этот слой должен быть изложен по-русски.
+
+При этом текущий review **не устанавливает material defect в самих Stage 2 research decisions**. Поэтому новый Stage 2 research pass не требуется.
+
+**Verdict: RETURN FOR BOUNDED LANGUAGE CORRECTION.**
+
+### 2. Exact Researcher correction assignment
+
+Researcher должен подготовить **цельную заменяющую редакцию** Stage 2 artifact:
+
+\`Research/IP-001/Research/ACTS/rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md\`
+
+Исходный Event 062 artifact сохраняется как provenance record и не редактируется частично.
+
+R1 должен полностью воспроизвести исследовательскую архитектуру переданного Stage 2, изменяя только языковое выражение смыслового слоя.
+
+#### 2.1. Что должно быть нормализовано
+
+Проверить и привести к русскому смысловому изложению **весь документ**, в том числе:
+
+1. Provenance / scope / isolation;
+2. Evidence Inventory для \`U01–U19\`, \`D01–D26\`, \`O01–O03\`;
+3. все \`R01–R07\`;
+4. все \`S01–S05\`;
+5. все \`NB01–NB06\`;
+6. все \`NM01–NM08\`;
+7. Verification Carry-forward;
+8. O01–O03 provenance confirmation;
+9. completion / limitations / handoff language.
+
+По-русски должны быть изложены:
+- свидетельства текста;
+- названия/описания действующих субъектов;
+- действия;
+- посредничество;
+- роли и отношения;
+- различия между единицами;
+- ограничения;
+- неопределённости;
+- исследовательские основания;
+- описания силы и границ повторения;
+- смысловые выводы Stage 2.
+
+Технические идентификаторы, filenames и формальные controlled statuses могут оставаться в установленной форме: например \`U01\`, \`R03\`, \`INCLUDE\`, \`BORDERLINE\`, \`Stage 2\`, \`Verification\`, имена файлов.
+
+#### 2.2. Text-warrant rule for subject naming
+
+Языковая нормализация не должна добавлять богословскую определённость.
+
+В частности:
+- если конкретный locus устанавливает только «Бог», писать **«Бог»**, а не автоматически «Бог Отец»;
+- «Бог Отец» допустимо только там, где такое именование действительно установлено текстом/принятым локальным наблюдением;
+- \`Christ\` в смысловом значении передавать как «Христос» / «Иисус Христос» согласно локальному свидетельству;
+- \`Spirit\` — как «Святой Дух» / «Дух» согласно тексту;
+- \`Human\` — конкретным русским обозначением действующего человека/людей, где это известно;
+- \`Angel\` — «Ангел» / «Ангел Господень» только в пределах текста;
+- unresolved \`Lord\` передавать как **неустановленный референт «Господь»** или эквивалентную русскую формулировку, не разрешая референт языковой правкой.
+
+Аналогично смысловые типы \`Direct Action\`, \`Mediated Action\`, \`Role\`, \`Relation\`, \`Result\`, \`Unresolved\` в исследовательской прозе должны быть выражены по-русски: «прямое действие», «опосредованное действие», «роль», «отношение», «результат», «не разрешено / не установлено» и т. п. Английское controlled label может сохраняться только там, где оно действительно функционирует как формальный status/identifier, а не заменяет русское рассуждение.
+
+### 3. Semantic invariants — MUST NOT CHANGE
+
+R1 обязан сохранить без содержательного изменения:
+
+- все ID;
+- все loci;
+- coverage \`U01–U19\`, \`D01–D26\`, \`O01–O03\`;
+- состав каждой структуры \`R01–R07\`;
+- состав \`S01–S05\`;
+- \`NB01–NB06\`;
+- \`NM01–NM08\`;
+- все Stage 1 judgments;
+- все Stage 2 evidence-to-claim relationships;
+- силу каждого Stage 2 утверждения;
+- distinctions между direct / mediated / role / relation / result;
+- все Verification dispositions;
+- carry-forward \`V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03\`;
+- provenance \`O01–O03\` как Stage 1-discovered omissions;
+- historical/rejected-output isolation;
+- запрет Stage 3+ synthesis.
+
+Не повторять Stage 2 и не открывать Stage 1 заново.
+
+### 4. Material-discrepancy stop rule
+
+Если при языковой нормализации обнаружится, что исходная английская формулировка не может быть честно выражена по-русски без изменения:
+- Attribution;
+- Research Judgment;
+- Agency / Evidence Type;
+- evidence-to-claim relation;
+- силы/границы Stage 2 вывода;
+- Verification status,
+
+Researcher должен **остановить редакционную коррекцию этого конкретного случая** и вынести его в handoff как:
+
+\`MATERIAL RESEARCH QUESTION — LANGUAGE CORRECTION CANNOT RESOLVE\`
+
+с точным ID/locus, исходной формулировкой, обнаруженным расхождением и тем, какое исследовательское решение потребовалось бы.
+
+Такое расхождение нельзя скрывать переводом или самостоятельно разрешать внутри bounded correction.
+
+### 5. Replacement handoff contract
+
+После полной заменяющей редакции Researcher append-only добавляет следующий Event в этот RUN.md и сообщает:
+
+- ссылку на \`rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md\`;
+- подтверждение полной, а не точечной языковой нормализации;
+- подтверждение invariants для \`U/D/O\`, \`R\`, \`S\`, \`NB\`, \`NM\`;
+- подтверждение неизменности judgments и Verification statuses;
+- подтверждение O01–O03 provenance;
+- список material research discrepancies, если обнаружены; если нет — explicit NONE;
+- historical/rejected-output isolation;
+- scope compliance;
+- ownership → Research Project Lead.
+
+Stage 3 не активировать.
+
+### 6. Focused re-check contract
+
+После Researcher handoff Project Lead проверит только:
+
+1. **Semantic equivalence** — R1 не изменил исследовательские решения, связи, состав структур, силу выводов или Verification dispositions Event 062.
+2. **Language compliance** — смысловой исследовательский слой действительно изложен по-русски по всему artifact, а не только в заголовках/части секций.
+3. **Textual warrant in subject naming** — русская формулировка не добавляет субъектной/богословской определённости сверх принятого локального свидетельства.
+4. **Traceability** — \`U01–U19\`, \`D01–D26\`, \`O01–O03\`, \`R01–R07\`, \`S01–S05\`, \`NB01–NB06\`, \`NM01–NM08\` и Verification carry-forward остаются восстанавливаемыми.
+5. **Scope** — Stage 1 не переоткрыт; Stage 2 не повторён; Stage 3/Material Verification/historical comparison не выполнены.
+
+Если все пять условий соблюдены, Lead может принять Stage 2. Если обнаружено содержательное расхождение, Lead возвращает только соответствующий research issue на отдельный Owner gate.
+
+### 7. CS-RL-003 boundary
+
+\`CS-RL-003 — Граница языка исследовательского содержания\` рассматривается отдельно.
+
+Его принятие или непринятие не задерживает эту коррекцию: Event 061 и действующая Methodology уже достаточны для текущего RETURN.
+
+Этот Event не внедряет CS-RL-003 в live Methodology и не запускает массовую ретроактивную переработку других accepted artifacts.
+
+### Current-State Delta after Event 064
+
+| Item | State |
+|---|---|
+| Event 062 | **SUBMITTED / NOT ACCEPTED** |
+| Stage 2 | **RETURNED — BOUNDED LANGUAGE CORRECTION REQUIRED** |
+| Required replacement | **\`rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md\`** |
+| Researcher | **ACTIVATED — Stage 2 language correction only** |
+| Stage 1 | **REMAINS ACCEPTED / NOT REOPENED** |
+| Historical Acts outputs | **SEALED** |
+| Historical comparison | **PROHIBITED** |
+| Material Verification | **NOT ACTIVATED** |
+| Stage 3–4 | **NOT ACTIVATED** |
+| CS-RL-003 | **SEPARATE OWNER GATE / DOES NOT BLOCK CORRECTION** |
+
+### Ownership
+
+**Researcher v0.1 — bounded Stage 2 language correction only.**
