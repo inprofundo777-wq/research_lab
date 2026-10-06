@@ -6629,3 +6629,25 @@ RQ-RL-002 не меняет текущий IP-001 ACTS-RR Stage 2 correction rou
 Director Formation завершена. Project Lead, Researcher, Auditor, clinical reviewer, LIMITED REVIEW execution, более широкое исследование, пособия и изменения Methodology **не активированы**. IP-001 остаётся на своём отдельном маршруте Event 064.
 
 **Ownership returned to Owner** for an Installation decision.
+
+
+---
+
+## Event 067 — Owner Clarification and Director Formation Correction: RQ-RL-002
+
+**Дата:** 2026-10-06.  
+**Основание:** уточнение Owner к Event 066: Peaasi предоставлен как важный эстонский источник и предмет проверки доступности RU/ET/EN, **не как единственный источник или ось исследования**. Предыдущие обсуждения, авторы и книги сохраняются. В обзор следует включить поиск материалов русскоязычных авторов и эстонских христианских/пастырских авторов.
+
+### Correction and provenance
+
+Создана [полная заменяющая редакция FP-RL-002-R1](../../Formations/FP-RL-002-Formation-Report-R1.md). Исходный [FP-RL-002](../../Formations/FP-RL-002-Formation-Report.md) и Event 066 сохраняются как provenance; **узкая формулировка первого шага в Event 066 заменена настоящим Event**. Статус RQ-RL-002 в [Research Request Map](../../../Processes/Research_Request_Map.md) указывает на R1.
+
+**Route остаётся LIMITED REVIEW как первый пропорциональный шаг одного условного staged research programme, но предмет обзора исправлен:** широкий круг возможных библейских, богословских, пастырских, клинических и местных источников; ранее названные Karen Mason, Richard Winter, Edward Welch и соответствующие международные материалы; поиск русскоязычных и эстонских авторов. Peaasi ET/RU/EN и действующие эстонские рекомендации — существенная **подзадача местной применимости и языковой доступности**, не центр всех следующих этапов.
+
+Предварительные кандидаты для библиотеки в R1 не означают принятия их аргументов, клинической актуальности или конфессиональных предпосылок. Исследовательская библиография должна различать автора, перевод, год, тип и пределы применения. Русский язык смыслового анализа сохраняется.
+
+### Corrected Owner Decision Request
+
+> **APPROVE PROJECT LEAD INSTALLATION ONLY for RQ-RL-002 LIMITED REVIEW of the multidisciplinary source landscape under one provisional staged research programme. Include the previously identified books, search for relevant Russian-language authors and Estonian Christian/pastoral materials, and make Peaasi ET/RU/EN comparison a bounded local subtask alongside current Estonian guidance. Require source-selection, language-equivalence and source-currency contracts and explicit clinical/safety-review dependencies. Return Installation to Owner; do not authorize execution or later modules yet.**
+
+Event 067 не активирует Installation или исследование. **Ownership — Owner.** IP-001 и действующая Methodology не изменены.
