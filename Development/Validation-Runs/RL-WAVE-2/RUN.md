@@ -6571,3 +6571,32 @@ Stage 3 не активировать.
 ### Ownership
 
 **Researcher v0.1 — bounded Stage 2 language correction only.**
+
+
+---
+
+## Event 065 — Owner Handoff: RQ-RL-002 Bounded Formation
+
+**Дата:** 2026-10-06.  
+**Основная роль:** Research Lab Director v0.1 — Scoped Active / bounded Formation.  
+**Источник:** ветка «Трагедия Райана Столлара» и [OP-RL — исследовательская возможность](../../Proposals/OP-RL-Pastoral-Crisis-Research-Opportunity.md); явное сообщение Owner от 06.10.2026.  
+**Запись:** [RF-RL-002 — Initial Formation Brief](../../Formations/RF-RL-002-Initial-Formation-Brief.md); [Research Request Map](../../../Processes/Research_Request_Map.md).
+
+### Owner decision
+
+Owner принимает предварительный пакет как **RQ-RL-002** и разрешает **ограниченную Formation**. Предпочтительная рабочая гипотеза — один исследовательский замысел с разными этапами и заданиями для разных вопросов; Director должен проверить её исполнимость и границы, а не считать окончательным решением масштаба.
+
+Смысловое исследовательское изложение должно сохраняться по-русски. Английские/эстонские названия допускаются как точные библиографические и технические обозначения с русским объяснением; проектное правило не вводит само по себе CS-RL-003 в общую Methodology.
+
+В Formation следует приоритетно изучить **местные эстонские источники**, особенно Peaasi.ee, и проверить, насколько русскоязычные материалы по релевантным темам соответствуют эстонской и английской версиям. Нужна карта парных материалов, дат, аудиторий, значимых расхождений и пробелов; выборочная видимость меню не должна выдаваться за полный аудит.
+
+Director проводит стартовую постановку границ (депрессия / острый кризис; Писание / клинические рекомендации / пастырское суждение; спасение и духовная брань; роль личной истории; исследование / будущие пособия), existing-research orientation и предлагает пропорциональный маршрут с зависимостью от независимой клинической проверки. Вопрос о полном проекте, ограниченном обзоре или Probe остаётся открытым до Formation result.
+
+### Boundary
+
+**Authorized:** Director bounded Formation, чтение и сопоставление публичных источников, начальный Formation Brief и завершённый handoff с точным Owner Decision Request.  
+**Not authorized:** Project Lead Installation, Researcher execution, Auditor/clinical reviewer activation, клинический протокол, Stage/Probe execution, публикация пособий, полные переводы защищённых книг, изменения Constitution/Methodology, открытие другого корпуса IP-001.
+
+RQ-RL-002 не меняет текущий IP-001 ACTS-RR Stage 2 correction route в Event 064. Никакой результат нового проекта не приписывается ему заранее.
+
+**Current ownership:** Research Lab Director v0.1 — bounded Formation; вернуть Owner после route recommendation.
