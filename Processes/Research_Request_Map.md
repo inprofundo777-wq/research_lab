@@ -38,7 +38,7 @@ RQ-RL-002 has a Formation route recommendation awaiting Owner decision. Prior RQ
 
 | ID | Request | Source / Handoff | Status | Formation | Owner | Next step |
 |---|---|---|---|---|---|---|
-| RQ-RL-002 | Христианское сопровождение депрессии и суицидального кризиса | Owner, 06.10.2026; [Opportunity Package](../Development/Proposals/OP-RL-Pastoral-Crisis-Research-Opportunity.md) | 🟢 ROUTE DETERMINED | [Formation Report](../Development/Formations/FP-RL-002-Formation-Report-R1.md) | Owner | Решение о Project Lead Installation для обзора широкого круга источников; Peaasi ET/RU/EN — местная подзадача |
+| RQ-RL-002 | Христианское сопровождение депрессии и суицидального кризиса | Owner, 06.10.2026; [Opportunity Package](../Development/Proposals/OP-RL-Pastoral-Crisis-Research-Opportunity.md) | 🟢 ROUTE DETERMINED | [Formation Report](../Development/Formations/FP-RL-002-Formation-Report-R2.md) | Owner | Решение о проектировании ограниченного обзора источников, включая Саула, «Благую весть» и статистику; Peaasi — местная подзадача |
 
 ## Entry contract
 
