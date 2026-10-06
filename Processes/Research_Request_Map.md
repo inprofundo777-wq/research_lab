@@ -1,8 +1,8 @@
 # Research Lab — Research Request Map
 
-**Status:** 🟡 Working Map / No Active Requests  
+**Status:** 🟡 Working Map / RQ-RL-002 Formation Active  
 **Owner:** Research Lab Director  
-**Updated:** 14.09.2026
+**Updated:** 06.10.2026
 
 ## Purpose
 
@@ -34,11 +34,11 @@ Director must not activate a far-horizon possibility merely by reading it.
 
 ## Requests
 
-No Research Request has yet been formally activated under Role System v0.1.
+The current active request is RQ-RL-002. Prior RQ-RL-001 closure and route are recorded in the RL-WAVE-2 Run Record; this entry does not reopen it.
 
 | ID | Request | Source / Handoff | Status | Formation | Owner | Next step |
 |---|---|---|---|---|---|---|
-| — | — | — | ⚪ NONE | — | — | Await explicit Strategist/Owner handoff |
+| RQ-RL-002 | Христианское сопровождение депрессии и суицидального кризиса | Owner, 06.10.2026; [Opportunity Package](../Development/Proposals/OP-RL-Pastoral-Crisis-Research-Opportunity.md) | 🟡 FORMATION | [Initial Formation Brief](../Development/Formations/RF-RL-002-Initial-Formation-Brief.md) | Director v0.1 | Местная ET/RU/EN ориентировка, проверка масштаба и route; вернуть Owner |
 
 ## Entry contract
 
