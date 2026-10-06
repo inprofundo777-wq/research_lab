@@ -1,6 +1,6 @@
 # Research Lab — Research Request Map
 
-**Status:** 🟢 Working Map / RQ-RL-002 Route Determined  
+**Status:** 🟡 Working Map / RQ-RL-002 Installation Active  
 **Owner:** Research Lab Director  
 **Updated:** 06.10.2026
 
@@ -34,11 +34,11 @@ Director must not activate a far-horizon possibility merely by reading it.
 
 ## Requests
 
-RQ-RL-002 has a Formation route recommendation awaiting Owner decision. Prior RQ-RL-001 closure and route are recorded in the RL-WAVE-2 Run Record; this entry does not reopen it.
+RQ-RL-002 has an accepted Formation route; Event 069 authorized Project Lead Installation only. Prior RQ-RL-001 closure and route are recorded in the RL-WAVE-2 Run Record; this entry does not reopen it.
 
 | ID | Request | Source / Handoff | Status | Formation | Owner | Next step |
 |---|---|---|---|---|---|---|
-| RQ-RL-002 | Христианское сопровождение депрессии и суицидального кризиса | Owner, 06.10.2026; [Opportunity Package](../Development/Proposals/OP-RL-Pastoral-Crisis-Research-Opportunity.md) | 🟢 ROUTE DETERMINED | [Formation Report](../Development/Formations/FP-RL-002-Formation-Report-R2.md) | Owner | Решение о проектировании ограниченного обзора источников, включая Саула, «Благую весть» и статистику; Peaasi — местная подзадача |
+| RQ-RL-002 | Христианское сопровождение депрессии и суицидального кризиса | Owner, 06.10.2026; [Opportunity Package](../Development/Proposals/OP-RL-Pastoral-Crisis-Research-Opportunity.md) | 🟡 FORMATION | [Formation Report](../Development/Formations/FP-RL-002-Formation-Report-R2.md) | Project Lead v0.1 | Event 069: проектирование ограниченного обзора; вернуть Owner пакет для решения об исполнении |
 
 ## Entry contract
 
