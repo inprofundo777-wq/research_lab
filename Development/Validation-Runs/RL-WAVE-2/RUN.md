@@ -6712,3 +6712,45 @@ Lead не должен предписывать положительный вы�
 
 **Ownership:** Research Project Lead v0.1 — Installation only.  
 **Return:** цельный пакет и append-only handoff в RUN.md → Owner для отдельного решения об исполнении.
+
+
+---
+
+## Event 070 — RQ-RL-002 Project Lead Installation Handoff: первый LIMITED REVIEW
+
+**Дата:** 2026-10-06.  
+**Primary role:** Research Project Lead v0.1 — Scoped Active / bounded Installation only.  
+**Package:** C; второстепенная роль не активирована.  
+**Assignment:** Event 069; Formation target — FP-RL-002-R2.  
+**Result:** [IP-RL-002-LR-v0.1 — цельный Installation Package](./Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md).  
+**Immutable target:** [пакет в commit 9574bc418b1288865426d0f688e4ae738b47652f](https://github.com/inprofundo777-wq/research_lab/blob/9574bc418b1288865426d0f688e4ae738b47652f/Development/Validation-Runs/RL-WAVE-2/Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md).
+
+### Installation result and evidence boundary
+
+Установлена роль по README, Charter, Operating Model, Prompt, Installation/Authority/Independence Standards и Registry; прочитаны Конституция v0.2, Методология v0.3, DNA, Events 065–069, действующая цельная Formation R2 и исходный Opportunity Package. Предыдущие Formation editions не используются как действующее узкое назначение.
+
+Подготовлен **один цельный пакет**: вопрос и самостоятельное закрытие первого обзора; ограниченная выборка всех источниковых направлений; Mason/Winter/Welch, русскоязычные и эстонские авторы; Саул как кандидат без экзегезы; московская «Благая весть» с проверкой идентичности; отдельная карта количественных данных с определениями исходов, религиозности, служения и подгрупп; Peaasi ET/RU/EN как ограниченная местная подзадача. Предложены Protocol `RQ-RL-002-LR-P-v0.1`, Output Contract `RQ-RL-002-LR-OC1-v0.1`, операции L0–L4, traceability, русский смысловой язык, negative findings, stop/return и Owner gates.
+
+**Пределы предлагаемого исполнения:** до 50 содержательных карточек вне Peaasi; до восьми Peaasi-семейств / 24 материалов; до 60 поисковых запросов с первичным просмотром до 20 результатов каждого и до 40 прямых тематических страниц. Это потолки, не квоты или подтверждение полноты. Недоступность и отсутствие данных возвращаются как ограниченный результат. Единый staged замысел остаётся гипотезой; последующие модули не установлены как активная Stage Map.
+
+**Capability boundary:** Researcher v0.1 пригоден только к проверенному источниковедческому scope; до L1 предложен независимый capability-check L0 и разделение заданий при разрыве способности. Lead, Researcher и Auditor не получают автоматически клиническую, статистическую или ET/RU/EN экспертность. Практические/количественные выводы в первом обзоре запрещены; соответствующая независимая предметная проверка потребуется до повышения статуса и применения.
+
+### Verification status and remaining conditions
+
+Lead выполнил внутреннюю проверку полноты дизайна и ссылок. **Это self-check, не независимый Audit/Review.** Installation Audit, клиническая/статистическая проверка, предметный поиск, LIMITED REVIEW, экзегеза и расчёты не проводились.
+
+Предлагаемое проектное условие запуска: независимый Installation Audit закреплённого target, закрытые launch-blocking findings; затем отдельное Owner execution decision, конкретные assignments и доступные независимые библиографический/методологический и языковой проверяющие. Автор пакета не может представить собственную проверку как независимую. Ближайший рекомендуемый Owner шаг — отдельно поручить этот Installation Audit через Director/прямое Owner assignment; настоящее событие его не активирует.
+
+### Exact Owner Decision Request — execution gate
+
+> Утвердить `IP-RL-002-LR-v0.1`, содержащиеся в нём ограниченный Protocol `RQ-RL-002-LR-P-v0.1` и Output Contract `RQ-RL-002-LR-OC1-v0.1`, и разрешить исполнение только первого LIMITED REVIEW RQ-RL-002 в операциях L0–L4 после закрытия независимого Installation Audit. Назначить Lead v0.1 для bounded Stage Coordination/OC acceptance, конкретного Researcher v0.1 только для проверенного источниковедческого scope, независимых библиографического/методологического и ET/RU/EN проверяющих. До L1 подтвердить способности по L0; при разрыве разделить задания или вернуть Owner. Принять пределы выборки/поиска и возможность отрицательного результата. Не разрешать экзегезу, новые статистические расчёты, клиническое суждение или практическое использование, следующие модули, пособия и полные переводы. Итог первого обзора вернуть Owner для отдельного назначения Director re-evaluation и нового маршрутного решения.
+
+Альтернативы Owner: RETURN Installation с конкретными замечаниями; отдельно разрешить только независимый Installation Audit/проверку способности; DEFER до обеспечения проверяющих; CLOSE. Условное согласие до закрытия условий не является Stage Assignment. Protocol/OC1 **предложены, не утверждены**.
+
+### State and ownership
+
+**RQ-RL-002: INSTALLATION SUBMITTED / OWNER GATE / EXECUTION NOT AUTHORIZED.**
+
+**Ownership returned to Owner** по Event 069. Researcher, Auditor, библиографический/языковой reviewer, клинический/статистический специалист, исполнение обзора, последующие модули и пособия **не активированы**. IP-001, Конституция, Методология и постоянные полномочия ролей не изменены.
+
+Это отдельный маршрут RQ-RL-002; ранние Current State/Process Map записи о IP-001 не служат его текущим назначением. Предыдущие Events сохранены без переписывания.
