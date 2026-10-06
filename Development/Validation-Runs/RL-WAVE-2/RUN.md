@@ -6600,3 +6600,32 @@ Director проводит стартовую постановку границ (
 RQ-RL-002 не меняет текущий IP-001 ACTS-RR Stage 2 correction route в Event 064. Никакой результат нового проекта не приписывается ему заранее.
 
 **Current ownership:** Research Lab Director v0.1 — bounded Formation; вернуть Owner после route recommendation.
+
+
+---
+
+## Event 066 — Director Formation Decision: RQ-RL-002
+
+**Дата:** 2026-10-06.  
+**Primary role:** Research Lab Director v0.1 — bounded Formation authorized by Event 065.  
+**Result:** [FP-RL-002 — Formation Report](../../Formations/FP-RL-002-Formation-Report.md).
+
+### Finding and route
+
+Проверены стартовые разграничения единого замысла с разными этапами; предварительно рассмотрены местные материалы Peaasi (ET/RU/EN), отдельный русскоязычный поддомен первой помощи, эстонские материалы для специалистов и портал Ravijuhend. Наличие русских материалов подтверждено, но **полнота и актуальность по сравнению с ET/EN не установлены**; отдельные навигационные и языковые расхождения требуют точного тематического сопоставления, а не подсчёта ссылок.
+
+**Formation Decision: LIMITED REVIEW** как первый пропорциональный шаг внутри одного *условного* staged research programme. Ограниченный обзор должен картировать релевантные местные источники, версии, аудитории и языковую эквивалентность до проектирования более широкого библейского, пастырского и клинического исследования. Предпочтение Owner к одному замыслу сохранено как проверяемая архитектурная гипотеза, а не предопределённый Full Project. Возможны продолжение, сужение, разделение или закрытие после Review.
+
+Смысловые исследовательские формулировки ведутся по-русски. Библейское evidence, богословско-пастырские позиции и клинические рекомендации должны оставаться различимыми. Кризисные/медицинские выводы потребуют квалифицированной независимой проверки до практического использования; существующий Auditor v0.1 не получает клиническую компетенцию автоматически.
+
+### Exact Owner Decision Request
+
+> **APPROVE PROJECT LEAD INSTALLATION ONLY for RQ-RL-002 LIMITED REVIEW of Estonia-based Peaasi ET/RU/EN materials and relevant local guidance, under a single provisional staged research programme. Require an exact language-parity/source-currency contract and explicit clinical/safety-review dependencies. Return Installation to Owner; do not authorize execution or later modules yet.**
+
+Альтернативы Owner: RETURN Formation для уточнения, DEFER или CLOSE. Настоящий Event **не является решением Owner об Installation**.
+
+### State and ownership
+
+Director Formation завершена. Project Lead, Researcher, Auditor, clinical reviewer, LIMITED REVIEW execution, более широкое исследование, пособия и изменения Methodology **не активированы**. IP-001 остаётся на своём отдельном маршруте Event 064.
+
+**Ownership returned to Owner** for an Installation decision.
