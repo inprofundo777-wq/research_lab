@@ -1,103 +1,57 @@
-# Research Lab Role System
+# Система ролей Research Lab
 
-**Version:** v0.1 Candidate  
-**Status:** 🟡 Scoped Active in defined uses / broader modes Validation Pending  
-**Owner of capability:** Research Lab Director under Owner  
-**Authority:** operational execution layer; subordinate to Research Lab Constitution, Methodology and active Project Protocols
+**Версия описания:** v0.1. **Область действия:** четыре роли имеют статус Scoped Active только в применениях, названных в [реестре версий](./VERSION_REGISTRY.md); более широкие режимы ожидают проверки.  
+**Владелец развития системы:** Research Lab Director под решениями Owner.
 
-## Purpose
+Система ролей определяет, кто выполняет назначение, в каких полномочиях, с каким пакетом контекста, режимом работы, договором результата и маршрутом возврата. Она не определяет исследовательский вывод и не создаёт параллельный источник исследовательской истины.
 
-Role System defines who performs Research Lab work, within which authority, with which context package, modes, output contract and return route.
+## Иерархия и роли
 
-It does not define research conclusions and does not create a parallel epistemic authority.
+[DNA In Profundo](https://github.com/inprofundo777-wq/editorial_system/blob/main/Constitution/DNA.md) → [Конституция v0.2](../Constitution/Constitution_v0.2.md) → [Методология v0.4](../Methodology/methodology_v0.4.md) → проектный протокол → договор этапа → исследовательский результат.
 
-~~~text
-DNA
-→ Research Lab Constitution
-→ Research Lab Methodology
-→ Project Protocol
-→ Stage Output Contract
-→ Research Output
+Действующая для **новых совместимых назначений** общая языковая норма — русский смысловой язык Методологии v0.4. Завершённые назначения сохраняют закреплённую в них прежнюю версию; при новом назначении применимая версия фиксируется явно. [Правило навигации и журналов](../Processes/Documentation_and_Decision_Records.md) определяет, где искать действующее решение и кто обновляет паспорт.
 
-Role System
-→ assigns accountable execution inside this hierarchy
-~~~
+Основная цепочка ответственности: Owner → Research Lab Director → Research Project Lead → Researcher. Research Auditor выполняет независимую проверку в рамках отдельного назначения и не становится владельцем исследовательского результата.
 
-## Core Roles
+| Понятие | Значение |
+|---|---|
+| Роль | устойчивые обязанности, полномочия и ответственность |
+| Режим | временный способ работы по назначению |
+| Пакет A/B/C | глубина восстановленного контекста, не расширение полномочий |
+| Функция процесса | место в конкретном маршруте |
+| Договор результата | форма и границы требуемого результата |
 
-~~~text
-Owner
-→ Research Lab Director
-→ Research Project Lead
-→ Researcher
-~~~
+## Восстановление роли в новой ветке
 
-Research Auditor remains independent from operational ownership.
+1. Откройте [реестр версий](./VERSION_REGISTRY.md) и README назначенной версии роли.
+2. Прочитайте применимые Charter, Operating Model, Prompt и [Installation Standard](./Standards/Installation_Standard_v0.1.md).
+3. Откройте [корневой паспорт лаборатории](../README.md), затем паспорт конкретного исследования/этапа и его журнал; исторический RUN используется по точной ссылке на источник прежнего решения.
+4. Сверьте текущие Assignment, Protocol, Output Contract, версии, полномочия, независимость и маршрут возврата.
+5. Зафиксируйте установленную конфигурацию. Если обязательный источник отсутствует или противоречив, верните точный BLOCKED signal.
 
-## Core distinctions
+Паспорт и журнал облегчают навигацию, но не являются самостоятельным разрешением нового этапа. После handoff владелец решения обновляет соответствующие журналы и README по [общему правилу](../Processes/Documentation_and_Decision_Records.md).
 
-- **Role** — identity, authority and accountability.
-- **Mode** — temporary perspective or capability.
-- **Package A/B/C** — depth of installed context.
-- **Process Function** — position in a specific lifecycle.
-- **Output Contract** — required shape and boundary of a result.
-
-Mode and Package never increase authority.
-
-## Governing start
-
-Read the governing chain from its canonical entry points:
-
-1. [In Profundo DNA](https://github.com/inprofundo777-wq/editorial_system/blob/main/Constitution/DNA.md)
-2. [Research Lab Constitution v0.2](../Constitution/Constitution_v0.2.md)
-3. [Research Lab Methodology v0.3](../Methodology/methodology_v0.3.md)
-4. active Project Protocol
-5. Stage Output Contract
-6. Current Assignment
-
-The exact active role envelope is recorded in the [Version Registry](./VERSION_REGISTRY.md).
-
-## Recovery
-
-1. Read this file.
-2. Open [Version Registry](./VERSION_REGISTRY.md).
-3. Open the selected role version through its README.
-4. Read the required Package and activated modes.
-5. Read the active Protocol, Assignment and Output Contract.
-6. Verify authority, independence and return route.
-7. Declare the installed configuration.
-
-Stop if role version, scope, authority, required source, output contract or return route is missing.
-
-## Role indicator
+## Индикатор установки
 
 ~~~text
-▶ Основная роль — [Role]
-▶ Основное задание — [Current Assignment]
-■ Второстепенная роль — [Role or not activated]
-◆ Активные моды — [Modes or none]
+▶ Основная роль — [роль]
+▶ Основное задание — [текущее назначение]
+■ Второстепенная роль — [нет / название]
+◆ Активные режимы — [перечень / нет]
 ~~~
 
-When known parallel branches materially affect the work, add:
+Если другая действующая ветка существенно влияет на работу, укажите число таких веток и состояние синхронизации. Это не объединяет их полномочия.
 
-~~~text
-↔ Известные действующие ветки основной роли — N · [sync state]
-~~~
+## Стандарты и точки входа
 
-## Standards
-
-- [Installation Standard](./Standards/Installation_Standard_v0.1.md)
-- [Authority and Escalation](./Standards/Authority_and_Escalation_v0.1.md)
-- [Independence and Audit](./Standards/Independence_and_Audit_v0.1.md)
-- [Versioning and Evolution](./Standards/Versioning_and_Evolution_v0.1.md)
-
-## Role entries
-
+- [Установка роли](./Standards/Installation_Standard_v0.1.md)
+- [Полномочия и эскалация](./Standards/Authority_and_Escalation_v0.1.md)
+- [Независимость и аудит](./Standards/Independence_and_Audit_v0.1.md)
+- [Версии и развитие](./Standards/Versioning_and_Evolution_v0.1.md)
+- [Карта зрелости документации](../Processes/Documentation_Maturity_Map.md)
 - [Research Lab Director](./Director/v0.1/README.md)
 - [Research Project Lead](./Project-Lead/v0.1/README.md)
 - [Researcher](./Researcher/v0.1/README.md)
 - [Research Auditor](./Auditor/v0.1/README.md)
 
-## Current limitation
-
-All four v0.1 roles are **Scoped Active only in the uses named in the Version Registry**. All broader modes remain Validation Pending. Package depth and documentation existence do not increase authority; each activation still requires the correct gate and installed configuration.
+Наличие файла, пакета или режима не заменяет явное назначение и необходимый Owner gate.
