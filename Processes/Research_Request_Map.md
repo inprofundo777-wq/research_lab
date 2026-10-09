@@ -1,57 +1,21 @@
-# Research Lab — Research Request Map
+# Research Lab — карта исследовательских запросов
 
-**Status:** 🟡 Working Map / RQ-RL-002 Installation Active  
-**Owner:** Research Lab Director  
-**Updated:** 06.10.2026
+**Сверено:** 09.10.2026. **Ответственный:** Research Lab Director.  
+**Навигация:** [корневой README](../README.md) · [журнал лаборатории](../DECISIONS.md) · [правило ведения](./Documentation_and_Decision_Records.md).
 
-## Purpose
+Карта учитывает запросы, явно переданные в Research Lab. Потенциальная тема в других направлениях In Profundo не становится запросом автоматически. Formation может закончиться без создания `Research/IP-*`.
 
-This map records only research requests explicitly handed to Research Lab. It does not copy or replace the Strategist-owned Content Horizon or Strategy Research Opportunity Portfolio.
+## Запросы
 
-Entry boundary:
+| ID | Тема | Точное состояние | Действующий документ / решение | Следующий gate |
+|---|---|---|---|---|
+| `RQ-RL-002` | Христианское сопровождение депрессии и суицидального кризиса | Formation завершена; ограниченный обзор спроектирован Project Lead, **исполнение не разрешено** | [Formation R2](../Development/Formations/FP-RL-002-Formation-Report-R2.md); [Installation Package](../Development/Validation-Runs/RL-WAVE-2/Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md); [Event 070](../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-070--rq-rl-002-project-lead-installation-handoff-первый-limited-review) | Owner решает вопрос независимого Installation Audit и отдельно — исполнения первого обзора после выполнения условий; Researcher не активирован |
+| `RQ-RL-001` | Щедрость, доверие Богу и распоряжение доверенным | прежний ограниченный запрос закрыт | [Event 035](../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-035--owner-decision-close-rq-rl-001-current-stewardship-link-inquiry) | новый маршрут не активирован |
 
-~~~text
-Strategist / Owner explicit handoff
-→ Research Lab Director accepts Request
-→ map entry
-→ Triage / Formation
-~~~
+**`RQ-RL-002` пока не `IP-002`.** Подготовка Formation и Installation не учреждает новый Research Project и не создаёт его каталог. Исполнение обзора, последующие этапы и пособия требуют отдельного решения Owner. Исследование [IP-001](../Research/IP-001/README.md) ведётся независимо от этих запросов.
 
-Director must not activate a far-horizon possibility merely by reading it.
+## Маршрут и запись нового запроса
 
-## Status vocabulary
+Явная передача Owner/Strategist → принятие Director → карта запроса → Triage/Formation → решение о маршруте → при необходимости Installation и отдельный gate исполнения.
 
-| Marker | Exact status | Meaning |
-|---|---|---|
-| ⚪ | RECEIVED / NOT STARTED | accepted into the map; no formation work |
-| 🟡 | TRIAGE | initial route assessment |
-| 🟡 | FORMATION | Orientation or Installation active |
-| 🟡 | DEFERRED / WATCH | preserved without active work |
-| 🟢 | ROUTE DETERMINED | formation ended with an explicit route |
-| 🟢 | COMPLETED | authorized research/transfer cycle closed |
-| 🔴 | BLOCKED | cannot proceed inside current authority |
-| 🔴 | OUT OF SCOPE | does not belong to Research Lab |
-
-## Requests
-
-RQ-RL-002 has an accepted Formation route; Event 069 authorized Project Lead Installation only. Prior RQ-RL-001 closure and route are recorded in the RL-WAVE-2 Run Record; this entry does not reopen it.
-
-| ID | Request | Source / Handoff | Status | Formation | Owner | Next step |
-|---|---|---|---|---|---|---|
-| RQ-RL-002 | Христианское сопровождение депрессии и суицидального кризиса | Owner, 06.10.2026; [Opportunity Package](../Development/Proposals/OP-RL-Pastoral-Crisis-Research-Opportunity.md) | 🟡 FORMATION | [Formation Report](../Development/Formations/FP-RL-002-Formation-Report-R2.md) | Project Lead v0.1 | Event 069: проектирование ограниченного обзора; вернуть Owner пакет для решения об исполнении |
-
-## Entry contract
-
-A new request must include:
-
-- Request ID;
-- signal source;
-- research problem;
-- preliminary question;
-- relevance;
-- possible application without prescribed conclusion;
-- possible scope and known boundaries;
-- source artifact link;
-- explicit handoff by Strategist and/or Owner.
-
-Map status is operational, not a maturity verdict.
+В записи нужны ID, источник сигнала, проблема и предварительный вопрос, значимость, возможное применение без предписанного вывода, границы, ссылка на источник и явный handoff. После каждого gate Director обновляет эту карту и корневой README. Исторические решения остаются в своём журнале; карта показывает их действующий итог.
