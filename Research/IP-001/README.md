@@ -1,432 +1,56 @@
-# IP-001 — Continuing Action of the Risen Christ
+# IP-001 — действия воскресшего Христа
 
-**Research Project:** IP-001  
-**Статус:** Active  
-**Research Lab:** In Profundo
+**Статус:** исследование действует; Деяния — Stage 0–2 приняты, следующий gate у Owner.  
+**Сверено:** 09.10.2026 по [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
----
-
-# 1. Research Question
-
-Основной исследовательский вопрос:
+## Исследовательский вопрос
 
 > **Какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?**
 
-Исследование направлено не на составление общей христологии Нового Завета, а на более узкий вопрос:
+Книги рассматриваются как самостоятельные корпуса. Христологическая значимость места сама по себе не доказывает, что действие непосредственно приписано Христу. В исследовании сохраняются различия между субъектом действия, прямым и опосредованным действием, ролью, отношением, результатом и неустановленным референтом. Частота упоминания не равна силе свидетельства; сильное единичное и ограничивающее свидетельство сохраняются.
 
-> **где и каким образом новозаветный текст представляет воскресшего Христа действующим субъектом после Вознесения?**
+Основной рабочий текст — Синодальный перевод. Другие переводы и оригинальный текст привлекаются для проверки там, где вывод зависит от формулировки; такие вопросы не разрешаются одним выбором перевода.
 
-Центральной исследовательской задачей поэтому является не обнаружение всех текстов, имеющих христологическое значение, а дисциплинированное установление **attribution**.
+## Карта корпусов и текущий gate
 
----
+| Корпус | Состояние | Точка входа | Следующий шаг |
+|---|---|---|---|
+| [Деяния](./Research/ACTS/README.md) | свежий проход: Stage 0, Stage 1, Stage 2 приняты; Stage 3 и дальнейшие стадии не активированы | [паспорт и точные принятые файлы](./Research/ACTS/README.md), [журнал этапов](./Research/ACTS/DECISIONS.md) | отдельное решение Owner по следующему ограниченному шагу |
+| [Послание к Римлянам](./Research/Romans/README.md) | контрольный прогон Stage 0–3 завершил функцию методологической проверки; Stage 4 не выполнялся | [паспорт пилота](./Research/Romans/README.md) | не продолжать автоматически как книжный цикл |
 
-# 2. Scope
+**Деяния ещё не закрыты как книга.** Открыты V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 и O03. Исторические материалы изолированы; сравнение с ними требует отдельного gate. Приёмка Stage 2 в Event 072 не разрешает Stage 3, Material Verification, Stage 4, независимую предметную проверку или Book-Level Close Audit.
 
-Основной corpus исследования:
+## Действующие документы и версии
 
-> **Новый Завет**
+| Назначение | Документ |
+|---|---|
+| Общая методологическая норма для новых назначений | [Методология v0.4](../../Methodology/methodology_v0.4.md), включая русский смысловой язык |
+| Протокол IP-001 | [IP-001 Protocol v0.2](./IP-001_Protocol_v0.2.md) |
+| Критерии исследования | [Research Criteria](./Research/Research_Criteria.md) |
+| Договор первичных наблюдений | [Primary Observation Output Contract v0.2](./IP-001_Primary_Observation_Output_Contract_v0.2.md) |
+| Установка книжного цикла Деяний | [Installation Package R1](../../Development/Validation-Runs/RL-WAVE-2/Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package-R1.md) |
+| История решений до 09.10.2026 | [RL-WAVE-2/RUN.md](../../Development/Validation-Runs/RL-WAVE-2/RUN.md) |
 
-Книги исследуются последовательно как самостоятельные corpora.
+Результаты уже завершённых этапов сохраняют версии управляющих документов, закреплённые их назначениями. Новая Методология не изменяет их автоматически. При следующем назначении Lead явно фиксирует применимую версию и проверяет совместимость Protocol и Output Contract.
 
-Это позволяет сначала установить evidence внутри конкретной книги и только затем переходить к cross-corpus comparison.
+## Как читать имена файлов
 
-Рабочая последовательность:
+- `doc-*` и `research-000.md` в Деяниях — историческое поколение исследования; `Summary.md` и `Book.md` — его исторические книжные материалы.
+- `rr-*` — свежий проход по протоколу: `rr-000` карта корпуса, `rr-001` первичные наблюдения, `rr-002` карта повторений, `rr-003` возможная будущая классификация.
+- `-R1`, `-R2` обозначают редакции одного результата. Номер редакции не определяет её статус; точный принятый файл указан в паспорте книги и решении Lead.
+- Исторические материалы сохраняются как provenance и возможный будущий слой сравнения, но не используются как ключ ответов для свежего прохода.
 
-> **Book-level Research**  
-> ↓  
-> **Book-level Synthesis**  
-> ↓  
-> **Next Corpus**  
-> ↓  
-> **Cross-corpus Verification**  
-> ↓  
-> **Broader Synthesis**
+## Структура проекта
 
-Наличие finding в одной книге не означает автоматически, что он является универсальным новозаветным pattern.
+| Каталог | Назначение |
+|---|---|
+| [Planning](./Planning/README.md) | подготовка циклов |
+| [Pilots](./Pilots/) | методологические пробы |
+| [Research](./Research/README.md) | свидетельства отдельных книг |
+| [Cross-analysis](./Cross-analysis/README.md) | межкнижное сопоставление после достаточных книжных результатов |
+| [Review](./Review/README.md) | проверки результатов |
+| [Final](./Final/README.md) | результаты, достигшие установленного уровня зрелости |
+| [Archive](./Archive/README.md) | сохранённая история и provenance |
 
----
-
-# 3. Методологическое основание
-
-IP-001 действует внутри общей архитектуры Research Lab:
-
-> **DNA In Profundo**  
-> ↓  
-> **Конституция Research Lab**  
-> ↓  
-> **Методология Research Lab**  
-> ↓  
-> **IP-001 Protocol**  
-> ↓  
-> **Stage-specific Output Contract**  
-> ↓  
-> **Research Output**
-
-Актуальная общая Methodology:
-
-`/Methodology/methodology_v0.3.md`
-
-Актуальный Protocol проекта:
-
-`IP-001_Protocol_v0.2.md`
-
-Актуальный Primary Observation Output Contract:
-
-`IP-001_Primary_Observation_Output_Contract_v0.2.md`
-
-Protocol является непосредственным procedural основанием IP-001.
-
-Output Contract конкретизирует требования к Primary Observation и не заменяет Protocol.
-
----
-
-# 4. Primary Working Translation
-
-Основным рабочим переводом для всего corpus IP-001 является:
-
-> **Синодальный перевод (RST)**
-
-RST используется как Primary Working Translation для:
-
-- первичного чтения corpus;
-- Book Corpus Map;
-- sequential screening;
-- Primary Observation;
-- первичной фиксации textual evidence.
-
-Другие современные переводы и греческий текст используются как **verification layer**, когда attribution или Research Judgment могут зависеть от перевода.
-
-Verification особенно необходима, если существенными являются:
-
-- grammatical subject;
-- pronoun;
-- preposition;
-- voice;
-- tense;
-- syntax;
-- textual wording;
-- иная translation-sensitive конструкция.
-
-Расхождение переводов является основанием для проверки, но само по себе не разрешает исследовательский вопрос.
-
----
-
-# 5. Центральная attribution discipline
-
-Каждый релевантный research unit должен рассматриваться с вопросом:
-
-> **Кому текст непосредственно приписывает действие?**
-
-Основные attribution categories:
-
-- **Father**
-- **Christ**
-- **Spirit**
-- **Human**
-- **Unclear**
-
-При анализе необходимо различать:
-
-- **Direct Action**
-- **Mediated Action**
-- **Role / Continuing Function**
-- **Sphere / Relation**
-- **Result / Consequence**
-- **Theological Connection**
-
-Наличие имени Христа или христологической связи само по себе не устанавливает Christ agency.
-
----
-
-# 6. Основные guardrails
-
-В IP-001 действуют следующие ограничения:
-
-> **Christological significance ≠ Christ as acting subject**
-
-Христологическая значимость текста не означает, что Христос является субъектом действия.
-
-> **Relation ≠ Action**
-
-Отношение к Христу или нахождение «во Христе» не является автоматически действием Христа.
-
-> **Mediation ≠ Direct Agency**
-
-Действие, совершаемое через Христа, не должно автоматически классифицироваться как действие, непосредственно совершаемое Христом.
-
-При этом если текст действительно представляет Христа действующим через человеческого посредника, mediated form не отменяет Christ agency.
-
-> **God acting through Christ ≠ automatically Christ acting**
-
-Необходимо сохранять различие между действием Бога через Христа и действием, которое текст непосредственно приписывает Христу.
-
-> **Ambiguity must be preserved**
-
-Если attribution невозможно установить надёжно, результат должен оставаться `Unclear` или получать соответствующий ограниченный Research Judgment.
-
----
-
-# 7. Research Judgment
-
-Для исследовательских единиц используются следующие основные статусы:
-
-### INCLUDE
-
-Evidence достаточно ясно относится к Research Question и может входить в evidence base исследования.
-
-### BORDERLINE
-
-Текст потенциально относится к Research Question, но attribution или характер действия остаются недостаточно определёнными.
-
-### CONTEXTUAL
-
-Текст важен для понимания окружающего evidence или богословского контекста, но сам по себе не устанавливает искомое действие Христа.
-
-### EXCLUDE
-
-Текст был рассмотрен, но не предоставляет evidence, достаточного для включения в исследуемую категорию.
-
-`EXCLUDE` является полноценным Research Judgment, а не неудачей исследования.
-
----
-
-# 8. Research Stages
-
-Текущая рабочая архитектура IP-001:
-
-    Research Question + Criteria
-            ↓
-    Stage 0 — Book Corpus Map
-            ↓
-    Stage 1 — Primary Observation
-            ↓
-    Stage 2 — Repetition Mapping
-            ↓
-    Stage 3 — Provisional Classification / Research Groups
-            ↓
-    Stage 4 — Book-level Close / Synthesis
-            ↓
-    Next Corpus
-            ↓
-    Cross-corpus Verification
-            ↓
-    Broader Synthesis
-
-Эта последовательность является реализацией Protocol IP-001, а не универсальной архитектурой всех исследований Research Lab.
-
-Не каждая стадия обязана создавать одинаковое количество файлов или использовать одинаковую output granularity.
-
----
-
-# 9. Output Granularity
-
-Research unit и output file не являются одним и тем же.
-
-Один output может содержать несколько research units, если сохраняется локальная recoverability:
-
-> **Research Unit**  
-> → **Relevant Evidence**  
-> → **Attribution**  
-> → **Research Judgment**  
-> → **Observation**  
-> → **Limitation / Uncertainty**
-
-В частности, в контролируемом re-run Romans успешно используется:
-
-> **one chapter = one Stage 1 output**
-
-при сохранении passage-level research units внутри документа.
-
-Это решение не является универсальным правилом IP-001.
-
-Если aggregation скрывает независимые observations, attribution или uncertainty, material должен быть разделён.
-
----
-
-# 10. Research Generation
-
-В IP-001 существуют два основных поколения исследовательских материалов.
-
-## `doc-*` — Historical Research
-
-Материалы, созданные до нормализации текущего Protocol.
-
-Они сохраняются как:
-
-- historical research layer;
-- methodological evidence;
-- calibration material;
-- источник для сравнения развития процедуры.
-
-Historical Research:
-
-> **не является answer key для controlled re-run.**
-
-Новый проход не должен воспроизводить старые findings только потому, что они уже присутствуют в `doc-*`.
-
----
-
-## `rr-*` — Protocol-normalized Re-run
-
-Материалы контролируемого повторного исследования corpus.
-
-Рабочая stage-oriented convention:
-
-    rr-000_* = Stage 0 — Book Corpus Map
-    rr-001_* = Stage 1 — Primary Observation
-    rr-002_* = Stage 2 — Repetition Mapping
-    rr-003_* = Stage 3 — Provisional Classification
-
-Stage 4 и последующие synthesis artifacts именуются отдельно после подтверждения их рабочей формы.
-
-Историческая provenance каждого `rr-*` сохраняется.
-
-Если output был создан при более ранней версии Methodology или Protocol, последующее появление новой версии документа не изменяет автоматически его provenance.
-
----
-
-# 11. Strong Singular Evidence
-
-IP-001 не отождествляет research significance с repetition.
-
-Repeated evidence важно для обнаружения устойчивых patterns.
-
-Однако сильное единичное evidence должно сохраняться, если оно:
-
-- непосредственно относится к Research Question;
-- имеет достаточное textual основание;
-- позволяет сделать локальный Research Judgment;
-- может существенно влиять на classification или synthesis.
-
-Поэтому:
-
-> **absence of repetition ≠ absence of significance**
-
-и
-
-> **strength of evidence ≠ frequency of evidence**
-
-Единичный сильный finding не должен искусственно включаться в более широкую группу только ради формирования pattern.
-
----
-
-# 12. Negative Evidence
-
-Negative evidence является частью исследования.
-
-К нему могут относиться:
-
-- отсутствие ожидаемой attribution;
-- отсутствие предполагаемого pattern;
-- невозможность определить acting subject;
-- случаи, где действие принадлежит Father, Spirit или Human, хотя текст имеет сильную христологическую связь;
-- evidence, ограничивающее более широкий conclusion.
-
-Negative evidence может не только приводить к `EXCLUDE`, но и ограничивать последующую interpretation или classification.
-
----
-
-# 13. Структура проекта
-
-    IP-001/
-    │
-    ├── README.md
-    │
-    ├── IP-001_Protocol_v0.1.md
-    ├── IP-001_Protocol_v0.2.md
-    │
-    ├── IP-001_Primary_Observation_Output_Contract_v0.1.md
-    ├── IP-001_Primary_Observation_Output_Contract_v0.2.md
-    │
-    ├── Planning/
-    │
-    ├── Pilots/
-    │
-    ├── Research/
-    │
-    ├── Cross-analysis/
-    │
-    ├── Review/
-    │
-    ├── Final/
-    │
-    └── Archive/
-
-### `Planning/`
-
-Планирование исследования и документы, необходимые для подготовки отдельных research cycles.
-
-### `Pilots/`
-
-Контролируемые проверки Methodology, Protocol, Output Contract и research procedure до их более широкого применения.
-
-### `Research/`
-
-Основной evidence layer исследования по отдельным biblical corpora.
-
-### `Cross-analysis/`
-
-Сопоставление результатов между corpora после завершения достаточного book-level research.
-
-### `Review/`
-
-Независимая проверка research findings, classifications, synthesis или methodological решений.
-
-### `Final/`
-
-Подтверждённые synthesis artifacts и другие результаты, достигшие соответствующего уровня исследовательской зрелости.
-
-### `Archive/`
-
-Материалы, которые должны сохраняться для provenance и истории исследования, но больше не являются текущим рабочим слоем.
-
----
-
-# 14. Текущий controlled re-run
-
-Первым corpus, прошедшим controlled protocol-normalized re-run, является:
-
-> **Послание к Римлянам**
-
-Для Romans выполнены:
-
-- **Stage 0 — Book Corpus Map**
-- **Stage 1 — Primary Observation**
-- **Stage 2 — Repetition Mapping**
-- **Stage 3 — Provisional Classification / Research Groups**
-
-Stage 4 — Book-level Close / Synthesis — в рамках методологического pilot не выполнялся.
-
-Причина:
-
-целью re-run было сначала проверить и нормализовать исследовательскую документацию и процедуру, а не автоматически продолжать полный research cycle.
-
-Romans controlled re-run завершил свою функцию как methodological validation.
-
-Его `rr-*` outputs сохраняются как protocol-normalized pilot evidence и provenance.
-
-Следующий основной этап IP-001 — полный protocol-normalized research новозаветного corpus по действующей Methodology и Protocol.
-
-Pilot Romans не следует автоматически продолжать как незавершённый основной research cycle только потому, что в нём не выполнялся Stage 4.
-
----
-
-# 15. Принцип дальнейшей работы
-
-IP-001 не измеряет успех количеством найденных действий Христа.
-
-Допустимыми результатами являются:
-
-- сильный positive finding;
-- strong singular evidence;
-- repeated pattern;
-- ограниченный finding;
-- borderline attribution;
-- unresolved case;
-- negative evidence;
-- exclusion;
-- отсутствие ожидаемого pattern.
-
-Основной критерий:
-
-> **можно ли проследить путь от новозаветного текста к Research Judgment и последующему conclusion без необходимости предполагать то, чего сам evidence не устанавливает.**
+**Ответственный за обновление этого паспорта:** Project Lead при изменении проектного gate; Director сверяет межпроектную навигацию. Точный источник полномочий и распределение обязанностей — [правило журналов](../../Processes/Documentation_and_Decision_Records.md).
