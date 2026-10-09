@@ -1,52 +1,30 @@
-# Research Lab — Formation Process
+# Research Lab — процесс Formation
 
-**Version:** v0.1 Candidate  
-**Status:** Validation Pending  
-**Operational owners:** Director → Project Lead  
-**Audit:** independent Auditor by Protocol/trigger
+**Версия формы процесса:** v0.1 Candidate. **Статус проверки:** Validation Pending за пределами точных назначений.  
+**Операционная ответственность:** Director → Project Lead при отдельном решении.  
+**Навигация:** [карта запросов](../Research_Request_Map.md) · [карта зрелости](../Documentation_Maturity_Map.md) · [правило журналов](../Documentation_and_Decision_Records.md).
 
-## Purpose
+Formation превращает явно принятый исследовательский запрос в пропорциональный маршрут. Она может закончиться **без нового Research Project**. Наличие отчёта Formation или Installation Package не создаёт `Research/IP-*` и не разрешает исполнение.
 
-Formation converts an explicitly accepted Research Request into a proportionate route. It may end without a new Research Project.
+## Последовательность
 
-## Lifecycle
+Явная передача запроса Owner/Strategist → принятие и запись Director → Triage → интеллектуальная Orientation → решение о маршруте → Installation Project Lead, если разрешена → независимая проверка по trigger → отдельное решение о запуске, отсрочке или закрытии.
 
-~~~text
-Explicit Research Request
-→ Director Triage
-→ Director Orientation
-→ Formation Decision
-→ Project Lead Installation, only when required
-→ Pre-Launch Audit, when required
-→ Launch / Defer / Close Decision
-~~~
+Карта запросов показывает, какие `RQ-*` ещё находятся в Formation или у Owner gate. Корневой README показывает их рядом с действующими исследованиями, но не присваивает им номер `IP-*`.
 
-## Ownership boundary
+## Граница ответственности
 
-### Director
+| Роль | Сфера |
+|---|---|
+| Director | проблема, вопрос, существующие исследования, язык и понятия, контекст, возможный корпус, масштаб и маршрут; обновление карты запросов и лабораторной навигации при gate |
+| Project Lead | после разрешения Installation проектирует протокол, этапы, роли, результаты, проверки, карты, каталоги и условия закрытия; не запускает исполнение без отдельного gate |
+| Auditor | независимо проверяет заданный target и пропорциональность без присвоения результата или операционного владения |
+| Owner | утверждает запуск и другие решения за пределами делегированных полномочий |
 
-Owns intellectual and content work: problem, preliminary question, existing research, language/concept, historical/cultural/theological context, possible corpus, scale and route.
+Возможные решения: отсутствие необходимости в новом исследовании, пакет существующих исследований, ограниченный обзор, ограниченная проба, полный проект, отсрочка или возврат при недостатке основания. Формальный код решения может сохраняться в установленном виде; его смысловое обоснование пишется по-русски по [Методологии v0.4](../../Methodology/methodology_v0.4.md) для новых назначений.
 
-### Project Lead
+## Документы и handoff
 
-Owns operational architecture after Director declares READY FOR RESEARCH DESIGN: Charter, Protocol configuration, stages, roles, outputs, verification, audit, maps, folders and close conditions.
+Director и Project Lead обычно продолжают один Formation Document с явными секциями ответственности; отдельные задания нужны при сложной или многоветочной работе. Используйте [шаблон Formation](./Formation_Template.md). После каждого решения обновите [карту запросов](../Research_Request_Map.md) и корневой README; историческое решение остаётся в своём журнале, а навигация указывает на него.
 
-### Auditor
-
-Checks compliance and proportionality without rewriting Formation or taking ownership.
-
-## Possible Formation decisions
-
-- NO RESEARCH REQUIRED
-- EXISTING RESEARCH PACKAGE
-- LIMITED REVIEW
-- LIMITED PROBE
-- FULL PROJECT
-- DEFERRED / WATCH
-- BLOCKED / OWNER DECISION REQUIRED
-
-## Document rule
-
-Director and Project Lead normally continue one Formation Document with clear ownership sections. Separate Assignment files are created only for complex or multi-branch work.
-
-Use [Formation Template](./Formation_Template.md).
+Пример текущего запроса: `RQ-RL-002` имеет завершённую Formation R2 и предложенный Installation Package первого ограниченного обзора; исполнение находится на отдельном Owner gate. Его прежние документы, созданные при v0.3, сохраняют исходную конфигурацию.
