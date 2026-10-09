@@ -1,69 +1,39 @@
-# IP-001 — Acts
+# IP-001 — Деяния апостолов
 
-## Current state
+**Состояние:** свежий проход Stage 0–2 принят; следующий gate у Owner.  
+**Сверено:** 09.10.2026 по [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Проект:** [IP-001](../../README.md) · **журнал этапов:** [DECISIONS.md](./DECISIONS.md).
 
-Книжный корпус Деяний находится в canonical project structure:
+## Что действует сейчас
 
-`Research/IP-001/Research/ACTS/`
+| Этап | Статус | Действующий результат / решение |
+|---|---|---|
+| Stage 0 — карта корпуса | принят | [`rr-000_Acts_Stage0_Corpus_Map-R1.md`](./rr-000_Acts_Stage0_Corpus_Map-R1.md); принят в историческом [RUN.md](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md) |
+| Stage 1 — первичные наблюдения | принят | [`rr-001_Acts_Primary_Observations.md`](./rr-001_Acts_Primary_Observations.md); [Event 060](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-060--project-lead-stage-1-acceptance) |
+| Stage 2 — карта повторений | **принят** | [`rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md`](./rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md); [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2) |
+| Stage 3 — предварительная классификация | не активирован | требуется отдельное решение Owner и точное назначение |
+| Verification и Stage 4 — книжный итог | не активированы | предметная проверка и независимый аудит книжного закрытия имеют отдельные зависимости |
 
-Старый исследовательский цикл перенесён сюда без изменения содержания документов.
+**Открытые вопросы:** `V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03`. Принятие Stage 2 не разрешило их.  
+**Следующий шаг:** Owner решает, назначать ли следующий ограниченный этап; Lead и Researcher не удерживают полномочий после своего handoff.  
+**Историческое сравнение:** запрещено до установленного отдельного gate.  
+**Книжное закрытие:** не достигнуто.
 
-Согласно `IP-001_Protocol_v0.2.md`:
+## Как различать файлы этой папки
 
-- `doc-*` — **Historical Research**;
-- `rr-*` — будущий **Protocol-normalized Re-run**;
-- historical outputs сохраняются как research evidence и calibration material;
-- historical outputs не являются answer key для fresh research pass.
+| Префикс / имя | Значение и статус |
+|---|---|
+| `research-000.md`, `doc-*`, `Summary.md`, `Book.md` | прежний исследовательский цикл, перенесённый без изменения содержания; сохраняется для происхождения и возможного будущего сравнения |
+| `rr-000_Acts_Stage0_Corpus_Map.md` | прежняя редакция Stage 0; принятой является R1 в таблице выше |
+| `rr-002_Acts_Repetition_Stable_Evidence_Map.md` | исходная редакция Event 062; была возвращена для ограниченной языковой коррекции |
+| `rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md` | цельная заменяющая редакция, **принятая Event 072** |
 
-Protocol-normalized re-run книги Деяний **не активирован**.
+`R1` означает номер редакции, а не автоматическое признание результата. При новой коррекции действующий файл меняется только после нового полномочного решения и обновления этого паспорта.
 
----
+## Основание и границы
 
-## Historical research cycle — `doc-*`
+Свежий книжный цикл установлен [Installation Package R1](../../../../Development/Validation-Runs/RL-WAVE-2/Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package-R1.md), [Protocol IP-001 v0.2](../../IP-001_Protocol_v0.2.md) и конкретными назначениями в историческом [RL-WAVE-2/RUN.md](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md). Принятые результаты сохраняют свои исходные версии управляющих документов. Для новых назначений действует [Методология v0.4](../../../../Methodology/methodology_v0.4.md) в пределах явно установленной конфигурации.
 
-### Stage 0 — Book Corpus Map
+Исходное поколение `doc-*` и книжные сводки не служат ключом ответов для свежих `rr-*`. Исходная `rr-002` и предыдущая редакция R1 в истории commits остаются доступными как provenance. Принятая R1 не является независимой предметной проверкой всей книги и не запускает Stage 3.
 
-- `research-000.md` — историческая карта исследуемого корпуса.
-
-### Stage 1 — Primary Observation
-
-- `doc-001_0100.md` → `doc-001_4900.md`
-
-### Stage 2 — Repetition Mapping
-
-- `doc-002_0100.md` → `doc-002_0800.md`
-
-### Stage 3 — Provisional Classification / Research Groups
-
-- `doc-003_0100.md` → `doc-003_0700.md`
-
-### Historical book-level outputs
-
-- `Summary.md` — итоговый исторический synthesis книги;
-- `Book.md` — навигация по историческому исследовательскому циклу.
-
----
-
-## Legacy apparatus
-
-Служебная оболочка старого `IP-01`, ранний pilot, альтернативные или дублирующие файлы и постисследовательский отчёт сохранены отдельно:
-
-`../../Archive/Legacy-IP-01/`
-
-Этот архив сохраняет provenance, но не является активным passage-level corpus книги.
-
----
-
-## Future re-entry
-
-Продолжение исследования требует отдельного Owner Assignment.
-
-Если будет разрешён fresh pass по книге Деяний, новые результаты создаются как `rr-*` по:
-
-1. `Methodology/methodology_v0.3.md`;
-2. `IP-001_Protocol_v0.2.md`;
-3. `Research_Criteria.md`;
-4. `IP-001_Primary_Observation_Output_Contract_v0.2.md`;
-5. Синодальному переводу и biblical source.
-
-Historical comparison выполняется только после независимого fresh judgment.
+**Ответственный за актуальность этого паспорта:** Project Lead при принятии/возврате этапа; [правило обновления](../../../../Processes/Documentation_and_Decision_Records.md).
