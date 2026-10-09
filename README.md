@@ -10,6 +10,21 @@ Research Lab — исследовательское направление In Pr
 
 ---
 
+## Быстрый вход: что действует сейчас
+
+**Сверено:** 09.10.2026. [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md).
+
+| Объект | Состояние | Куда идти |
+|---|---|---|
+| [IP-001 — действия воскресшего Христа](./Research/IP-001/README.md) | исследование действует; в Деяниях Stage 0–2 приняты, следующий шаг решает Owner | [паспорт Деяний](./Research/IP-001/Research/ACTS/README.md), [журнал IP-001](./Research/IP-001/DECISIONS.md) |
+| [RQ-RL-002 — сопровождение депрессии и суицидального кризиса](./Processes/Research_Request_Map.md) | Formation завершена; проект ограниченного обзора подготовлен, исполнение не разрешено | [Formation R2](./Development/Formations/FP-RL-002-Formation-Report-R2.md), [Installation Package](./Development/Validation-Runs/RL-WAVE-2/Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md) |
+
+Запрос `RQ-RL-002` ещё не является `IP-002`: каталог нового исследования создаётся после соответствующего решения о запуске. Исторические решения Events 001–072 доступны в [RL-WAVE-2/RUN.md](./Development/Validation-Runs/RL-WAVE-2/RUN.md); его устаревшая верхняя сводка не заменяет последние полномочные Events. Текущая навигация живёт в README и журналах соответствующего уровня.
+
+**Язык:** русский — единственный смысловой язык Research Lab на данном этапе по [Методологии v0.4](./Methodology/methodology_v0.4.md) §1.1. Коды, имена файлов, формальные статусы и цитаты источников могут сохранять исходный язык с русским объяснением.
+
+---
+
 ## Архитектура документов
 
 Research Lab работает внутри следующей структуры наследования:
@@ -46,7 +61,7 @@ Research Lab работает внутри следующей структуры
 
 Актуальная версия:
 
-`Methodology/methodology_v0.3.md`
+[Методология v0.4](./Methodology/methodology_v0.4.md)
 
 ### Research Project Protocol
 
@@ -75,6 +90,7 @@ Role System не изменяет epistemic authority Constitution, Methodology,
 - [Research Request Map](./Processes/Research_Request_Map.md)
 - [Formation](./Processes/Formation/README.md)
 - [Process Templates](./Processes/Templates/)
+- [Навигация и журналы решений](./Processes/Documentation_and_Decision_Records.md)
 
 ---
 
@@ -90,7 +106,8 @@ research_lab/
 ├── Methodology/
 │   ├── methodology_v0.1.md
 │   ├── methodology_v0.2.md
-│   └── methodology_v0.3.md
+│   ├── methodology_v0.3.md
+│   └── methodology_v0.4.md
 │
 ├── Research/
 │   │
@@ -112,6 +129,7 @@ research_lab/
 │       ├── Final/
 │       └── Archive/
 │
+├── DECISIONS.md
 ├── Development/
 ├── Roles/
 ├── Processes/
