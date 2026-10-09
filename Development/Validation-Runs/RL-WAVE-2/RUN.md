@@ -6829,3 +6829,89 @@ Lead получает R1 для focused re-check по пяти условиям 
 **IP-001 ACTS-RR STAGE 2: R1 SUBMITTED / NOT ACCEPTED — LEAD FOCUSED RE-CHECK PENDING.**
 
 Researcher не принимает собственный Stage 2 и не активирует Stage 3. После решения Lead действует предусмотренный возврат Owner для отдельного следующего gate. Предыдущие Events и исходные artifacts не переписаны.
+
+
+---
+
+## Event 072 — IP-001 ACTS-RR: Lead focused re-check R1 / ACCEPT STAGE 2
+
+▶ **Основная роль — Research Project Lead v0.1 — Scoped Active**  
+▶ **Основное задание — Event 071 / focused re-check языковой коррекции Stage 2**  
+■ **Второстепенная роль — не активирована**  
+◆ **Активный режим — Stage Coordination / Output Contract acceptance; Package B**  
+**Дата:** 2026-10-09.  
+**Решение:** **ACCEPT STAGE 2.**
+
+### 1. Recovery / Role Configuration Lock
+
+| Поле | Зафиксированная конфигурация |
+|---|---|
+| Роль / версия | Research Project Lead v0.1; действующий Registry: Scoped Active для bounded Stage Coordination / Output Contract acceptance |
+| Package / второстепенная роль | B — Standard; второстепенная роль не активирована; Package не расширяет полномочий |
+| Назначение | Прямое поручение Owner новой ветке Lead принять Event 071; полномочия focused re-check и disposition установлены Events 061, 063–064 |
+| Управляющие входы | Roles/README.md; VERSION_REGISTRY.md; Project-Lead/v0.1 README, Charter, Operating Model, Prompt; Installation Standard v0.1; Authority and Escalation / Independence and Audit Standards v0.1; DNA In Profundo; Конституция v0.2; Методология v0.3; IP-001 Protocol v0.2; Research Criteria v0.2; ACTS-RR Installation Package R1 |
+| Рабочие входы | Events 060–064 и 071; цельный исходный rr-002 Event 062; текущий цельный rr-002 R1 Event 071; предшествующая R1 в b703dc9; принятый rr-001 только для проверки локального именования и происхождения, без нового исследования |
+| Output Contract | Event 061 — договор Stage 2; Event 064 §§2–6 — языковая коррекция, инварианты и ровно пять условий focused re-check |
+| Предел полномочий | Сопоставить редакции и принять либо вернуть Stage 2; append-only записать результат. Не переписывать исследовательские решения или artifacts, не переоткрывать Stage 1, не выполнять новый Stage 2, Stage 3, Material Verification, историческое сравнение или книжное закрытие |
+| Критерий решения | ACCEPT только при выполнении всех пяти условий Event 064; содержательное расхождение — точный ID/locus и MATERIAL RESEARCH QUESTION — LANGUAGE CORRECTION CANNOT RESOLVE на отдельный Owner gate |
+| Независимость / предел статуса | Это operational Lead acceptance, не Research Audit и не независимая предметная или филологическая Verification; Researcher self-check не заменяет настоящую проверку |
+| Маршрут возврата | Lead → Owner по прямому поручению и Events 061/063/064; общий возврат Director не подменяет этот конкретный Owner gate |
+
+Роль восстановлена из канонического пакета. Старые пометы Candidate Active / Validation Pending в отдельных внутренних документах не отменяют действующий Registry и конкретный authority envelope. Конфликта обязательных входов, препятствующего этой ограниченной приёмке, не обнаружено.
+
+Конец RUN.md проверен при восстановлении и повторно непосредственно перед записью: последний Event — 071; более позднего решения, меняющего IP-001, нет. Отдельный маршрут RQ-RL-002 не является входом исследовательского суждения и не изменяется настоящим событием.
+
+### 2. Target / происхождение редакций
+
+**Принимаемый target:** [rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md в commit 9269bdb21dd2b7cb64f15550ffc26559d2b86af1](https://github.com/inprofundo777-wq/research_lab/blob/9269bdb21dd2b7cb64f15550ffc26559d2b86af1/Research/IP-001/Research/ACTS/rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md).  
+**Blob SHA:** `e34c470431c70758da4b2e720018ef9e8190eb70`.
+
+**Исходник Event 062:** [rr-002 в commit 4cd541e2e2cbb6a14dfb91976525e40b29b7aaf3](https://github.com/inprofundo777-wq/research_lab/blob/4cd541e2e2cbb6a14dfb91976525e40b29b7aaf3/Research/IP-001/Research/ACTS/rr-002_Acts_Repetition_Stable_Evidence_Map.md). Текущий исходник побуквенно совпадает с этой сохранённой версией; blob `1a676578264924531a6c05093f748b82f403e9c8`.
+
+**Предшествующая R1:** [commit b703dc951c82e754eeea6b7c43b8275ed6bc11e1](https://github.com/inprofundo777-wq/research_lab/blob/b703dc951c82e754eeea6b7c43b8275ed6bc11e1/Research/IP-001/Research/ACTS/rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md), blob `6cf8db35f3c64c428220af18bba8f6e98ef4fd4b`.
+
+История подтверждает две последовательные редакции: b703dc9 добавил только R1; следующий 9269bdb заменил R1 и добавил handoff Event 071 в RUN.md. Исходный rr-002 и принятый rr-001 этими двумя commits не изменялись. Предшествующая R1 сохранена доступной по immutable ссылке; её наличие не использовано как acceptance.
+
+Обе R1 сопоставлены с исходным rr-002 в пределах этого re-check. Текущая редакция расширяет recovery/provenance/Lock, русское изложение, локальное именование людей и явность ограничений; возвращает подробные locus-перечни и исходный порядок R07. Состав R/S/NB/NM, исследовательские решения и открытые зависимости не меняются. Target повторно проверен перед записью: blob неизменен.
+
+### 3. Результаты пяти условий Event 064
+
+| № | Условие | Результат и основание |
+|---|---|---|
+| 1 | Семантическая эквивалентность | **PASS.** Сопоставлен весь смысловой слой исходника и текущей R1: перечень, R01–R07, S01–S05, NB01–NB06, NM01–NM08, Verification, происхождение и ограничения. Все 48 строк U/D/O сохраняют ID, locus и Stage 1 judgment. Структурная сверка подтверждает тот же набор ссылок единиц и зависимостей в каждой R/S/NB/NM. Сохранены положительная, ограничивающая и неразрешённая функции свидетельств, прямое / опосредованное действие, роль, отношение и результат, а также сила утверждений. R03 не повышен до прямого действия; S02 сохраняет уровень апостольского высказывания; S05 остаётся неразрешённым; NM06 различает текстовое повторение и отдельные исторические типы действия. |
+| 2 | Русский смысловой язык по всему документу | **PASS.** Субъекты, действия, отношения, различия, ограничения, основания, сила повторения, перенос Verification и итог изложены по-русски, включая значения Evidence Inventory. Сохранённый английский — имена файлов, ID, технические поля/термины и формальные статусы. Прежние смысловые конструкции Father-God action / Human- Angel agency / Direct Action и аналогичные выражены русским содержанием. |
+| 3 | Текстовое основание именования субъектов | **PASS.** R04/NB01, D03/D10/D17/D19/D22/D24/D25 и S03 используют «Бог» в пределах принятого локального свидетельства; прежняя метка Father-God не служит доказательством более узкого именования. «Отец» сохранён при основании, в частности U02/S01 и D01. Конкретизация людей и Ангела проверена по соответствующим принятым rr-001 units, включая D05/D06/D08/D13/D15/D21/D23. Неустановленные референты U01/U03/U10/U11/U13/D12/O03 сохранены; U12/V13 не разрешён. Это проверка выражения уже принятого свидетельства, не новый attribution judgment. |
+| 4 | Прослеживаемость и происхождение | **PASS.** U01–U19, D01–D26 и O01–O03 полностью восстанавливаются; D07/B07 остаётся связан с U06 без отдельного дублирования. Состав и функции всех 7 R, 5 S, 6 NB и 8 NM сохранены. Все 11 строк переноса V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03 имеют прежние loci, связанные units и влияние на Stage 2. O01/O02/O03 сохраняют происхождение «пропуск, обнаруженный на Stage 1» и не приписаны Stage 0 задним числом. |
+| 5 | Границы работы | **PASS в пределах документальной проверки.** R1 и Event 071 сохраняют isolation/scope declarations; сопоставление artifacts и перечней изменённых файлов не показывает переоткрытия Stage 1, нового исследования Stage 2, разрешения retained issues или создания Stage 3. Эта ветка не открывала исторические research-000/doc-*/Summary/Book и отклонённую карту Event 054, не выполняла historical comparison, Material Verification, независимый subject-matter review либо Stage 3–4. Декларации Researcher не представлены как техническое доказательство каждого его действия вне сохранённого record. |
+
+### 4. Содержательные расхождения и предел приёмки
+
+**MATERIAL RESEARCH QUESTION — LANGUAGE CORRECTION CANNOT RESOLVE: NONE обнаруженных в пределах focused re-check.**
+
+Нормализация Father-God → «Бог» там, где текст называет только Бога, является выполнением прямого правила Events 063–064, а не переносом действия на иной субъект. Действия Бога не перераспределены Христу; неясный «Господь» не разрешён переводом.
+
+Настоящий результат не повторяет весь Stage 2 review и не удостоверяет заново каждое предметное исследовательское решение. Принята коррекция по установленному контракту, при сохранении исходных решений и ограничений. Открытые Verification issues остаются открытыми; язык не использован для их скрытого разрешения. Независимая предметная, филологическая проверка и Book-Level Close Audit этим acceptance не выполнены.
+
+### 5. Решение / актуальное состояние IP-001 / ownership
+
+**ACCEPT STAGE 2.**  
+**Event 071 — ACCEPTED как handoff цельной языковой R1.**  
+**Event 064 RETURN FOR BOUNDED LANGUAGE CORRECTION — CLOSED / CORRECTION VERIFIED.**  
+**IP-001 ACTS-RR STAGE 2 — COMPLETE / ACCEPTED в закреплённой выше R1.**
+
+| Объект | Состояние после Event 072 |
+|---|---|
+| Stage 0 / Stage 1 | COMPLETE / ACCEPTED; Stage 1 не переоткрыт |
+| Stage 2 | COMPLETE / ACCEPTED — текущая цельная R1 из Event 071 |
+| Сохранённые открытые вопросы | V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03; не разрешены |
+| Исторические материалы | SEALED |
+| Историческое сравнение | PROHIBITED |
+| Stage 3–4 / Material Verification | NOT ACTIVATED |
+| Независимая предметная проверка | NOT ACTIVATED |
+| CS-RL-003 | Отдельный Owner gate; в Методологию не введён |
+| Текущий owner IP-001 | **Owner** |
+| Следующий gate | Отдельное Owner decision о следующем ограниченном шаге; возможное назначение Stage 3 требует своей авторизации и точного задания |
+
+Все предыдущие Events и artifacts оставлены без изменений. Ранние Current State / Process Map являются навигационным слоем; для восстановления состояния IP-001 действует настоящее последнее решение по правилу precedence RUN.md. Обновление записано здесь append-only по текущему поручению.
+
+**Ownership returned to Owner.** Lead не сохраняет operational ownership следующего этапа. Принятие Stage 2 не запускает Stage 3 и не закрывает книгу Деяний. RQ-RL-002, Constitution, Methodology, IP-001 Protocol и постоянные полномочия ролей не изменены.
