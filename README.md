@@ -1,165 +1,47 @@
-# In Profundo Research Lab
+# Исследовательская лаборатория In Profundo
 
-Research Lab — исследовательское направление In Profundo для дисциплинированного исследования Священного Писания.
+Research Lab ведёт дисциплинированные библейские и смежные исследования. Исследовательский результат отделяется от последующей редакционной работы и применения: источники и свидетельства определяют вывод, а не будущая статья или пособие.
 
-Лаборатория отделяет исследование от последующей редакционной и публикационной работы:
-
-> **Research → Synthesis → Architecture → Application**
-
-Книги, статьи, курсы и другие материалы могут использовать результаты Research Lab, но не определяют их заранее.
-
----
-
-## Быстрый вход: что действует сейчас
+## Быстрый вход
 
 **Сверено:** 09.10.2026. [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md).
 
-| Объект | Состояние | Куда идти |
+| Объект | Текущее состояние | Открыть |
 |---|---|---|
-| [IP-001 — действия воскресшего Христа](./Research/IP-001/README.md) | исследование действует; в Деяниях Stage 0–2 приняты, следующий шаг решает Owner | [паспорт Деяний](./Research/IP-001/Research/ACTS/README.md), [журнал IP-001](./Research/IP-001/DECISIONS.md) |
-| [RQ-RL-002 — сопровождение депрессии и суицидального кризиса](./Processes/Research_Request_Map.md) | Formation завершена; проект ограниченного обзора подготовлен, исполнение не разрешено | [Formation R2](./Development/Formations/FP-RL-002-Formation-Report-R2.md), [Installation Package](./Development/Validation-Runs/RL-WAVE-2/Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md) |
+| [IP-001 — действия воскресшего Христа](./Research/IP-001/README.md) | Деяния: Stage 0–2 приняты, книга не закрыта; следующий gate у Owner | [паспорт Деяний](./Research/IP-001/Research/ACTS/README.md), [журнал проекта](./Research/IP-001/DECISIONS.md) |
+| [RQ-RL-002 — сопровождение депрессии и суицидального кризиса](./Processes/Research_Request_Map.md) | Formation и проектирование ограниченного обзора завершены; исполнение не разрешено | [Formation R2](./Development/Formations/FP-RL-002-Formation-Report-R2.md), [пакет Lead](./Development/Validation-Runs/RL-WAVE-2/Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md) |
 
-Запрос `RQ-RL-002` ещё не является `IP-002`: каталог нового исследования создаётся после соответствующего решения о запуске. Исторические решения Events 001–072 доступны в [RL-WAVE-2/RUN.md](./Development/Validation-Runs/RL-WAVE-2/RUN.md); его устаревшая верхняя сводка не заменяет последние полномочные Events. Текущая навигация живёт в README и журналах соответствующего уровня.
+`RQ-RL-002` ещё не является `IP-002`. Формирование запроса и проектирование обзора не запускают исследование автоматически. Все запросы, в том числе находящиеся в Formation, показываются в [карте исследовательских запросов](./Processes/Research_Request_Map.md).
 
-**Язык:** русский — единственный смысловой язык Research Lab на данном этапе по [Методологии v0.4](./Methodology/methodology_v0.4.md) §1.1. Коды, имена файлов, формальные статусы и цитаты источников могут сохранять исходный язык с русским объяснением.
+Решения до перехода на уровневые журналы сохранены в [RL-WAVE-2/RUN.md](./Development/Validation-Runs/RL-WAVE-2/RUN.md), Events 001–072. Его ранняя верхняя сводка устарела; для текущего состояния используйте паспорта и последние полномочные решения, на которые они ссылаются.
 
----
+## Язык
 
-## Архитектура документов
+**Русский — единственный смысловой язык лаборатории на нынешнем этапе** по [Методологии v0.4](./Methodology/methodology_v0.4.md) §1.1. Идентификаторы, имена файлов, установленные формальные статусы и цитаты источников могут сохранять исходный язык; объяснение и исследовательские выводы пишутся по-русски. Исторические документы не переводятся автоматически.
 
-Research Lab работает внутри следующей структуры наследования:
+## Как устроены документы
 
-> **DNA In Profundo**  
-> ↓  
-> **Конституция Research Lab**  
-> ↓  
-> **Методология Research Lab**  
-> ↓  
-> **Protocol конкретного Research Project**  
-> ↓  
-> **Stage-specific Output Contract**  
-> ↓  
-> **Research Output**
+Иерархия исследовательской дисциплины:
 
-### DNA In Profundo
+1. [DNA In Profundo](https://github.com/inprofundo777-wq/editorial_system/blob/main/Constitution/DNA.md) задаёт основания всего проекта.
+2. [Конституция Research Lab v0.2](./Constitution/Constitution_v0.2.md) закрепляет устойчивые принципы.
+3. [Методология Research Lab v0.4](./Methodology/methodology_v0.4.md) задаёт общую исследовательскую дисциплину.
+4. Протокол конкретного исследования задаёт вопрос, корпус и процедуру.
+5. Договор результата этапа уточняет его требования там, где он нужен.
+6. Исследовательские файлы сохраняют свидетельства, наблюдения, суждения и выводы.
 
-Определяет фундаментальную природу и основания всего проекта In Profundo.
+Версия управляющего документа, закреплённая завершённым назначением, не меняется задним числом. Новая версия применяется к следующему назначению при явной фиксации конфигурации.
 
-Актуальная точка входа: [DNA In Profundo](https://github.com/inprofundo777-wq/editorial_system/blob/main/Constitution/DNA.md)
+| Уровень навигации | Где искать |
+|---|---|
+| Лаборатория | этот README, [DECISIONS.md](./DECISIONS.md), [карта запросов](./Processes/Research_Request_Map.md) |
+| Исследование | `Research/<ID>/README.md` и `Research/<ID>/DECISIONS.md` |
+| Книжный цикл / этап | паспорт и журнал в каталоге корпуса, например [ACTS](./Research/IP-001/Research/ACTS/README.md) |
 
-### Конституция Research Lab
+[Правило ведения трёх уровней](./Processes/Documentation_and_Decision_Records.md) определяет ответственность, обновление паспортов, редакции файлов и переход от исторического RUN.
 
-Определяет устойчивые принципы исследовательского направления.
+## Роли и процессы
 
-Актуальная версия:
+[Система ролей](./Roles/README.md) устанавливает, кто выполняет назначение и кому передаёт результат; [реестр версий ролей](./Roles/VERSION_REGISTRY.md) определяет их действующую область. Роли не расширяют полномочий только потому, что документ или пакет существует. Четыре роли v0.1 действуют в указанных в реестре ограниченных областях; более широкие режимы требуют отдельного разрешения.
 
-`Constitution/Constitution_v0.2.md`
-
-### Методология Research Lab
-
-Определяет общую эпистемическую дисциплину исследований независимо от конкретного Research Project.
-
-Актуальная версия:
-
-[Методология v0.4](./Methodology/methodology_v0.4.md)
-
-### Research Project Protocol
-
-Определяет, как общая Methodology применяется к конкретному исследовательскому вопросу, corpus и процедуре исследования.
-
-### Output Contract
-
-Определяет минимальные требования к результату конкретной исследовательской стадии там, где отдельный контракт действительно необходим.
-
-### Research Output
-
-Содержит фактическое evidence, observations, Research Judgments, classifications и последующий synthesis.
-
-### Role System
-
-Role System является operational execution layer. Он определяет, какая роль, версия, Package, modes, Assignment и return route действуют внутри установленной иерархии.
-
-Role System не изменяет epistemic authority Constitution, Methodology, Project Protocol или Output Contract.
-
-Актуальная точка входа:
-
-[Roles/README.md](./Roles/README.md)
-
-Актуальные process surfaces:
-
-- [Research Request Map](./Processes/Research_Request_Map.md)
-- [Formation](./Processes/Formation/README.md)
-- [Process Templates](./Processes/Templates/)
-- [Навигация и журналы решений](./Processes/Documentation_and_Decision_Records.md)
-
----
-
-# Структура репозитория
-
-```text
-research_lab/
-│
-├── Constitution/
-│   ├── Constitution_v0.1.md
-│   └── Constitution_v0.2.md
-│
-├── Methodology/
-│   ├── methodology_v0.1.md
-│   ├── methodology_v0.2.md
-│   ├── methodology_v0.3.md
-│   └── methodology_v0.4.md
-│
-├── Research/
-│   │
-│   └── IP-001/
-│       │
-│       ├── README.md
-│       │
-│       ├── IP-001_Protocol_v0.1.md
-│       ├── IP-001_Protocol_v0.2.md
-│       │
-│       ├── IP-001_Primary_Observation_Output_Contract_v0.1.md
-│       ├── IP-001_Primary_Observation_Output_Contract_v0.2.md
-│       │
-│       ├── Planning/
-│       ├── Pilots/
-│       ├── Research/
-│       ├── Cross-analysis/
-│       ├── Review/
-│       ├── Final/
-│       └── Archive/
-│
-├── DECISIONS.md
-├── Development/
-├── Roles/
-├── Processes/
-└── README.md
-
-
----
-
-# Role System v0.1
-
-**Status:** 🟡 Scoped Active in defined uses / broader modes Validation Pending
-
-Core Roles:
-
-- [Research Lab Director](./Roles/Director/v0.1/README.md)
-- [Research Project Lead](./Roles/Project-Lead/v0.1/README.md)
-- [Researcher](./Roles/Researcher/v0.1/README.md)
-- [Research Auditor](./Roles/Auditor/v0.1/README.md)
-
-Четыре роли v0.1 имеют статус **Scoped Active** только в точных областях, перечисленных в [Version Registry](./Roles/VERSION_REGISTRY.md). Все остальные режимы остаются **Validation Pending**.
-
-Этот статус не разрешает автоматически Full Research Project, новый corpus или перезапуск IP-001. Для каждого процесса по-прежнему нужны установленная конфигурация и соответствующий Owner gate.
-
-Formation begins only after explicit handoff:
-
-~~~text
-Strategist / Owner
-→ Research Lab Director
-→ Research Request Map
-→ Formation
-~~~
-
-Far-horizon material remains potential until that handoff.
+[Formation](./Processes/Formation/README.md) начинается после явной передачи запроса Owner или Strategist. [Шаблоны процессов](./Processes/Templates/) помогают оформлять этапы, но не заменяют решение о запуске. После Formation маршрут может быть продолжен, отложен или закрыт без создания нового каталога `Research/IP-*`.
