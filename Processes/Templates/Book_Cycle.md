@@ -1,68 +1,67 @@
-# [Project ID] — [Book / Unit] Cycle
+# [ID исследования] — [книга / корпус]: паспорт цикла
 
-## Passport
+Шаблон навигации, не разрешение этапа. [Правило паспортов и журналов](../Documentation_and_Decision_Records.md) · [Методология v0.4](../../Methodology/methodology_v0.4.md) для новых совместимых назначений.
 
-| Field | Value |
+## Паспорт
+
+| Поле | Значение |
 |---|---|
-| Project | |
-| Book / Unit | |
-| Status | ⚪ / 🟡 / 🟢 / 🔴 |
+| Исследование и корпус | |
+| Состояние / дата сверки | |
 | Project Lead | |
-| Active Researcher | |
-| Protocol | |
-| Updated | |
+| Активный Researcher | |
+| Протокол и закреплённая версия Методологии | |
+| Журнал решений этапов | |
+| Следующий owner и gate | |
 
-## Book Map
+## Карта книги
 
-| Stage | Status | Output / Gate |
-|---|---|---|
-| Stage 0 — Corpus Map | ⚪ | |
-| Stage 1 — Primary Observation | ⚪ | |
-| Stage 2 — Repetition Mapping | ⚪ | |
-| Stage 3 — Provisional Classification | ⚪ | |
-| Verification Gate | ⚪ | |
-| Draft Stage 4 — Proposed Synthesis | ⚪ | |
-| Book-Level Close Audit | ⚪ | |
-| Final Book Close | ⚪ | |
+| Этап | Статус | Точная действующая редакция | Решение / источник |
+|---|---|---|---|
+| Stage 0 — карта корпуса | | | |
+| Stage 1 — первичные наблюдения | | | |
+| Stage 2 — карта повторений | | | |
+| Stage 3 — предварительная классификация | | | |
+| Verification gate | | | |
+| Draft Stage 4 — проект синтеза | | | |
+| Независимый аудит книжного закрытия | | | |
+| Итоговое книжное закрытие | | | |
 
-The map does not list every chapter. Chapter-level outputs remain indexed below.
+Не перечисляйте здесь каждый отрывок: локальные файлы индексируются ниже. Номер редакции сам по себе не устанавливает принятие.
 
-## Active Stage Assignment
+## Активное назначение
 
-**Stage:**  
-**Question:**  
-**Scope:**  
-**Inputs:**  
-**Expected output:**  
-**Output Contract:**  
-**Verification triggers:**  
-**Audit trigger:**  
-**Stop conditions:**  
-**Return route:**
+**Этап:**  
+**Вопрос и границы:**  
+**Входные документы и закреплённые версии:**  
+**Требуемый результат / договор:**  
+**Основания для Verification и Audit:**  
+**Условия остановки:**  
+**Маршрут возврата:**
 
-## Capability Configuration
+## Конфигурация способности
 
-Insert or link the active Role Configuration Lock.
+Укажите или свяжите действующий Role Configuration Lock. Доступность роли не заменяет назначения.
 
-## Output Index
+## Указатель результатов
 
-| Output | Unit / Chapter | Stage | Researcher | Role version | Status |
+| Результат | Единица / глава | Этап | Исполнитель и версия роли | Статус | Решение |
 |---|---|---|---|---|---|
 | | | | | | |
 
-## Stage Handoff
+## Передача результата этапа
 
-**Result:**  
-**Evidence boundary:**  
-**Limitation / uncertainty:**  
-**Verification / audit:**  
-**Decision needed:**  
-**Next step:**  
-**Ownership returned to:**
+**Результат и граница свидетельства:**  
+**Ограничения и неопределённость:**  
+**Состояние проверки / аудита:**  
+**Необходимое решение и следующий шаг:**  
+**Кому передано владение:**  
+**README и журнал этапа синхронизированы:** да / навигационный долг с причиной.
 
-## Book Close
+## Книжное закрытие
 
-**Draft Stage 4:**  
-**Audit verdict:**  
-**Final close decision:**  
-**Project Map updated:** yes / no
+**Проект Stage 4:**  
+**Предметная независимая проверка:**  
+**Аудиторский verdict:**  
+**Решение Owner о закрытии:**  
+**Проектный паспорт обновлён:** да / нет.
