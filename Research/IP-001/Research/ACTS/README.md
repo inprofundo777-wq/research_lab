@@ -1,7 +1,7 @@
 # IP-001 — Деяния апостолов
 
-**Состояние:** свежий проход Stage 0–2 принят; исполнение Stage 3 разрешено; результат ожидается от Researcher, приёмка — Lead.  
-**Сверено:** 12.10.2026 по [ACTS-D003](./DECISIONS.md#acts-d003--решение-owner-разрешить-stage-3); приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Состояние:** свежий проход Stage 0–2 принят; Stage 3 представлен — SUBMITTED / NOT ACCEPTED; результат у Lead для приёмки.  
+**Сверено:** 12.10.2026 по [ACTS-D004](./DECISIONS.md#acts-d004--researcher-stage-3-представлен-для-приёмки-lead); разрешение — ACTS-D003; приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Проект:** [IP-001](../../README.md) · **журнал этапов:** [DECISIONS.md](./DECISIONS.md).
 
 ## Что действует сейчас
@@ -11,11 +11,11 @@
 | Stage 0 — карта корпуса | принят | [`rr-000_Acts_Stage0_Corpus_Map-R1.md`](./rr-000_Acts_Stage0_Corpus_Map-R1.md); принят в историческом [RUN.md](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md) |
 | Stage 1 — первичные наблюдения | принят | [`rr-001_Acts_Primary_Observations.md`](./rr-001_Acts_Primary_Observations.md); [Event 060](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-060--project-lead-acceptance-acts-rr-stage-1-primary-observation) |
 | Stage 2 — карта повторений | **принят** | [`rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md`](./rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md); [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2) |
-| Stage 3 — предварительная классификация | **исполнение разрешено; результат не принят** | [ACTS-D003 — Owner authorization](./DECISIONS.md#acts-d003--решение-owner-разрешить-stage-3); утверждённые задание и договор — по immutable ссылке в решении |
+| Stage 3 — предварительная классификация | **SUBMITTED / NOT ACCEPTED; приёмка Lead ожидается** | [rr-003 — закреплённый target](https://github.com/inprofundo777-wq/research_lab/blob/18b300ae11beeeccc483d75196fd3c9ca7914287/Research/IP-001/Research/ACTS/rr-003_Acts_Provisional_Groups.md); [ACTS-D004 — handoff](./DECISIONS.md#acts-d004--researcher-stage-3-представлен-для-приёмки-lead); разрешение ACTS-D003 |
 | Verification и Stage 4 — книжный итог | не активированы | предметная проверка и независимый аудит книжного закрытия имеют отдельные зависимости |
 
 **Открытые вопросы:** `V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03`. Принятие Stage 2 не разрешило их.  
-**Следующий шаг:** рабочая ветка Researcher IP-001 восстанавливает назначение ACTS-D003 и выполняет Stage 3 по утверждённому пакету; результат возвращает рабочей ветке Lead IP-001. **Ownership:** Researcher → Lead для приёмки → Owner для следующего gate. Разрешение не означает, что другой чат уже фактически приступил к работе.  
+**Следующий шаг:** рабочая ветка Lead IP-001 принимает либо возвращает представленный rr-003 по §7 ACTS-S3-PACK-v0.1. **Ownership:** Lead для приёмки → Owner после disposition. Представление результата не означает acceptance, фиксацию принятого Stage 0–3 snapshot или разрешение следующего этапа.  
 **Историческое сравнение:** запрещено до установленного отдельного gate.  
 **Книжное закрытие:** не достигнуто.
 

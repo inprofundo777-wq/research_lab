@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Деяния Stage 0–2 приняты; Stage 3 разрешён ACTS-D003; Researcher исполняет назначение, Lead принимает результат.  
+**Состояние:** Деяния Stage 0–2 приняты; Stage 3 представлен — SUBMITTED / NOT ACCEPTED; результат у Lead для приёмки.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -46,3 +46,16 @@ Lead подготовил задание, ACTS-S3-OC-v0.1, границы, кр�
 Утверждены ACTS-S3-PACK-v0.1 / ACTS-S3-OC-v0.1 в commit 8b680f9f05793a47ca88e7dc18075dc7475e87bf. Разрешено только контролируемое применение Classification к Stage 3 Деяний: Researcher v0.1, Package C; приёмка — действующая ветка Lead v0.1, Package C, Stage Coordination / Output Contract acceptance.
 
 **Состояние:** Stage 3 AUTHORIZED / ACTIVE ASSIGNMENT; результат ещё не представлен/не принят. **Ownership:** Researcher → Lead → Owner. Общий допуск режима не изменён. Methodology v0.4 / Protocol v0.2 и границы Installation R1 закреплены; Stage 0–2 и открытые вопросы сохранены. Material Verification, историческое сравнение, Stage 4 и независимые проверки не разрешены.
+
+
+---
+
+## IP-001-D004 — Researcher представил Stage 3 Деяний
+
+**Дата:** 12.10.2026. **Основание:** исполнение ACTS-D003 по утверждённому ACTS-S3-PACK-v0.1 / ACTS-S3-OC-v0.1.  
+**Полный handoff:** [ACTS-D004](./Research/ACTS/DECISIONS.md#acts-d004--researcher-stage-3-представлен-для-приёмки-lead).  
+**Target:** [rr-003 в commit 18b300ae11beeeccc483d75196fd3c9ca7914287](https://github.com/inprofundo777-wq/research_lab/blob/18b300ae11beeeccc483d75196fd3c9ca7914287/Research/IP-001/Research/ACTS/rr-003_Acts_Provisional_Groups.md).
+
+Представлены четыре предварительные группы, сохранены 48 U/D/O, все R/S/NB/NM и 11 открытых вопросов. Внутренняя сверка не является независимой проверкой или acceptance. Прежние этапы не переоткрыты; исторические материалы не использованы.
+
+**Состояние:** Stage 3 SUBMITTED / NOT ACCEPTED; **ownership — Lead для ACCEPT / RETURN → Owner**. Методологические и постоянные полномочия не изменены. Verification, историческое сравнение, Stage 4 и книжное закрытие не активированы. Паспорта проекта и Деяний синхронизированы; полный договор и исследовательское содержание не дублируются в этом журнале.
