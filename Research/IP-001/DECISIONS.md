@@ -85,3 +85,15 @@ Lead подготовил задание, ACTS-S3-OC-v0.1, границы, кр�
 Подготовлены матрица 11 вопросов (2 влияние на G03; 5 потенциальных изменений категории/субъекта/единичного основания; 4 потенциальных отдельных действия), порядок, точные договоры и отдельная capability проба на U04/U12/D20. Контекстная, Greek/syntax и text-critical способности и независимость оцениваются отдельно; операционная приёмка Lead не заменяет предметную компетенцию. Рекомендован Gate A только для дизайна/способности, затем отдельный Gate B для MV по реально подтверждённому scope.
 
 **Состояние:** Stage 0–3 и snapshot приняты; MV-пакет PREPARED / OWNER GATE; все 11 вопросов открыты. Capability execution, Material Verification, historical comparison, Stage 4 и книжное закрытие не разрешены. **Ownership — Owner.** Паспорта проекта/корпуса обновлены; прежние outputs не менялись.
+
+
+---
+
+## IP-001-D007 — проект MV утверждён; CV-конфигурация возвращена Owner
+
+**Дата:** 12.10.2026. **Решение Owner:** [ACTS-D007](./Research/ACTS/DECISIONS.md#acts-d007--owner-проект-mv-утверждён-разрешена-только-подготовка-cv-конфигурации). **Полный handoff:** [ACTS-D008](./Research/ACTS/DECISIONS.md#acts-d008--lead-cv-конфигурация-и-сообщения-подготовлены-возврат-owner).  
+**Подготовленный target:** [CV-ACTS-IV-01-CONFIG-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/69374fb4a639d46db350ded46fe3cc73c2fb4cb0/Research/IP-001/Planning/CV-ACTS-IV-01-Configuration-and-Branch-Messages-v0.1.md).
+
+MV-проект принят как дизайн, не execution authorization. Подготовлены отдельные назначения IV Candidate / IV Assessor, первичные inputs/договоры, основания допуска и готовые сообщения. Предметный допуск конкретного нового оценщика не установлен и не выдан названием роли.
+
+**Ownership — Owner.** Ближайший предлагаемый шаг — разрешить только P0 eligibility/source readiness новым веткам, первой IV Assessor; при наличии проверяемого готового оценщика Owner может отдельно закрепить scope и разрешить C0. Capability/MV/Stage 4 не выполнены/не активированы. Stage 0–3 и snapshot сохранены. Паспорта проекта/корпуса обновлены.
