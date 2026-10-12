@@ -72,3 +72,16 @@ Lead подготовил задание, ACTS-S3-OC-v0.1, границы, кр�
 Зафиксирован [fresh Stage 0–3 snapshot](./Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) в commit 5936bf32a9ead62f200ac7b2c2b51a0f2781d6e5. **Деяния не закрыты как книга.** Сравнение с историческим материалом, Material Verification, Stage 4 и независимые проверки не активированы.
 
 **Ownership returned to Owner.** Рекомендуемый следующий предмет подготовки — ограниченное назначение Material Verification с обеспечением capability/independence dependencies Installation R1; требуется отдельное Owner decision. Паспорта проекта и корпуса синхронизированы. Корневая навигация лаборатории остаётся долгом Director, указанным в ACTS-D005.
+
+
+---
+
+## IP-001-D006 — подготовлен пакет Material Verification Деяний
+
+**Дата:** 12.10.2026. **Полная запись:** [ACTS-D006](./Research/ACTS/DECISIONS.md#acts-d006--lead-ограниченный-пакет-material-verification-представлен-owner).  
+**Основание:** прямое Owner-поручение после ACTS-D005 подготовить проверку, не запускать её.  
+**Target:** [ACTS-MV-PACK-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/784283ed583f198302bc21cebb50d7f400b03afb/Research/IP-001/Planning/ACTS-Material-Verification-Package-v0.1.md).
+
+Подготовлены матрица 11 вопросов (2 влияние на G03; 5 потенциальных изменений категории/субъекта/единичного основания; 4 потенциальных отдельных действия), порядок, точные договоры и отдельная capability проба на U04/U12/D20. Контекстная, Greek/syntax и text-critical способности и независимость оцениваются отдельно; операционная приёмка Lead не заменяет предметную компетенцию. Рекомендован Gate A только для дизайна/способности, затем отдельный Gate B для MV по реально подтверждённому scope.
+
+**Состояние:** Stage 0–3 и snapshot приняты; MV-пакет PREPARED / OWNER GATE; все 11 вопросов открыты. Capability execution, Material Verification, historical comparison, Stage 4 и книжное закрытие не разрешены. **Ownership — Owner.** Паспорта проекта/корпуса обновлены; прежние outputs не менялись.
