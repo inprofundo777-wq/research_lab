@@ -1,6 +1,6 @@
 # IP-001 / Деяния — журнал книжного цикла и этапов
 
-**Состояние:** Stage 0–3 приняты; fresh snapshot зафиксирован в ACTS-D005; ownership возвращён Owner для следующего отдельного gate.  
+**Состояние:** Stage 0–3 приняты; snapshot закреплён; MV-проект утверждён, CV-конфигурация подготовлена; запуск не разрешён; ownership — Owner.  
 **Паспорт:** [ACTS README](./README.md) · [проект IP-001](../../README.md).  
 **Источник прежних решений:** [RL-WAVE-2 RUN, Events 039–064 и 071–072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md).
 
@@ -250,3 +250,29 @@ ACTS-D005 восстановлен как последнее действующ�
 **Прямой запрет Owner:** capability-пробу и Material Verification пока не выполнять. Исторический слой, Stage 4 и книжное закрытие не разрешены. Подготовленные назначения вернуть Owner для отдельного решения о запуске.
 
 **Текущий owner подготовки:** Lead. **Возврат:** Owner после цельного пакета конфигурации. Прежние ACTS-D005 / snapshot и 11 открытых вопросов неизменны.
+
+
+---
+
+## ACTS-D008 — Lead: CV-конфигурация и сообщения подготовлены; возврат Owner
+
+**Дата:** 12.10.2026 (Europe/Tallinn). **Primary role:** Research Project Lead v0.1, Package C; Installation only; secondary не активирована.  
+**Назначение:** ACTS-D007 — утверждение MV-проекта и прямое поручение конкретизировать назначения, не запускать capability/MV.  
+**Immutable target:** [CV-ACTS-IV-01-CONFIG-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/69374fb4a639d46db350ded46fe3cc73c2fb4cb0/Research/IP-001/Planning/CV-ACTS-IV-01-Configuration-and-Branch-Messages-v0.1.md), commit `69374fb4a639d46db350ded46fe3cc73c2fb4cb0`.
+
+Подготовлены две отдельные предлагаемые ветки: **IP-001 — IV Candidate** (CV-ACTS-IV-01-CAND) и **IP-001 — IV Assessor** (CV-ACTS-IV-01-EVAL). Обе — Researcher v0.1, Package C, но с разными объектами/функциями; controlled Independent Review / предметная оценка требуют explicit Owner assignment, общий Registry не изменяется. Ни одной новой ветки Lead не создал.
+
+Конфигурация содержит точные role/governance inputs; immutable rr-001 и разрешённые C01 U04/O01, C02 U12, C03 D20; два output assignments, eligibility/readiness и источник/доменный допуск; запреты, маршруты, готовые сообщения новым веткам (§7.1/§7.2), текст следующего Owner decision (§6). Утверждённые договоры проекта ACTS-IV-CV-OC-v0.1 и ACTS-IV-CV-EVAL-OC-v0.1 сохраняются без подмены предметного scope.
+
+**Основания допуска:** право на подготовку есть только у Lead. Ни кандидатная способность, ни компетенция конкретного нового предметного оценщика не установлены record; fresh chat не доказательство навыка. Условие Assessor: проверяемое основание CTX/LANG/TEXT, отдельно independence/identity/source access. Не указаны выдуманные человеческие credentials/внешнее лицо/предшествующий предметный PASS. Назначаемый AI-проверяющий не представлен человеком-специалистом; одно согласие двух AI-веток не является доказательством компетенции. Отсутствующее assessor evidence сохраняет NOT ESTABLISHED / предметный verdict blocked.
+
+**Рекомендуемый ближайший Owner шаг:** принять конфигурацию и разрешить только P0 — новые ветки восстанавливают роли и возвращают existing eligibility/source readiness без анализа C01–C03. При наличии у Owner уже проверяемого компетентного оценщика допустимо закрепить конкретное основание/домены и отдельно разрешить C0 без повторения подтверждённых условий. C0/производственная MV не запускаются по принятому дизайну или одному READY.
+
+**Следующие адресаты после разрешения:** сначала IV Assessor — сообщение §7.1 и этот журнал; затем IV Candidate — §7.2 и этот журнал. В сообщениях нет выдуманного activation ID: исполнитель читает конец ACTS/DECISIONS и требует позднейшее полномочное Owner decision. ACTS-D007 и этот handoff сами не разрешают работу новых веток.
+
+**Проверка подготовки:** self-check состава, источниковых pins, трёх случаев, двух разных функций, truthfulness основания допуска и раздельности P0/C0/MV. Это не Audit, не предметная/способностная проверка.
+
+**NOT EXECUTED:** recovery новых веток, capability sample, assessment, source retrieval/Greek analysis, production MV, historical comparison, Stage 4/book close. Сообщения не отправлены. Research artifacts, snapshot, 11 открытых вопросов и RQ-RL-002 не изменены.
+
+**Состояние:** MV DESIGN APPROVED / CV CONFIGURATION PREPARED / OWNER LAUNCH GATE.  
+**Ownership returned to Owner.** Паспорта ACTS/IP-001 и проектный журнал синхронизированы; требуется отдельное разрешение следующего действия.
