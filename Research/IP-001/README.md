@@ -1,7 +1,7 @@
 # IP-001 — действия воскресшего Христа
 
-**Статус:** исследование действует; Деяния — Stage 0–2 приняты, следующий gate у Owner.  
-**Сверено:** 09.10.2026 по [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Статус:** исследование действует; Деяния — Stage 0–2 приняты; Stage 3 подготовлен, исполнение не разрешено; следующий gate у Owner.  
+**Сверено:** 12.10.2026 по [IP-001-D002](./DECISIONS.md#ip-001-d002--stage-3-деяний-подготовлен-отдельный-gate-owner); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
 ## Исследовательский вопрос
@@ -16,7 +16,7 @@
 
 | Корпус | Состояние | Точка входа | Следующий шаг |
 |---|---|---|---|
-| [Деяния](./Research/ACTS/README.md) | свежий проход: Stage 0, Stage 1, Stage 2 приняты; Stage 3 и дальнейшие стадии не активированы | [паспорт и точные принятые файлы](./Research/ACTS/README.md), [журнал этапов](./Research/ACTS/DECISIONS.md) | отдельное решение Owner по следующему ограниченному шагу |
+| [Деяния](./Research/ACTS/README.md) | свежий проход: Stage 0–2 приняты; Stage 3 подготовлен, но не активирован | [паспорт и точные принятые файлы](./Research/ACTS/README.md), [журнал этапов](./Research/ACTS/DECISIONS.md) | решение Owner по [пакету Stage 3 v0.1](./Planning/ACTS-Stage-3-Assignment-Package-v0.1.md); подготовка не разрешает исполнение |
 | [Послание к Римлянам](./Research/Romans/README.md) | контрольный прогон Stage 0–3 завершил функцию методологической проверки; Stage 4 не выполнялся | [паспорт пилота](./Research/Romans/README.md) | не продолжать автоматически как книжный цикл |
 
 **Деяния ещё не закрыты как книга.** Открыты V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 и O03. Исторические материалы изолированы; сравнение с ними требует отдельного gate. Приёмка Stage 2 в Event 072 не разрешает Stage 3, Material Verification, Stage 4, независимую предметную проверку или Book-Level Close Audit.
