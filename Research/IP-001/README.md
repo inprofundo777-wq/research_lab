@@ -1,7 +1,7 @@
 # IP-001 — действия воскресшего Христа
 
-**Статус:** исследование действует; Деяния — Stage 0–2 приняты; Stage 3 подготовлен, исполнение не разрешено; следующий gate у Owner.  
-**Сверено:** 12.10.2026 по [IP-001-D002](./DECISIONS.md#ip-001-d002--stage-3-деяний-подготовлен-отдельный-gate-owner); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Статус:** исследование действует; Деяния — Stage 0–2 приняты; Stage 3 разрешён, результат ожидается от Researcher, приёмка — Lead.  
+**Сверено:** 12.10.2026 по [IP-001-D003](./DECISIONS.md#ip-001-d003--owner-разрешил-ограниченный-stage-3-деяний); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
 ## Исследовательский вопрос
@@ -16,10 +16,10 @@
 
 | Корпус | Состояние | Точка входа | Следующий шаг |
 |---|---|---|---|
-| [Деяния](./Research/ACTS/README.md) | свежий проход: Stage 0–2 приняты; Stage 3 подготовлен, но не активирован | [паспорт и точные принятые файлы](./Research/ACTS/README.md), [журнал этапов](./Research/ACTS/DECISIONS.md) | решение Owner по [пакету Stage 3 v0.1](./Planning/ACTS-Stage-3-Assignment-Package-v0.1.md); подготовка не разрешает исполнение |
+| [Деяния](./Research/ACTS/README.md) | свежий проход: Stage 0–2 приняты; исполнение Stage 3 разрешено, результат не принят | [паспорт и точные принятые файлы](./Research/ACTS/README.md), [журнал этапов](./Research/ACTS/DECISIONS.md) | Researcher выполняет [ACTS-D003](./Research/ACTS/DECISIONS.md#acts-d003--решение-owner-разрешить-stage-3); результат → Lead → Owner |
 | [Послание к Римлянам](./Research/Romans/README.md) | контрольный прогон Stage 0–3 завершил функцию методологической проверки; Stage 4 не выполнялся | [паспорт пилота](./Research/Romans/README.md) | не продолжать автоматически как книжный цикл |
 
-**Деяния ещё не закрыты как книга.** Открыты V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 и O03. Исторические материалы изолированы; сравнение с ними требует отдельного gate. Приёмка Stage 2 в Event 072 не разрешает Stage 3, Material Verification, Stage 4, независимую предметную проверку или Book-Level Close Audit.
+**Деяния ещё не закрыты как книга.** Открыты V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 и O03. Исторические материалы изолированы; сравнение с ними требует отдельного gate. Stage 3 отдельно разрешён решением ACTS-D003. Material Verification, Stage 4, независимая предметная проверка и Book-Level Close Audit остаются неактивными.
 
 ## Действующие документы и версии
 
