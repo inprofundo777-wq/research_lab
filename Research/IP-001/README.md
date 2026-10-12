@@ -1,7 +1,7 @@
 # IP-001 — действия воскресшего Христа
 
-**Статус:** исследование действует; Деяния — Stage 0–2 приняты; Stage 3 представлен — SUBMITTED / NOT ACCEPTED; приёмка ожидается у Lead.  
-**Сверено:** 12.10.2026 по [IP-001-D004](./DECISIONS.md#ip-001-d004--researcher-представил-stage-3-деяний); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Статус:** исследование действует; Деяния — Stage 0–3 приняты; fresh snapshot закреплён; следующий gate и ownership — Owner.  
+**Сверено:** 12.10.2026 по [IP-001-D005](./DECISIONS.md#ip-001-d005--lead-принял-stage-3-деяний); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
 ## Исследовательский вопрос
@@ -16,10 +16,10 @@
 
 | Корпус | Состояние | Точка входа | Следующий шаг |
 |---|---|---|---|
-| [Деяния](./Research/ACTS/README.md) | Stage 0–2 приняты; rr-003 представлен — SUBMITTED / NOT ACCEPTED | [паспорт и точные файлы](./Research/ACTS/README.md), [ACTS-D004 — handoff](./Research/ACTS/DECISIONS.md#acts-d004--researcher-stage-3-представлен-для-приёмки-lead) | Lead принимает / возвращает Stage 3 → Owner |
+| [Деяния](./Research/ACTS/README.md) | Stage 0–3 приняты; fresh snapshot закреплён | [паспорт и точные файлы](./Research/ACTS/README.md), [ACTS-D005 — приёмка](./Research/ACTS/DECISIONS.md#acts-d005--lead-accept-stage-3-и-фиксация-fresh-snapshot) | отдельный Owner gate; рекомендована подготовка Material Verification с нужной независимостью |
 | [Послание к Римлянам](./Research/Romans/README.md) | контрольный прогон Stage 0–3 завершил функцию методологической проверки; Stage 4 не выполнялся | [паспорт пилота](./Research/Romans/README.md) | не продолжать автоматически как книжный цикл |
 
-**Деяния ещё не закрыты как книга.** Открыты V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 и O03. Исторические материалы изолированы; сравнение с ними требует отдельного gate. Stage 3 отдельно разрешён решением ACTS-D003. Material Verification, Stage 4, независимая предметная проверка и Book-Level Close Audit остаются неактивными.
+**Деяния ещё не закрыты как книга.** Открыты V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 и O03. Исторические материалы изолированы; сравнение с ними требует отдельного gate. Stage 3 принят решением ACTS-D005; [fresh snapshot](./Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) закреплён. Material Verification, Stage 4, независимая предметная проверка и Book-Level Close Audit остаются неактивными.
 
 ## Действующие документы и версии
 
