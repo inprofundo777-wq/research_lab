@@ -1,6 +1,6 @@
 # IP-001 / Деяния — журнал книжного цикла и этапов
 
-**Состояние:** Stage 0–3 приняты; snapshot закреплён; MV-проект утверждён, CV-конфигурация подготовлена; запуск не разрешён; ownership — Owner.  
+**Состояние:** Stage 0–3 приняты; snapshot закреплён; CV-конфигурация утверждена, разрешён только P0; два readiness handoff ожидаются у Lead; C0/MV не разрешены.  
 **Паспорт:** [ACTS README](./README.md) · [проект IP-001](../../README.md).  
 **Источник прежних решений:** [RL-WAVE-2 RUN, Events 039–064 и 071–072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md).
 
@@ -276,3 +276,47 @@ ACTS-D005 восстановлен как последнее действующ�
 
 **Состояние:** MV DESIGN APPROVED / CV CONFIGURATION PREPARED / OWNER LAUNCH GATE.  
 **Ownership returned to Owner.** Паспорта ACTS/IP-001 и проектный журнал синхронизированы; требуется отдельное разрешение следующего действия.
+
+
+---
+
+## ACTS-D009 — Owner: CV-конфигурация утверждена; разрешён только P0
+
+**Дата:** 12.10.2026, 22:47 (Europe/Tallinn). **Владелец решения:** Owner.  
+**Источник:** прямое сообщение Owner в действующей Lead-ветке: «Утверждаю CV-ACTS-IV-01-CONFIG-v0.1. Разрешаю только P0: восстановление двух новых веток, фиксацию независимости, источниковой готовности и существующих оснований предметного допуска. Capability-пробу и Material Verification пока не выполнять».
+
+**Утверждённый immutable target:** [CV-ACTS-IV-01-CONFIG-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/69374fb4a639d46db350ded46fe3cc73c2fb4cb0/Research/IP-001/Planning/CV-ACTS-IV-01-Configuration-and-Branch-Messages-v0.1.md), commit `69374fb4a639d46db350ded46fe3cc73c2fb4cb0`, blob `439e44e151c72ace96a58f255b4d25b33c283de2`. Утверждённый MV-проект — ACTS-D007 / immutable ACTS-MV-PACK-v0.1.
+
+### Разрешённые назначения
+
+**APPROVED — P0 ONLY. C0 / MATERIAL VERIFICATION NOT AUTHORIZED.**
+
+1. **Новая ветка «IP-001 — IV Assessor»**: Researcher v0.1, Package C, второстепенная роль не активирована. Разрешена recovery/eligibility-функция по конфигурации §2–5.3: установить точный Lock/identity/independence, собрать уже существующие проверяемые основания CTX/LANG/TEXT и фактическую источниковую готовность. Предметный Independent Review кандидатной пробы ещё не разрешён; компетенция не признана по названию роли.
+2. **Другая новая ветка «IP-001 — IV Candidate»**: Researcher v0.1, Package C, второстепенная роль не активирована. Разрешена recovery/readiness-функция по §3–5.3: Lock/identity/конфликты, источники/доступ и границы CTX/LANG/TEXT. Способность не признаётся до разрешённой пробы.
+3. **Текущая ветка Lead IP-001**: Lead v0.1, Package C, bounded Stage Coordination / Output Contract acceptance **readiness только**; собрать два handoff, проверить договор/independence/source traceability и представить Owner readiness decision. Не присваивать предметный допуск оценщику.
+
+Роли новых веток не получают общего независимого/языкового экспертного допуска. Identity/conflicts и реально существующие capability evidence указываются честно; отсутствующие данные — NOT ESTABLISHED / LIMITED / BLOCKED.
+
+**Разрешено в P0:** восстановить управляющие документы/закреплённые pins; проверить доступность и идентичность предполагаемых источников, собрать библиографические/квалификационные evidence. Не превращать такую проверку в чтение/разрешение предметных C01–C03. Уже существующее оценённое evidence допускается описать, не создать новую предметную пробу «для доказательства компетенции» без отдельного решения.
+
+### Договор результата / handoff
+
+**Assessor:** `Research/IP-001/Review/CV-ACTS-IV-01-Assessor-Eligibility-v0.1.md`.  
+**Candidate:** `Research/IP-001/Review/CV-ACTS-IV-01-Candidate-Readiness-v0.1.md`.  
+**Lead:** `Research/IP-001/Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md`.
+
+Каждый результат закрепляется по commit; handoff append-only в этом журнале с очередным свободным ACTS-D-ID и точным artifact/status. При записи перечитать конец журнала и использовать current blob SHA; не переписывать чужой handoff. Ветки возвращают свои P0 outputs Lead, не объявляют самостоятельный экспертный допуск или readiness=launch. Lead возвращает цельное состояние Owner.
+
+### Запреты / дальнейший gate
+
+**Не разрешены:** reasoning/вердикты C01 U04/O01, C02 U12, C03 D20; выполнение capability-пробы C0, grading кандидатного sample, закрытие V-ID или production MV; исторические Acts outputs/rejected Event 054; Stage 4, книжное закрытие, изменение Registry. Если источники/eligibility не подтверждаются, сохранить честный Gap; не выдумывать диплом, опыт, проверенный apparatus или PASS.
+
+READY в P0 **не активирует C0**. После двух readiness outputs Owner отдельно решает о допуске конкретного Assessor/доменных ограничениях и возможном запуске C0. Material Verification затем требует отдельного Gate B по фактической оценке.
+
+### Текущие владельцы / следующий шаг
+
+Operational ownership каждой разрешённой P0 задачи — соответствующая новая ветка; координация/договорная приёмка — Lead; следующий substantive decision — Owner. Назначения разрешены, но Lead не создал чаты и не утверждает, что они уже приступили к работе.
+
+**Передача:** Owner открывает сначала отдельный чат **IV Assessor**, затем другой отдельный чат **IV Candidate**, передаёт каждому сообщение с ACTS-D009 и immutable конфигурацией. Оба handoff возвращаются в эту Lead-ветку.
+
+**Состояние:** P0 AUTHORIZED / READINESS OUTPUTS PENDING; C0 и MV NOT AUTHORIZED. Stage 0–3, snapshot и 11 вопросов сохранены. Паспорта проекта/корпуса синхронизируются с настоящим назначением.
