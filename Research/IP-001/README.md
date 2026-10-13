@@ -1,7 +1,7 @@
 # IP-001 — действия воскресшего Христа
 
 **Статус:** исследование действует; Деяния — Stage 0–3 приняты; snapshot закреплён; оба P0 результата приняты; assessor/source gaps сохраняются; C0/MV не готовы/не разрешены; ownership — Owner.  
-**Сверено:** 13.10.2026 по [ACTS-D014](./Research/ACTS/DECISIONS.md#acts-d014--director-маршрутная-консультация-по-оценщику-и-источникам); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Сверено:** 13.10.2026 по [ACTS-D015](./Research/ACTS/DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
 ## Исследовательский вопрос
@@ -16,7 +16,7 @@
 
 | Корпус | Состояние | Точка входа | Следующий шаг |
 |---|---|---|---|
-| [Деяния](./Research/ACTS/README.md) | Stage 0–3 приняты; fresh snapshot закреплён | [паспорт и точные файлы](./Research/ACTS/README.md), [ACTS-D005 — приёмка](./Research/ACTS/DECISIONS.md#acts-d005--lead-accept-stage-3-и-фиксация-fresh-snapshot) | [ACTS-D014 — консультация Director](./Research/ACTS/DECISIONS.md#acts-d014--director-маршрутная-консультация-по-оценщику-и-источникам); Owner решает ресурсный маршрут оценщика и источников; C0 не разрешён |
+| [Деяния](./Research/ACTS/README.md) | Stage 0–3 приняты; fresh snapshot закреплён | [паспорт и точные файлы](./Research/ACTS/README.md), [ACTS-D005 — приёмка](./Research/ACTS/DECISIONS.md#acts-d005--lead-accept-stage-3-и-фиксация-fresh-snapshot) | [ACTS-D015 — поручение Lead](./Research/ACTS/DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний) подготовлено для передачи одной ссылкой; Lead собирает реестр ресурсов после получения; C0 не разрешён |
 | [Послание к Римлянам](./Research/Romans/README.md) | контрольный прогон Stage 0–3 завершил функцию методологической проверки; Stage 4 не выполнялся | [паспорт пилота](./Research/Romans/README.md) | не продолжать автоматически как книжный цикл |
 
 **Деяния ещё не закрыты как книга.** Открыты V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 и O03. Исторические материалы изолированы; сравнение с ними требует отдельного gate. Stage 3 принят решением ACTS-D005; [fresh snapshot](./Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) закреплён. Material Verification, Stage 4, независимая предметная проверка и Book-Level Close Audit остаются неактивными.
