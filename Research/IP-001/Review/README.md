@@ -1,6 +1,6 @@
 # IP-001 — проверки и готовность
 
-**Сверено:** 13.10.2026 по [ACTS-D013](../Research/ACTS/DECISIONS.md#acts-d013--lead-p0-принят-c0-не-готов-возврат-owner).  
+**Сверено:** 13.10.2026 по [ACTS-D015](../Research/ACTS/DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний).  
 **Состояние:** оба P0 результата приняты; C0/MV не готовы и не разрешены; ownership — Owner.  
 **Паспорт проекта:** [IP-001](../README.md). **Книжный журнал:** [ACTS/DECISIONS](../Research/ACTS/DECISIONS.md).
 
@@ -15,6 +15,6 @@ Submitted status внутри двух source artifacts сохранён как 
 
 Источники пока LIMITED metadata, локальный TEXT warrant BLOCKED. Полной изоляции/model diversity не заявлено; организационная раздельность и disclosure приняты без предметной сертификации. Все 11 вопросов Verification открыты.
 
-**Следующий шаг — Owner:** определить реальное основание предметного оценщика/источников либо отдельно разрешить предложенную Director route consultation; точное предложенное поручение в ACTS-D013, передача одной ссылкой после авторизации. Director автоматически не активирован. Stage 4/book close и historical comparison не разрешены.
+**Следующий шаг:** Owner передаёт Lead [ACTS-D015](../Research/ACTS/DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний) одной ссылкой для краткого ресурсного Brief. Консультация Director завершена в ACTS-D014; получение задания и результат Lead ещё не подтверждены. Stage 4/book close и historical comparison не разрешены.
 
 **Владелец навигации:** Lead IP-001 при handoff/изменении gate.
