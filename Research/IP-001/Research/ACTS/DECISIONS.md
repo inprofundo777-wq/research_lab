@@ -320,3 +320,21 @@ Operational ownership каждой разрешённой P0 задачи — с
 **Передача:** Owner открывает сначала отдельный чат **IV Assessor**, затем другой отдельный чат **IV Candidate**, передаёт каждому сообщение с ACTS-D009 и immutable конфигурацией. Оба handoff возвращаются в эту Lead-ветку.
 
 **Состояние:** P0 AUTHORIZED / READINESS OUTPUTS PENDING; C0 и MV NOT AUTHORIZED. Stage 0–3, snapshot и 11 вопросов сохранены. Паспорта проекта/корпуса синхронизируются с настоящим назначением.
+
+
+---
+
+## ACTS-D010 — передача P0 новым веткам одной ссылкой
+
+**Дата:** 13.10.2026 (Europe/Tallinn). **Функция записи:** операционное уточнение способа передачи по прямому запросу Owner; **не новое решение о полномочиях**. Источник разрешения остаётся [ACTS-D009](#acts-d009--owner-cv-конфигурация-утверждена-разрешён-только-p0), закреплённый пакет — [CV-ACTS-IV-01-CONFIG-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/69374fb4a639d46db350ded46fe3cc73c2fb4cb0/Research/IP-001/Planning/CV-ACTS-IV-01-Configuration-and-Branch-Messages-v0.1.md). Общее правило — [передача одной ссылкой](../../../../Processes/Documentation_and_Decision_Records.md#7-передача-задания-одной-ссылкой-между-ветками).
+
+**Owner открывает две разные новые ветки и передаёт каждой только ссылку на эту запись ACTS-D010, предваряя её названием адресата.** Исполнитель обязан прочитать ACTS-D009, immutable конфигурацию §§2–5.3 и §7 соответствующей ветки, утверждённый [ACTS-MV-PACK-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/784283ed583f198302bc21cebb50d7f400b03afb/Research/IP-001/Planning/ACTS-Material-Verification-Package-v0.1.md) и конец настоящего журнала. Готовые сообщения §7 конфигурации служат полным recovery/contract guidance, но Owner не обязан копировать их в чат. Более позднее полномочное решение по конкретному объекту имеет приоритет.
+
+| Порядок / адресат | Разрешённый P0 результат | Возврат |
+|---|---|---|
+| 1. Новая отдельная ветка **IP-001 — IV Assessor**, Researcher v0.1, Package C | Recovery/Lock/независимость, существующие проверяемые основания предметного допуска CTX/LANG/TEXT и готовность источников; цельный `Research/IP-001/Review/CV-ACTS-IV-01-Assessor-Eligibility-v0.1.md` | append-only следующий ACTS-D-ID с immutable target и status → Lead IP-001 |
+| 2. Другая новая отдельная ветка **IP-001 — IV Candidate**, Researcher v0.1, Package C | Recovery/Lock/независимость, источники/доступ и границы CTX/LANG/TEXT; цельный `Research/IP-001/Review/CV-ACTS-IV-01-Candidate-Readiness-v0.1.md` | append-only следующий ACTS-D-ID с immutable target и status → Lead IP-001 |
+
+Перед записью handoff перечитать конец журнала и взять следующий свободный ID/current blob; не переписывать чужое решение. Lead после обоих handoff проверяет только договорную готовность, независимость и прослеживаемость, оформляет `Research/IP-001/Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md` и запись в журнале, затем возвращает **Owner** решение о возможном C0.
+
+**Границы неизменны:** предметные C01–C03, признание экспертного допуска или capability PASS, C0, Material Verification, закрытие V-ID, исторический слой, Stage 4 и книжное закрытие не разрешены. Отсутствие проверяемого основания — NOT ESTABLISHED, не self-certification и не автоматический переход. Новые ветки не активированы фактом этой записи; их открывает Owner. Это уточнение транспортного способа handoff не меняет ACTS-D009, закреплённые договоры, роли или Registry.
