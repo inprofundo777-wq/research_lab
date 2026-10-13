@@ -439,3 +439,22 @@ C0 **не разрешён** ACTS-D009; отдельно остаётся неп
 ### Scope / навигация
 
 Lead не выполнил C01–C03, capability grading, предметную MV, закрытие V-ID, historical comparison, Stage 4/book close. Подтверждения экспертного допуска не выдал. Прежние artifacts и решения не изменены; новые записи append-only. Синхронизированы Review/README и паспорта ACTS/IP-001; проектный журнал содержит короткое следствие. Root navigation остаётся в ведении Director.
+
+
+---
+
+## ACTS-D014 — Director: маршрутная консультация по оценщику и источникам
+
+**Дата:** 13.10.2026 (Europe/Tallinn). **Основная роль:** Research Lab Director v0.1, Package C; bounded route recommendation; второстепенная роль не активирована.  
+**Источник полномочий:** прямое решение Owner в ветке Director: «Поручаю Director ограниченную маршрутную консультацию по ACTS-D013». Это активировало только подготовленное поручение ACTS-D013 и не активировало C0/MV.  
+**Цельный результат:** [CV-ACTS-IV-01-Director-Route-Consultation-v0.1.md](https://github.com/inprofundo777-wq/research_lab/blob/55b7908510f02c2ca85c364d210d43542fb6c548/Research/IP-001/Review/CV-ACTS-IV-01-Director-Route-Consultation-v0.1.md), commit `55b7908510f02c2ca85c364d210d43542fb6c548`.
+
+**Суждение:** P0 принят как честный recovery record; предметный допуск IV Assessor остаётся NOT ESTABLISHED во всех CTX/LANG/TEXT, локальные source pins/цитаты ограничены, C03 local variant warrant BLOCKED. Способность Candidate должна проверяться будущей пробой, поэтому её предварительное NOT ESTABLISHED само по себе не порочный круг. Блокирующее условие — независимое проверяемое основание оценщика и достаточно конкретные источники. Новая пустая AI-ветка или взаимная оценка неподтверждённых сессий не снимает gap.
+
+**Предпочтительный маршрут:** ресурсный gate перед C0. Owner называет реального компетентного независимого оценщика или способ его привлечения; возможны отдельные CTX/LANG/TEXT оценщики и частичный scope. Отдельное техническое source dossier закрепляет издания/редакции и локальные данные, не решая C01–C03. Только после проверки оснований допуска, источников и независимости Owner отдельно разрешает точный C0; production MV требует ещё одного Gate B. Если ресурс не доступен, честный DEFER, а не повтор P0.
+
+**Предложение Owner (не разрешение):** поручить Lead bounded Installation короткий Assessor-and-Source Resource Brief с фактически доступными оценщиками/основаниями по доменам, evidence независимости и локальным источниковым dossier; либо при отсутствии ресурса зафиксировать DEFER. Точный текст предложенного решения — §5 результата. При наличии уже известного Owner квалифицированного оценщика можно предъявить его основание сразу и сузить работу Lead до source/interface deltas.
+
+**Предел проверки:** документальное сопоставление принятых ACTS-D011–D013, конфигурации, MV-проекта, Installation R1 и Registry. Не извлекались предметные C01–C03, греческие чтения/варианты или исторические Acts outputs; не проведены Audit, capability test, independent subject-matter review, Material Verification или Stage 4. Все 11 вопросов и fresh snapshot неизменны.
+
+**Статус:** DIRECTOR ROUTE CONSULTATION COMPLETE / OWNER GATE. **Ownership returned to Owner.** Lead не получает нового назначения из этой рекомендации. При отдельном решении Owner достаточно передать Lead ссылку на ACTS-D014; новое полномочие и его предел записываются append-only до исполнения.
