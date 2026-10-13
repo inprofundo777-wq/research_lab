@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Деяния Stage 0–3 приняты; snapshot закреплён; разрешён только P0 новых IV Assessor / IV Candidate, readiness возвращается Lead; C0/MV не разрешены.  
+**Состояние:** Деяния Stage 0–3 приняты; snapshot закреплён; P0 принят, C0 не готов/не разрешён; assessor/source gaps возвращены Owner.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -108,3 +108,14 @@ MV-проект принят как дизайн, не execution authorization. 
 Owner утвердил CV-ACTS-IV-01-CONFIG-v0.1 в commit 69374fb4a639d46db350ded46fe3cc73c2fb4cb0 и разрешил только recovery/independence/source readiness/existing competence evidence: сначала новая IV Assessor, затем другая новая IV Candidate, Researcher v0.1 / Package C. Чаты ещё не созданы в рамках этой Lead-ветки; фактическое выполнение не заявлено.
 
 **Ownership P0 outputs:** соответствующие ветки → Lead для договорной сверки → Owner. Компетенция оценщика не признана автоматически. Capability C0, предметная оценка sample, Material Verification и Stage 4 не разрешены. READY не запускает следующий этап. Паспорта обновлены.
+
+
+---
+
+## IP-001-D009 — P0 принят, readiness gaps возвращены Owner
+
+**Дата:** 13.10.2026. **Полное решение:** [ACTS-D013](./Research/ACTS/DECISIONS.md#acts-d013--lead-p0-принят-c0-не-готов-возврат-owner). **Immutable readiness target:** [Readiness Decision](https://github.com/inprofundo777-wq/research_lab/blob/4fb87de6c4de8e74d93e4e88185410061d7ba55c/Research/IP-001/Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md).
+
+ACTS-D011/D012 приняты как полные P0 records, не как экспертный допуск. Candidate capability и Assessor CTX/LANG/TEXT admission NOT ESTABLISHED; source readiness LIMITED, TEXT local warrant BLOCKED. Организационное разделение/раскрытие контекста учтены; полный epistemic/source-blind статус не заявлен.
+
+**Ownership — Owner.** P0 завершён; C0/MV не готовы и не разрешены. Рекомендуется отдельное решение о Director bounded route consultation по основанию оценщика/ресурсам; альтернативы — существующее evidence, иной оценщик/разделение доменов, DEFER. Полное подготовленное поручение Director записано в ACTS-D013 как неактивное предложение; после Owner authorization передаётся одной ссылкой. Два P0 не повторяются без нового основания. Review и project/corpus passports синхронизированы.
