@@ -359,3 +359,26 @@ Operational ownership каждой разрешённой P0 задачи — с
 **Ownership returned to Lead IP-001** для проверки договора/раскрытой независимости и сопоставления с отдельным Candidate readiness → цельный readiness decision Owner. Допуск по доменам и возможный C0 требуют отдельного Owner decision по реальным основаниям; READY/этот handoff не запускает следующий этап.
 
 **Навигация:** ближайший Review/README пуст; ACTS/README пока показывает ожидание обоих P0 outputs и не отражает сдачу Assessor. Это отмеченный навигационный долг → Lead при приёмке/возврате handoff. Ветка Assessor не объявляет своё P0 принятым и не меняет проектный gate.
+
+
+---
+
+## ACTS-D012 — IV Candidate: P0 readiness представлен Lead
+
+**Дата:** 13.10.2026 (Europe/Tallinn). **Исполнитель:** новая отдельная ветка «IP-001 — IV Candidate», Researcher v0.1, Package C; secondary не активирована.
+**Полномочия:** ACTS-D009 / передача ACTS-D010; только P0 recovery/readiness.
+**Immutable target:** [CV-ACTS-IV-01-Candidate-Readiness-v0.1.md](https://github.com/inprofundo777-wq/research_lab/blob/6feedaa8a5a5ebb1b895edde44da8b5876cbb6aa/Research/IP-001/Review/CV-ACTS-IV-01-Candidate-Readiness-v0.1.md), commit `6feedaa8a5a5ebb1b895edde44da8b5876cbb6aa`, blob `2855b9c5fb4675ca9c7f7d69e720f4acbc4ccd37`.
+
+**P0 SUBMITTED / NOT ACCEPTED.** Role Configuration Lock восстановлен: Researcher v0.1, Constitution v0.2, Methodology v0.4, Protocol v0.2, Criteria v0.2, Installation R1, immutable CV/MV-пакеты. Capability Candidate в CTX/LANG/TEXT — **NOT ESTABLISHED**, без собственной сертификации.
+
+Независимость раскрыта с ограничениями: эта сессия не производила rr-001/002/003, не исполняла Lead/Assessor и не получила частных предметных подсказок; однако межветочная память/Personal Context, обязательные журналы/паспорта/пакеты и полученный snapshot manifest раскрыли описания прежних результатов. Полная информационная изоляция и разнообразие backend-моделей не установлены; достаточность для будущего C0 возвращена Lead/Owner. Исторические Acts outputs и rejected Event 054 напрямую не открывались; самостоятельные rr-* не извлекались.
+
+Кандидатный вклад **CV-ACTS-IV-SOURCES-v0.1** сохранён в §4 target: каталог bible.by и официальные SBLGNT metadata/Download/Introduction доступны. Попытка открыть bible.by/syn/44/ через инструмент неуспешна; это не вывод о недоступности всего носителя. Конкретные RST/translation citations, файл/revision Greek и локальная запись аппарата C03 не проверены. CTX/LANG — LIMITED; TEXT — LIMITED metadata / локальный warrant BLOCKED. SBL apparatus различён с полным рукописным аппаратом. Capability и источниковая готовность не смешаны.
+
+C0 **не разрешён** ACTS-D009; отдельно остаётся неподтверждённый предметный допуск Assessor по ACTS-D011. Кандидат не принимает его отчёт и не присваивает ему экспертный статус. Не выполнялись reasoning/вердикты C01–C03, sample, grading, MV, закрытие V-ID, historical comparison, Stage 4/book close или изменение Registry. Fresh snapshot и все 11 вопросов сохранены.
+
+Файл перечитан по immutable commit, содержимое совпало с подготовленным record. Проверка — внутренний self-check и техническая сверка, не независимый Audit/предметный PASS.
+
+**Ownership returned to Lead IP-001.** Теперь два отдельные P0 outputs представлены (ACTS-D011/D012), но не приняты настоящей записью. Lead проверяет договор, раскрытую независимость и source traceability; оформляет Readiness Decision → Owner. Следующий предметный gate — отдельное решение Owner о допуске Assessor/доменных ограничениях и возможном C0; P0 не запускает его автоматически.
+
+**Навигационный долг:** ближайший Review/README пуст; ACTS/IP-001 README ещё показывают ожидание двух outputs. Синхронизация при приёмке/возврате handoffs — Lead по правилу журналов §3. Кандидат не меняет проектный gate и не объявляет свой результат принятым.
