@@ -1,7 +1,7 @@
 # IP-001 — Деяния апостолов
 
-**Состояние:** свежий проход Stage 0–3 принят; snapshot закреплён; CV-конфигурация утверждена; разрешён только P0 двух новых веток; readiness возвращается Lead; C0/MV не разрешены.  
-**Сверено:** 12.10.2026 по [ACTS-D009](./DECISIONS.md#acts-d009--owner-cv-конфигурация-утверждена-разрешён-только-p0); Stage 3 принят ACTS-D005; разрешение — ACTS-D003; приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Состояние:** свежий проход Stage 0–3 принят; snapshot закреплён; P0 двух веток принят; C0 не готов/не разрешён; ownership — Owner.  
+**Сверено:** 13.10.2026 по [ACTS-D013](./DECISIONS.md#acts-d013--lead-p0-принят-c0-не-готов-возврат-owner); Stage 3 принят ACTS-D005; разрешение — ACTS-D003; приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Проект:** [IP-001](../../README.md) · **журнал этапов:** [DECISIONS.md](./DECISIONS.md).
 
 ## Что действует сейчас
@@ -12,11 +12,11 @@
 | Stage 1 — первичные наблюдения | принят | [`rr-001_Acts_Primary_Observations.md`](./rr-001_Acts_Primary_Observations.md); [Event 060](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-060--project-lead-acceptance-acts-rr-stage-1-primary-observation) |
 | Stage 2 — карта повторений | **принят** | [`rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md`](./rr-002_Acts_Repetition_Stable_Evidence_Map-R1.md); [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2) |
 | Stage 3 — предварительная классификация | **COMPLETE / ACCEPTED — предварительные группы** | [rr-003 — закреплённый target](https://github.com/inprofundo777-wq/research_lab/blob/18b300ae11beeeccc483d75196fd3c9ca7914287/Research/IP-001/Research/ACTS/rr-003_Acts_Provisional_Groups.md); [ACTS-D005 — приёмка](./DECISIONS.md#acts-d005--lead-accept-stage-3-и-фиксация-fresh-snapshot); разрешение ACTS-D003 |
-| Material Verification | проект утверждён; **исполнение не разрешено** | ACTS-D007; [CV-конфигурация и сообщения](../../Planning/CV-ACTS-IV-01-Configuration-and-Branch-Messages-v0.1.md); ACTS-D008; P0 разрешён ACTS-D009; C0/MV не разрешены |
+| Material Verification | проект утверждён; **исполнение не разрешено** | ACTS-D007; [CV-конфигурация и сообщения](../../Planning/CV-ACTS-IV-01-Configuration-and-Branch-Messages-v0.1.md); ACTS-D008; P0 принят ACTS-D013; Assessor/source gaps открыты; C0/MV не разрешены |
 | Stage 4 / книжное закрытие | не активированы | предметная проверка и независимый аудит книжного закрытия имеют отдельные зависимости |
 
 **Открытые вопросы:** `V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03`. Принятие Stage 2–3 не разрешило их.  
-**Следующий шаг:** Owner передаёт ACTS-D009 сначала новой ветке IV Assessor, затем другой новой IV Candidate. Только P0: два eligibility/readiness outputs → Lead → Owner. Основания компетенции оценщика не признаны автоматически; C0 и MV требуют отдельных решений. **Ownership P0 — соответствующие ветки; координация — Lead; следующий gate — Owner.** [Fresh Stage 0–3 snapshot](../../Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) закреплён; он и приёмка Stage 3 не разрешают следующий этап.  
+**Следующий шаг:** Owner определяет основание допуска оценщика/ресурс либо отдельно поручает Director маршрутную консультацию по ACTS-D013. [Readiness Decision](../../Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md): P0 принят; C0 не готов, source readiness LIMITED, assessor admission NOT ESTABLISHED. **Ownership — Owner.** Повтор P0 и новые пустые ветки без нового evidence не предлагаются. [Fresh Stage 0–3 snapshot](../../Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) закреплён; он и приёмка Stage 3 не разрешают следующий этап.  
 **Историческое сравнение:** запрещено до установленного отдельного gate.  
 **Книжное закрытие:** не достигнуто.
 
