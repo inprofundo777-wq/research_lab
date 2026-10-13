@@ -338,3 +338,24 @@ Operational ownership каждой разрешённой P0 задачи — с
 Перед записью handoff перечитать конец журнала и взять следующий свободный ID/current blob; не переписывать чужое решение. Lead после обоих handoff проверяет только договорную готовность, независимость и прослеживаемость, оформляет `Research/IP-001/Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md` и запись в журнале, затем возвращает **Owner** решение о возможном C0.
 
 **Границы неизменны:** предметные C01–C03, признание экспертного допуска или capability PASS, C0, Material Verification, закрытие V-ID, исторический слой, Stage 4 и книжное закрытие не разрешены. Отсутствие проверяемого основания — NOT ESTABLISHED, не self-certification и не автоматический переход. Новые ветки не активированы фактом этой записи; их открывает Owner. Это уточнение транспортного способа handoff не меняет ACTS-D009, закреплённые договоры, роли или Registry.
+
+
+---
+
+## ACTS-D011 — IV Assessor: P0 eligibility представлен Lead
+
+**Дата:** 13.10.2026 (Europe/Tallinn). **Исполнитель:** отдельная ветка «IP-001 — IV Assessor», Researcher v0.1, Package C; secondary не активирована.  
+**Назначение:** ACTS-D009 / передача ACTS-D010; только P0 recovery/eligibility/source readiness.  
+**Immutable target:** [CV-ACTS-IV-01-Assessor-Eligibility-v0.1.md](https://github.com/inprofundo777-wq/research_lab/blob/3547a0996385ddd9acd89b6df0f3f9568658e3a3/Research/IP-001/Review/CV-ACTS-IV-01-Assessor-Eligibility-v0.1.md), commit `3547a0996385ddd9acd89b6df0f3f9568658e3a3`, blob `f15f15e35f31b0f3c386d0a7cb15b45313f1f9d8`.
+
+**P0 SUBMITTED / NOT ACCEPTED.** Lock восстановлен: Constitution v0.2, Methodology v0.4, Protocol v0.2, Criteria v0.2, Installation R1, точные утверждённые CV/MV-пакеты. Предъявленных проверяемых оснований компетенции этой конкретной новой AI-сессии в CTX/LANG/TEXT нет: **ASSESSOR NOT ESTABLISHED во всех доменах; предметный capability verdict BLOCKED**, не FAIL знания.
+
+Источниковый вклад CV-ACTS-IV-SOURCES-v0.1 сохранён в §4 target: страницы носителя RST, каталога переводов и официальных metadata SBLGNT доступны; конкретные цитаты/Greek edition files/локальная запись аппарата не проверены. CTX/LANG source readiness LIMITED; TEXT — LIMITED metadata / полный локальный аппаратный scope BLOCKED. SBL apparatus не выдан за полный рукописный аппарат.
+
+**Независимость раскрыта, не завышена:** в этой сессии не производились rr-001/002/003 или Candidate output, функции не совмещаются; но среда передала межветочную сводку, а обязательные governance/journal/passport и целиком запрошенный snapshot manifest раскрыли описания прежних результатов. Полная информационная изоляция/разнообразие моделей не заявлены. Достаточность будущей независимости возвращена Lead/Owner; исторические Acts outputs и rejected Event 054 напрямую не открывались.
+
+Не выполнялись reasoning C01–C03, C0, grading кандидата, MV, закрытие V-ID, historical comparison, Stage 4, book close или изменение Registry. Результат проверен только внутренним self-check; собственного acceptance/предметного допуска нет. Fresh snapshot и 11 вопросов неизменны.
+
+**Ownership returned to Lead IP-001** для проверки договора/раскрытой независимости и сопоставления с отдельным Candidate readiness → цельный readiness decision Owner. Допуск по доменам и возможный C0 требуют отдельного Owner decision по реальным основаниям; READY/этот handoff не запускает следующий этап.
+
+**Навигация:** ближайший Review/README пуст; ACTS/README пока показывает ожидание обоих P0 outputs и не отражает сдачу Assessor. Это отмеченный навигационный долг → Lead при приёмке/возврате handoff. Ветка Assessor не объявляет своё P0 принятым и не меняет проектный gate.
