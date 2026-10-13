@@ -4,11 +4,11 @@
 
 ## Быстрый вход
 
-**Сверено:** 09.10.2026. [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
+**Сверено:** 13.10.2026. [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
 
 | Объект | Текущее состояние | Открыть |
 |---|---|---|
-| [IP-001 — действия воскресшего Христа](./Research/IP-001/README.md) | Деяния: Stage 0–2 приняты, книга не закрыта; следующий gate у Owner | [паспорт Деяний](./Research/IP-001/Research/ACTS/README.md), [журнал проекта](./Research/IP-001/DECISIONS.md) |
+| [IP-001 — действия воскресшего Христа](./Research/IP-001/README.md) | Деяния: Stage 0–3 приняты, P0 принят; маршрутная консультация Director завершена, решение о ресурсах у Owner; книга не закрыта | [паспорт Деяний](./Research/IP-001/Research/ACTS/README.md), [журнал проекта](./Research/IP-001/DECISIONS.md) |
 | [RQ-RL-002 — сопровождение депрессии и суицидального кризиса](./Processes/Research_Request_Map.md) | Formation и проектирование ограниченного обзора завершены; исполнение не разрешено, граница предмета требует проверки | [Formation R2](./Development/Formations/FP-RL-002-Formation-Report-R2.md), [пакет Lead](./Development/Validation-Runs/RL-WAVE-2/Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md) |
 
 `RQ-RL-002` ещё не является `IP-002`. Формирование запроса и проектирование обзора не запускают исследование автоматически. Все запросы, в том числе находящиеся в Formation, показываются в [карте исследовательских запросов](./Processes/Research_Request_Map.md).
