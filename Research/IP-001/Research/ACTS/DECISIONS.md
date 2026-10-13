@@ -1,6 +1,6 @@
 # IP-001 / Деяния — журнал книжного цикла и этапов
 
-**Состояние:** Stage 0–3 приняты; snapshot закреплён; CV-конфигурация утверждена, разрешён только P0; два readiness handoff ожидаются у Lead; C0/MV не разрешены.  
+**Состояние:** Stage 0–3 приняты; snapshot закреплён; оба P0 результата приняты ACTS-D013; Assessor/source gaps сохраняются; C0/MV не разрешены; ownership — Owner.  
 **Паспорт:** [ACTS README](./README.md) · [проект IP-001](../../README.md).  
 **Источник прежних решений:** [RL-WAVE-2 RUN, Events 039–064 и 071–072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md).
 
@@ -382,3 +382,60 @@ C0 **не разрешён** ACTS-D009; отдельно остаётся неп
 **Ownership returned to Lead IP-001.** Теперь два отдельные P0 outputs представлены (ACTS-D011/D012), но не приняты настоящей записью. Lead проверяет договор, раскрытую независимость и source traceability; оформляет Readiness Decision → Owner. Следующий предметный gate — отдельное решение Owner о допуске Assessor/доменных ограничениях и возможном C0; P0 не запускает его автоматически.
 
 **Навигационный долг:** ближайший Review/README пуст; ACTS/IP-001 README ещё показывают ожидание двух outputs. Синхронизация при приёмке/возврате handoffs — Lead по правилу журналов §3. Кандидат не меняет проектный gate и не объявляет свой результат принятым.
+
+
+---
+
+## ACTS-D013 — Lead: P0 принят; C0 не готов; возврат Owner
+
+**Дата:** 13.10.2026. **Primary role:** Research Project Lead v0.1, Package C; bounded Stage Coordination / Output Contract acceptance P0 only.  
+**Полномочия:** ACTS-D009 / транспорт ACTS-D010. **Объекты:** ACTS-D011 и ACTS-D012; последнее состояние проверено перед записью.  
+**Цельный readiness decision:** [CV-ACTS-IV-01-Readiness-Decision-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/4fb87de6c4de8e74d93e4e88185410061d7ba55c/Research/IP-001/Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md), commit `4fb87de6c4de8e74d93e4e88185410061d7ba55c`.
+
+### Решение
+
+**ACCEPT P0 OUTPUTS. ACTS-D011 / ACTS-D012 ACCEPTED AS P0 RECORDS.**  
+**P0 PREPARATION COMPLETE / ACCEPTED; C0 NOT READY / NOT AUTHORIZED.**
+
+Приняты immutable Assessor Eligibility (commit 3547a0996385ddd9acd89b6df0f3f9568658e3a3; blob f15f15e35f31b0f3c386d0a7cb15b45313f1f9d8) и Candidate Readiness (commit 6feedaa8a5a5ebb1b895edde44da8b5876cbb6aa; blob 2855b9c5fb4675ca9c7f7d69e720f4acbc4ccd37), без редактирования producer outputs.
+
+Договорные поля recovery/Lock, identity, independence/conflicts, существующие evidence/их отсутствие, source register/пределы и handoff выполнены. NOT ESTABLISHED и LIMITED/BLOCKED — честный результат P0, не повод возвращать файл для косметического PASS. Это internal Lead acceptance, не подтверждение компетенции.
+
+### Сводное состояние
+
+| Объект | Принятое состояние / ограничение |
+|---|---|
+| Два P0 outputs | COMPLETE / ACCEPTED как records восстановления/ограничений |
+| Capability Candidate | NOT ESTABLISHED; нормальный вход будущей пробы, не требование заранее показать её результат |
+| Assessor CTX/LANG/TEXT admission | NOT ESTABLISHED — существующего предметно подтверждённого основания не предъявлено |
+| RST/переводы/Greek sources | LIMITED metadata/catalogue; конкретные локальные цитаты/файл/revision не закреплены |
+| TEXT C03 | LIMITED metadata / local warrant BLOCKED; достаточность конкретных данных вариантов не установлена |
+| Независимость | организационное разделение/декларации приняты; экспозиция межветочной памяти/journals/snapshot раскрыта, полной изоляции и model diversity не заявлено |
+| C0/MV | не готовы к запуску / не разрешены |
+| Stage 0–3 / snapshot / 11 вопросов | исходное состояние сохранено; вопросы открыты |
+
+Неуспешный Candidate запрос одного адреса bible.by не принят за глобальную недоступность носителя. Разные результаты catalog access двух веток не противоречат друг другу. Lead сопоставил submitted source registers, не повторял извлечение внешних первичных текстов.
+
+Независимость для Independent Review не равна source-blind Re-check: видимость результата не автоматический fail, но раскрытый контекст не выдаётся за полную изоляцию. Согласие двух AI-сессий и смена их названий не компетенция.
+
+Полный рукописный аппарат NA/UBS не введён как новая универсальная обязанность: требуется достаточная проверяемая локальная база конкретного TEXT scope. Узкий SBL apparatus не отвергнут по названию; его фактическая достаточность и запись C03 пока не установлены. Assessment способность/источниковый доступ не смешаны.
+
+### Следующий Owner gate и подготовленная адресная передача
+
+**Ownership returned to Owner.** P0 назначения двух веток завершены; RETURN/re-run P0 сейчас не требуется. Owner выбирает:
+1. предъявить существующее проверяемое основание конкретного Assessor и определить CTX/LANG/TEXT scope;
+2. назначить иного компетентного оценщика / разделить домены;
+3. поручить Director ограниченную маршрутную консультацию для устранения assessor/source dependency без циклической самосертификации;
+4. DEFER.
+
+По текущему record рекомендуется вариант 3; ресурса для вариантов 1–2 пока не предъявлено. Новая идентичная пустая ветка не снимает gap. Техническая доработка источников отдельно возможна по назначению, но не заменяет основания оценщика.
+
+**Подготовленное поручение Director — PROPOSED / NOT ACTIVATED:**
+
+> После отдельного разрешения Owner прими ACTS-D013 и immutable readiness decision. Research Lab Director v0.1, Package C: только bounded route consultation по CV-ACTS-IV-01. Предложи один пропорциональный способ обеспечить проверяемое предметное основание Assessor/источников в пределах Installation R1 §§8–9: существующее evidence, иной квалифицированный исполнитель, разделение доменов, обоснованная controlled capability конфигурация без циклической самосертификации либо DEFER. Используй ACTS-D011/D012 и утверждённые CV/MV-пакеты; не исследуй C01–C03 и не открывай исторические Acts outputs/rejected Event 054. Назови точные evidence/ресурсы/полномочия и следующий owner. Верни рекомендацию Owner. C0, MV, Stage 4, книжное закрытие и изменение permanent norms не разрешаются этим поручением.
+
+По правилу журналов §7 после разрешения Owner достаточно передать **Director одну ссылку на ACTS-D013** с названием роли; копирование всей инструкции не требуется. Сейчас ссылка не активирует Director, а статус предложения не заменяет Owner authorization.
+
+### Scope / навигация
+
+Lead не выполнил C01–C03, capability grading, предметную MV, закрытие V-ID, historical comparison, Stage 4/book close. Подтверждения экспертного допуска не выдал. Прежние artifacts и решения не изменены; новые записи append-only. Синхронизированы Review/README и паспорта ACTS/IP-001; проектный журнал содержит короткое следствие. Root navigation остаётся в ведении Director.
