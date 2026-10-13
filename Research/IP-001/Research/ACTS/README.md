@@ -1,7 +1,7 @@
 # IP-001 — Деяния апостолов
 
 **Состояние:** свежий проход Stage 0–3 принят; snapshot закреплён; P0 двух веток принят; C0 не готов/не разрешён; ownership — Owner.  
-**Сверено:** 13.10.2026 по [ACTS-D015](./DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний); Stage 3 принят ACTS-D005; разрешение — ACTS-D003; приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Сверено:** 13.10.2026 по [ACTS-D016](./DECISIONS.md#acts-d016--lead-ресурсный-brief-завершён-возврат-owner); Stage 3 принят ACTS-D005; разрешение — ACTS-D003; приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Проект:** [IP-001](../../README.md) · **журнал этапов:** [DECISIONS.md](./DECISIONS.md).
 
 ## Что действует сейчас
@@ -16,7 +16,7 @@
 | Stage 4 / книжное закрытие | не активированы | предметная проверка и независимый аудит книжного закрытия имеют отдельные зависимости |
 
 **Открытые вопросы:** `V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03`. Принятие Stage 2–3 не разрешило их.  
-**Следующий шаг:** [ACTS-D015](./DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний) содержит подготовленное поручение Lead собрать краткий реестр ресурсов оценщика и источников; Owner передаёт Lead одну ссылку. Выполнение ещё не подтверждено. [Консультация Director](../../Review/CV-ACTS-IV-01-Director-Route-Consultation-v0.1.md) завершена. [Readiness Decision](../../Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md): P0 принят; C0 не готов, source readiness LIMITED, assessor admission NOT ESTABLISHED. **Ownership — Owner.** Повтор P0 и новые пустые ветки без нового evidence не предлагаются. [Fresh Stage 0–3 snapshot](../../Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) закреплён; он и приёмка Stage 3 не разрешают следующий этап.  
+**Следующий шаг:** Owner предъявляет конкретного независимого оценщика/предметное основание по домену либо откладывает C0 до ресурса. [ACTS-D016](./DECISIONS.md#acts-d016--lead-ресурсный-brief-завершён-возврат-owner): поручение ACTS-D015 завершено; [ресурсный Brief](../../Planning/ACTS-Assessor-and-Source-Resource-Brief-v0.1.md) закреплён. Доступ к локальным SYN/NRT страницам и immutable SBLGNT text/apparatus подтверждён; точные ревизии русских веб-текстов и предметная достаточность источников не установлены. Допуск Assessor не установлен. **Ownership — Owner; C0/MV не разрешены.** [Fresh snapshot](../../Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) и 11 вопросов сохраняются.  
 **Историческое сравнение:** запрещено до установленного отдельного gate.  
 **Книжное закрытие:** не достигнуто.
 
