@@ -1,7 +1,7 @@
 # IP-001 — Деяния апостолов
 
 **Состояние:** свежий проход Stage 0–3 принят; snapshot закреплён; P0 двух веток принят; C0 не готов/не разрешён; ownership — Owner.  
-**Сверено:** 13.10.2026 по [ACTS-D014](./DECISIONS.md#acts-d014--director-маршрутная-консультация-по-оценщику-и-источникам); Stage 3 принят ACTS-D005; разрешение — ACTS-D003; приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Сверено:** 13.10.2026 по [ACTS-D015](./DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний); Stage 3 принят ACTS-D005; разрешение — ACTS-D003; приёмка Stage 2 — [Event 072](../../../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Проект:** [IP-001](../../README.md) · **журнал этапов:** [DECISIONS.md](./DECISIONS.md).
 
 ## Что действует сейчас
@@ -16,7 +16,7 @@
 | Stage 4 / книжное закрытие | не активированы | предметная проверка и независимый аудит книжного закрытия имеют отдельные зависимости |
 
 **Открытые вопросы:** `V01, V03, V04, V05, V10, V11, V12, V13, V14, V18 + O03`. Принятие Stage 2–3 не разрешило их.  
-**Следующий шаг:** Owner рассматривает [маршрутную консультацию Director](../../Review/CV-ACTS-IV-01-Director-Route-Consultation-v0.1.md) и решает, поручать ли Lead ограниченную подготовку ресурсного досье оценщика и источников или отложить маршрут. ACTS-D014 фиксирует результат консультации; нового назначения Lead нет. [Readiness Decision](../../Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md): P0 принят; C0 не готов, source readiness LIMITED, assessor admission NOT ESTABLISHED. **Ownership — Owner.** Повтор P0 и новые пустые ветки без нового evidence не предлагаются. [Fresh Stage 0–3 snapshot](../../Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) закреплён; он и приёмка Stage 3 не разрешают следующий этап.  
+**Следующий шаг:** [ACTS-D015](./DECISIONS.md#acts-d015--owner-ресурсная-подготовка-для-проверки-деяний) содержит подготовленное поручение Lead собрать краткий реестр ресурсов оценщика и источников; Owner передаёт Lead одну ссылку. Выполнение ещё не подтверждено. [Консультация Director](../../Review/CV-ACTS-IV-01-Director-Route-Consultation-v0.1.md) завершена. [Readiness Decision](../../Review/CV-ACTS-IV-01-Readiness-Decision-v0.1.md): P0 принят; C0 не готов, source readiness LIMITED, assessor admission NOT ESTABLISHED. **Ownership — Owner.** Повтор P0 и новые пустые ветки без нового evidence не предлагаются. [Fresh Stage 0–3 snapshot](../../Planning/ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) закреплён; он и приёмка Stage 3 не разрешают следующий этап.  
 **Историческое сравнение:** запрещено до установленного отдельного gate.  
 **Книжное закрытие:** не достигнуто.
 
