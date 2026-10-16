@@ -178,3 +178,17 @@ Research Lab Director v0.1, Package C, ограниченная координа
 Ни Stage 0, ни отдельная проба, ни новое локальное суждение, ни Stage 1–3, Verification, Stage 4/книжное закрытие или межкнижный синтез не выполнялись. Деяния остаются на паузе, formal close не присвоен. Управляющие нормы, пилотные outputs, snapshot Деяний и RQ-RL-002 не изменены.
 
 **Ownership returned to Owner. Следующий шаг — Owner:** утвердить предложенное условное решение, вернуть пакет либо отложить. **После утверждения следующий адресат — Director; передать одну ссылку на IP-001-D011.** Паспорта IP-001/Romans и книжный указатель решений синхронизируются с фактическим статусом подготовки, не запуска.
+
+
+---
+
+## IP-001-D012 — Auditor: Installation Римлянам проверена; PASS, решение Owner остаётся открытым
+
+**Дата:** 16.10.2026 (Europe/Tallinn). **Роль:** Research Auditor v0.1, Package C, только Installation Audit; второстепенная роль не активирована. **Источник:** прямой запрос Owner «Проведи аудит» со ссылкой на IP-001-D011; исключение прямого Owner request в Authority and Escalation Standard. Подготовленное поручение Director в D011 не было принято как уже активированное и этим запросом не превращено в утверждение пакета.
+**Цельный immutable report:** [ROMANS-INSTALL-AUDIT-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/0aa1e1ad33d2b2674d54538391df756a3ebead69/Research/IP-001/Review/ROMANS-Installation-Audit-v0.1.md), commit `0aa1e1ad33d2b2674d54538391df756a3ebead69`. **Объект:** ROMANS-BC-INSTALL-v0.1 в commit `f0b09235034f09aca86eb73bae366aa19fd197a1`, без изменения.
+
+**Verdict: PASS — для ограниченной Installation, не для запуска исследования.** Пять критериев §8 проверены: совместимость вопроса, Protocol/Methodology/Contracts; граница `doc-*` и пилотных `rr-*`; соразмерность эпистолярной готовности и controlled Corpus Mapping; полный coverage, переходы и ROM-Q; ресурсная карта и отдельные будущие review/close gates. Material findings к пакету не выявлены. Исторические outputs и библейский текст как исследовательский материал не открывались; subject-matter judgment и capability PASS не проводились.
+
+**Gate:** D011 §9 остаётся предложением. Это аудиторское PASS не утверждает Installation и не разрешает Researcher либо Stage 0. Owner должен отдельно утвердить/вернуть/отложить пакет и, если выбран запуск, точно разрешить только controlled Stage 0. После такого решения Lead оформляет адресный assignment с ROM-S0-OC-v0.1, проверкой источника/изоляции и возвратом; ни Stage 1–3, ни историческое сравнение, независимая предметная проверка, Stage 4/книжное закрытие автоматически не запускаются. Деяния C0/MV отложены без изменения.
+
+**Ownership returned to Owner.** Для следующего решения достаточно одной ссылки на IP-001-D012; отчёт и target доступны из этой записи. Если Owner желает обычный Director disposition, это отдельная передача результата, не повторение независимого аудита.
