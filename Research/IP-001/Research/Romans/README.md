@@ -1,8 +1,8 @@
 # IP-001 — Послание к Римлянам
 
-**Сверено:** 16.10.2026 по [IP-001-D012](../../DECISIONS.md#ip-001-d012--auditor-installation-римлянам-проверена-pass-решение-owner-остаётся-открытым).
-**Состояние:** Installation подготовлена, ограниченный Audit PASS; утверждение Owner и разрешение Stage 0 отсутствуют.
-**Lead:** Research Project Lead v0.1, Package C, Installation only. **Активный Researcher:** не назначен.
+**Сверено:** 16.10.2026 по [IP-001-D013](../../DECISIONS.md#ip-001-d013--owner-пакет-римлянам-утверждён-разрешён-только-stage-0) / [ROM-D003](./DECISIONS.md#rom-d003--lead-адресное-назначение-researcher-только-stage-0).
+**Состояние:** пакет утверждён Owner; аудит PASS; только Stage 0 разрешён и назначен; получение/начало исполнения Researcher ещё не подтверждено.
+**Lead:** Research Project Lead v0.1, Package C, Stage Coordination / Output Contract acceptance Stage 0. **Назначенный Researcher:** отдельная ветка «IP-001 — Researcher Romans», Researcher v0.1, Package C, Corpus Mapping only.
 **Версии нового назначения:** Конституция v0.2 / Методология v0.4 / Protocol IP-001 v0.2 / Criteria v0.2.
 **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS.md](./DECISIONS.md).
 
@@ -10,20 +10,20 @@
 
 | Этап / зависимость | Фактическое состояние | Точный результат / основание |
 |---|---|---|
-| Installation | подготовлена / Owner gate | [закреплённый пакет](https://github.com/inprofundo777-wq/research_lab/blob/f0b09235034f09aca86eb73bae366aa19fd197a1/Research/IP-001/Planning/ROMANS-Book-Cycle-Installation-Package-v0.1.md); [IP-001-D011](../../DECISIONS.md#ip-001-d011--lead-installation-римлянам-подготовлена-решение-owner) |
+| Installation | утверждена IP-001-D013 | [закреплённый пакет](https://github.com/inprofundo777-wq/research_lab/blob/f0b09235034f09aca86eb73bae366aa19fd197a1/Research/IP-001/Planning/ROMANS-Book-Cycle-Installation-Package-v0.1.md); [IP-001-D011](../../DECISIONS.md#ip-001-d011--lead-installation-римлянам-подготовлена-решение-owner) |
 | Installation Audit | PASS / завершён по прямому запросу Owner | [цельный отчёт](https://github.com/inprofundo777-wq/research_lab/blob/0aa1e1ad33d2b2674d54538391df756a3ebead69/Research/IP-001/Review/ROMANS-Installation-Audit-v0.1.md); [IP-001-D012](../../DECISIONS.md#ip-001-d012--auditor-installation-римлянам-проверена-pass-решение-owner-остаётся-открытым) |
-| Stage 0 — карта | не разрешён / не выполнялся | предложен ROM-S0-OC-v0.1; новый rr-000_Romans_Stage0_Corpus_Map.md ещё не создан |
+| Stage 0 — карта | разрешён / назначен; результат ещё не представлен | [ROM-D003 — полный assignment](./DECISIONS.md#rom-d003--lead-адресное-назначение-researcher-только-stage-0); ROM-S0-OC-v0.1; source/exposure check выполняет Researcher |
 | Stage 1 — наблюдения | не разрешён / не выполнялся | для будущего назначения действует Primary Observation Contract v0.2 с языковой нормой v0.4 |
 | Stage 2 — повторения | не разрешён / не выполнялся | критерии §5.3 пакета / Protocol |
 | Stage 3 — группы | не разрешён / не выполнялся | критерии §5.4 пакета / Protocol |
 | Независимая проверка / источники | предварительная карта, допуск оценщика не установлен | §7 пакета; новые локальные источники Римлянам ещё не проверялись |
 | Verification / Draft Stage 4 / аудит закрытия / книжный итог | не активированы | отдельные назначения и gates |
 
-**Следующий owner — Owner:** утвердить/вернуть/отложить пакет. Аудит PASS не принимает предложение Lead в §9. Owner отдельно утверждает/возвращает/откладывает пакет и решает о controlled Stage 0; при разрешении Lead оформляет адресное назначение Researcher. Для решения Owner — [IP-001-D012](../../DECISIONS.md#ip-001-d012--auditor-installation-римлянам-проверена-pass-решение-owner-остаётся-открытым).
+**Следующий шаг:** открыть отдельную ветку **«IP-001 — Researcher Romans»** и передать одну ссылку на [ROM-D003](./DECISIONS.md#rom-d003--lead-адресное-назначение-researcher-только-stage-0). Разрешение уже дано IP-001-D013; это техническая передача. **Ownership Stage 0: Researcher → Lead → Owner.** Source/exposure check обязателен до самостоятельного отбора; при блоке — точный возврат. Stage 1 и дальнейшие этапы требуют отдельных решений Owner.
 
 **Вопросы Римлянам:** нового прохода ещё не было, конкретные исследовательские ROM-Q-ID не заведены. Это не утверждение об отсутствии спорных мест. Правило собственного журнала и переноса вопросов — §6 пакета. 11 вопросов Деяний остаются отдельными по ACTS-D017.
 
-**Ресурсы независимой проверки:** CTX/LANG/TEXT — возможные домены при существенных поводов; конкретный оценщик, доказанное основание и независимость для этой книги не установлены. RST — рабочий источник будущего прохода, переводы/Greek/аппарат — по реальным triggers; локальные pins и достаточность уточняются перед назначением проверки. Эти gaps не блокируют уже разрешённые Stage 0–3, но не дают независимый READY. Полный P0 не повторяется автоматически.
+**Ресурсы независимой проверки:** CTX/LANG/TEXT — возможные домены при существенных поводах; конкретный оценщик, доказанное основание и независимость для этой книги не установлены. RST — рабочий источник будущего прохода, переводы/Greek/аппарат — по реальным triggers; локальные pins и достаточность уточняются перед назначением проверки. Эти gaps не блокируют уже разрешённые Stage 0–3, но не дают независимый READY. Полный P0 не повторяется автоматически.
 
 ## Граница поколений
 
