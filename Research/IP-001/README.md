@@ -1,7 +1,7 @@
 # IP-001 — действия воскресшего Христа
 
-**Статус:** исследование действует; рабочий проход Деяний Stage 0–3 принят и поставлен на паузу с 11 открытыми вопросами; C0/MV отложены, книга формально не закрыта; пакет Римлянам утверждён после Audit PASS; Stage 0 R1 принят; полный Stage 1 рассмотрен и адресно возвращён Researcher по ROM-D009; Stage 2 и далее не разрешены.  
-**Сверено:** 16.10.2026 по [IP-001-D019](./DECISIONS.md#ip-001-d019--lead-полный-stage-1-римлянам-возвращён-на-адресную-коррекцию); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Статус:** исследование действует; рабочий проход Деяний Stage 0–3 принят и поставлен на паузу с 11 открытыми вопросами; C0/MV отложены, книга формально не закрыта; пакет Римлянам утверждён после Audit PASS; Stage 0 R1 принят; Stage 1 R1 принят ROM-D010 (25 наблюдений, 9 полностью/частично открытых вопросов из 12); Stage 2 и далее не разрешены.  
+**Сверено:** 16.10.2026 по [IP-001-D020](./DECISIONS.md#ip-001-d020--lead-stage-1-римлянам-принят-следующий-gate-stage-2); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
 ## Исследовательский вопрос
@@ -17,7 +17,7 @@
 | Корпус | Состояние | Точка входа | Следующий шаг |
 |---|---|---|---|
 | [Деяния](./Research/ACTS/README.md) | Stage 0–3 приняты; рабочий проход на паузе, 11 вопросов открыты | [паспорт и точные файлы](./Research/ACTS/README.md), [ACTS-D017](./Research/ACTS/DECISIONS.md#acts-d017--owner-рабочий-проход-деяний-завершён-проверка-отложена) | проверка возвращается после ресурса и отдельного Owner gate; книга формально не закрыта |
-| [Послание к Римлянам](./Research/Romans/README.md) | Stage 0 принят; полный Stage 1 — адресный RETURN | [паспорт пилота](./Research/Romans/README.md) | Researcher исправляет два локальных вопроса по [ROM-D009](./Research/Romans/DECISIONS.md#rom-d009--lead-полный-stage-1-проверен-адресный-return-без-повторного-прохода) → Lead; без повторного прохода и нового Owner gate |
+| [Послание к Римлянам](./Research/Romans/README.md) | Stage 0 и Stage 1 R1 приняты; Stage 2 — Owner gate | [паспорт пилота](./Research/Romans/README.md) | Owner решает о Stage 2; [ROM-D010](./Research/Romans/DECISIONS.md#rom-d010--lead-r1-проверена-accept-stage-1) содержит приёмку и готовое следующее решение |
 
 Для понимания содержания перед следующей книгой начните с [смысловой карты Деяний Stage 0–3](./Research/ACTS/ACTS-Смысловая-карта-результата-Stage-0-3.md): человеческий смысл результата, 11 вопросов и нужные компетенции.
 
