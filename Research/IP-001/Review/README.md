@@ -15,6 +15,6 @@ Submitted status внутри двух source artifacts сохранён как 
 
 По ACTS-D016 подтверждены локальные русские страницы и закреплённые файлы SBLGNT с записью Acts 20:28; предметная достаточность TEXT и ревизии русских веб-текстов не установлены. [Ресурсный Brief](../Planning/ACTS-Assessor-and-Source-Resource-Brief-v0.1.md) завершён. Полной изоляции/model diversity не заявлено; организационная раздельность и disclosure приняты без предметной сертификации. Все 11 вопросов Verification открыты.
 
-**Следующий шаг:** Owner предъявляет конкретного независимого оценщика/основание по домену либо DEFER C0 до ресурса. [ACTS-D016](../Research/ACTS/DECISIONS.md#acts-d016--lead-ресурсный-brief-завершён-возврат-owner) возвращает завершённое поручение ACTS-D015. C0/MV, Stage 4/book close и historical comparison не разрешены.
+**Следующий шаг по Деяниям:** [ACTS-D017](../Research/ACTS/DECISIONS.md#acts-d017--owner-рабочий-проход-деяний-завершён-проверка-отложена) уже отложил C0/MV до появления ресурса и нового Owner gate. [ACTS-D016](../Research/ACTS/DECISIONS.md#acts-d016--lead-ресурсный-brief-завершён-возврат-owner) сохраняет установленное и недостающее в ресурсах. C0/MV, Stage 4/book close и historical comparison не разрешены.
 
 **Владелец навигации:** Lead IP-001 при handoff/изменении gate.
