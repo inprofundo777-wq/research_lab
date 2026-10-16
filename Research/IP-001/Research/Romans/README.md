@@ -1,8 +1,8 @@
 # IP-001 — Послание к Римлянам
 
-**Сверено:** 16.10.2026 по [ROM-D008](./DECISIONS.md#rom-d008--lead-первая-единица-принята-продолжить-остальной-stage-1) / IP-001-D018.
-**Состояние:** Stage 0 принят; первая единица Stage 1 принята для продолжения; остальные ROM-C002–017 проходят одним проходом; полный Stage 1 ещё не принят, Stage 2 не разрешён.
-**Lead:** Research Project Lead v0.1, Package C, Stage Coordination / Output Contract acceptance Stage 1. **Researcher:** та же отдельная ветка «IP-001 — Researcher Romans», Researcher v0.1, Package C, Primary Observation only; первая единица сдана и принята; продолжение — ROM-D008.
+**Сверено:** 16.10.2026 по [ROM-D009](./DECISIONS.md#rom-d009--lead-полный-stage-1-проверен-адресный-return-без-повторного-прохода) / IP-001-D019.
+**Состояние:** Stage 0 принят; полный Stage 1 рассмотрен и адресно возвращён по ROM-D009; Researcher готовит коррекцию без повторного прохода; Stage 2 не разрешён.
+**Lead:** Research Project Lead v0.1, Package C, Stage Coordination / Output Contract acceptance Stage 1. **Researcher:** та же отдельная ветка «IP-001 — Researcher Romans», Researcher v0.1, Package C, Primary Observation only; первая единица принята для продолжения; полный результат — RETURN ROM-D009.
 **Версии нового назначения:** Конституция v0.2 / Методология v0.4 / Protocol IP-001 v0.2 / Criteria v0.2.
 **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS.md](./DECISIONS.md).
 
@@ -13,15 +13,15 @@
 | Installation | утверждена IP-001-D013 | [закреплённый пакет](https://github.com/inprofundo777-wq/research_lab/blob/f0b09235034f09aca86eb73bae366aa19fd197a1/Research/IP-001/Planning/ROMANS-Book-Cycle-Installation-Package-v0.1.md); [IP-001-D011](../../DECISIONS.md#ip-001-d011--lead-installation-римлянам-подготовлена-решение-owner) |
 | Installation Audit | PASS / завершён по прямому запросу Owner | [цельный отчёт](https://github.com/inprofundo777-wq/research_lab/blob/0aa1e1ad33d2b2674d54538391df756a3ebead69/Research/IP-001/Review/ROMANS-Installation-Audit-v0.1.md); [IP-001-D012](../../DECISIONS.md#ip-001-d012--auditor-installation-римлянам-проверена-pass-решение-owner-остаётся-открытым) |
 | Stage 0 — карта | COMPLETE / ACCEPTED | [принятая R1](https://github.com/inprofundo777-wq/research_lab/blob/6df00ed44b668e50adb87f35cf87f89444afd779/Research/IP-001/Research/Romans/rr-000_Romans_Stage0_Corpus_Map-R1.md); [ROM-D006](./DECISIONS.md#rom-d006--lead-r1-проверена-accept-stage-0); 16 глав / 17 кандидатов / 11 вопросов |
-| Stage 1 — наблюдения | IN PROGRESS; первая единица принята, весь этап ещё не принят | [первая редакция rr-001](https://github.com/inprofundo777-wq/research_lab/blob/d21067d4b1f87c1af41dc71e5901e46f0cee3e96/Research/IP-001/Research/Romans/rr-001_Romans_Primary_Observations.md); [ROM-D008 — продолжение](./DECISIONS.md#rom-d008--lead-первая-единица-принята-продолжить-остальной-stage-1) |
+| Stage 1 — наблюдения | RETURN / точечная коррекция; весь этап не принят | [полный submitted rr-001](https://github.com/inprofundo777-wq/research_lab/blob/497b12093a46790cf016d3ace278807720138ec9/Research/IP-001/Research/Romans/rr-001_Romans_Primary_Observations.md); [ROM-D009](./DECISIONS.md#rom-d009--lead-полный-stage-1-проверен-адресный-return-без-повторного-прохода); 24 локальные единицы |
 | Stage 2 — повторения | не разрешён / не выполнялся | критерии §5.3 пакета / Protocol |
 | Stage 3 — группы | не разрешён / не выполнялся | критерии §5.4 пакета / Protocol |
 | Независимая проверка / источники | предварительная карта вопросов создана; допуск оценщика не установлен | §7 пакета; ROM-Q001–ROM-Q011 переданы Lead, предметная проверка не запускалась |
 | Verification / Draft Stage 4 / аудит закрытия / книжный итог | не активированы | отдельные назначения и gates |
 
-**Следующий шаг — Researcher:** передать той же ветке одну ссылку на [ROM-D008](./DECISIONS.md#rom-d008--lead-первая-единица-принята-продолжить-остальной-stage-1). Пройти оставшиеся ROM-C002–017 и сдать один цельный Stage 1 → Lead. Согласование каждого отрывка и новое разрешение Owner не требуются. ROM-Q001 остаётся открытым; отдельная языковая проверка отложена. Stage 2 не разрешён.
+**Следующий шаг — Researcher:** передать той же ветке одну ссылку на [ROM-D009](./DECISIONS.md#rom-d009--lead-полный-stage-1-проверен-адресный-return-без-повторного-прохода). Рассмотреть 15:12 как новый повод Stage 1, уточнить основание 6:9–10 и сдать цельную R1 с журнальным handoff → Lead. Весь проход не повторяется, нового Owner approval не требуется. Stage 2 не разрешён.
 
-**Вопросы Римлянам:** новый Stage 0 зарегистрировал `ROM-Q001–ROM-Q011`; полный перечень и формулировки находятся в [rr-000](https://github.com/inprofundo777-wq/research_lab/blob/6df00ed44b668e50adb87f35cf87f89444afd779/Research/IP-001/Research/Romans/rr-000_Romans_Stage0_Corpus_Map-R1.md) и ROM-D006. Они открыты и не разрешены Stage 0. ACTS V-ID не импортировались; вопросы Деяний остаются отдельными.
+**Вопросы Римлянам:** новый Stage 0 зарегистрировал `ROM-Q001–ROM-Q011`; полный перечень и формулировки находятся в [rr-000](https://github.com/inprofundo777-wq/research_lab/blob/6df00ed44b668e50adb87f35cf87f89444afd779/Research/IP-001/Research/Romans/rr-000_Romans_Stage0_Corpus_Map-R1.md) и ROM-D006. Stage 0 их не разрешал; в submitted Stage 1 предложены локальные закрытия Q002/Q004/Q010, остальные сохранены полностью или частично открытыми. Целый Stage 1 ещё не принят; основание Q004 уточняется по ROM-D009. ACTS V-ID не импортировались; вопросы Деяний остаются отдельными.
 
 **Ресурсы независимой проверки:** CTX/LANG/TEXT — возможные домены при существенных поводах; конкретный оценщик, доказанное основание и независимость для этой книги не установлены. RST на bible.by фактически использован как рабочий источник Stage 0; конкретная печатная ревизия электронного текста не установлена. Переводы/Greek/аппарат — только по реальным triggers и отдельному разрешённому режиму. Эти gaps не дают независимый READY.
 
