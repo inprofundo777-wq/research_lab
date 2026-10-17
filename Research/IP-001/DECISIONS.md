@@ -525,3 +525,20 @@ F01/F02 не являются material findings по Installation и не тре
 **Книжные границы:** ACTS-D017, принятые Stage 0–3/snapshot и все 11 вопросов сохранены. Romans ROM-D013 исполняется по прежнему договору; на момент сверки ROM-D журнал заканчивается ROM-D013 без отдельной сдачи Researcher. После сдачи Lead принимает/возвращает и только при ACCEPT готовит snapshot/смысловой паспорт; этот handoff не является Stage 3 acceptance. Библейский корпус, исторические исследовательские outputs и предметное сравнение не открывались; RQ-RL-002 не затронут.
 
 **Ownership → Owner для указанного решения об аудите; затем Director для адресного назначения независимого Auditor.** Повторная сверка Director одной только F01/F02 не нужна. Для следующего шага достаточно этой записи; сейчас аудит не активирован.
+
+
+---
+
+## IP-001-D028 — Auditor: независимый Installation Audit R1 по маршруту A; PASS
+
+**Дата:** 17.10.2026 (Europe/Tallinn). **Роль:** Research Auditor v0.1, Package C, только Installation Audit; второстепенная роль не активирована. **Источник:** прямое поручение Owner «IP-001-D027 с указанием: провести Installation Audit R1 по маршруту A». Прямой Owner request — допустимый исключительный маршрут по Authority and Escalation Standard; предложение D027 не принято молча как утверждение самого пакета/Protocol.
+**Объект:** [IP-001-NT-BC-INSTALL-v0.1-R1](https://github.com/inprofundo777-wq/research_lab/blob/e1cabbfb3082b0233dd28a4770a766cc9879a4c9/Research/IP-001/Planning/IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md), commit `e1cabbfb3082b0233dd28a4770a766cc9879a4c9`, blob `93f4ca4c33c665d6860e70ef035317afa75616b8`.
+**Цельный immutable report:** [IP-001-NT-BC-INSTALL-AUDIT-R1](https://github.com/inprofundo777-wq/research_lab/blob/b0ec6fe556f189c98902b54c0a5b29998ea2a144/Research/IP-001/Review/IP-001-NT-Book-Cycle-Installation-Audit-R1.md), commit `b0ec6fe556f189c98902b54c0a5b29998ea2a144`.
+
+**Verdict: PASS — только общий дизайн по маршруту A.** D026-F01/F02 закрыты: 27 лишних `}` удалены, порядок блоков объяснён; другие смысловые изменения относительно v0.1 не выявлены. Проверены общая/локальная граница и индивидуальный независимый локальный audit verdict для каждой будущей книги, четыре документальных жанровых сценария, изоляция, полномочия/ресурсы, локальные U/G и пустой NT-T, Stage 3/snapshot/поздние gates, уровень и перспективность §11.1. Material findings к R1/A нет. Это не предметная проверка и не перенос общего PASS на 27 книг.
+
+**Нормативная граница:** B и проект изменения Audit Standard §11.2 не принимаются/не применяются. §11.1 остаётся кандидатом Protocol-дополнения; обязательный независимый subject-matter Review после Draft Stage 4 — более строгий предлагаемый проектный маршрут, не уже действующая общая норма и не capability нынешнего Auditor. Прежний Romans audit, созданный этой веткой, в R1 используется как документальный прецедент, но собственный прежний verdict не переаудировался; эта ветка не создавала R1. Late-stage reviewer/book-close capability и локальные source/readiness ещё не установлены.
+
+**Owner gate остаётся открытым:** отдельно принять/вернуть/отложить точную R1 с маршрутом A; отдельно решить судьбу §11.1, особенно обязательного предметного Review; для каждой будущей книги — локальный паспорт, отдельный независимый Installation Audit по Director assignment и конкретное разрешение Owner. Ни новый Stage 0, ни изменение действующих ACTS/ROM решений, Verification/MV, историческое/межкнижное сравнение, Stage 4, NT-T или книжное закрытие этим PASS не запускаются.
+
+**Ownership returned to Owner.** Одна ссылка на IP-001-D028 является точкой входа для решения. Отчёт — evidence дизайна, не принятие пакета или нормы.
