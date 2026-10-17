@@ -1,8 +1,8 @@
 # IP-001 — Первое послание к Коринфянам: местный паспорт
 
-**Сверено:** 17.10.2026 по [1COR-D007](./DECISIONS.md#1cor-d007--researcher-полный-stage-0-представлен-lead); закрытие условий/выпуск отбора — 1COR-D006 / IP-001-D040; назначение 1COR-D004, Owner gate D038.
-**Статус:** C01/C02 CLOSED / STAGE 0 SUBMITTED / NOT ACCEPTED. Полный проход 16/16 глав выполнен; rr-000 R1 с 52 кандидатами и 18 вопросами представлен Lead по 1COR-D007. Приёмки Stage 0 ещё нет.
-**Следующий owner — Lead:** проверить [1COR-D007](./DECISIONS.md#1cor-d007--researcher-полный-stage-0-представлен-lead) и точный rr-000 R1 по 1COR-S0-OC-v0.1; ACCEPT STAGE 0 / точный RETURN → Owner. Researcher ожидает приёмки/нового назначения.
+**Сверено:** 17.10.2026 по [1COR-D008](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner) / IP-001-D041; закрытие условий/выпуск отбора — 1COR-D006 / IP-001-D040; назначение 1COR-D004, Owner gate D038.
+**Статус:** C01/C02 CLOSED / ACCEPT STAGE 0 по 1COR-D008. Принят rr-000 R1: 16/16 глав, 52 предварительных кандидата, 18 OPEN / NOT VERIFIED вопросов. Stage 1 ожидает отдельного решения Owner.
+**Следующий owner — Owner:** решить о Stage 1 единым проходом по всей принятой карте; рекомендация и проект решения — [1COR-D008](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner). После разрешения Lead оформляет назначение Researcher; сейчас Researcher ожидает.
 **Корпус:** 1 Коринфянам, главы 1–16. **Код:** 1COR. **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS](./DECISIONS.md).
 
 ## Применяемая установка
@@ -19,7 +19,7 @@
 | Независимый местный Installation Audit | [PASS WITH CONDITIONS](https://github.com/inprofundo777-wq/research_lab/blob/7bc8586fc0bca15c130bf4249c6b76a98a9194e6/Research/IP-001/Review/1COR-Local-Installation-Audit-v0.1.md), D036 / 1COR-D002; C01/C02 документально закрыты Lead решением 1COR-D006; исходный audit verdict сохранён |
 | Источник | Researcher 17.10.2026 получил полный RST bible.by 16/16 глав, 437 стихов; таблица доказательств — readiness §3. Печатная ревизия не установлена. C01 закрыт Lead по документальному evidence; ограничения сохранены |
 | Researcher / экспозиция | назначение получено и исполнено до readiness; disclosure C02 представлен в readiness §2 с раскрытием памяти и административных получений; C02 закрыт Lead в документированных границах раскрытой экспозиции |
-| Stage 0 | [rr-000 R1](https://github.com/inprofundo777-wq/research_lab/blob/f1f369d546d7387f1623200a9b1366eaa7f9dae5/Research/IP-001/Research/1-Corinthians/rr-000_1Corinthians_Stage0_Corpus_Map.md) представлен 1COR-D007: просмотр 16/16, 52 C, 18 Q; SUBMITTED / NOT ACCEPTED, Lead acceptance ожидается |
+| Stage 0 | [rr-000 R1](https://github.com/inprofundo777-wq/research_lab/blob/f1f369d546d7387f1623200a9b1366eaa7f9dae5/Research/IP-001/Research/1-Corinthians/rr-000_1Corinthians_Stage0_Corpus_Map.md) принят 1COR-D008: просмотр 16/16, 52 C, 18 Q; ACCEPT STAGE 0; внутренний Lead review, не независимый предметный PASS |
 | Stage 1–3 | не разрешены, свежих outputs нет |
 | Snapshot / смысловой паспорт | появятся только после самостоятельного ACCEPT Stage 3 |
 | Verification/MV / Stage 4 / книжный аудит / закрытие | не активированы; отдельные ресурсы/договоры/полномочия |
@@ -37,7 +37,7 @@
 
 Весь старый содержательный слой закрыт до принятого самостоятельного Stage 0–3 snapshot и отдельного точного gate Owner. Свежий чат не является доказательством отсутствия старого ключа ответов. Результаты ACTS/ROM не передаются как схема отбора.
 
-Создан новый rr-000_1Corinthians_Stage0_Corpus_Map.md, редакция R1, commit `f1f369d546d7387f1623200a9b1366eaa7f9dae5`, blob `234be8fbe87c216046c37b46e48171f5737ac16d`; [журнальная сдача 1COR-D007](./DECISIONS.md#1cor-d007--researcher-полный-stage-0-представлен-lead). Старые файлы не изменены. Targets rr-001_1Corinthians_Primary_Observations.md, rr-002_1Corinthians_Repetition_Stable_Evidence_Map.md, rr-003_1Corinthians_Provisional_Groups.md не созданы и не разрешены. 1COR-C001–C052 и Q001–Q018 возникли по собственному проходу; U/G и NT-T не присвоены.
+Создан новый rr-000_1Corinthians_Stage0_Corpus_Map.md, редакция R1, commit `f1f369d546d7387f1623200a9b1366eaa7f9dae5`, blob `234be8fbe87c216046c37b46e48171f5737ac16d`; [журнальная сдача 1COR-D007](./DECISIONS.md#1cor-d007--researcher-полный-stage-0-представлен-lead); принят [1COR-D008](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner). Старые файлы не изменены. Targets rr-001_1Corinthians_Primary_Observations.md, rr-002_1Corinthians_Repetition_Stable_Evidence_Map.md, rr-003_1Corinthians_Provisional_Groups.md не созданы и не разрешены. 1COR-C001–C052 и Q001–Q018 возникли по собственному проходу; U/G и NT-T не присвоены.
 
 ## Вопросы и ресурс независимой проверки
 
@@ -55,6 +55,6 @@ Lead ведёт этот паспорт/журнал и проектную на�
 
 [IP-001-D036](../../DECISIONS.md#ip-001-d036--auditor-местный-installation-audit-1-коринфянам-pass-with-conditions) / [1COR-D002](./DECISIONS.md#1cor-d002--auditor-местный-аудит-завершён-с-условиями): до отбора будущая ветка документирует полный RST 1–16 (C01), раскрывает прежнюю содержательную экспозицию, а Lead фиксирует её диспозицию (C02). Существенный пробел/старый answer key — STOP → Director/Owner. Сам verdict не разрешает Stage 0. Owner принял конфигурацию и разрешил контролируемый Stage 0 по [D038](../../DECISIONS.md#ip-001-d038--owner-принятие-местной-установки-1-коринфянам-и-контролируемый-stage-0); общий аудит не повторяется без материального отклонения.
 
-**Текущая передача Lead:** [1COR-D007 — полный Stage 0 представлен](./DECISIONS.md#1cor-d007--researcher-полный-stage-0-представлен-lead). Проверка/приёмка не являются запуском Stage 1; дальнейший этап требует отдельного полномочия.
+**Текущая передача Owner:** [1COR-D008 — ACCEPT STAGE 0 и следующий gate](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner). Stage 1 ещё не запущен; повторная техническая сдача Researcher не требуется.
 
 **Текущая диспозиция аудиторских условий:** C01/C02 CLOSED по 1COR-D006; новая конкретная существенная экспозиция/смена источника или потеря полноты вновь требует STOP → Lead. Закрытие readiness не сертифицирует предметные будущие выводы.
