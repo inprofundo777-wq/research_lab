@@ -1,6 +1,6 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 17.10.2026 по [IP-001-D040](../DECISIONS.md#ip-001-d040--lead-готовность-1cor-принята-c01c02-закрыты-отбор-stage-0-разрешён); общая установка и дополнение Protocol — D029.
+**Сверено:** 17.10.2026 по [IP-001-D041](../DECISIONS.md#ip-001-d041--lead-stage-0-1-коринфянам-принят-решение-о-stage-1-у-owner); общая установка и дополнение Protocol — D029.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
@@ -9,7 +9,7 @@
 | [Проект Director: межкнижная классификация и поздние стадии](./IP-001-Межкнижная-классификация-и-книжное-закрытие-v0.1.md) | Проектный вход D024 включён в общую установку; не действующая поправка Protocol |
 | [Установка Римлянам](./ROMANS-Book-Cycle-Installation-Package-v0.1.md) | Принята IP-001-D013 после независимого Audit PASS; актуальный исследовательский gate — [паспорт Romans](../Research/Romans/README.md) |
 | [Самостоятельный snapshot Римлянам Stage 0–3](./ROMANS-Fresh-Stage-0-3-Snapshot-2026-10-17.md) | Закреплён после ACCEPT Stage 3 ROM-D017; [смысловой паспорт Owner](../Research/Romans/ROMANS-Смысловой-паспорт-Stage-0-3.md); 9 полностью/частично открытых вопросов; Verification/MV отложены Owner по D033 |
-| [Локальная установка 1 Коринфянам](./1COR-Local-Installation-Addendum-v0.1.md) | Принята Owner D038 после PASS WITH CONDITIONS; [Researcher назначен 1COR-D004](../Research/1-Corinthians/DECISIONS.md#1cor-d004--lead-адресное-назначение-researcher-readiness-и-только-stage-0) только на readiness/Stage 0. C01/C02 закрыты; readiness принята и отбор разрешён [1COR-D006](../Research/1-Corinthians/DECISIONS.md#1cor-d006--lead-c01c02-закрыты-отбор-stage-0-разрешён-по-действующему-назначению); следующий шаг Researcher — полный Stage 0 |
+| [Локальная установка 1 Коринфянам](./1COR-Local-Installation-Addendum-v0.1.md) | Принята Owner D038 после PASS WITH CONDITIONS; [Researcher назначен 1COR-D004](../Research/1-Corinthians/DECISIONS.md#1cor-d004--lead-адресное-назначение-researcher-readiness-и-только-stage-0) только на readiness/Stage 0. C01/C02 закрыты; readiness принята и отбор разрешён [1COR-D006](../Research/1-Corinthians/DECISIONS.md#1cor-d006--lead-c01c02-закрыты-отбор-stage-0-разрешён-по-действующему-назначению); полный Stage 0 принят [1COR-D008](../Research/1-Corinthians/DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner): 16 глав, 52 C, 18 открытых Q. Следующий шаг Owner — отдельное решение о Stage 1 |
 | [Самостоятельный snapshot Деяний Stage 0–3](./ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) | Принятый срез; ACTS-D017: пауза, 11 вопросов, проверка отложена; не книжное закрытие |
 
 Общий проект предлагает локальные пространства имён и **пустую** форму NT-T; содержательное межкнижное сопоставление не выполнено. [Дополнение к Protocol v0.2](../IP-001_Protocol_Addressing_and_Stage3_Handoff_Addendum_v0.1.md) принято перспективно по D029; обязательный независимый предметный Review каждого книжного итога отложен. Принятые outputs сохранены; ROM-D013 выполнен и Stage 3 принят ROM-D017. Материальная Verification, Stage 4 и книжное закрытие имеют отдельные gates.
