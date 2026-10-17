@@ -1,8 +1,8 @@
 # IP-001 — Первое послание к Коринфянам: местный паспорт
 
-**Сверено:** 17.10.2026 по IP-001-D033; текущая передача — [1COR-D001](./DECISIONS.md#1cor-d001--lead-локальная-установка-подготовлена-местный-аудит-ожидается).
-**Статус:** LOCAL INSTALLATION PREPARED / LOCAL AUDIT PENDING. Stage 0 не разрешён; Researcher не назначен.
-**Ответственный за подготовку:** Research Project Lead v0.1, Package C, Installation only. **Следующий owner — Director:** отдельное независимое назначение местного Installation Audit → Owner для решения по Stage 0.
+**Сверено:** 17.10.2026 по [IP-001-D035](../../DECISIONS.md#ip-001-d035--director-независимый-местный-installation-audit-1-коринфянам-назначен); местный handoff — [1COR-D001](./DECISIONS.md#1cor-d001--lead-локальная-установка-подготовлена-местный-аудит-ожидается).
+**Статус:** LOCAL INSTALLATION PREPARED / LOCAL AUDIT ASSIGNED, VERDICT PENDING. Stage 0 не разрешён; Researcher не назначен.
+**Ответственный за подготовку:** Research Project Lead v0.1, Package C, Installation only. **Следующий исполнитель — независимый Auditor:** местный Installation Audit по D035 → Director/Owner для отдельного решения по Stage 0.
 **Корпус:** 1 Коринфянам, главы 1–16. **Код:** 1COR. **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS](./DECISIONS.md).
 
 ## Применяемая установка
@@ -16,7 +16,7 @@
 | Объект | Состояние / точный gate |
 |---|---|
 | Local Installation | подготовлена по D033; не принята для исполнения |
-| Независимый местный Installation Audit | не активирован; требуется отдельное назначение Director и собственный локальный verdict |
+| Независимый местный Installation Audit | назначен Director по D035; verdict ещё не получен |
 | Источник | RST bible.by, https://bible.by/syn/53/1/ … /16/; Lead 17.10.2026 проверил текст только глав 1/16; доступ 2–15/будущей ветки не установлен, печатная ревизия неизвестна |
 | Researcher / экспозиция | не назначен; предложена отдельная ветка Researcher 1COR; disclosure до отбора ещё не получен |
 | Stage 0 | NOT AUTHORIZED; местный договор подготовлен в §5 дополнения |
