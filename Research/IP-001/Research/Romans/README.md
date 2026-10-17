@@ -1,8 +1,8 @@
 # IP-001 — Послание к Римлянам
 
-**Сверено:** 17.10.2026 по [ROM-D013](./DECISIONS.md#rom-d013--lead-назначение-researcher-только-stage-3) / IP-001-D023.
-**Состояние:** Stage 0–2 приняты; Stage 3 разрешён и назначен, результат ещё не представлен. Verification/Stage 4/книжное закрытие не разрешены.
-**Lead:** Research Project Lead v0.1, Package C, Stage Coordination / Output Contract acceptance Stage 3. **Researcher:** та же отдельная ветка «IP-001 — Researcher Romans», Researcher v0.1, Package C, контролируемая Classification Stage 3 по ROM-D013; получение/начало работы ещё не подтверждены.
+**Сверено:** 17.10.2026 по [ROM-D014](./DECISIONS.md#rom-d014--lead-завершить-журнальную-сдачу-опубликованного-stage-3-по-rom-d013) / IP-001-D029–D030; действующий исследовательский договор — ROM-D013.
+**Состояние:** Stage 0–2 приняты; Stage 3 опубликован как SUBMITTED / NOT ACCEPTED, обязательная отдельная сдача Researcher в журнале ожидается по ROM-D014; Lead приёмку ещё не выполнил. Verification/Stage 4/книжное закрытие не разрешены.
+**Lead:** Research Project Lead v0.1, Package C, Stage Coordination / Output Contract acceptance Stage 3. **Researcher:** та же отдельная ветка «IP-001 — Researcher Romans», Researcher v0.1, Package C, контролируемая Classification Stage 3 по ROM-D013; файл Stage 3 опубликован, отдельная журнальная сдача ещё не завершена.
 **Версии нового назначения:** Конституция v0.2 / Методология v0.4 / Protocol IP-001 v0.2 / Criteria v0.2.
 **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS.md](./DECISIONS.md).
 
@@ -15,11 +15,11 @@
 | Stage 0 — карта | COMPLETE / ACCEPTED | [принятая R1](https://github.com/inprofundo777-wq/research_lab/blob/6df00ed44b668e50adb87f35cf87f89444afd779/Research/IP-001/Research/Romans/rr-000_Romans_Stage0_Corpus_Map-R1.md); [ROM-D006](./DECISIONS.md#rom-d006--lead-r1-проверена-accept-stage-0); 16 глав / 17 кандидатов / 11 вопросов |
 | Stage 1 — наблюдения | COMPLETE / ACCEPTED | [принятая R1](https://github.com/inprofundo777-wq/research_lab/blob/d7a0abded08785b622fcbb96780c4c9ef4343e3c/Research/IP-001/Research/Romans/rr-001_Romans_Primary_Observations-R1.md); [ROM-D010](./DECISIONS.md#rom-d010--lead-r1-проверена-accept-stage-1); 25 локальных единиц |
 | Stage 2 — повторения | COMPLETE / ACCEPTED | [принятый rr-002](https://github.com/inprofundo777-wq/research_lab/blob/ff686adeba3f44b56d3d5d6138766b983c38b973/Research/IP-001/Research/Romans/rr-002_Romans_Repetition_Stable_Evidence_Map.md); [ROM-D012](./DECISIONS.md#rom-d012--lead-accept-stage-2-возврат-owner); P1–P5 / S1–S3 / N1–N2, полный маршрут 25 units |
-| Stage 3 — группы | AUTHORIZED / ASSIGNED; результата нет | [ROM-D013 — полное назначение](./DECISIONS.md#rom-d013--lead-назначение-researcher-только-stage-3); на принятых rr-001 R1 и rr-002 |
+| Stage 3 — группы | Файл опубликован / NOT ACCEPTED; отдельная сдача ожидается | [точный rr-003](https://github.com/inprofundo777-wq/research_lab/blob/357be8990218ed6c99940260783377a599282eb7/Research/IP-001/Research/Romans/rr-003_Romans_Provisional_Groups.md); [завершение передачи ROM-D014](./DECISIONS.md#rom-d014--lead-завершить-журнальную-сдачу-опубликованного-stage-3-по-rom-d013); критерии ROM-D013 сохранены |
 | Независимая проверка / источники | предварительная карта вопросов создана; допуск оценщика не установлен | §7 пакета; ROM-Q001–ROM-Q012 учтены, предметная проверка не запускалась |
 | Verification / Draft Stage 4 / аудит закрытия / книжный итог | не активированы | отдельные назначения и gates |
 
-**Следующий шаг — Researcher:** передать той же ветке одну ссылку на [ROM-D013](./DECISIONS.md#rom-d013--lead-назначение-researcher-только-stage-3). Выполнить цельную предварительную классификацию и записать журнальный handoff → Lead. После приёмки Lead закрепит самостоятельный snapshot Stage 0–3; он не запускает проверку или закрытие книги.
+**Следующий шаг — Researcher:** передать той же ветке одну ссылку на [ROM-D014](./DECISIONS.md#rom-d014--lead-завершить-журнальную-сдачу-опубликованного-stage-3-по-rom-d013). Завершить только отдельный журнальный handoff опубликованного rr-003 по прежнему ROM-D013, без повторного Stage 3. Затем Lead выполняет ACCEPT/RETURN; после ACCEPT — snapshot и смысловой паспорт → Owner. Общая установка и дополнение приняты D029 перспективно; нового критерия к этому файлу нет.
 
 **Вопросы Римлянам:** первоначальные ROM-Q001–011 сохранены, на Stage 1 добавлен ROM-Q012 (15:12) с происхождением. [Принятый register — rr-001 R1 §4](https://github.com/inprofundo777-wq/research_lab/blob/d7a0abded08785b622fcbb96780c4c9ef4343e3c/Research/IP-001/Research/Romans/rr-001_Romans_Primary_Observations-R1.md). Q002/Q004/Q010 локально закрыты на RST; Q001/Q003/Q005/Q006/Q007/Q008/Q009/Q011/Q012 полностью или частично открыты. Stage 2 сохранил все эти диспозиции без изменения. Материальная Verification не выполнена; вопросы Деяний не смешиваются с Romans.
 
