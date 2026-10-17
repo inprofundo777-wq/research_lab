@@ -1,6 +1,6 @@
 # IP-001 / Римлянам — журнал нового книжного цикла
 
-**Состояние:** Stage 0–3 приняты, Stage 3 — ROM-D017; snapshot/смысловой паспорт закрепляет Lead, ownership возвращено Owner. Девять ROM-Q полностью/частично открыты; Verification/Stage 4/закрытие не разрешены.  
+**Состояние:** Stage 0–3 приняты, Stage 3 — ROM-D017; snapshot и смысловой паспорт закреплены IP-001-D032; ownership — Owner. Девять ROM-Q полностью/частично открыты; Verification/Stage 4/закрытие не разрешены.  
 **Паспорт:** [README](./README.md). **Проектные решения:** [IP-001/DECISIONS](../../DECISIONS.md).
 
 ## ROM-D001 — навигация нового цикла; Installation передана Owner
