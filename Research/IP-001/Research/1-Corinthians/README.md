@@ -1,8 +1,8 @@
 # IP-001 — Первое послание к Коринфянам: местный паспорт
 
-**Сверено:** 17.10.2026 по [1COR-D004](./DECISIONS.md#1cor-d004--lead-адресное-назначение-researcher-readiness-и-только-stage-0) / IP-001-D038–D039.
-**Статус:** LOCAL INSTALLATION ACCEPTED / CONTROLLED STAGE 0 ASSIGNED / READINESS FIRST. C01/C02 OPEN; отбор запрещён до их документального закрытия Lead. Получение/начало отдельной веткой ещё не подтверждены.
-**Следующий owner — Researcher 1COR:** представить полный источник и disclosure C01/C02 по 1COR-D004 → Lead для диспозиции. После закрытия обоих продолжить по тому же назначению без нового Owner gate.
+**Сверено:** 17.10.2026 по [1COR-D005](./DECISIONS.md#1cor-d005--researcher-readiness-c01c02-представлена-lead-до-отбора) / назначению 1COR-D004 / IP-001-D038–D039.
+**Статус:** LOCAL INSTALLATION ACCEPTED / READINESS SUBMITTED / READY FOR LEAD CHECK / NOT ACCEPTED. Researcher получил назначение и сдал readiness 1COR-D005. C01/C02 OPEN до диспозиции Lead; отбор запрещён.
+**Следующий owner — Lead:** проверить [readiness C01/C02](https://github.com/inprofundo777-wq/research_lab/blob/35ddcd123e0ac760780e716215d6f0e64142e2eb/Research/IP-001/Research/1-Corinthians/readiness_1Corinthians_C01_C02_v0.1.md) и оформить диспозицию по [1COR-D005](./DECISIONS.md#1cor-d005--researcher-readiness-c01c02-представлена-lead-до-отбора). Researcher ждёт; после закрытия обоих и явного разрешения Lead продолжает по тому же назначению без нового Owner gate.
 **Корпус:** 1 Коринфянам, главы 1–16. **Код:** 1COR. **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS](./DECISIONS.md).
 
 ## Применяемая установка
@@ -17,15 +17,19 @@
 |---|---|
 | Local Installation | принята Owner по D038 с аудиторскими условиями |
 | Независимый местный Installation Audit | [PASS WITH CONDITIONS](https://github.com/inprofundo777-wq/research_lab/blob/7bc8586fc0bca15c130bf4249c6b76a98a9194e6/Research/IP-001/Review/1COR-Local-Installation-Audit-v0.1.md), D036 / 1COR-D002; C01/C02 открыты |
-| Источник | RST bible.by, https://bible.by/syn/53/1/ … /16/; Lead 17.10.2026 проверил текст только глав 1/16; доступ 2–15/будущей ветки не установлен, печатная ревизия неизвестна |
-| Researcher / экспозиция | отдельная ветка Researcher 1COR назначена 1COR-D004; фактическое получение не подтверждено, disclosure C02 ещё не получен |
-| Stage 0 | условно разрешён D038 / назначен 1COR-D004; сначала readiness C01/C02 → Lead, отбор до его записи о закрытии запрещён |
+| Источник | Researcher 17.10.2026 получил полный RST bible.by 16/16 глав, 437 стихов; таблица доказательств — readiness §3. Печатная ревизия не установлена. C01 ожидает проверки Lead |
+| Researcher / экспозиция | назначение получено и исполнено до readiness; disclosure C02 представлен в readiness §2 с раскрытием памяти и административных получений; диспозиция Lead ожидается |
+| Stage 0 | разрешён D038 / назначен 1COR-D004; readiness сдана 1COR-D005, отбор не начат и запрещён до записи Lead о закрытии обоих условий и явного разрешения |
 | Stage 1–3 | не разрешены, свежих outputs нет |
 | Snapshot / смысловой паспорт | появятся только после самостоятельного ACCEPT Stage 3 |
 | Verification/MV / Stage 4 / книжный аудит / закрытие | не активированы; отдельные ресурсы/договоры/полномочия |
 | Межкнижный анализ / NT-T | не разрешены, общие типы не присвоены |
 
 **Жанровая настройка:** довод и границы контекста, собственное утверждение/цитата/чужая позиция/риторический вопрос, местоимение/титул, время и вид участия. Настройка не содержит выбранных loci, числа кандидатов или готовых групп.
+
+## Сданная готовность
+
+[1COR-READINESS-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/35ddcd123e0ac760780e716215d6f0e64142e2eb/Research/IP-001/Research/1-Corinthians/readiness_1Corinthians_C01_C02_v0.1.md), commit `35ddcd123e0ac760780e716215d6f0e64142e2eb`, blob `db3562087c421eba776159e5c993a06fa3d0a102`; журнальный handoff 1COR-D005. Это readiness до отбора, не rr-000 и не принятый Stage 0.
 
 ## История и новые outputs
 
@@ -51,4 +55,4 @@ Lead ведёт этот паспорт/журнал и проектную на�
 
 [IP-001-D036](../../DECISIONS.md#ip-001-d036--auditor-местный-installation-audit-1-коринфянам-pass-with-conditions) / [1COR-D002](./DECISIONS.md#1cor-d002--auditor-местный-аудит-завершён-с-условиями): до отбора будущая ветка документирует полный RST 1–16 (C01), раскрывает прежнюю содержательную экспозицию, а Lead фиксирует её диспозицию (C02). Существенный пробел/старый answer key — STOP → Director/Owner. Сам verdict не разрешает Stage 0. Owner принял конфигурацию и разрешил контролируемый Stage 0 по [D038](../../DECISIONS.md#ip-001-d038--owner-принятие-местной-установки-1-коринфянам-и-контролируемый-stage-0); общий аудит не повторяется без материального отклонения.
 
-**Передать новой ветке Researcher 1COR:** одну ссылку на [1COR-D004](./DECISIONS.md#1cor-d004--lead-адресное-назначение-researcher-readiness-и-только-stage-0). Первое исполнение — только readiness; самостоятельного закрытия C01/C02 и автоматического старта отбора нет.
+**Текущая передача Lead:** [1COR-D005 — readiness C01/C02](./DECISIONS.md#1cor-d005--researcher-readiness-c01c02-представлена-lead-до-отбора). Назначение [1COR-D004](./DECISIONS.md#1cor-d004--lead-адресное-назначение-researcher-readiness-и-только-stage-0) сохраняется; самостоятельного закрытия условий и автоматического старта отбора нет.
