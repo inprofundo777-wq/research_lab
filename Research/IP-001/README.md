@@ -1,7 +1,7 @@
 # IP-001 — действия воскресшего Христа
 
 **Статус:** исследование действует; рабочий проход Деяний Stage 0–3 принят и поставлен на паузу с 11 открытыми вопросами; C0/MV отложены, книга формально не закрыта; пакет Римлянам утверждён после Audit PASS; Stage 0 R1 принят; Stage 1 R1 принят ROM-D010 (25 наблюдений, 9 полностью/частично открытых вопросов из 12); Stage 2 принят ROM-D012; Stage 3 разрешён и назначен ROM-D013; Verification/Stage 4/закрытие не разрешены.  
-**Сверено:** 17.10.2026; общий архитектурный gate — [IP-001-D028](./DECISIONS.md#ip-001-d028--auditor-независимый-installation-audit-r1-по-маршруту-a-pass); исследовательский gate Римлянам — [IP-001-D023](./DECISIONS.md#ip-001-d023--owner-разрешён-только-stage-3-римлянам); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
+**Сверено:** 17.10.2026; решение об общей установке — [IP-001-D029](./DECISIONS.md#ip-001-d029--owner-принятие-общей-установки-r1-по-маршруту-a-и-ограниченного-дополнения-protocol); исследовательский gate Римлянам — [IP-001-D023](./DECISIONS.md#ip-001-d023--owner-разрешён-только-stage-3-римлянам); приёмка Stage 2 — [Event 072](../../Development/Validation-Runs/RL-WAVE-2/RUN.md#event-072--ip-001-acts-rr-lead-focused-re-check-r1--accept-stage-2).  
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
 ## Исследовательский вопрос
@@ -28,7 +28,7 @@
 | Назначение | Документ |
 |---|---|
 | Общая методологическая норма для новых назначений | [Методология v0.4](../../Methodology/methodology_v0.4.md), включая русский смысловой язык |
-| Протокол IP-001 | [IP-001 Protocol v0.2](./IP-001_Protocol_v0.2.md) |
+| Протокол IP-001 | [Protocol v0.2](./IP-001_Protocol_v0.2.md) + [принятое дополнение об адресации и передаче после Stage 3](./IP-001_Protocol_Addressing_and_Stage3_Handoff_Addendum_v0.1.md) для новых совместимых назначений |
 | Критерии исследования | [Research Criteria](./Research/Research_Criteria.md) |
 | Договор первичных наблюдений | [Primary Observation Output Contract v0.2](./IP-001_Primary_Observation_Output_Contract_v0.2.md) |
 | Установка книжного цикла Деяний | [Installation Package R1](../../Development/Validation-Runs/RL-WAVE-2/Artifacts/IP-001-ACTS-Book-Cycle-Installation-Package-R1.md) |
@@ -36,7 +36,7 @@
 
 Результаты уже завершённых этапов сохраняют версии управляющих документов, закреплённые их назначениями. Новая Методология не изменяет их автоматически. При следующем назначении Lead явно фиксирует применимую версию и проверяет совместимость Protocol и Output Contract.
 
-**Общая установка — R1 прошла независимый Audit PASS по маршруту A, ещё не принята Owner:** [IP-001-NT-BC-INSTALL-v0.1-R1](./Planning/IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md). Director дал CONCUR по маршруту A ([D026](./DECISIONS.md#ip-001-d026--director-ограниченная-сверка-общего-установочного-пакета-concur-с-маршрутом-a)); Lead исправил только F01/F02 ([IP-001-D027](./DECISIONS.md#ip-001-d027--lead-d026-принят-редакционная-r1-подготовлена-для-решения-owner-об-аудите)). **Следующий owner — Owner:** [IP-001-D028](./DECISIONS.md#ip-001-d028--auditor-независимый-installation-audit-r1-по-маршруту-a-pass): отдельно решить принятие R1/A и §11.1, особенно обязательность предметного Review. B не применяется; общий PASS не заменяет локальные книжные аудиты. Действующий Protocol, книжные gates и принятые IDs сохранены; NT-T не присвоены. [Исходный проект Director](./Planning/IP-001-Межкнижная-классификация-и-книжное-закрытие-v0.1.md) — проектный вход.
+**Общая установка 27 книжных циклов принята Owner по маршруту A:** [проверенная R1](./Planning/IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md), [Audit PASS](./DECISIONS.md#ip-001-d028--auditor-независимый-installation-audit-r1-по-маршруту-a-pass), [решение IP-001-D029](./DECISIONS.md#ip-001-d029--owner-принятие-общей-установки-r1-по-маршруту-a-и-ограниченного-дополнения-protocol). Для каждой следующей книги нужны местный паспорт, отдельный независимый Installation Audit и разрешение Owner. [Дополнение к Protocol v0.2](./IP-001_Protocol_Addressing_and_Stage3_Handoff_Addendum_v0.1.md) закрепляет локальные коды и смысловой паспорт после Stage 3; обязательный предметный Review каждого книжного итога отложен. B не применяется; NT-T пока не присвоены.
 
 ## Как читать имена файлов
 
