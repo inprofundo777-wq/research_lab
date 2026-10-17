@@ -1,15 +1,15 @@
 # IP-001 — Первое послание к Коринфянам: местный паспорт
 
-**Сверено:** 17.10.2026 по [1COR-D008](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner) / IP-001-D041; закрытие условий/выпуск отбора — 1COR-D006 / IP-001-D040; назначение 1COR-D004, Owner gate D038.
-**Статус:** C01/C02 CLOSED / ACCEPT STAGE 0 по 1COR-D008. Принят rr-000 R1: 16/16 глав, 52 предварительных кандидата, 18 OPEN / NOT VERIFIED вопросов. Stage 1 ожидает отдельного решения Owner.
-**Следующий owner — Owner:** решить о Stage 1 единым проходом по всей принятой карте; рекомендация и проект решения — [1COR-D008](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner). После разрешения Lead оформляет назначение Researcher; сейчас Researcher ожидает.
+**Сверено:** 17.10.2026 по [1COR-D009](./DECISIONS.md#1cor-d009--lead-назначение-researcher-на-единый-stage-1) / IP-001-D042; закрытие условий/выпуск отбора — 1COR-D006 / IP-001-D040; назначение 1COR-D004, Owner gate D038.
+**Статус:** C01/C02 CLOSED / ACCEPT STAGE 0 по 1COR-D008. Принят rr-000 R1: 16/16 глав, 52 предварительных кандидата, 18 OPEN / NOT VERIFIED вопросов. Stage 1 разрешён Owner IP-001-D042; адресное назначение Researcher — 1COR-D009. Исполнение/сдача Stage 1 ещё не заявлены.
+**Следующий owner — Researcher 1COR:** выполнить единый Stage 1 по [1COR-D009](./DECISIONS.md#1cor-d009--lead-назначение-researcher-на-единый-stage-1): все C001–C052, прослеживаемые U, сохранение Q001–Q018 → цельный rr-001 + отдельный handoff → Lead.
 **Корпус:** 1 Коринфянам, главы 1–16. **Код:** 1COR. **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS](./DECISIONS.md).
 
 ## Применяемая установка
 
 **[Локальное дополнение 1COR-LOCAL-INSTALL-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/ace6fe51f1911b00b276e2d2e25f807753e75100/Research/IP-001/Planning/1COR-Local-Installation-Addendum-v0.1.md)**, commit `ace6fe51f1911b00b276e2d2e25f807753e75100`, blob `f89ce88d79e0103877834694183fe94e008f6d8a`: источник/изоляция, местный договор 1COR-S0-OC-v0.1, существенные отличия, ресурс и audit gate. Это один местный объект, не повтор общей программы.
 
-Общий модуль — [принятый R1/A](https://github.com/inprofundo777-wq/research_lab/blob/e1cabbfb3082b0233dd28a4770a766cc9879a4c9/Research/IP-001/Planning/IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md), [общий Audit PASS](https://github.com/inprofundo777-wq/research_lab/blob/b0ec6fe556f189c98902b54c0a5b29998ea2a144/Research/IP-001/Review/IP-001-NT-Book-Cycle-Installation-Audit-R1.md), D029; Protocol v0.2 **с [принятым дополнением](../../IP-001_Protocol_Addressing_and_Stage3_Handoff_Addendum_v0.1.md)**, Methodology v0.4, Criteria v0.2. Stage 1 Contract v0.2 относится к будущему Stage 1. Точные norm pins — §1 локального дополнения. B не применяется; новая общая обязательность предметного Review отложена.
+Общий модуль — [принятый R1/A](https://github.com/inprofundo777-wq/research_lab/blob/e1cabbfb3082b0233dd28a4770a766cc9879a4c9/Research/IP-001/Planning/IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md), [общий Audit PASS](https://github.com/inprofundo777-wq/research_lab/blob/b0ec6fe556f189c98902b54c0a5b29998ea2a144/Research/IP-001/Review/IP-001-NT-Book-Cycle-Installation-Audit-R1.md), D029; Protocol v0.2 **с [принятым дополнением](../../IP-001_Protocol_Addressing_and_Stage3_Handoff_Addendum_v0.1.md)**, Methodology v0.4, Criteria v0.2. Stage 1 Contract v0.2 применяется к разрешённому Stage 1 по D042 / 1COR-D009. Точные norm pins — §1 локального дополнения. B не применяется; новая общая обязательность предметного Review отложена.
 
 ## Состояние цикла
 
@@ -20,7 +20,8 @@
 | Источник | Researcher 17.10.2026 получил полный RST bible.by 16/16 глав, 437 стихов; таблица доказательств — readiness §3. Печатная ревизия не установлена. C01 закрыт Lead по документальному evidence; ограничения сохранены |
 | Researcher / экспозиция | назначение получено и исполнено до readiness; disclosure C02 представлен в readiness §2 с раскрытием памяти и административных получений; C02 закрыт Lead в документированных границах раскрытой экспозиции |
 | Stage 0 | [rr-000 R1](https://github.com/inprofundo777-wq/research_lab/blob/f1f369d546d7387f1623200a9b1366eaa7f9dae5/Research/IP-001/Research/1-Corinthians/rr-000_1Corinthians_Stage0_Corpus_Map.md) принят 1COR-D008: просмотр 16/16, 52 C, 18 Q; ACCEPT STAGE 0; внутренний Lead review, не независимый предметный PASS |
-| Stage 1–3 | не разрешены, свежих outputs нет |
+| Stage 1 | разрешён Owner D042; Researcher назначен 1COR-D009 на полный проход; output ещё не сдан |
+| Stage 2–3 | не разрешены, свежих outputs нет |
 | Snapshot / смысловой паспорт | появятся только после самостоятельного ACCEPT Stage 3 |
 | Verification/MV / Stage 4 / книжный аудит / закрытие | не активированы; отдельные ресурсы/договоры/полномочия |
 | Межкнижный анализ / NT-T | не разрешены, общие типы не присвоены |
@@ -37,7 +38,7 @@
 
 Весь старый содержательный слой закрыт до принятого самостоятельного Stage 0–3 snapshot и отдельного точного gate Owner. Свежий чат не является доказательством отсутствия старого ключа ответов. Результаты ACTS/ROM не передаются как схема отбора.
 
-Создан новый rr-000_1Corinthians_Stage0_Corpus_Map.md, редакция R1, commit `f1f369d546d7387f1623200a9b1366eaa7f9dae5`, blob `234be8fbe87c216046c37b46e48171f5737ac16d`; [журнальная сдача 1COR-D007](./DECISIONS.md#1cor-d007--researcher-полный-stage-0-представлен-lead); принят [1COR-D008](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner). Старые файлы не изменены. Targets rr-001_1Corinthians_Primary_Observations.md, rr-002_1Corinthians_Repetition_Stable_Evidence_Map.md, rr-003_1Corinthians_Provisional_Groups.md не созданы и не разрешены. 1COR-C001–C052 и Q001–Q018 возникли по собственному проходу; U/G и NT-T не присвоены.
+Создан новый rr-000_1Corinthians_Stage0_Corpus_Map.md, редакция R1, commit `f1f369d546d7387f1623200a9b1366eaa7f9dae5`, blob `234be8fbe87c216046c37b46e48171f5737ac16d`; [журнальная сдача 1COR-D007](./DECISIONS.md#1cor-d007--researcher-полный-stage-0-представлен-lead); принят [1COR-D008](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner). Старые файлы не изменены. Target rr-001_1Corinthians_Primary_Observations.md разрешён 1COR-D009, ещё не сдан. Targets rr-002_1Corinthians_Repetition_Stable_Evidence_Map.md и rr-003_1Corinthians_Provisional_Groups.md не созданы и не разрешены. 1COR-C001–C052 и Q001–Q018 возникли по собственному проходу; U/G и NT-T не присвоены.
 
 ## Вопросы и ресурс независимой проверки
 
@@ -47,7 +48,7 @@ CTX/LANG/TEXT — предварительные области по факти�
 
 ## Передача и ответственность
 
-Полное местное предложение и договор аудита — §6 дополнения; полное назначение Researcher закреплено [1COR-D004](./DECISIONS.md#1cor-d004--lead-адресное-назначение-researcher-readiness-и-только-stage-0) по Owner-разрешению D038. Researcher тогда сдаёт цельный artifact **и отдельный книжный handoff** с immutable commit/blob → Lead → Owner.
+Полное местное предложение и договор аудита — §6 дополнения; первое назначение Researcher закреплено 1COR-D004 по D038; актуальное — [1COR-D009, весь Stage 1](./DECISIONS.md#1cor-d009--lead-назначение-researcher-на-единый-stage-1) по D042. Researcher сдаёт цельный artifact **и отдельный книжный handoff** с immutable commit/blob → Lead → Owner.
 
 Lead ведёт этот паспорт/журнал и проектную навигацию; Director назначает местный аудит; независимый Auditor возвращает verdict, не принимает ownership исследования. Деяния и Римлянам остаются на паузе, их открытые вопросы сохранены.
 
@@ -55,6 +56,6 @@ Lead ведёт этот паспорт/журнал и проектную на�
 
 [IP-001-D036](../../DECISIONS.md#ip-001-d036--auditor-местный-installation-audit-1-коринфянам-pass-with-conditions) / [1COR-D002](./DECISIONS.md#1cor-d002--auditor-местный-аудит-завершён-с-условиями): до отбора будущая ветка документирует полный RST 1–16 (C01), раскрывает прежнюю содержательную экспозицию, а Lead фиксирует её диспозицию (C02). Существенный пробел/старый answer key — STOP → Director/Owner. Сам verdict не разрешает Stage 0. Owner принял конфигурацию и разрешил контролируемый Stage 0 по [D038](../../DECISIONS.md#ip-001-d038--owner-принятие-местной-установки-1-коринфянам-и-контролируемый-stage-0); общий аудит не повторяется без материального отклонения.
 
-**Текущая передача Owner:** [1COR-D008 — ACCEPT STAGE 0 и следующий gate](./DECISIONS.md#1cor-d008--lead-accept-stage-0-следующий-gate-owner). Stage 1 ещё не запущен; повторная техническая сдача Researcher не требуется.
+**Текущая передача Researcher:** [1COR-D009 — адресное назначение на Stage 1](./DECISIONS.md#1cor-d009--lead-назначение-researcher-на-единый-stage-1). Owner разрешил этап; дополнительного подтверждения каждого эпизода не требуется. Stage 2 требует отдельного решения.
 
 **Текущая диспозиция аудиторских условий:** C01/C02 CLOSED по 1COR-D006; новая конкретная существенная экспозиция/смена источника или потеря полноты вновь требует STOP → Lead. Закрытие readiness не сертифицирует предметные будущие выводы.
