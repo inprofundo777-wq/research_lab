@@ -1,11 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 17.10.2026 по [IP-001-D027](../DECISIONS.md#ip-001-d027--lead-d026-принят-редакционная-r1-подготовлена-для-решения-owner-об-аудите).
+**Сверено:** 17.10.2026 по [IP-001-D028](../DECISIONS.md#ip-001-d028--auditor-независимый-installation-audit-r1-по-маршруту-a-pass).
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
-| [Общая установка 27 книжных циклов v0.1, R1](./IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md) | F01/F02 исправлены по D026/D027; Director CONCUR по A; NOT AUDITED / NOT ADOPTED. Owner решает об аудите точной R1 → Director назначает независимого Auditor; B не применяется |
+| [Общая установка 27 книжных циклов v0.1, R1](./IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md) | F01/F02 закрыты; [общий независимый Audit PASS по A](https://github.com/inprofundo777-wq/research_lab/blob/b0ec6fe556f189c98902b54c0a5b29998ea2a144/Research/IP-001/Review/IP-001-NT-Book-Cycle-Installation-Audit-R1.md); NOT ADOPTED. Owner отдельно решает принятие R1 и §11.1; B не применяется |
 | [Проект Director: межкнижная классификация и поздние стадии](./IP-001-Межкнижная-классификация-и-книжное-закрытие-v0.1.md) | Проектный вход D024 включён в общую установку; не действующая поправка Protocol |
 | [Установка Римлянам](./ROMANS-Book-Cycle-Installation-Package-v0.1.md) | Принята IP-001-D013 после независимого Audit PASS; актуальный исследовательский gate — [паспорт Romans](../Research/Romans/README.md) |
 | [Самостоятельный snapshot Деяний Stage 0–3](./ACTS-Fresh-Stage-0-3-Snapshot-2026-10-12.md) | Принятый срез; ACTS-D017: пауза, 11 вопросов, проверка отложена; не книжное закрытие |
