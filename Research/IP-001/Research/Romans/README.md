@@ -1,29 +1,34 @@
 # IP-001 — Послание к Римлянам
 
-**Сверено:** 17.10.2026 по [ROM-D015](./DECISIONS.md#rom-d015--lead-содержательная-сверка-stage-3-выполнена-журнальная-сдача-ещё-ожидается) / IP-001-D031; действующий исследовательский договор — ROM-D013.
-**Состояние:** Stage 0–2 приняты; Stage 3 опубликован как SUBMITTED / NOT ACCEPTED, обязательная отдельная сдача Researcher в журнале ожидается по ROM-D014; Lead выполнил содержательную сверку без существенных расхождений (ROM-D015); окончательный ACCEPT ожидает сдачи. Verification/Stage 4/книжное закрытие не разрешены.
-**Lead:** Research Project Lead v0.1, Package C, Stage Coordination / Output Contract acceptance Stage 3. **Researcher:** та же отдельная ветка «IP-001 — Researcher Romans», Researcher v0.1, Package C, контролируемая Classification Stage 3 по ROM-D013; файл Stage 3 опубликован, отдельная журнальная сдача ещё не завершена.
-**Версии нового назначения:** Конституция v0.2 / Методология v0.4 / Protocol IP-001 v0.2 / Criteria v0.2.
-**Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS.md](./DECISIONS.md).
+**Сверено:** 17.10.2026 по [ROM-D017](./DECISIONS.md#rom-d017--lead-окончательный-accept-stage-3-самостоятельный-срез-и-возврат-owner) / [IP-001-D032](../../DECISIONS.md#ip-001-d032--lead-stage-3-римлянам-принят-snapshot-и-смысловой-паспорт-переданы-owner).
+**Состояние:** Stage 0–3 COMPLETE / ACCEPTED; самостоятельный snapshot и смысловой паспорт закреплены. Книга формально не закрыта; Verification/MV и Stage 4 не разрешены.
+**Ownership — Owner:** отдельное решение о паузе, подготовке ограниченной проверки либо подготовке следующей книги. Нового назначения Researcher нет.
+**Lead:** Research Project Lead v0.1, Package C; **производитель Stage 0–3:** Researcher v0.1, Package C, адресные контролируемые назначения.
+**Нормы прохода:** Конституция v0.2 / Methodology v0.4 / Protocol v0.2 / Criteria v0.2; исходная ROMANS Installation. Принятые D029 общая R1/A и ограниченное Protocol-дополнение применяются к следующим совместимым назначениям, не переписывают этот проход.
+**Проект:** [IP-001](../../README.md). **Журнал:** [DECISIONS](./DECISIONS.md).
 
-## Новый книжный цикл
+## Принятый промежуточный результат
 
-| Этап / зависимость | Фактическое состояние | Точный результат / основание |
+Для понимания содержания начните со **[смыслового паспорта Owner](./ROMANS-Смысловой-паспорт-Stage-0-3.md)**. Точный состав, источник, все 25 единиц, 12 вопросов и ограничения — в **[snapshot Stage 0–3](../../Planning/ROMANS-Fresh-Stage-0-3-Snapshot-2026-10-17.md)**.
+
+| Этап / зависимость | Статус | Принятый target / решение |
 |---|---|---|
-| Installation | утверждена IP-001-D013 | [закреплённый пакет](https://github.com/inprofundo777-wq/research_lab/blob/f0b09235034f09aca86eb73bae366aa19fd197a1/Research/IP-001/Planning/ROMANS-Book-Cycle-Installation-Package-v0.1.md); [IP-001-D011](../../DECISIONS.md#ip-001-d011--lead-installation-римлянам-подготовлена-решение-owner) |
-| Installation Audit | PASS / завершён по прямому запросу Owner | [цельный отчёт](https://github.com/inprofundo777-wq/research_lab/blob/0aa1e1ad33d2b2674d54538391df756a3ebead69/Research/IP-001/Review/ROMANS-Installation-Audit-v0.1.md); [IP-001-D012](../../DECISIONS.md#ip-001-d012--auditor-installation-римлянам-проверена-pass-решение-owner-остаётся-открытым) |
-| Stage 0 — карта | COMPLETE / ACCEPTED | [принятая R1](https://github.com/inprofundo777-wq/research_lab/blob/6df00ed44b668e50adb87f35cf87f89444afd779/Research/IP-001/Research/Romans/rr-000_Romans_Stage0_Corpus_Map-R1.md); [ROM-D006](./DECISIONS.md#rom-d006--lead-r1-проверена-accept-stage-0); 16 глав / 17 кандидатов / 11 вопросов |
-| Stage 1 — наблюдения | COMPLETE / ACCEPTED | [принятая R1](https://github.com/inprofundo777-wq/research_lab/blob/d7a0abded08785b622fcbb96780c4c9ef4343e3c/Research/IP-001/Research/Romans/rr-001_Romans_Primary_Observations-R1.md); [ROM-D010](./DECISIONS.md#rom-d010--lead-r1-проверена-accept-stage-1); 25 локальных единиц |
-| Stage 2 — повторения | COMPLETE / ACCEPTED | [принятый rr-002](https://github.com/inprofundo777-wq/research_lab/blob/ff686adeba3f44b56d3d5d6138766b983c38b973/Research/IP-001/Research/Romans/rr-002_Romans_Repetition_Stable_Evidence_Map.md); [ROM-D012](./DECISIONS.md#rom-d012--lead-accept-stage-2-возврат-owner); P1–P5 / S1–S3 / N1–N2, полный маршрут 25 units |
-| Stage 3 — группы | Содержательная сверка завершена ROM-D015; NOT ACCEPTED до отдельной сдачи Researcher | [точный rr-003](https://github.com/inprofundo777-wq/research_lab/blob/357be8990218ed6c99940260783377a599282eb7/Research/IP-001/Research/Romans/rr-003_Romans_Provisional_Groups.md); [завершение передачи ROM-D014](./DECISIONS.md#rom-d014--lead-завершить-журнальную-сдачу-опубликованного-stage-3-по-rom-d013); критерии ROM-D013 сохранены |
-| Независимая проверка / источники | предварительная карта вопросов создана; допуск оценщика не установлен | §7 пакета; ROM-Q001–ROM-Q012 учтены, предметная проверка не запускалась |
-| Verification / Draft Stage 4 / аудит закрытия / книжный итог | не активированы | отдельные назначения и gates |
+| Installation / Audit | утверждена D013 после PASS | [пакет](https://github.com/inprofundo777-wq/research_lab/blob/f0b09235034f09aca86eb73bae366aa19fd197a1/Research/IP-001/Planning/ROMANS-Book-Cycle-Installation-Package-v0.1.md); [audit report](https://github.com/inprofundo777-wq/research_lab/blob/0aa1e1ad33d2b2674d54538391df756a3ebead69/Research/IP-001/Review/ROMANS-Installation-Audit-v0.1.md) |
+| Stage 0 | ACCEPTED / ROM-D006 | [rr-000 R1](https://github.com/inprofundo777-wq/research_lab/blob/6df00ed44b668e50adb87f35cf87f89444afd779/Research/IP-001/Research/Romans/rr-000_Romans_Stage0_Corpus_Map-R1.md); 16 глав / 17 кандидатов |
+| Stage 1 | ACCEPTED / ROM-D010 | [rr-001 R1](https://github.com/inprofundo777-wq/research_lab/blob/d7a0abded08785b622fcbb96780c4c9ef4343e3c/Research/IP-001/Research/Romans/rr-001_Romans_Primary_Observations-R1.md); 18 кандидатов / 25 единиц |
+| Stage 2 | ACCEPTED / ROM-D012 | [rr-002](https://github.com/inprofundo777-wq/research_lab/blob/ff686adeba3f44b56d3d5d6138766b983c38b973/Research/IP-001/Research/Romans/rr-002_Romans_Repetition_Stable_Evidence_Map.md); P1–P5, S1–S3, N1–N2 |
+| Stage 3 | ACCEPTED / ROM-D017 | [rr-003](https://github.com/inprofundo777-wq/research_lab/blob/357be8990218ed6c99940260783377a599282eb7/Research/IP-001/Research/Romans/rr-003_Romans_Provisional_Groups.md); G1–G6, полный маршрут 25 единиц; содержательная сверка ROM-D015, техническая сдача через Owner зарегистрирована Lead в ROM-D016 |
+| Snapshot / смысловой паспорт | закреплены / IP-001-D032 | точные immutable версии — в проектном handoff |
+| Независимая проверка / источники | не выполнялась; ресурс предварительный | конкретный допущенный оценщик/независимость и локальные издания будущей проверки не установлены |
+| Verification / Stage 4 / аудит закрытия / книжный итог | не активированы | отдельные полномочия, ресурс и договоры |
 
-**Следующий шаг — Researcher:** передать той же ветке одну ссылку на [ROM-D014](./DECISIONS.md#rom-d014--lead-завершить-журнальную-сдачу-опубликованного-stage-3-по-rom-d013). Завершить только отдельный журнальный handoff опубликованного rr-003 по прежнему ROM-D013, без повторного Stage 3. Содержательная сверка уже выполнена ROM-D015; после сдачи Lead сверяет версию/передачу и фиксирует ACCEPT/RETURN; после ACCEPT — snapshot и смысловой паспорт → Owner. Общая установка и дополнение приняты D029 перспективно; нового критерия к этому файлу нет.
+Три сильных самостоятельных основания: ходатайство (8:34), владычество (14:9), совершение через Павла (15:18–19). Они не повтор одного действия; шесть групп различают доказательные типы и ограничения. Сильные единичные и отрицательные основания сохранены. NT-T не назначены.
 
-**Вопросы Римлянам:** первоначальные ROM-Q001–011 сохранены, на Stage 1 добавлен ROM-Q012 (15:12) с происхождением. [Принятый register — rr-001 R1 §4](https://github.com/inprofundo777-wq/research_lab/blob/d7a0abded08785b622fcbb96780c4c9ef4343e3c/Research/IP-001/Research/Romans/rr-001_Romans_Primary_Observations-R1.md). Q002/Q004/Q010 локально закрыты на RST; Q001/Q003/Q005/Q006/Q007/Q008/Q009/Q011/Q012 полностью или частично открыты. Stage 2 сохранил все эти диспозиции без изменения. Материальная Verification не выполнена; вопросы Деяний не смешиваются с Romans.
+**Вопросы:** Q002/Q004/Q010 закрыты только локально на RST; Q001/Q003/Q005/Q006/Q007/Q008/Q009/Q011/Q012 полностью/частично открыты — девять из двенадцати. Полные loci, происхождение, влияние и будущие области проверки — snapshot §4. Q001 отдельной Verification остаётся STOP / DEFERRED. Вопросы Деяний не импортированы.
 
-**Ресурсы независимой проверки:** CTX/LANG/TEXT — возможные домены при существенных поводах; конкретный оценщик, доказанное основание и независимость для этой книги не установлены. RST на bible.by фактически использован как рабочий источник Stage 0; конкретная печатная ревизия электронного текста не установлена. Переводы/Greek/аппарат — только по реальным triggers и отдельному разрешённому режиму. Эти gaps не дают независимый READY.
+**Ресурс:** RST bible.by использован Researcher 16.10.2026; печатная ревизия электронного текста неизвестна. Контекст, язык/перевод, цитатная функция и текстовые данные проверяются по конкретному основанию и отдельному назначению; перечень зависимостей в паспорте не запускает проверку. Независимая предметная способность и book-close capability не устанавливаются принятием Stage 3.
+
+**Дальнейшая передача:** [IP-001-D032](../../DECISIONS.md#ip-001-d032--lead-stage-3-римлянам-принят-snapshot-и-смысловой-паспорт-переданы-owner) — одна ссылка Owner для следующего решения. Новый Stage 3, повторная техническая сдача или повторное разрешение уже принятой стадии не нужны.
 
 ## Граница поколений
 
