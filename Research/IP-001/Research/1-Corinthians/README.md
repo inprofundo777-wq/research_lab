@@ -1,8 +1,8 @@
 # IP-001 — Первое послание к Коринфянам: местный паспорт
 
-**Сверено:** 17.10.2026 по [IP-001-D035](../../DECISIONS.md#ip-001-d035--director-независимый-местный-installation-audit-1-коринфянам-назначен); местный handoff — [1COR-D001](./DECISIONS.md#1cor-d001--lead-локальная-установка-подготовлена-местный-аудит-ожидается).
-**Статус:** LOCAL INSTALLATION PREPARED / LOCAL AUDIT ASSIGNED, VERDICT PENDING. Stage 0 не разрешён; Researcher не назначен.
-**Ответственный за подготовку:** Research Project Lead v0.1, Package C, Installation only. **Следующий исполнитель — независимый Auditor:** местный Installation Audit по D035 → Director/Owner для отдельного решения по Stage 0.
+**Сверено:** 17.10.2026 по [IP-001-D036](../../DECISIONS.md#ip-001-d036--auditor-местный-installation-audit-1-коринфянам-pass-with-conditions); местный handoff — [1COR-D001](./DECISIONS.md#1cor-d001--lead-локальная-установка-подготовлена-местный-аудит-ожидается).
+**Статус:** LOCAL AUDIT COMPLETE / PASS WITH CONDITIONS; C01/C02 OPEN; OWNER GATE PENDING. Stage 0 не разрешён; Researcher не назначен.
+**Ответственный за подготовку:** Research Project Lead v0.1, Package C, Installation only. **Следующий owner — Director → Owner:** местный verdict получен, требуются принятие конфигурации и отдельное решение по Stage 0 с условиями до отбора.
 **Корпус:** 1 Коринфянам, главы 1–16. **Код:** 1COR. **Проект:** [IP-001](../../README.md). **Книжный журнал:** [DECISIONS](./DECISIONS.md).
 
 ## Применяемая установка
@@ -16,7 +16,7 @@
 | Объект | Состояние / точный gate |
 |---|---|
 | Local Installation | подготовлена по D033; не принята для исполнения |
-| Независимый местный Installation Audit | назначен Director по D035; verdict ещё не получен |
+| Независимый местный Installation Audit | [PASS WITH CONDITIONS](https://github.com/inprofundo777-wq/research_lab/blob/7bc8586fc0bca15c130bf4249c6b76a98a9194e6/Research/IP-001/Review/1COR-Local-Installation-Audit-v0.1.md), D036 / 1COR-D002; C01/C02 открыты |
 | Источник | RST bible.by, https://bible.by/syn/53/1/ … /16/; Lead 17.10.2026 проверил текст только глав 1/16; доступ 2–15/будущей ветки не установлен, печатная ревизия неизвестна |
 | Researcher / экспозиция | не назначен; предложена отдельная ветка Researcher 1COR; disclosure до отбора ещё не получен |
 | Stage 0 | NOT AUTHORIZED; местный договор подготовлен в §5 дополнения |
@@ -46,3 +46,7 @@ CTX/LANG/TEXT — предварительные области по факти�
 Полное местное предложение и договор аудита — §6 дополнения; отдельный конкретный Researcher assignment появится только после закрытия локального audit gate и Owner-разрешения. Researcher тогда сдаёт цельный artifact **и отдельный книжный handoff** с immutable commit/blob → Lead → Owner.
 
 Lead ведёт этот паспорт/журнал и проектную навигацию; Director назначает местный аудит; независимый Auditor возвращает verdict, не принимает ownership исследования. Деяния и Римлянам остаются на паузе, их открытые вопросы сохранены.
+
+## Местный аудиторский gate
+
+[IP-001-D036](../../DECISIONS.md#ip-001-d036--auditor-местный-installation-audit-1-коринфянам-pass-with-conditions) / [1COR-D002](./DECISIONS.md#1cor-d002--auditor-местный-аудит-завершён-с-условиями): до отбора будущая ветка документирует полный RST 1–16 (C01), раскрывает прежнюю содержательную экспозицию, а Lead фиксирует её диспозицию (C02). Существенный пробел/старый answer key — STOP → Director/Owner. Сам verdict не разрешает Stage 0. Director возвращает Owner точную конфигурацию и отдельный gate; общий аудит не повторяется без материального отклонения.
