@@ -985,3 +985,18 @@ Verification/MV, capability-проба, независимый предметн�
 **Output Contract:** один цельный отчёт с точным target/version, декларацией независимости, scope/evidence boundary, findings с loci, явной диспозицией 403 и неизвестных 2–12, pre-selection условий с ответственными/evidence и однозначным **PASS / PASS WITH CONDITIONS / RETURN / BLOCK / ESCALATE**. При непокрытом жанре/методе, материальной смене источника/корпуса, конфликте норм или исторической содержательной экспозиции — точный STOP/расширение Director/Owner; не выдавать частный source gap за закрытый. Сохранить отчёт с immutable commit/blob, записать append-only книжный `2COR-D` handoff и короткую проектную запись по следующему свободному номеру, сверив концы журналов; вернуть Director → Owner для отдельного принятия/решения о Stage 0. Auditor не правит объект Lead и не принимает исследовательское ownership.
 
 **Состояние:** LOCAL INSTALLATION PREPARED / LOCAL AUDIT ASSIGNED, VERDICT PENDING / RESEARCH NOT AUTHORIZED. Деяния, Римлянам и 1 Коринфянам на прежних паузах с собственными вопросами. 2COR Researcher и Stage 0–4 не запущены; Verification/MV, книжное закрытие, история/межкнижное сравнение и NT-T не разрешены. **Owner передаёт независимой ветке Auditor одну ссылку на IP-001-D050.**
+
+
+---
+
+## IP-001-D051 — Auditor: местный Installation Audit 2 Коринфянам — PASS WITH CONDITIONS
+
+**Дата:** 18.10.2026 (Europe/Tallinn). **Основание:** исполнение назначения Director D050, прямо переданного Owner; Research Auditor v0.1 / Package C / Installation Audit only. Конец журнала проверен: D050; книжный handoff сохранён как 2COR-D002.
+
+**Полная передача:** [2COR-D002](./Research/2-Corinthians/DECISIONS.md#2cor-d002--auditor-местный-installation-audit--pass-with-conditions). **Цельный отчёт:** [2COR-LOCAL-INSTALL-AUDIT-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/a14d9b4182983a19d630d5f51d3e34f0533e8705/Research/IP-001/Review/2COR-Local-Installation-Audit-v0.1.md), commit `a14d9b4182983a19d630d5f51d3e34f0533e8705`, blob `aa4acf3fdcc26a237b33727115799ae58f3f5e36`; сохранённый текст прочитан обратно, совпадение подтверждено. Target — местный паспорт D050, commit `ece8ce07290746a366cff883bfd0e20efc59a6d1` / blob `3a8ec49843d2d1b9d9716efebb4fd75476302dae`, без изменения объекта Lead; общая база R1/A/D029 не переаудирована целиком.
+
+**PASS WITH CONDITIONS:** C01 — реальный полный RST 13/13 с восстановимым evidence получения/полноты, отдельной диспозицией исходного 403 главы 1 и неизвестных 2–12; C02 — собственное disclosure будущего Researcher и явная диспозиция Lead. **Оба OPEN, обязательны до любого предметного отбора.** Условный source gate достаточен для Installation, но не устанавливает READY. Неполнота/403 → STOP → Lead; существенный старый ключ, материальная смена источника/перевода/корпуса или непокрытая конфигурация → Director/Owner. Требования к доказательствам и границы замены носителя — §§4–6 отчёта.
+
+**Ownership → Director → Owner** для отдельного принятия/решения о разрешённом объёме; затем Lead в пределах решения закрывает условия и оформляет адресное назначение. Декларация независимости/административной экспозиции и evidence boundary — §1–2 отчёта. Старые файлы/первичный библейский текст не читались; Stage 0 и исследование не запускались. Поздние gates и паузы ACTS/ROM/1COR не изменены.
+
+**Навигационный долг Lead/Director:** отразить completed local Audit / PASS WITH CONDITIONS / C01+C02 OPEN в текущих паспортах и верхних навигационных строках журналов; проверенный immutable target не переписывать как будто это новая аудированная редакция. Auditor передаёт результат и operational ownership не сохраняет. Для следующей передачи Director достаточно одной ссылки на **IP-001-D051**.
