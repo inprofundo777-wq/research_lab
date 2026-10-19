@@ -4,7 +4,7 @@
 
 ## Быстрый вход
 
-**Сверено:** 18.10.2026. [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
+**Сверено:** 19.10.2026. [Карта развития](./DEVELOPMENT.md) · [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
 
 | Объект | Текущее состояние | Открыть |
 |---|---|---|
