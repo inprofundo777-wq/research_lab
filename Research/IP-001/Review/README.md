@@ -1,22 +1,15 @@
-# IP-001 — проверки и готовность
+# IP-001 — аудиты и границы проверки
 
-**Сверено:** 17.10.2026 по [IP-001-D036](../DECISIONS.md#ip-001-d036--auditor-местный-installation-audit-1-коринфянам-pass-with-conditions) для местного аудита 1COR и D029 для принятия общего R1/A; статус Деяний — [ACTS-D017](../Research/ACTS/DECISIONS.md#acts-d017--owner-рабочий-проход-деяний-завершён-проверка-отложена).  
-**Состояние:** оба P0 результата приняты; C0/MV отложены решением Owner и не выполнялись; ownership — Owner.  
-**Паспорт проекта:** [IP-001](../README.md). **Книжный журнал:** [ACTS/DECISIONS](../Research/ACTS/DECISIONS.md).
+**Сверено:** 19.10.2026 по [IP-001-D053](../DECISIONS.md#ip-001-d053--owner-принять-местную-установку-2-коринфянам-и-разрешить-контролируемый-stage-0). Это навигация по результатам проверки, не самостоятельный допуск стадии. [Паспорт проекта](../README.md) содержит текущее состояние каждой книги.
 
-| Объект | Artifact | Статус / граница |
+| Объект | Что проверено | Действующая граница |
 |---|---|---|
-| Assessor P0 | [Eligibility](./CV-ACTS-IV-01-Assessor-Eligibility-v0.1.md), exact immutable target в ACTS-D011/D013 | принят как P0 record; предметный допуск NOT ESTABLISHED |
-| Candidate P0 | [Readiness](./CV-ACTS-IV-01-Candidate-Readiness-v0.1.md), exact immutable target в ACTS-D012/D013 | принят как P0 record; capability NOT ESTABLISHED |
-| Сводка Lead | [Readiness Decision](./CV-ACTS-IV-01-Readiness-Decision-v0.1.md) | P0 COMPLETE / ACCEPTED; C0 NOT READY / NOT AUTHORIZED |
-| Capability Candidate / assessment / MV | результатов нет | не выполнялись / не разрешены |
-| Общая Installation IP-001 R1 | [Audit R1 по маршруту A](./IP-001-NT-Book-Cycle-Installation-Audit-R1.md), immutable target в IP-001-D028 | PASS для общего дизайна; R1/A и ограниченное дополнение приняты D029; §11.1(4)/B не приняты; не PASS 27 книг |
-| Местная Installation 1COR | [локальный Audit](https://github.com/inprofundo777-wq/research_lab/blob/7bc8586fc0bca15c130bf4249c6b76a98a9194e6/Research/IP-001/Review/1COR-Local-Installation-Audit-v0.1.md), immutable target в D036 | PASS WITH CONDITIONS; C01/C02 открыты, Stage 0 не разрешён; возврат Director → Owner |
+| [Общая установка 27 книг R1](./IP-001-NT-Book-Cycle-Installation-Audit-R1.md) | независимый Installation Audit PASS по маршруту A; Owner принял R1/A в D029 | общий дизайн, не местный PASS всех книг и не пакетный Stage 0 |
+| [Деяния: P0](./CV-ACTS-IV-01-Readiness-Decision-v0.1.md) | Assessor eligibility и Candidate readiness records приняты в ACTS-D013; [ресурсный Brief](../Planning/ACTS-Assessor-and-Source-Resource-Brief-v0.1.md) завершён | предметный допуск Assessor и достаточность источников не установлены; C0/MV отложены ACTS-D017, 11 вопросов открыты |
+| [Римлянам](../Research/Romans/README.md) | местная Installation прошла Audit PASS по D013; Stage 0–3 приняты Lead | независимой поздней Verification и закрытия нет; 9 вопросов полностью/частично открыты |
+| [1 Коринфянам](./1COR-Local-Installation-Audit-v0.1.md) | местный Audit PASS WITH CONDITIONS по D036; C01/C02 позднее закрыты Lead в 1COR-D006; Stage 0–3 приняты | первоначальный verdict остаётся исторически точным; 18 вопросов открыты, предметный независимый PASS не объявлен |
+| [2 Коринфянам](./2COR-Local-Installation-Audit-v0.1.md) | местный Audit PASS WITH CONDITIONS по D051; Owner принял местную установку и условно разрешил Stage 0 по D053 | C01/C02 **открыты до отбора**: полный полученный RST 13/13, включая проблему доступа к главе 1, и disclosure экспозиции будущей ветки; Researcher ещё не назначен |
 
-Submitted status внутри двух source artifacts сохранён как provenance; более поздняя приёмка определяется ACTS-D013. Исходные документы не редактируются ради изменения статуса.
+Для 2COR Lead оформляет адресное назначение Researcher в отдельной ветке: сначала документальная readiness, затем явный Lead ACCEPT C01/C02, только после этого Stage 0. При существенном пробеле — STOP → Director/Owner. Stage 1–4, Verification/MV, независимый предметный Review и книжное закрытие этой установкой не разрешены.
 
-По ACTS-D016 подтверждены локальные русские страницы и закреплённые файлы SBLGNT с записью Acts 20:28; предметная достаточность TEXT и ревизии русских веб-текстов не установлены. [Ресурсный Brief](../Planning/ACTS-Assessor-and-Source-Resource-Brief-v0.1.md) завершён. Полной изоляции/model diversity не заявлено; организационная раздельность и disclosure приняты без предметной сертификации. Все 11 вопросов Verification открыты.
-
-**Следующий шаг по Деяниям:** [ACTS-D017](../Research/ACTS/DECISIONS.md#acts-d017--owner-рабочий-проход-деяний-завершён-проверка-отложена) уже отложил C0/MV до появления ресурса и нового Owner gate. [ACTS-D016](../Research/ACTS/DECISIONS.md#acts-d016--lead-ресурсный-brief-завершён-возврат-owner) сохраняет установленное и недостающее в ресурсах. C0/MV, Stage 4/book close и historical comparison не разрешены.
-
-**Владелец навигации:** Lead IP-001 при handoff/изменении gate.
+Ни один местный Installation Audit не доказывает предметную правильность будущих исследовательских выводов. Точные immutable targets и историю решений см. [проектный журнал](../DECISIONS.md), [2COR журнал](../Research/2-Corinthians/DECISIONS.md) и соответствующие книжные паспорта. **Ответственный за навигацию:** Lead IP-001 при изменении gate; Director сверяет границу аудита.
