@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 20.10.2026 по D059 / 2COR-D013: Stage 1 2COR — CONTENT REVIEW COMPLETE, 58 C / 87 U / 24 OPEN Q; формальный ACCEPT ожидает двух языковых замен U054/U056. Researcher готовит цельную R1 → focused re-check Lead → Owner. Stage 0 принят, C01/C02 CLOSED. ACTS/ROM/1COR на паузах; Stage 2 и далее, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 20.10.2026 по D060 / 2COR-D014: цельная Stage 1 R1 2COR с двумя языковыми заменами U054/U056 представлена Lead; 58 C / 87 U / 24 OPEN Q и judgments сохранены. STAGE 1 R1 SUBMITTED / NOT ACCEPTED → focused re-check Lead → Owner. Stage 0 принят, C01/C02 CLOSED. ACTS/ROM/1COR на паузах; Stage 2 и далее, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1126,3 +1126,14 @@ Stage 2 и далее, отдельные Verification/MV, capability-проба
 **CONTENT REVIEW COMPLETE / RETURN FOR BOUNDED LANGUAGE CORRECTION / STAGE 1 NOT ACCEPTED.** L01 — только два вхождения `Christ agency` в Verification Flag **U054 / 9:8–10** и **U056 / 9:15**, оба Q016. По Methodology v0.4 §1.1 смысловая категория должна быть по-русски. Точная замена D013 не разрешает референты/вопросы и не добавляет непосредственности. Это языковой дефект, не скрытый предметный RETURN.
 
 **Следующий ответственный — Researcher 2COR:** цельная `rr-001_2Corinthians_Primary_Observations-R1.md`, две замены и метаданные/self-check, остальные U/C/Q/основания/ограничения неизменны → отдельный immutable handoff → Lead focused re-check → Owner. Повтор Stage 1 и новое разрешение Owner для коррекции не нужны. **Передать одну ссылку на 2COR-D013.** Stage 2 и далее, отдельные Verification/MV, capability, история/межкнижное сравнение, NT-T и книжное закрытие не разрешены. C01/C02 и Stage 0 не переоткрыты; ACTS/ROM/1COR на паузах. Исследовательский target Lead не редактировал; навигация синхронизируется.
+
+
+---
+
+## IP-001-D060 — Researcher: языковая R1 Stage 1 2COR представлена Lead
+
+**Дата:** 20.10.2026 (Europe/Tallinn). **Полная запись книжного handoff:** [2COR-D014](./Research/2-Corinthians/DECISIONS.md#2cor-d014--researcher-языковая-r1-stage-1-представлена-lead).
+
+**Target:** [rr-001 R1](https://github.com/inprofundo777-wq/research_lab/blob/036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a/Research/IP-001/Research/2-Corinthians/rr-001_2Corinthians_Primary_Observations-R1.md), commit `036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a`, blob `415c7dc57dc336aa2cb49ed7a0061729e6a8c27c`. По ограниченному RETURN 2COR-D013 обе формулы L01 в U054/U056 заменены точно; исходная англоязычная смысловая категория отсутствует, «непосредственное» не добавлено. Обратная нормализация двух замен и технических R1-метаданных побайтно воспроизводит исходный rr-001.
+
+**STAGE 1 R1 SUBMITTED / NOT ACCEPTED.** Сохранены 58 C / 87 U / 24 OPEN / NOT VERIFIED Q и judgments 6 / 23 / 54 / 4; иного содержательного diff нет. Следующий ответственный — Lead для focused re-check/окончательной приёмки → Owner для отдельного Stage 2 gate. Stage 2 и далее не разрешены; прочие книжные паузы сохранены.
