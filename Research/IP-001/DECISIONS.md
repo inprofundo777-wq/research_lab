@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 21.10.2026 по D061 / 2COR-D015: Stage 1 R1 2COR принят; 58 C / 87 U / 24 OPEN / NOT VERIFIED Q сохранены. Stage 0 принят, C01/C02 CLOSED. Следующий ответственный — Owner для отдельного решения о Stage 2; Researcher не назначен. ACTS/ROM/1COR на паузах; Verification/MV, поздние стадии и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 21.10.2026 по D062 / 2COR-D016: Stage 0–1 2COR приняты; Owner разрешил единый Stage 2, Researcher назначен, результат ещё не сдан. 58 C / 87 U / 24 OPEN Q, C01/C02 CLOSED сохранены. Далее — Lead ACCEPT/RETURN → Owner. ACTS/ROM/1COR на паузах; Stage 3–4, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1147,3 +1147,15 @@ Stage 2 и далее, отдельные Verification/MV, capability-проба
 **ACCEPT STAGE 1.** Принята [цельная R1](https://github.com/inprofundo777-wq/research_lab/blob/036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a/Research/IP-001/Research/2-Corinthians/rr-001_2Corinthians_Primary_Observations-R1.md), commit `036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a`, blob `415c7dc57dc336aa2cb49ed7a0061729e6a8c27c`. L01 CLOSED: U054/U056 исправлены точно, без добавления непосредственности. Полнотекстовое обратное преобразование только двух фраз и технических R1-метаданных побайтно воспроизводит исходный blob `ab9419b1c5c34632f20176d7f4070dac677f0665`; иного содержательного diff нет. Все 58 C / 87 U / 24 OPEN / NOT VERIFIED Q и judgments 6 / 23 / 54 / 4 сохранены. Повтор полной содержательной сверки не требовался; это внутренняя приёмка договора, не независимый PASS.
 
 **Следующий ответственный — Owner.** Рекомендовано отдельно разрешить единый Stage 2 / карту повторений и границ всей принятой Stage 1; готовый текст решения — в D015. **Stage 2 NOT AUTHORIZED; Researcher не назначен.** C01/C02 и Stage 0 не переоткрыты, ограничения источника/экспозиции сохранены; ACTS/ROM/1COR на паузах. Stage 3–4, Verification/MV, capability, история/межкнижное сравнение, NT-T и книжное закрытие не активируются. Проектная/плановая и книжная навигация синхронизированы; root README требует Director-сверки. Передача Owner одной ссылкой на **2COR-D015**.
+
+---
+
+## IP-001-D062 — Owner: разрешить единый Stage 2 2COR
+
+**Дата:** 21.10.2026 (Europe/Tallinn). **Источник:** прямое «Давай дальше» в действующей ветке Lead в ответ на ACCEPT Stage 1 R1 и рекомендацию отдельно разрешить единый Stage 2 из [2COR-D015](./Research/2-Corinthians/DECISIONS.md#2cor-d015--lead-accept-stage-1-r1-следующий-gate-owner). В этом контексте Owner принял предложенный следующий шаг; это не общее разрешение всех поздних стадий. Концы проверены: D061 / 2COR-D015, main `ba47272c8fcaccbfdaa53355c2765a547c153647`.
+
+**Разрешён только контролируемый единый Stage 2 / карта повторений и границ всей принятой Stage 1 2COR**, Researcher v0.1 / Package C. Вход — [Stage 1 R1](https://github.com/inprofundo777-wq/research_lab/blob/036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a/Research/IP-001/Research/2-Corinthians/rr-001_2Corinthians_Primary_Observations-R1.md), commit `036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a`, blob `415c7dc57dc336aa2cb49ed7a0061729e6a8c27c`, ACCEPT D015; происхождение — принятая Stage 0 R1 D010. Все 87 U / 58 C / 24 OPEN / NOT VERIFIED Q, источниковые ограничения и изоляция сохраняются. Methodology v0.4 / Protocol v0.2 с принятым дополнением; полномочия постоянного Registry не изменены.
+
+**Исполнение Lead:** [2COR-D016 — полное адресное назначение и 2COR-S2-OC-v0.1](./Research/2-Corinthians/DECISIONS.md#2cor-d016--lead-назначение-researcher-на-единый-stage-2). Результат — цельный rr-002 и отдельный immutable handoff → Lead ACCEPT/точный RETURN → Owner. **Следующий ответственный — Researcher 2COR. STAGE 2 AUTHORIZED / RESEARCHER ASSIGNED; результат ещё не сдан/не принят.** Owner передаёт в действующую ветку Researcher одну ссылку на D016.
+
+Stage 3–4, отдельные Verification/MV, capability, историческое/межкнижное сравнение, NT-T и книжное закрытие не разрешены. ACTS/ROM/1COR на паузах; C01/C02 и принятые Stage 0–1 не переоткрываются. Книжная, проектная и плановая навигация синхронизированы; root-навигационный долг Director из D015 остаётся.
