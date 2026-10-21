@@ -1,5 +1,11 @@
 # IP-001 — Второе послание к Коринфянам: местный паспорт v0.1
 
+**Текущая навигация — 21.10.2026:** местная установка принята D053; C01/C02 CLOSED D006; Stage 0 R1 принят D010; **Stage 1 R1 принят [2COR-D015](./DECISIONS.md#2cor-d015--lead-accept-stage-1-r1-следующий-gate-owner)** (58 C / 87 U / 24 OPEN / NOT VERIFIED Q). [Точный принятый rr-001 R1](https://github.com/inprofundo777-wq/research_lab/blob/036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a/Research/IP-001/Research/2-Corinthians/rr-001_2Corinthians_Primary_Observations-R1.md). **Следующий ответственный — Owner:** отдельное решение о Stage 2, конкретная рекомендация в D015. Stage 2 не разрешён, Researcher не назначен; ACTS/ROM/1COR на паузах. Verification/MV, поздние стадии и книжное закрытие не активированы.
+
+Ниже сохранён исходный аудированный паспорт Installation v0.1; его прежние статусы/проектные назначения относятся к подготовке 18.10.2026 и не заменяют текущий [книжный журнал](./DECISIONS.md).
+
+---
+
 **ID:** 2COR-LOCAL-INSTALL-v0.1. **Дата:** 18.10.2026 (Europe/Tallinn).  
 **Статус:** LOCAL INSTALLATION PREPARED / LOCAL AUDIT PENDING / RESEARCH NOT AUTHORIZED.  
 **Основание:** [Owner IP-001-D048](../../DECISIONS.md#ip-001-d048--owner-1-коринфянам-на-паузе-подготовить-следующий-книжный-цикл).  
