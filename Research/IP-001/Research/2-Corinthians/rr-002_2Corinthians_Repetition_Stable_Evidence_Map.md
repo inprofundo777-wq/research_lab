@@ -420,7 +420,7 @@
 
 **Исходная запись:** [2COR-Q016](https://github.com/inprofundo777-wq/research_lab/blob/036a5dbec2b4ada68f441ab1bb881ccee2f0bf2a/Research/IP-001/Research/2-Corinthians/rr-001_2Corinthians_Primary_Observations-R1.md#2cor-q016). **Новые связи Stage 2:** [2COR-NB001](#2cor-nb001), [2COR-NB005](#2cor-nb005), [2COR-NB006](#2cor-nb006), [2COR-NM008](#2cor-nm008), [2COR-NM010](#2cor-nm010).
 
-**Локальное уточнение Stage 2:** NB001/NB005/NB006 и NM010 сохраняют Бога/Дающего, будущее снабжение, цитатный уровень и неназванное содержание дара 9:15; автоматического Christ agency нет и русский язык соблюдён.
+**Локальное уточнение Stage 2:** NB001/NB005/NB006 и NM010 сохраняют Бога/Дающего, будущее снабжение, цитатный уровень и неназванное содержание дара 9:15; автоматического основания приписать действие Христу нет; русский язык соблюдён.
 
 ### 2COR-Q017 — OPEN / NOT VERIFIED
 
