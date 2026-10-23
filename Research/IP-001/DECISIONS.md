@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 21.10.2026 по D062 / 2COR-D016: Stage 0–1 2COR приняты; Owner разрешил единый Stage 2, Researcher назначен, результат ещё не сдан. 58 C / 87 U / 24 OPEN Q, C01/C02 CLOSED сохранены. Далее — Lead ACCEPT/RETURN → Owner. ACTS/ROM/1COR на паузах; Stage 3–4, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 24.10.2026 по D063 / 2COR-D017: цельный Stage 2 2COR представлен Lead — 5 R / 6 S / 9 NB / 10 NM, все 87 U / 58 C / 24 OPEN / NOT VERIFIED Q сохранены. STAGE 2 SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN → Owner. Stage 0–1 приняты, C01/C02 CLOSED. ACTS/ROM/1COR на паузах; Stage 3–4, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1159,3 +1159,14 @@ Stage 2 и далее, отдельные Verification/MV, capability-проба
 **Исполнение Lead:** [2COR-D016 — полное адресное назначение и 2COR-S2-OC-v0.1](./Research/2-Corinthians/DECISIONS.md#2cor-d016--lead-назначение-researcher-на-единый-stage-2). Результат — цельный rr-002 и отдельный immutable handoff → Lead ACCEPT/точный RETURN → Owner. **Следующий ответственный — Researcher 2COR. STAGE 2 AUTHORIZED / RESEARCHER ASSIGNED; результат ещё не сдан/не принят.** Owner передаёт в действующую ветку Researcher одну ссылку на D016.
 
 Stage 3–4, отдельные Verification/MV, capability, историческое/межкнижное сравнение, NT-T и книжное закрытие не разрешены. ACTS/ROM/1COR на паузах; C01/C02 и принятые Stage 0–1 не переоткрываются. Книжная, проектная и плановая навигация синхронизированы; root-навигационный долг Director из D015 остаётся.
+
+
+---
+
+## IP-001-D063 — Researcher: полный Stage 2 2COR представлен Lead
+
+**Дата:** 24.10.2026 (Europe/Tallinn). **Полная запись книжного handoff:** [2COR-D017](./Research/2-Corinthians/DECISIONS.md#2cor-d017--researcher-полный-stage-2-представлен-lead).
+
+**Target:** [rr-002](https://github.com/inprofundo777-wq/research_lab/blob/2bdff86d64d5f01c58cbedb9eba387b6f9852a25/Research/IP-001/Research/2-Corinthians/rr-002_2Corinthians_Repetition_Stable_Evidence_Map.md), commit `2bdff86d64d5f01c58cbedb9eba387b6f9852a25`, blob `12d7d641ba1f6fd398f468f406858895576b83bd`. Выполнен единый проход всей принятой Stage 1 R1: 30 записей — **5 R / 6 S / 9 NB / 10 NM**; **87/87 U**, **58/58 C**, **24/24 Q** прослеживаются. Все Q остаются OPEN / NOT VERIFIED; новых Q/C и материального дефекта Stage 1 не выявлено. Зависимые формулы и множественные связи не посчитаны независимыми событиями.
+
+**STAGE 2 SUBMITTED / NOT ACCEPTED.** Следующий ответственный — Lead для полной проверки/ACCEPT либо точного RETURN → Owner для отдельного Stage 3 gate. Stage 3 и далее не разрешены; источниковые ограничения, изоляция и прочие книжные паузы сохранены.
