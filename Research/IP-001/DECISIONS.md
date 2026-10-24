@@ -1319,3 +1319,37 @@ Stage 0–2 приняты, F01 CLOSED, C01/C02 сохранены. Stage 4, Ver
 Четыре файла получены обратно целиком по immutable commit; точное совпадение с подготовленными текстами и blobs подтверждено. Проверены 3 разных кода/корпуса/targets, местная полнота полей общего §3, валидность относительных ссылок, inherited pins и отсутствие C/Q/loci/псевдоприёмок. Общие нормы не переписаны; прежние книги и их срезы не изменены. Это самопроверка дизайна Lead, не независимый verdict.
 
 **DESIGN PREPARED / DIRECTOR REVIEW AND LOCAL AUDITS PENDING / RESEARCH NOT AUTHORIZED. Ownership → Director под D072, затем Owner по разрешению исполнения.** Auditor и Researcher не назначены; readiness/Stage 0 не запущены. ACTS/ROM/1COR/2COR сохраняют рабочие паузы; Stage 1–4 новых книг, Verification/MV, capability, история/межкнижное сравнение, NT-T и книжное закрытие не разрешены. Проектная и плановая навигация синхронизированы. Одна ссылка для передачи — **IP-001-D073**.
+
+
+---
+
+## IP-001-D074 — Director: пилотная установка GAL/EPH/PHP сверена; назначен независимый местный аудит
+
+**Дата:** 24.10.2026 (Europe/Tallinn). **Основание:** поручение Director в [D072](#ip-001-d072--director-облегчённый-пилот-для-следующих-книжных-циклов), точная передача Lead [D073](#ip-001-d073--lead-конкретная-установка-пилота-galephphp-подготовлена-передача-director), Owner D071, принятый маршрут R1/A [D029](#ip-001-d029--owner-принятие-общей-установки-r1-по-маршруту-a-и-ограниченного-дополнения-protocol). Роль Director v0.1 / Package C: ограниченная сверка маршрута установки и назначение аудита в пределах Owner gate. Сам Director не является независимым Auditor.
+
+### Сверка Director и формат назначения
+
+**CONCUR для передачи на аудит, не PASS установки и не разрешение Stage 0.** Общий лист содержит единый применимый договор, ссылки на принятую R1/A и отдельные source/disclosure/Owner gates. Три карточки имеют собственные полные корпуса (GAL 1–6; EPH 1–6; PHP 1–4), namespace, будущие rr-000/C/Q, жанровые настройки и STOP. Первые/последние главы показали ограниченную доступность носителя; средние главы, полный экспорт, ревизия текста и экспозиция будущего Researcher остаются OPEN. Достаточность условий, включая одну ветку Researcher для трёх книг, должен независимо оценить Auditor. Заранее готовых C/Q и исследовательского вывода нет. Материального дефекта для **назначения проверки дизайна** Director не установил.
+
+По [Independence and Audit Standard v0.1](../../Roles/Standards/Independence_and_Audit_v0.1.md) аудит Installation Lead активирует Director; [Registry](../../Roles/VERSION_REGISTRY.md) допускает Auditor v0.1 в режиме Installation Audit. Стандарт требует независимости и обоснованного verdict, но не устанавливает число файлов отчёта. **Назначаю одну независимую установочную проверку с одним отчётом и тремя самостоятельными verdict**. Формат одного отчёта не объединяет объекты: GAL/EPH/PHP проверяются каждый по собственному evidence; общий вывод без трёх verdict не принимается. При конфликте независимости или невозможности раздельной проверки Auditor возвращает BLOCK/ESCALATE, а не общий PASS.
+
+### Адресное назначение независимому Auditor
+
+**Primary Role:** Research Auditor v0.1, Scoped Active. **Package:** C. **Secondary Role:** нет. **Mode:** только Installation Audit общего листа и трёх местных карточек. **Project/Stage:** IP-001, GAL/EPH/PHP, дизайн до Stage 0. **Protocol:** IP-001 Protocol v0.2 + принятое дополнение v0.1; Methodology v0.4; общая R1/A, Owner D029. **Assignment:** настоящее D074. **Output Contract:** §6 [общего листа](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/IP-001-GAL-EPH-PHP-Stage0-Pilot-Installation-v0.1.md) плюс уточнения ниже. **Authority:** процессная/методологическая проверка установки, без предметной приёмки библейских выводов, редакции объекта и разрешения Researcher/Stage 0. **Return Route:** Auditor → Director → Owner; конфликт с Director → Owner.
+
+**Неизменяемые объекты (все в commit `a5ae45cbf178df2cbebaf4a9097136fd84354209`):**
+
+| Объект | Ссылка | Blob |
+|---|---|---|
+| Общий лист | [PILOT-v0.1](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/IP-001-GAL-EPH-PHP-Stage0-Pilot-Installation-v0.1.md) | `ad6c4c84c4ef20d3096d16f259613229f1aec90c` |
+| GAL | [карточка GAL](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/GAL-Local-Installation-Card-v0.1.md) | `00d83adaea227a29a6b43899839d5ee56ae680a7` |
+| EPH | [карточка EPH](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/EPH-Local-Installation-Card-v0.1.md) | `8f41ed95891af57751a084928d0fc7adc42bfa47` |
+| PHP | [карточка PHP](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/PHP-Local-Installation-Card-v0.1.md) | `84a144d73c7d3eafe47373af3ac49e4de7e10976` |
+
+Auditor начинает с независимого Role Configuration Lock: собственные README/Charter/Operating Model v0.1, Installation и Independence Standards, Registry, Конституция v0.2, Methodology v0.4, Protocol v0.2 + дополнение, Criteria и принятые R1/A / Audit PASS / D029. Раскрой участие в создании общего листа/любой карточки и предшествующую экспозицию; при авторстве или материальном конфликте не выдавай независимый verdict, верни Director/Owner для иной ветки. Не пользуйся самопроверкой Lead как внешним доказательством.
+
+**Проверить:** точность pins и наследования R1/A, три полных корпуса и отдельные ID/выходы, допустимость общего PILOT-S0-OC, source gate (фактическое 2/6, 2/6, 2/4 не READY), disclosure и возможную межкнижную экспозицию одной будущей ветки, жанровые дельты, PARTIAL STOP, будущую ресурсную зависимость, три Owner gates и отдельные Lead acceptance. Укажи, можно ли при соблюдении условий использовать одну ветку Researcher для трёх Stage 0; при невозможности сформулируй точный RETURN/условие по каждой затронутой книге. Не создавай C/Q, не проводи Stage 0, не оценивай поздние исследовательские выводы.
+
+**Результат:** `Research/IP-001/Review/IP-001-GAL-EPH-PHP-Pilot-Installation-Audit-v0.1.md` — один отчёт с общими находками и тремя автономными разделами GAL/EPH/PHP. Каждый раздел содержит точный target/blob, проверенное evidence, отдельный **PASS / PASS WITH CONDITIONS / RETURN / BLOCK / ESCALATE**, доисполнительные и поздние условия, необходимые исправления и влияние общего finding. Неизвестное сохраняется как условие/ограничение; PASS установки не превращает SRC/EXP в READY. Закрепи immutable commit/blob отчёта и один handoff в D075 (либо следующем свободном D-ID), затем верни Director. Если один отчёт не позволяет дать три обоснованных verdict, прямо останови проверку и предложи три отдельных отчёта без расширения полномочий.
+
+**Текущий статус:** DIRECTOR CONCUR / INDEPENDENT INSTALLATION AUDIT ASSIGNED, NOT YET PERFORMED. Никакая из трёх установок Owner не принята; Researcher не назначен; SRC/EXP OPEN, Stage 0 и Stage 1–4 не разрешены. Четыре прежние книги остаются на рабочих паузах. После реального аудита Director передаёт Owner три отдельных статуса для трёх решений. **Ownership → независимая ветка Auditor для исполнения D074, затем Director → Owner.** Одна ссылка для передачи Auditor — эта запись D074.
