@@ -1,12 +1,12 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 24.10.2026 по [IP-001-D073](../DECISIONS.md#ip-001-d073--lead-конкретная-установка-пилота-galephphp-подготовлена-передача-director); конкретная установка пилота GAL/EPH/PHP подготовлена → Director; четыре прежние книги на паузах, Stage 0 новых не разрешён.
+**Сверено:** 24.10.2026 по [IP-001-D074](../DECISIONS.md#ip-001-d074--director-пилотная-установка-galephphp-сверена-назначен-независимый-местный-аудит); Director сверил пилот GAL/EPH/PHP и назначил независимый Installation Audit с тремя местными verdict; результат ещё не получен. Четыре прежние книги на паузах, Stage 0 новых не разрешён.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
 | [Общая установка 27 книжных циклов v0.1, R1](./IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md) | F01/F02 закрыты; [общий независимый Audit PASS по A](https://github.com/inprofundo777-wq/research_lab/blob/b0ec6fe556f189c98902b54c0a5b29998ea2a144/Research/IP-001/Review/IP-001-NT-Book-Cycle-Installation-Audit-R1.md); **принята Owner по IP-001-D029**. Для новой книги нужен отдельный местный аудит и Owner gate; B не применяется |
-| [Пилот GAL/EPH/PHP — общий лист](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/IP-001-GAL-EPH-PHP-Stage0-Pilot-Installation-v0.1.md) | DESIGN PREPARED / AUDITS PENDING; [передача D073](../DECISIONS.md#ip-001-d073--lead-конкретная-установка-пилота-galephphp-подготовлена-передача-director) → Director → независимые книжные verdict → отдельные Owner gates |
+| [Пилот GAL/EPH/PHP — общий лист](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/IP-001-GAL-EPH-PHP-Stage0-Pilot-Installation-v0.1.md) | DESIGN PREPARED / AUDIT ASSIGNED; [поручение D074](../DECISIONS.md#ip-001-d074--director-пилотная-установка-galephphp-сверена-назначен-независимый-местный-аудит) → Auditor (три verdict) → Director → отдельные Owner gates |
 | [GAL — местная карточка](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/GAL-Local-Installation-Card-v0.1.md) | Только дизайн: главы 1–6, SRC-GAL/EXP-GAL OPEN, нет Audit/Owner Stage 0 gate |
 | [EPH — местная карточка](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/EPH-Local-Installation-Card-v0.1.md) | Только дизайн: главы 1–6, SRC-EPH/EXP-EPH OPEN, нет Audit/Owner Stage 0 gate |
 | [PHP — местная карточка](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/PHP-Local-Installation-Card-v0.1.md) | Только дизайн: главы 1–4, SRC-PHP/EXP-PHP OPEN, нет Audit/Owner Stage 0 gate |
@@ -23,4 +23,4 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующая подготовка:** [D073 — конкретный пилот GAL/EPH/PHP](../DECISIONS.md#ip-001-d073--lead-конкретная-установка-пилота-galephphp-подготовлена-передача-director) подготовлен. Общий лист + три карточки переданы Director для сверки мандата/назначения независимого местного Audit с тремя verdict; затем Owner отдельно решает по каждой книге. Пакетный Stage 0 не запущен, Researcher не назначен; 2COR на паузе по D025.
+**Следующее действие:** [D074 — назначение независимого местного аудита](../DECISIONS.md#ip-001-d074--director-пилотная-установка-galephphp-сверена-назначен-независимый-местный-аудит). Auditor проверяет общий лист + три точные карточки и возвращает три самостоятельных verdict; затем Director передаёт Owner три отдельных решения. Аудит ещё не выполнен; Stage 0 не запущен, Researcher не назначен; 2COR на паузе по D025.
