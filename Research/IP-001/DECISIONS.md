@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 24.10.2026 по D068 / 2COR-D022: Stage 0–2 2COR приняты, Stage 3 разрешён Owner D067/D021; Researcher назначен, результат ещё не сдан. 30 записей Stage 2 / 87 U / 58 C / 24 OPEN Q сохранены. Далее — Lead ACCEPT/RETURN → Owner; snapshot/смысловой паспорт после ACCEPT Stage 3. ACTS/ROM/1COR на паузах; Stage 4, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 24.10.2026 по D069 / 2COR-D023: цельный Stage 3 2COR представлен Lead — 6 предварительных G; все 30 записей Stage 2 / 87 U / 58 C / 24 OPEN Q сохранены. STAGE 3 SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN → Owner. Stage 0–2 приняты; snapshot/смысловой паспорт только после ACCEPT Stage 3. ACTS/ROM/1COR на паузах; Stage 4, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1222,3 +1222,14 @@ Lead оформил единый контролируемый Stage 3 / пред
 **STAGE 3 AUTHORIZED / RESEARCHER ASSIGNED / OUTPUT NOT YET SUBMITTED. Следующий ответственный — Researcher 2COR:** цельный rr-003 и отдельный immutable handoff → Lead ACCEPT/RETURN → Owner. После ACCEPT Lead закрепляет snapshot Stage 0–3 и смысловой паспорт по дополнению; сейчас они не создаются. Owner передаёт в действующую ветку Researcher одну ссылку на D022; доставка в чат автоматически не заявляется.
 
 Stage 0–2 приняты, F01 CLOSED, C01/C02 сохранены. Stage 4, Verification/MV, capability, история/межкнижное сравнение, NT-T и книжное закрытие не разрешены; ACTS/ROM/1COR на паузах. Книжная, проектная и плановая навигация синхронизированы. Постоянные нормы/Registry и исследовательские targets не изменены.
+
+
+---
+
+## IP-001-D069 — Researcher: полный Stage 3 2COR представлен Lead
+
+**Дата:** 24.10.2026 (Europe/Tallinn). **Полная запись книжного handoff:** [2COR-D023](./Research/2-Corinthians/DECISIONS.md#2cor-d023--researcher-полный-stage-3-представлен-lead).
+
+**Target:** [rr-003](https://github.com/inprofundo777-wq/research_lab/blob/e21055a1e4e708719d8f7d7e0af6bbfa4798a3cc/Research/IP-001/Research/2-Corinthians/rr-003_2Corinthians_Provisional_Groups.md), commit `e21055a1e4e708719d8f7d7e0af6bbfa4798a3cc`, blob `69575718c4fe0ef92968b2d67d4b1a5bb6cd5aa5`. Сформированы **6 предварительных G**; все 30 записей Stage 2, 87 U, 58 C и 24 OPEN / NOT VERIFIED Q имеют прослеживаемую диспозицию. 30 U участвуют в G положительно или контекстно, 57 сохраняются только самостоятельно/ограничивающе; 8 записей Stage 2 полностью самостоятельны. Новых Q/C и материального дефекта входов не выявлено.
+
+**STAGE 3 SUBMITTED / NOT ACCEPTED.** Следующий ответственный — Lead для полной проверки/ACCEPT либо точного RETURN → Owner. Snapshot Stage 0–3 и смысловой паспорт формирует Lead только после ACCEPT; Stage 4 и далее не разрешены.
