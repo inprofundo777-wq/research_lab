@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 24.10.2026 по D064 / 2COR-D018: Stage 0–1 2COR приняты; полная содержательная сверка Stage 2 завершена, ограниченный RETURN навигации (170 ссылок / 30 anchors). 5 R / 6 S / 9 NB / 10 NM, 87 U / 58 C / 24 OPEN Q сохранены. Researcher готовит цельную R1 → Lead focused re-check → Owner. Stage 2 не принят; Stage 3–4, Verification/MV и книжное закрытие не разрешены. ACTS/ROM/1COR на паузах. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 24.10.2026 по D065 / 2COR-D019: цельная Stage 2 R1 2COR представлена Lead; 170 ссылок имеют 30 точных anchors, содержательная эквивалентность исходному rr-002 подтверждена. 5 R / 6 S / 9 NB / 10 NM, 87 U / 58 C / 24 OPEN Q сохранены. STAGE 2 R1 SUBMITTED / NOT ACCEPTED → Lead focused re-check → Owner. Stage 0–1 приняты; Stage 3–4, Verification/MV и книжное закрытие не разрешены. ACTS/ROM/1COR на паузах. Это обновляемая навигация; решения ниже append-only.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1182,3 +1182,14 @@ Stage 3–4, отдельные Verification/MV, capability, историчес�
 **CONTENT REVIEW COMPLETE / RETURN FOR BOUNDED NAVIGATION CORRECTION / STAGE 2 NOT ACCEPTED.** F01: 170 внутренних ссылок на 30 коротких targets R/S/NB/NM не совпадают с полными якорями заголовков; явных anchors нет. Требуется только техническая правка навигации в цельной rr-002 R1 с сохранением всего содержания и отдельным immutable handoff. Полное исследование/содержательную сверку повторять не требуется при эквивалентном diff.
 
 **Следующий ответственный — Researcher 2COR → Lead focused re-check → Owner.** Передать одну ссылку на D018. Stage 3–4, Verification/MV, capability, история/межкнижное сравнение, NT-T и книжное закрытие не разрешены. ACTS/ROM/1COR на паузах; C01/C02 и Stage 0–1 не переоткрыты. Книжная, проектная и плановая навигация обновлены; исходные research/source/readiness targets сохранены.
+
+
+---
+
+## IP-001-D065 — Researcher: навигационная R1 Stage 2 2COR представлена Lead
+
+**Дата:** 24.10.2026 (Europe/Tallinn). **Полная запись книжного handoff:** [2COR-D019](./Research/2-Corinthians/DECISIONS.md#2cor-d019--researcher-навигационная-r1-stage-2-представлена-lead).
+
+**Target:** [rr-002 R1](https://github.com/inprofundo777-wq/research_lab/blob/790e45ca0a1c29c98ac8a4f521552ac7fc18846a/Research/IP-001/Research/2-Corinthians/rr-002_2Corinthians_Repetition_Stable_Evidence_Map-R1.md), commit `790e45ca0a1c29c98ac8a4f521552ac7fc18846a`, blob `986e44a7f0f3a5ae41a320cc09dd6fc52542373f`. По D018 все 30 сравнительных ID стали единственным текстом заголовков; 170 коротких fragment-ID совпадают с действительными anchors, отсутствующих целей нет. Обратное преобразование только навигационного формата и удаление технических R1-метаданных побайтно воспроизводят исходный rr-002.
+
+**STAGE 2 R1 SUBMITTED / NOT ACCEPTED.** Сохранены 5 R / 6 S / 9 NB / 10 NM, 87 U / 58 C / 116 связей и 24 OPEN / NOT VERIFIED Q; исследовательского diff нет. Следующий ответственный — Lead для focused re-check/окончательной приёмки → Owner для отдельного Stage 3 gate. Stage 3 и далее не разрешены.
