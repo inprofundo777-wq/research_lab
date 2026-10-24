@@ -1,11 +1,15 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 24.10.2026 по [IP-001-D072](../DECISIONS.md#ip-001-d072--director-облегчённый-пилот-для-следующих-книжных-циклов) и [IP-001-D070](../DECISIONS.md#ip-001-d070--lead-stage-3-2cor-принят-snapshot-и-смысловой-паспорт-owner) / 2COR-D024; Stage 0–3 2COR приняты, snapshot/смысловой паспорт закреплены; пауза 1COR — D048, общая установка/дополнение — D029.
+**Сверено:** 24.10.2026 по [IP-001-D073](../DECISIONS.md#ip-001-d073--lead-конкретная-установка-пилота-galephphp-подготовлена-передача-director); конкретная установка пилота GAL/EPH/PHP подготовлена → Director; четыре прежние книги на паузах, Stage 0 новых не разрешён.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
 | [Общая установка 27 книжных циклов v0.1, R1](./IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md) | F01/F02 закрыты; [общий независимый Audit PASS по A](https://github.com/inprofundo777-wq/research_lab/blob/b0ec6fe556f189c98902b54c0a5b29998ea2a144/Research/IP-001/Review/IP-001-NT-Book-Cycle-Installation-Audit-R1.md); **принята Owner по IP-001-D029**. Для новой книги нужен отдельный местный аудит и Owner gate; B не применяется |
+| [Пилот GAL/EPH/PHP — общий лист](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/IP-001-GAL-EPH-PHP-Stage0-Pilot-Installation-v0.1.md) | DESIGN PREPARED / AUDITS PENDING; [передача D073](../DECISIONS.md#ip-001-d073--lead-конкретная-установка-пилота-galephphp-подготовлена-передача-director) → Director → независимые книжные verdict → отдельные Owner gates |
+| [GAL — местная карточка](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/GAL-Local-Installation-Card-v0.1.md) | Только дизайн: главы 1–6, SRC-GAL/EXP-GAL OPEN, нет Audit/Owner Stage 0 gate |
+| [EPH — местная карточка](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/EPH-Local-Installation-Card-v0.1.md) | Только дизайн: главы 1–6, SRC-EPH/EXP-EPH OPEN, нет Audit/Owner Stage 0 gate |
+| [PHP — местная карточка](https://github.com/inprofundo777-wq/research_lab/blob/a5ae45cbf178df2cbebaf4a9097136fd84354209/Research/IP-001/Planning/PHP-Local-Installation-Card-v0.1.md) | Только дизайн: главы 1–4, SRC-PHP/EXP-PHP OPEN, нет Audit/Owner Stage 0 gate |
 | [Проект Director: межкнижная классификация и поздние стадии](./IP-001-Межкнижная-классификация-и-книжное-закрытие-v0.1.md) | Проектный вход D024 включён в общую установку; не действующая поправка Protocol |
 | [Установка Римлянам](./ROMANS-Book-Cycle-Installation-Package-v0.1.md) | Принята IP-001-D013 после независимого Audit PASS; актуальный исследовательский gate — [паспорт Romans](../Research/Romans/README.md) |
 | [Самостоятельный snapshot Римлянам Stage 0–3](./ROMANS-Fresh-Stage-0-3-Snapshot-2026-10-17.md) | Закреплён после ACCEPT Stage 3 ROM-D017; [смысловой паспорт Owner](../Research/Romans/ROMANS-Смысловой-паспорт-Stage-0-3.md); 9 полностью/частично открытых вопросов; Verification/MV отложены Owner по D033 |
@@ -19,4 +23,4 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующая подготовка:** [D072](../DECISIONS.md#ip-001-d072--director-облегчённый-пилот-для-следующих-книжных-циклов) предлагает общий установочный заход для Галатам, Ефесянам и Филиппийцам с тремя местными паспортами, независимыми книжными verdict и отдельными разрешениями Owner. Пакетный Stage 0 не запущен; Lead готовит конкретную установку. 2COR на паузе по D025.
+**Следующая подготовка:** [D073 — конкретный пилот GAL/EPH/PHP](../DECISIONS.md#ip-001-d073--lead-конкретная-установка-пилота-galephphp-подготовлена-передача-director) подготовлен. Общий лист + три карточки переданы Director для сверки мандата/назначения независимого местного Audit с тремя verdict; затем Owner отдельно решает по каждой книге. Пакетный Stage 0 не запущен, Researcher не назначен; 2COR на паузе по D025.
