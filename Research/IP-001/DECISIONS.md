@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 24.10.2026 по D069 / 2COR-D023: цельный Stage 3 2COR представлен Lead — 6 предварительных G; все 30 записей Stage 2 / 87 U / 58 C / 24 OPEN Q сохранены. STAGE 3 SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN → Owner. Stage 0–2 приняты; snapshot/смысловой паспорт только после ACCEPT Stage 3. ACTS/ROM/1COR на паузах; Stage 4, Verification/MV и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 24.10.2026 по D070 / 2COR-D024: Stage 0–3 2COR приняты; 6 предварительных G, 30 записей / 87 U / 58 C / 24 OPEN Q. Snapshot/смысловой паспорт закреплены, ownership → Owner; дальнейший маршрут/пауза требуют отдельного решения. Книга не закрыта. ACTS/ROM/1COR на паузах; Stage 4, Verification/MV и межкнижное сравнение не разрешены. Это обновляемая навигация; решения ниже append-only.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1233,3 +1233,15 @@ Stage 0–2 приняты, F01 CLOSED, C01/C02 сохранены. Stage 4, Ver
 **Target:** [rr-003](https://github.com/inprofundo777-wq/research_lab/blob/e21055a1e4e708719d8f7d7e0af6bbfa4798a3cc/Research/IP-001/Research/2-Corinthians/rr-003_2Corinthians_Provisional_Groups.md), commit `e21055a1e4e708719d8f7d7e0af6bbfa4798a3cc`, blob `69575718c4fe0ef92968b2d67d4b1a5bb6cd5aa5`. Сформированы **6 предварительных G**; все 30 записей Stage 2, 87 U, 58 C и 24 OPEN / NOT VERIFIED Q имеют прослеживаемую диспозицию. 30 U участвуют в G положительно или контекстно, 57 сохраняются только самостоятельно/ограничивающе; 8 записей Stage 2 полностью самостоятельны. Новых Q/C и материального дефекта входов не выявлено.
 
 **STAGE 3 SUBMITTED / NOT ACCEPTED.** Следующий ответственный — Lead для полной проверки/ACCEPT либо точного RETURN → Owner. Snapshot Stage 0–3 и смысловой паспорт формирует Lead только после ACCEPT; Stage 4 и далее не разрешены.
+
+---
+
+## IP-001-D070 — Lead: Stage 3 2COR принят; snapshot и смысловой паспорт Owner
+
+**Дата:** 24.10.2026 (Europe/Tallinn). **Полное решение:** [2COR-D024](./Research/2-Corinthians/DECISIONS.md#2cor-d024--lead-accept-stage-3-snapshot-и-смысловой-паспорт-owner); основания — Owner D067/D021, назначение D022, полная сдача D023.
+
+**ACCEPT STAGE 3.** Принят [rr-003](https://github.com/inprofundo777-wq/research_lab/blob/e21055a1e4e708719d8f7d7e0af6bbfa4798a3cc/Research/IP-001/Research/2-Corinthians/rr-003_2Corinthians_Provisional_Groups.md), commit `e21055a1e4e708719d8f7d7e0af6bbfa4798a3cc`, blob `69575718c4fe0ef92968b2d67d4b1a5bb6cd5aa5`: 6 предварительных G, все 30 записей Stage 2 / 87 U / 58 C / 24 OPEN / NOT VERIFIED Q. Сверены содержание G, самостоятельные/ограничивающие диспозиции, полная таблица U и исходные Q; 30 U участвуют в G, 57 сохранены самостоятельно/сквозно. В D024 раскрыты неблокирующая избыточная обзорная Q-ссылка и правило служебного счёта условной NM001; они не меняют научного состава/силы результата.
+
+После ACCEPT закреплены [самостоятельный snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/0922df64164ac082a6dcb6be8e7bcba49b83dbb9/Research/IP-001/Planning/2COR-Fresh-Stage-0-3-Snapshot-2026-10-24.md) и [смысловой паспорт Owner](https://github.com/inprofundo777-wq/research_lab/blob/0922df64164ac082a6dcb6be8e7bcba49b83dbb9/Research/IP-001/Research/2-Corinthians/2COR-Смысловой-паспорт-Stage-0-3.md), commit `0922df64164ac082a6dcb6be8e7bcba49b83dbb9`; blobs `d00a0c77d43399db172ac3443bdc9cec149eba7f` / `e55f069ca37c3a1e0caa788e39a504bed3fde0ac`. Оба прочитаны обратно, точное совпадение подтверждено.
+
+**STAGE 0–3 ACCEPTED / BOOK NOT CLOSED. Ownership → Owner.** Рекомендованы рабочая пауза 2COR и отдельное поручение Director о дальнейшем маршруте IP-001; это предложение, не новое разрешение. Stage 4, Verification/MV, capability, история/межкнижное сравнение, NT-T и книжное закрытие не активированы. ACTS/ROM/1COR на паузах; источник/disclosure и все Q сохранены. Книжная, проектная и плановая навигация синхронизированы. Одна ссылка для передачи — **2COR-D024**.
