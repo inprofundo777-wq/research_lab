@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 24.10.2026 по D065 / 2COR-D019: цельная Stage 2 R1 2COR представлена Lead; 170 ссылок имеют 30 точных anchors, содержательная эквивалентность исходному rr-002 подтверждена. 5 R / 6 S / 9 NB / 10 NM, 87 U / 58 C / 24 OPEN Q сохранены. STAGE 2 R1 SUBMITTED / NOT ACCEPTED → Lead focused re-check → Owner. Stage 0–1 приняты; Stage 3–4, Verification/MV и книжное закрытие не разрешены. ACTS/ROM/1COR на паузах. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 24.10.2026 по D066 / 2COR-D020: Stage 0–2 2COR приняты, текущая Stage 2 — R1; F01 CLOSED. 5 R / 6 S / 9 NB / 10 NM, 87 U / 58 C / 24 OPEN Q сохранены. Следующий ответственный — Owner для отдельного решения о Stage 3; Researcher не назначен. ACTS/ROM/1COR на паузах; Verification/MV, Stage 4 и книжное закрытие не разрешены. Это обновляемая навигация; решения ниже append-only.  
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1193,3 +1193,13 @@ Stage 3–4, отдельные Verification/MV, capability, историчес�
 **Target:** [rr-002 R1](https://github.com/inprofundo777-wq/research_lab/blob/790e45ca0a1c29c98ac8a4f521552ac7fc18846a/Research/IP-001/Research/2-Corinthians/rr-002_2Corinthians_Repetition_Stable_Evidence_Map-R1.md), commit `790e45ca0a1c29c98ac8a4f521552ac7fc18846a`, blob `986e44a7f0f3a5ae41a320cc09dd6fc52542373f`. По D018 все 30 сравнительных ID стали единственным текстом заголовков; 170 коротких fragment-ID совпадают с действительными anchors, отсутствующих целей нет. Обратное преобразование только навигационного формата и удаление технических R1-метаданных побайтно воспроизводят исходный rr-002.
 
 **STAGE 2 R1 SUBMITTED / NOT ACCEPTED.** Сохранены 5 R / 6 S / 9 NB / 10 NM, 87 U / 58 C / 116 связей и 24 OPEN / NOT VERIFIED Q; исследовательского diff нет. Следующий ответственный — Lead для focused re-check/окончательной приёмки → Owner для отдельного Stage 3 gate. Stage 3 и далее не разрешены.
+
+---
+
+## IP-001-D066 — Lead: Stage 2 2COR принят в R1; решение Owner о Stage 3
+
+**Дата:** 24.10.2026 (Europe/Tallinn). **Полное решение и конкретная рекомендация Owner:** [2COR-D020](./Research/2-Corinthians/DECISIONS.md#2cor-d020--lead-accept-stage-2-r1-следующий-gate-owner). Основания — D062/D016, полная содержательная сверка D018 и отдельная сдача R1 D019.
+
+**ACCEPT STAGE 2.** Принята [цельная rr-002 R1](https://github.com/inprofundo777-wq/research_lab/blob/790e45ca0a1c29c98ac8a4f521552ac7fc18846a/Research/IP-001/Research/2-Corinthians/rr-002_2Corinthians_Repetition_Stable_Evidence_Map-R1.md), commit `790e45ca0a1c29c98ac8a4f521552ac7fc18846a`, blob `986e44a7f0f3a5ae41a320cc09dd6fc52542373f`. F01 CLOSED: все 170 внутренних ссылок совпадают с 30 уникальными действительными anchors. Обратное преобразование только формата заголовков и R1-метаданных/self-check точно воспроизводит исходный rr-002 blob `12d7d641ba1f6fd398f468f406858895576b83bd`. Сохранены 5 R / 6 S / 9 NB / 10 NM, 87 U / 58 C / 116 связей и все 24 OPEN / NOT VERIFIED Q. Полная содержательная сверка не повторялась; приёмка внутренняя по договору.
+
+**Следующий ответственный — Owner.** Рекомендуется отдельно разрешить единый Stage 3 / предварительную классификацию; готовая формулировка в D020. **Stage 3 NOT AUTHORIZED; Researcher не назначен.** После будущего ACCEPT Stage 3 — snapshot Stage 0–3 и смысловой паспорт по дополнению Protocol; сейчас они не создаются. Stage 4, Verification/MV, capability, история/межкнижное сравнение, NT-T и книжное закрытие не активируются; ACTS/ROM/1COR на паузах. C01/C02, Stage 0–1 и source/disclosure ограничения сохранены. Книжная, проектная и плановая навигация обновлены; передача Owner одной ссылкой на **2COR-D020**.
