@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 11.11.2026 по D080: GAL readiness принята Lead; C-SRC/C-EXP/C-SEQ GAL CLOSED, полный Stage 0 GAL разрешён Researcher по D078/D080, результат ещё не сдан. EPH/PHP не начаты, их местные условия OPEN. ACTS/ROM/1COR/2COR на паузах, книги не закрыты. Поздние стадии/Verification/MV/NT-T не активированы. Это обновляемая навигация; решения ниже append-only.  
+**Состояние:** Сверено 11.11.2026 по D081: полный Stage 0 GAL сдан Lead, SUBMITTED / NOT ACCEPTED; ledger 6/6, 149 стихов, 30 C / 13 OPEN Q. Готовность GAL принята D080, местные условия CLOSED до отбора. EPH readiness допустима после immutable handoff GAL, но ещё не выполнена; EPH/PHP SRC/EXP/SEQ OPEN. ACTS/ROM/1COR/2COR на паузах; Stage 1–4/Verification/MV/NT-T не активированы. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1585,3 +1585,14 @@ EPH readiness разрешена D078 только после законченн
 Stage 0 GAL ещё не выполнен и не принят. Stage 1–4, Verification/MV/capability, историческое/межкнижное сравнение, NT-T и закрытие книг не активированы. ACTS/ROM/1COR/2COR остаются на прежних паузах. L-RES/L-TRACE и фактический учёт пилота сохранены. После местных Stage 0 — отдельная сводка Lead → Owner и решение о следующей основной книге.
 
 **Ownership → действующая ветка Researcher GAL/EPH/PHP для полного Stage 0 GAL → Lead для отдельного ACCEPT/RETURN.** Карты проекта/Planning обновлены. Эта ссылка передаётся в прежнюю исследовательскую ветку, новая установка с нуля не нужна при сохранённых контексте/пригодности. Одна ссылка продолжения — **D080**.
+
+
+---
+
+## IP-001-D081 — Researcher: полный Stage 0 GAL сдан Lead
+
+**Дата:** 11.11.2026 (Europe/Tallinn). **Основание:** D077/D078 и местный допуск D080; Researcher v0.1 / Package C, Corpus Mapping. **Полная книжная сдача:** [GAL-D001](./Research/Galatians/DECISIONS.md#gal-d001--researcher-полный-stage-0-передан-lead); immutable handoff в commit `31447d313812f61dba733c53b4b0b39831bc93ba`.
+
+**STAGE 0 GAL SUBMITTED / NOT ACCEPTED → Lead.** [rr-000](https://github.com/inprofundo777-wq/research_lab/blob/3d126fad6c91524009d1772c8ec2135c080b4cfa/Research/IP-001/Research/Galatians/rr-000_Galatians_Stage0_Corpus_Map.md), commit `3d126fad6c91524009d1772c8ec2135c080b4cfa`, blob `644bd50c578e9ef08f14c3297340c4bef837cc76`: полный последовательный охват 6/6, 149 стихов; 30 GAL-C001–C030 и 13 GAL-Q001–Q013, все вопросы OPEN / NOT VERIFIED. Карта сохранена и прочитана обратно; полнота/ID/цитаты и равенство версии проверены. Актуальное recovery/disclosure после перерыва раскрыто в rr-000 §1; источник не заменён. Это self-check, не приёмка или независимая Verification.
+
+**Следующий ответственный — действующий Lead:** отдельный ACCEPT/RETURN GAL по договору, включая актуальную экспозицию и сохранённые ограничения. Stage 1 GAL требует отдельного Owner decision. После immutable handoff GAL стала допустима только readiness EPH по D078, но она здесь не выполнена; её SRC/EXP/SEQ OPEN, отбора нет. PHP не начата; её условия OPEN. Прежние четыре книги на паузах; Stage 1–4/Verification/MV/capability/историческое и межкнижное сравнение/NT-T не активированы. Проект/Planning/книжная навигация синхронизируются. **Одна ссылка для передачи Lead — D081; полный объект проверки — GAL-D001 и закреплённая карта.**
