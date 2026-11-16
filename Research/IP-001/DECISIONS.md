@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 11.11.2026 по D081: полный Stage 0 GAL сдан Lead, SUBMITTED / NOT ACCEPTED; ledger 6/6, 149 стихов, 30 C / 13 OPEN Q. Готовность GAL принята D080, местные условия CLOSED до отбора. EPH readiness допустима после immutable handoff GAL, но ещё не выполнена; EPH/PHP SRC/EXP/SEQ OPEN. ACTS/ROM/1COR/2COR на паузах; Stage 1–4/Verification/MV/NT-T не активированы. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 16.11.2026 по D082: Stage 0 GAL принят (6/6, 30 C / 13 OPEN Q). Следующий разрешённый шаг — readiness EPH → Lead; отбор EPH пока запрещён, местные условия OPEN. PHP не начата; ACTS/ROM/1COR/2COR на паузах. Stage 1–4/Verification/MV/NT-T и книжное закрытие не активированы. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1596,3 +1596,16 @@ Stage 0 GAL ещё не выполнен и не принят. Stage 1–4, Veri
 **STAGE 0 GAL SUBMITTED / NOT ACCEPTED → Lead.** [rr-000](https://github.com/inprofundo777-wq/research_lab/blob/3d126fad6c91524009d1772c8ec2135c080b4cfa/Research/IP-001/Research/Galatians/rr-000_Galatians_Stage0_Corpus_Map.md), commit `3d126fad6c91524009d1772c8ec2135c080b4cfa`, blob `644bd50c578e9ef08f14c3297340c4bef837cc76`: полный последовательный охват 6/6, 149 стихов; 30 GAL-C001–C030 и 13 GAL-Q001–Q013, все вопросы OPEN / NOT VERIFIED. Карта сохранена и прочитана обратно; полнота/ID/цитаты и равенство версии проверены. Актуальное recovery/disclosure после перерыва раскрыто в rr-000 §1; источник не заменён. Это self-check, не приёмка или независимая Verification.
 
 **Следующий ответственный — действующий Lead:** отдельный ACCEPT/RETURN GAL по договору, включая актуальную экспозицию и сохранённые ограничения. Stage 1 GAL требует отдельного Owner decision. После immutable handoff GAL стала допустима только readiness EPH по D078, но она здесь не выполнена; её SRC/EXP/SEQ OPEN, отбора нет. PHP не начата; её условия OPEN. Прежние четыре книги на паузах; Stage 1–4/Verification/MV/capability/историческое и межкнижное сравнение/NT-T не активированы. Проект/Planning/книжная навигация синхронизируются. **Одна ссылка для передачи Lead — D081; полный объект проверки — GAL-D001 и закреплённая карта.**
+
+
+---
+
+## IP-001-D082 — Lead: Stage 0 GAL принят; продолжить readiness EPH
+
+**Дата:** 16.11.2026 (Europe/Tallinn). **Основание:** D077/D078/D080, сдача D081 / GAL-D001. **Полная приёмка и адресное продолжение:** [GAL-D002](./Research/Galatians/DECISIONS.md#gal-d002--lead-accept-stage-0-продолжение-пилота-eph).
+
+**ACCEPT STAGE 0 GAL:** rr-000 commit `3d126fad6c91524009d1772c8ec2135c080b4cfa`, blob `644bd50c578e9ef08f14c3297340c4bef837cc76`; 6/6 глав, 149 стихов, 30 C / 13 OPEN / NOT VERIFIED Q. Проверены договор/полнота/критерии/контекст/неотбор/происхождение Q и актуальная экспозиция. Все 121 стиховые цитаты совпадают с принятым source; предметные вопросы не разрешены. Раскрытая общая гипотеза не признана материальным старым GAL ключом по доступной сдаче; полная слепота не заявляется. L-TRACE Stage 0 исполнено, L-RES OPEN. Это внутренняя приёмка Lead, не независимая Verification.
+
+**Адресат — действующая ветка Researcher GAL/EPH/PHP:** прочитать GAL-D002 и продолжить **только readiness EPH**, уже разрешённую D078 после immutable handoff GAL. Полное исполнимое поручение, пути экспорта/readiness, evidence/disclosure/commit/blob, STOP и возврат записаны в GAL-D002; договор и pins D078 сохраняются. Сдать EPH readiness Lead и остановиться перед отбором до местного допуска. C-SRC/C-EXP/C-SEQ EPH OPEN, C-AUTH CLOSED; PHP не начата. Новая ветка и повторный Owner gate на readiness не нужны.
+
+**Следующий содержательный gate:** Lead отдельно закрывает/возвращает EPH readiness. GAL Stage 1 остаётся на Owner gate; рекомендовано сначала завершить разрешённый трёхкнижный Stage 0 пилот и затем выбрать основную книгу. Поздние стадии/Verification/MV/capability/история/межкнижное сравнение/NT-T/закрытие не разрешены. Четыре прежние книги на паузах. **Ownership → Researcher для readiness EPH → Lead.** Книжная/проектная/Planning навигация обновлена. Одна ссылка продолжения — **D082**.
