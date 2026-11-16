@@ -1,10 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 16.11.2026 по [D082](../DECISIONS.md#ip-001-d082--lead-stage-0-gal-принят-продолжить-readiness-eph): Stage 0 GAL ACCEPTED, 6/6, 30 C / 13 OPEN Q. Следующий шаг — readiness EPH → Lead; её SRC/EXP/SEQ OPEN, отбор запрещён. PHP не начата.
+**Сверено:** 16.11.2026 по [D083](../DECISIONS.md#ip-001-d083--researcher-eph-readiness-передана-lead-отбор-не-разрешён): EPH readiness сдана Lead, 6/6, 155 стихов; SRC/EXP/SEQ EPH OPEN, отбор запрещён до местного допуска. GAL Stage 0 принят D082; PHP не начата.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
+| [Readiness 16.11.2026 — отдельный EPH Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/36b1033fbb00e025ee6c040e4480c29b8f240002/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16.md) | [D083](../DECISIONS.md#ip-001-d083--researcher-eph-readiness-передана-lead-отбор-не-разрешён): EPH READINESS SUBMITTED / SELECTION NOT AUTHORIZED → Lead; полный отдельный экспорт 6/6, 155 стихов |
 | [GAL — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/3d126fad6c91524009d1772c8ec2135c080b4cfa/Research/IP-001/Research/Galatians/rr-000_Galatians_Stage0_Corpus_Map.md) | [GAL-D001](../Research/Galatians/DECISIONS.md#gal-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по GAL-D002 / D082, 6/6, 30 C / 13 OPEN Q → Lead |
 | [GAL readiness — фактический источник, Lock/disclosure и evidence](./GAL-EPH-PHP-Pilot-Readiness-2026-10-25.md) | [D079](../DECISIONS.md#ip-001-d079--researcher-gal-readiness-передана-lead-отбор-не-разрешён): принята [D080](../DECISIONS.md#ip-001-d080--lead-gal-readiness-принята-отбор-stage-0-разрешён); отбор GAL разрешён; EPH/PHP не начаты |
 | [Общая установка 27 книжных циклов v0.1, R1](./IP-001-NT-Book-Cycle-Installation-Package-v0.1-R1.md) | F01/F02 закрыты; [общий независимый Audit PASS по A](https://github.com/inprofundo777-wq/research_lab/blob/b0ec6fe556f189c98902b54c0a5b29998ea2a144/Research/IP-001/Review/IP-001-NT-Book-Cycle-Installation-Audit-R1.md); **принята Owner по IP-001-D029**. Для новой книги нужен отдельный местный аудит и Owner gate; B не применяется |
