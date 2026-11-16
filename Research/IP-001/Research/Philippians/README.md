@@ -12,6 +12,6 @@
 | Stage 0 | [rr-000, первая сдача](https://github.com/inprofundo777-wq/research_lab/blob/4aeb4be811646a3aaf4f5be7be8572c5b36a00b6/Research/IP-001/Research/Philippians/rr-000_Philippians_Stage0_Corpus_Map.md), ledger 4/4, 21 C / 13 OPEN / NOT VERIFIED Q; принят PHP-D002 |
 | Stage 1–4 / Verification / MV | Не разрешены |
 
-**Следующий gate:** [D090 — итог пилота Owner](../../DECISIONS.md#ip-001-d090--lead-stage-0-пилота-galephphp-принят-сводка-и-gate-owner); Researcher остановлен перед Stage 1/следующей партией.
+**Следующий gate:** рабочая пауза после принятого Stage 0 по Owner D091. Основная книга — Галатам; Stage 1 этой книги не назначен, возвращение требует отдельного решения Owner.
 
 **Границы:** прежняя экспозиция Флп 1:6 раскрыта и принята Lead до отбора, субъект не задан памятью. 13 Q PHP открыты; предметной Verification нет, поздний ресурс не установлен. GAL/EPH Stage 0 приняты, их 13/18 Q открыты. После местной приёмки PHP Lead возвращает Owner сводку пилота; выбор основной книги/Stage 1 требуют отдельного решения. Сейчас остановка, следующая книга/партия не разрешена. [Проект IP-001](../../README.md).
