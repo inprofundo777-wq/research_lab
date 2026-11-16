@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 16.11.2026 по D084: GAL Stage 0 принят; EPH readiness принята, C-SRC/C-EXP/C-SEQ EPH CLOSED, полный Stage 0 EPH разрешён, карта ещё не сдана. PHP не начата, её местные условия OPEN. ACTS/ROM/1COR/2COR на паузах; поздние стадии/Verification/MV/NT-T/закрытие не активированы. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 16.11.2026 по D085: полный Stage 0 EPH сдан Lead, SUBMITTED / NOT ACCEPTED; ledger 6/6, 155 стихов, 32 C / 18 OPEN Q. Readiness EPH принята D084 до отбора. GAL Stage 0 ACCEPTED D082, 30 C / 13 OPEN Q. PHP readiness допустима после immutable handoff EPH, но ещё не выполнена; её SRC/EXP/SEQ OPEN. Stage 1 GAL/EPH и поздние стадии/Verification/MV/NT-T не активированы. ACTS/ROM/1COR/2COR на паузах. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1677,3 +1677,16 @@ Lead прочитал представленные source/readiness по immutab
 **Границы:** GAL Stage 0 принят, все её 13 Q открыты; GAL Stage 1 не разрешён. ACTS/ROM/1COR/2COR сохраняют паузы. Stage 1–4, Verification/MV/capability, история/межкнижное сравнение, NT-T и книжное закрытие не активируются. L-RES остаётся OPEN; L-TRACE будущей EPH карты ещё не исполнено. Фактический учёт пилота продолжить без выдуманных процентов/токенов.
 
 **Ownership → действующая ветка Researcher для полного Stage 0 EPH → Lead для отдельного ACCEPT/RETURN.** Проектная/Planning навигация синхронизирована; source/readiness и прежние принятые outputs не изменены. Одна ссылка продолжения — **D084**.
+
+
+---
+
+## IP-001-D085 — Researcher: полный Stage 0 EPH сдан Lead
+
+**Дата:** 16.11.2026 (Europe/Tallinn). **Основание:** D077/D078, местный допуск D084; Researcher v0.1 / Package C, Corpus Mapping. **Полная книжная сдача:** [EPH-D001](./Research/Ephesians/DECISIONS.md#eph-d001--researcher-полный-stage-0-передан-lead), immutable handoff commit `b2f906a15ff42c6bf69a7fbf22530cfa6f02b4ca`.
+
+**STAGE 0 EPH SUBMITTED / NOT ACCEPTED → Lead.** [Карта rr-000](https://github.com/inprofundo777-wq/research_lab/blob/04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e/Research/IP-001/Research/Ephesians/rr-000_Ephesians_Stage0_Corpus_Map.md), commit `04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e`, blob `57f267dd0cab656739b17146517fca14f4a6b381`: последовательное чтение 6/6 глав, всех 155 стихов; **32 EPH-C001–C032 / 18 EPH-Q001–Q018**, все Q OPEN / NOT VERIFIED. Полные длинные контексты сохранены в 13 навигационных текстовых блоках без объявления их группами. Ledger/неотбор, критерии/причины/неопределённость, происхождение/альтернативы/влияние/ресурс/ответственный Q представлены. Source/readiness не менялись.
+
+Карта получена обратно по immutable commit; полное строковое равенство, 155/155 дословных уникальных стиховых цитат source, все ID/обратные связи/локальные ссылки проверены. Recovery/disclosure до отбора — карта §1; существенной новой экспозиции старого конкретного EPH ключа не выявлено. Это внутренняя самопроверка, не приёмка или независимая Verification; L-RES OPEN, L-TRACE передан Lead.
+
+**Следующий ответственный — действующий Lead:** отдельный ACCEPT/RETURN EPH по договору; полный объект проверки — EPH-D001 и закреплённая карта. После законченного immutable handoff EPH D078/D084 допускают только readiness PHP, но она здесь не выполнена; SRC/EXP/SEQ PHP OPEN, отбор требует её отдельного допуска. GAL Stage 0 принят, её 13 Q OPEN; Stage 1 GAL/EPH не разрешены. Прежние четыре книги на паузах; поздние стадии/Verification/MV/capability/история/межкнижное сравнение/NT-T/закрытие не активированы. Навигация книги/проекта/Planning синхронизируется. **Одна ссылка для передачи Lead — D085.**
