@@ -12,6 +12,6 @@
 | Stage 0 | [rr-000, первая сдача](https://github.com/inprofundo777-wq/research_lab/blob/04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e/Research/IP-001/Research/Ephesians/rr-000_Ephesians_Stage0_Corpus_Map.md); ledger 6/6, 32 C / 18 OPEN / NOT VERIFIED Q; принят EPH-D002 |
 | Stage 1–4 / Verification / MV | Не разрешены |
 
-**Следующий gate:** Lead отдельно ACCEPT/RETURN по PILOT-S0-OC-v0.1; полный handoff/commit/blob/ограничения — EPH-D001. Researcher v0.1 / Package C, Corpus Mapping; Methodology v0.4 / Protocol v0.2 + дополнение v0.1 / Criteria v0.2 по pins D078/D084. Recovery/disclosure — карта §1; полные длинные контексты — §4, кандидаты — §5, вопросы — §6.
+**Следующий gate:** [D090 — итог трёхкнижного пилота](../../DECISIONS.md#ip-001-d090--lead-stage-0-пилота-galephphp-принят-сводка-и-gate-owner) → Owner для выбора основной книги/новой стадии. Stage 1 пока не разрешён.
 
 **Ограничения:** Q не разрешены, подтверждённый независимый оценщик не установлен; внутренний self-check не является Verification. Галатам приняты только на Stage 0, 13 Q открыты. После immutable handoff EPH допустима readiness PHP, но она ещё не выполнена; её отбор требует собственного Lead gate. Stage 1 и выбор основной книги — отдельное решение Owner. [Проект](../../README.md).

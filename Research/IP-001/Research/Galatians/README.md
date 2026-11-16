@@ -12,6 +12,6 @@
 | Stage 0 | [rr-000, первая сдача](https://github.com/inprofundo777-wq/research_lab/blob/3d126fad6c91524009d1772c8ec2135c080b4cfa/Research/IP-001/Research/Galatians/rr-000_Galatians_Stage0_Corpus_Map.md), ledger 6/6, 30 C / 13 OPEN / NOT VERIFIED Q; принят GAL-D002 |
 | Stage 1–4 / Verification / MV | Не разрешены; нового книжного вывода нет |
 
-**Следующий шаг:** [GAL-D002](./DECISIONS.md#gal-d002--lead-accept-stage-0-продолжение-пилота-eph) / [D082](../../DECISIONS.md#ip-001-d082--lead-stage-0-gal-принят-продолжить-readiness-eph) → та же ветка Researcher: readiness EPH, затем отдельный допуск Lead до отбора. GAL Stage 1 требует решения Owner; рекомендовано завершить пилот Stage 0 трёх книг.
+**Следующий gate:** [D090 — итог трёхкнижного пилота](../../DECISIONS.md#ip-001-d090--lead-stage-0-пилота-galephphp-принят-сводка-и-gate-owner) → Owner для выбора основной книги/новой стадии. Stage 1 пока не разрешён.
 
 **Ограничения:** все 13 Q открыты; CTX/LANG/TEXT ресурс не установлен, независимой предметной Verification нет. EPH readiness теперь допустима по последовательности D078 после этого immutable handoff, но не выполнена; её отбор требует отдельного местного допуска. PHP не начата. Stage 1 GAL требует отдельного Owner decision. [Проект IP-001](../../README.md).
