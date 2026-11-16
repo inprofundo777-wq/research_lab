@@ -1,10 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 16.11.2026 по [D084](../DECISIONS.md#ip-001-d084--lead-eph-readiness-принята-отбор-stage-0-разрешён): EPH readiness принята, SRC/EXP/SEQ EPH CLOSED; полный Stage 0 Ефесянам разрешён, карта ещё не сдана. GAL Stage 0 принят D082; PHP не начата, её местные условия OPEN.
+**Сверено:** 16.11.2026 по [D085](../DECISIONS.md#ip-001-d085--researcher-полный-stage-0-eph-сдан-lead): полный Stage 0 EPH SUBMITTED / NOT ACCEPTED, 6/6, 155 стихов, 32 C / 18 OPEN Q → Lead. GAL Stage 0 принят D082; PHP readiness допустима после handoff EPH, но ещё не выполнена, её условия OPEN.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
+| [EPH — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e/Research/IP-001/Research/Ephesians/rr-000_Ephesians_Stage0_Corpus_Map.md) | [EPH-D001](../Research/Ephesians/DECISIONS.md#eph-d001--researcher-полный-stage-0-передан-lead): SUBMITTED / NOT ACCEPTED, 6/6, 32 C / 18 OPEN Q → Lead |
 | [Readiness 16.11.2026 — отдельный EPH Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/36b1033fbb00e025ee6c040e4480c29b8f240002/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16.md) | [D083](../DECISIONS.md#ip-001-d083--researcher-eph-readiness-передана-lead-отбор-не-разрешён): EPH READINESS ACCEPTED по D084; Stage 0 EPH разрешён; полный отдельный экспорт 6/6, 155 стихов |
 | [GAL — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/3d126fad6c91524009d1772c8ec2135c080b4cfa/Research/IP-001/Research/Galatians/rr-000_Galatians_Stage0_Corpus_Map.md) | [GAL-D001](../Research/Galatians/DECISIONS.md#gal-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по GAL-D002 / D082, 6/6, 30 C / 13 OPEN Q → Lead |
 | [GAL readiness — фактический источник, Lock/disclosure и evidence](./GAL-EPH-PHP-Pilot-Readiness-2026-10-25.md) | [D079](../DECISIONS.md#ip-001-d079--researcher-gal-readiness-передана-lead-отбор-не-разрешён): принята [D080](../DECISIONS.md#ip-001-d080--lead-gal-readiness-принята-отбор-stage-0-разрешён); отбор GAL разрешён; EPH/PHP не начаты |
