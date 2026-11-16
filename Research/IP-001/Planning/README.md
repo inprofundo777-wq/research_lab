@@ -1,10 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 16.11.2026 по [D088](../DECISIONS.md#ip-001-d088--lead-php-readiness-принята-отбор-stage-0-разрешён): PHP readiness принята, SRC/EXP/SEQ CLOSED; полный Stage 0 Филиппийцам разрешён, карта ещё не сдана. GAL/EPH Stage 0 приняты; пилот пока не завершён.
+**Сверено:** 16.11.2026 по [D089](../DECISIONS.md#ip-001-d089--researcher-полный-stage-0-php-сдан-lead): полный Stage 0 PHP сдан Lead, SUBMITTED / NOT ACCEPTED, 4/4, 104 стиха, 21 C / 13 OPEN Q. GAL/EPH Stage 0 приняты; пилот ждёт приёмки PHP и сводки Lead → Owner, Stage 1/новая партия не разрешены.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
+| [PHP — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/4aeb4be811646a3aaf4f5be7be8572c5b36a00b6/Research/IP-001/Research/Philippians/rr-000_Philippians_Stage0_Corpus_Map.md) | [PHP-D001](../Research/Philippians/DECISIONS.md#php-d001--researcher-полный-stage-0-передан-lead): SUBMITTED / NOT ACCEPTED, 4/4, 21 C / 13 OPEN Q → Lead |
 | [Readiness 16.11.2026 R1 — отдельный PHP Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/5b8efd7111e4c2365b70d3509ed8337d533bbeb3/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16-R1.md) | [D087](../DECISIONS.md#ip-001-d087--researcher-php-readiness-передана-lead-отбор-не-разрешён): PHP READINESS ACCEPTED по D088; Stage 0 PHP разрешён; полный PHP source 4/4, 104 стиха |
 | [EPH — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e/Research/IP-001/Research/Ephesians/rr-000_Ephesians_Stage0_Corpus_Map.md) | [EPH-D001](../Research/Ephesians/DECISIONS.md#eph-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по EPH-D002 / D086, 6/6, 32 C / 18 OPEN Q → Lead |
 | [Readiness 16.11.2026 — отдельный EPH Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/36b1033fbb00e025ee6c040e4480c29b8f240002/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16.md) | [D083](../DECISIONS.md#ip-001-d083--researcher-eph-readiness-передана-lead-отбор-не-разрешён): EPH READINESS ACCEPTED по D084; Stage 0 EPH разрешён; полный отдельный экспорт 6/6, 155 стихов |
