@@ -1,10 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 16.11.2026 по [D086](../DECISIONS.md#ip-001-d086--lead-stage-0-eph-принят-продолжить-readiness-php): Stage 0 GAL и EPH приняты; EPH 6/6, 155 стихов, 32 C / 18 OPEN Q. Следующий шаг — readiness PHP → Lead; её SRC/EXP/SEQ OPEN, отбор пока запрещён.
+**Сверено:** 16.11.2026 по [D087](../DECISIONS.md#ip-001-d087--researcher-php-readiness-передана-lead-отбор-не-разрешён): PHP readiness сдана Lead, 4/4, 104 стиха, новая R1; SRC/EXP/SEQ OPEN, отбор до местного допуска запрещён. GAL/EPH Stage 0 приняты; пилот ещё не завершён.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
+| [Readiness 16.11.2026 R1 — отдельный PHP Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/5b8efd7111e4c2365b70d3509ed8337d533bbeb3/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16-R1.md) | [D087](../DECISIONS.md#ip-001-d087--researcher-php-readiness-передана-lead-отбор-не-разрешён): PHP READINESS SUBMITTED / SELECTION NOT AUTHORIZED → Lead; полный PHP source 4/4, 104 стиха |
 | [EPH — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e/Research/IP-001/Research/Ephesians/rr-000_Ephesians_Stage0_Corpus_Map.md) | [EPH-D001](../Research/Ephesians/DECISIONS.md#eph-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по EPH-D002 / D086, 6/6, 32 C / 18 OPEN Q → Lead |
 | [Readiness 16.11.2026 — отдельный EPH Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/36b1033fbb00e025ee6c040e4480c29b8f240002/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16.md) | [D083](../DECISIONS.md#ip-001-d083--researcher-eph-readiness-передана-lead-отбор-не-разрешён): EPH READINESS ACCEPTED по D084; Stage 0 EPH разрешён; полный отдельный экспорт 6/6, 155 стихов |
 | [GAL — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/3d126fad6c91524009d1772c8ec2135c080b4cfa/Research/IP-001/Research/Galatians/rr-000_Galatians_Stage0_Corpus_Map.md) | [GAL-D001](../Research/Galatians/DECISIONS.md#gal-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по GAL-D002 / D082, 6/6, 30 C / 13 OPEN Q → Lead |
