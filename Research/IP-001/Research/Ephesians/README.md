@@ -1,0 +1,17 @@
+# Ефесянам — книжный цикл IP-001
+
+**Сверено:** 16.11.2026 по [EPH-D001](./DECISIONS.md#eph-d001--researcher-полный-stage-0-передан-lead). **Статус:** STAGE 0 SUBMITTED / NOT ACCEPTED → действующий Lead.
+
+**Вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?
+
+| Объект | Состояние / точный вход |
+|---|---|
+| Назначение | Owner D077 / [D078](../../DECISIONS.md#ip-001-d078--lead-назначение-researcher-на-readiness-и-условный-stage-0-galephphp) |
+| Местная readiness / допуск | [D084](../../DECISIONS.md#ip-001-d084--lead-eph-readiness-принята-отбор-stage-0-разрешён): C-SRC/C-EXP/C-SEQ CLOSED до отбора; C-AUTH CLOSED по D078 |
+| Полный источник | [RST 1–6](https://github.com/inprofundo777-wq/research_lab/blob/99497500d2e3a5d9787f38ceb2117f089837d5f9/Research/IP-001/Research/Ephesians/source_Ephesians_RST_bible-by_2026-11-16.md), 155 стихов; печатная ревизия неизвестна |
+| Stage 0 | [rr-000, первая сдача](https://github.com/inprofundo777-wq/research_lab/blob/04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e/Research/IP-001/Research/Ephesians/rr-000_Ephesians_Stage0_Corpus_Map.md); ledger 6/6, 32 C / 18 OPEN / NOT VERIFIED Q; не принят |
+| Stage 1–4 / Verification / MV | Не разрешены |
+
+**Следующий gate:** Lead отдельно ACCEPT/RETURN по PILOT-S0-OC-v0.1; полный handoff/commit/blob/ограничения — EPH-D001. Researcher v0.1 / Package C, Corpus Mapping; Methodology v0.4 / Protocol v0.2 + дополнение v0.1 / Criteria v0.2 по pins D078/D084. Recovery/disclosure — карта §1; полные длинные контексты — §4, кандидаты — §5, вопросы — §6.
+
+**Ограничения:** Q не разрешены, подтверждённый независимый оценщик не установлен; внутренний self-check не является Verification. Галатам приняты только на Stage 0, 13 Q открыты. После immutable handoff EPH допустима readiness PHP, но она ещё не выполнена; её отбор требует собственного Lead gate. Stage 1 и выбор основной книги — отдельное решение Owner. [Проект](../../README.md).
