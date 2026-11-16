@@ -1,11 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 16.11.2026 по [D092](../DECISIONS.md#ip-001-d092--researcher-полный-stage-1-галатам-сдан-lead): полный Stage 1 GAL сдан по GAL-D004, SUBMITTED / NOT ACCEPTED → Lead; все 30 C / 35 U / 13 OPEN Q. EPH/PHP на паузе после Stage 0; Stage 2+/Verification/MV/новая партия не разрешены.
+**Сверено:** 16.11.2026 по [D093](../DECISIONS.md#ip-001-d093--lead-stage-1-галатам-принят-возврат-owner): GAL Stage 1 принят, 35 U (1 INCLUDE / 10 BORDERLINE / 22 CONTEXTUAL / 2 EXCLUDE), все 30 C / 13 OPEN Q сохранены. Stage 2 — Owner gate; EPH/PHP на паузе после Stage 0.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
-| [GAL — первичные наблюдения Stage 1](https://github.com/inprofundo777-wq/research_lab/blob/ce333db85e822a1a65fc4b14335b4b26738ea66a/Research/IP-001/Research/Galatians/rr-001_Galatians_Primary_Observations.md) | [GAL-D004](../Research/Galatians/DECISIONS.md#gal-d004--researcher-полный-stage-1-передан-lead): SUBMITTED / NOT ACCEPTED; 35 U (1 INCLUDE / 10 BORDERLINE / 22 CONTEXTUAL / 2 EXCLUDE), все 30 C / 13 OPEN Q → Lead ACCEPT/RETURN |
+| [GAL — первичные наблюдения Stage 1](https://github.com/inprofundo777-wq/research_lab/blob/ce333db85e822a1a65fc4b14335b4b26738ea66a/Research/IP-001/Research/Galatians/rr-001_Galatians_Primary_Observations.md) | [GAL-D005 — Owner gate](../Research/Galatians/DECISIONS.md#gal-d005--lead-accept-stage-1-следующий-gate-owner); Stage 2 не разрешён |
 | [PHP — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/4aeb4be811646a3aaf4f5be7be8572c5b36a00b6/Research/IP-001/Research/Philippians/rr-000_Philippians_Stage0_Corpus_Map.md) | [PHP-D001](../Research/Philippians/DECISIONS.md#php-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по PHP-D002 / D090, 4/4, 21 C / 13 OPEN Q → Lead |
 | [Readiness 16.11.2026 R1 — отдельный PHP Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/5b8efd7111e4c2365b70d3509ed8337d533bbeb3/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16-R1.md) | [D087](../DECISIONS.md#ip-001-d087--researcher-php-readiness-передана-lead-отбор-не-разрешён): PHP READINESS ACCEPTED по D088; Stage 0 PHP разрешён; полный PHP source 4/4, 104 стиха |
 | [EPH — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/04c6d92c7b1bc7145e7984dab09a978c1f3c9c3e/Research/IP-001/Research/Ephesians/rr-000_Ephesians_Stage0_Corpus_Map.md) | [EPH-D001](../Research/Ephesians/DECISIONS.md#eph-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по EPH-D002 / D086, 6/6, 32 C / 18 OPEN Q → Lead |
@@ -30,4 +30,4 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующее действие:** [GAL-D004](../Research/Galatians/DECISIONS.md#gal-d004--researcher-полный-stage-1-передан-lead) → Lead ACCEPT/RETURN цельного Stage 1; затем Owner. Researcher остановлен перед Stage 2.
+**Следующее действие:** [GAL-D005](../Research/Galatians/DECISIONS.md#gal-d005--lead-accept-stage-1-следующий-gate-owner) → решение Owner о Stage 2; затем адресное назначение Lead.
