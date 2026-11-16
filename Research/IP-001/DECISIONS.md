@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 16.11.2026 по D091: Owner принял пилот D090, выбрал Галатам и разрешил только контролируемый Stage 1; назначение GAL-D003 выдано, результат ещё не сдан. EPH/PHP на паузе после Stage 0; ACTS/ROM/1COR/2COR на прежних паузах. Stage 2+/новая партия/Verification/MV/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 16.11.2026 по D092: полный Stage 1 Галатам сдан по GAL-D004, SUBMITTED / NOT ACCEPTED → Lead; 35 U, все 30 C и 13 OPEN Q сохранены. EPH/PHP на паузе после Stage 0; ACTS/ROM/1COR/2COR на прежних паузах. Stage 2+/новая партия/Verification/MV/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1841,3 +1841,18 @@ Owner принимает сводку D090, выбирает **Галатам о
 **Lead исполнил адресную часть:** [GAL-D003 — полное назначение Researcher Stage 1](./Research/Galatians/DECISIONS.md#gal-d003--lead-назначение-researcher-на-цельный-stage-1). Точные immutable inputs/договор, Lock/экспозиция, граница источников, target rr-001, полная трассировка C/Q, STOP/приёмка и возврат записаны там. Действующая ветка Researcher пилота продолжает только GAL; новый чат не требуется при сохранённой пригодности, фактическая новая существенная экспозиция проверяется до работы.
 
 **Статус:** STAGE 1 GAL AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED. Принятые Stage 0/открытые вопросы сохранены; Researcher Stage 2 не начинает после самопроверки или будущего ACCEPT. ACTS/ROM/1COR/2COR на паузах. **Ownership → Researcher по GAL-D003 → Lead ACCEPT/RETURN → Owner.** Книжная/проектная/Planning навигация и паузы EPH/PHP обновлены. Одна ссылка исполнителю — **GAL-D003**.
+
+
+---
+
+## IP-001-D092 — Researcher: полный Stage 1 Галатам сдан Lead
+
+**Дата:** 16.11.2026 (Europe/Tallinn). **Основание:** Owner D091 / назначение GAL-D003; Researcher v0.1 / Package C, контролируемый Primary Observation только GAL. **Полный handoff:** [GAL-D004](./Research/Galatians/DECISIONS.md#gal-d004--researcher-полный-stage-1-передан-lead), immutable commit `9127634c16c9f822bf87fe6551e0aa3db8b1010d`.
+
+**STAGE 1 GAL SUBMITTED / NOT ACCEPTED → Lead.** [Цельный rr-001](https://github.com/inprofundo777-wq/research_lab/blob/ce333db85e822a1a65fc4b14335b4b26738ea66a/Research/IP-001/Research/Galatians/rr-001_Galatians_Primary_Observations.md), commit `ce333db85e822a1a65fc4b14335b4b26738ea66a`, blob `336ff948249b4a81da0c8d77aa0866762ceeea15`: все 30 C имеют диспозицию; 35 U — **1 INCLUDE / 10 BORDERLINE / 22 CONTEXTUAL / 2 EXCLUDE**. Все 13 Q с исходным происхождением и датированными обновлениями остаются OPEN / NOT VERIFIED. K-контекст покрывает 149 стихов; новых C/Q/самостоятельных мест не добавлено, Stage 0/source не изменялись.
+
+Полный файл прочитан обратно по immutable commit: строковое равенство 120633 символа; 289 стиховых строк дословно совпали с source, 149 уникальных стихов, 35 U/30 C/13 Q, двусторонние связи и все 182 внутренние ссылки сверены. Это self-check, не ACCEPT/независимая Verification. Актуальная декларация экспозиции и границы — rr-001 §1 / GAL-D004; новой материальной утечки/старого GAL ключа не выявлено. Все внешние CTX/LANG/TEXT зависимости остаются непроверенными, L-RES OPEN; L-TRACE Stage 1 передан Lead.
+
+**Следующий ответственный — действующий Lead:** отдельный ACCEPT/RETURN по GAL-D003/Primary Observation Contract v0.2. Установленные имена/настоящее участие, неясная датировка/источник, роль/отношение/посредничество, отрицание и человеческие действия сохранены раздельно; число INCLUDE не заменяет исследовательскую приёмку. После приёмки следующий содержательный gate — Owner.
+
+**Researcher остановлен перед Stage 2.** EPH/PHP остаются на паузе после принятых Stage 0; ACTS/ROM/1COR/2COR на прежних паузах. Поздние стадии/новая партия/историческое и межкнижное сравнение/Verification/MV/capability/NT-T/закрытие не активированы. Книжная/проектная/Planning навигация синхронизируется. Одна ссылка для передачи Lead — **GAL-D004**.
