@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 17.11.2026 по D094: Owner разрешил Stage 2 Галатам; назначение GAL-D006 выдано, результат ещё не сдан. Stage 0–1 GAL приняты, 35 U/30 C/13 OPEN Q сохранены. EPH/PHP на паузе после Stage 0, четыре прежние книги на паузах. Stage 3+/новая партия/Verification/MV/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 17.11.2026 по D095: полный Stage 2 GAL сдан по GAL-D007, SUBMITTED / NOT ACCEPTED → Lead; 2 R / 1 S / 3 NB / 7 NM, все 35 U / 30 C / 13 OPEN Q сохранены. EPH/PHP и ACTS/ROM/1COR/2COR на паузах. Stage 3+/новая партия/Verification/MV/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1882,3 +1882,15 @@ Owner принимает сводку D090, выбирает **Галатам о
 **Lead исполнил адресную часть:** [GAL-D006 — цельное назначение и GAL-S2-OC-v0.1](./Research/Galatians/DECISIONS.md#gal-d006--lead-назначение-researcher-на-цельный-stage-2). Там закреплены точные immutable inputs, Lock/экспозиция, типы R/S/NB/NM без квот, трассировка всех U/C/Q, STOP, target rr-002, сдача/приёмка и следующий Owner gate. Продолжает та же ветка Researcher; получение/исполнение ещё не заявлены.
 
 **Статус:** STAGE 2 GAL AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED. **Ownership → Researcher по GAL-D006 → Lead ACCEPT/RETURN → Owner.** Книжная/проектная/Planning навигация обновлена. Одна ссылка исполнителю — **GAL-D006**.
+
+---
+
+## IP-001-D095 — Researcher: полный Stage 2 Галатам сдан Lead
+
+**Дата:** 17.11.2026 (Europe/Tallinn). **Основание:** Owner D094 / GAL-D006, Researcher v0.1 / Package C, контролируемый Corpus Mapping только GAL. **Полный handoff:** [GAL-D007](./Research/Galatians/DECISIONS.md#gal-d007--researcher-полный-stage-2-передан-lead), commit `d55aa034ff82e83073bfb26387aa69e13588a571`.
+
+**STAGE 2 SUBMITTED / NOT ACCEPTED → Lead.** [Цельный rr-002](https://github.com/inprofundo777-wq/research_lab/blob/759d29265cc6a5c43c97f8107d297ca3778aa1dd/Research/IP-001/Research/Galatians/rr-002_Galatians_Repetition_Stable_Evidence_Map.md), commit `759d29265cc6a5c43c97f8107d297ca3778aa1dd`, blob `25daba4c4f6ed88364393fd826520fe2431291e3`. **2 R / 1 S / 3 NB / 7 NM**, все 35 U / 30 C / 13 OPEN / NOT VERIFIED Q. R — повторения отношений; сильное единичное 2:20 сохранено; повторения прямых действий не выдуманы. Матрица/обратные связи, исходные judgments, происхождение Q и датированные уточнения сохранены. Принятые source/Stage 0–1 не изменены.
+
+Полное обратное чтение immutable файла подтвердило строковое равенство 79459 символов; все 61 стиховые строки совпали с source, 162 внутренние ссылки и внешние U/Q-anchor сверены. Self-check не является ACCEPT/независимой Verification; L-TRACE передан Lead, L-RES OPEN. Актуальная экспозиция/ограничения — rr-002 §1 / GAL-D007; нового материального старого GAL ключа не выявлено, внешняя экспертиза не выполнялась. Новых C/Q/корректирующих записок не потребовалось.
+
+**Следующий ответственный — действующий Lead:** ACCEPT/RETURN цельного результата по GAL-S2-OC-v0.1. После приёмки следующий содержательный gate — Owner. **Researcher остановлен перед Stage 3.** EPH/PHP после Stage 0 и ACTS/ROM/1COR/2COR сохраняют паузы; Stage 3+, новая партия, история/межкнижное сравнение, Verification/MV/capability/P0, NT-T/закрытие не разрешены. Книжная/проектная навигация синхронизируется. Одна ссылка передачи — **GAL-D007**.
