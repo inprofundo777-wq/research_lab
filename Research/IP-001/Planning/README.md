@@ -1,6 +1,6 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 16.11.2026 по [D093](../DECISIONS.md#ip-001-d093--lead-stage-1-галатам-принят-возврат-owner): GAL Stage 1 принят, 35 U (1 INCLUDE / 10 BORDERLINE / 22 CONTEXTUAL / 2 EXCLUDE), все 30 C / 13 OPEN Q сохранены. Stage 2 — Owner gate; EPH/PHP на паузе после Stage 0.
+**Сверено:** 17.11.2026 по [D094](../DECISIONS.md#ip-001-d094--owner-разрешён-stage-2-галатам): Owner разрешил только Stage 2 GAL; [полное назначение GAL-D006](../Research/Galatians/DECISIONS.md#gal-d006--lead-назначение-researcher-на-цельный-stage-2) выдано, результат ещё не сдан. Stage 0–1 приняты; 35 U/30 C/13 OPEN Q сохранены. EPH/PHP на паузе; Stage 3+ не разрешён.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
@@ -30,4 +30,4 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующее действие:** [GAL-D005](../Research/Galatians/DECISIONS.md#gal-d005--lead-accept-stage-1-следующий-gate-owner) → решение Owner о Stage 2; затем адресное назначение Lead.
+**Следующее действие:** [GAL-D006](../Research/Galatians/DECISIONS.md#gal-d006--lead-назначение-researcher-на-цельный-stage-2) → Researcher → Lead ACCEPT/RETURN; затем отдельный Owner gate.
