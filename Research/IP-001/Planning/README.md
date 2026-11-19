@@ -1,11 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 19.11.2026 по [D096](../DECISIONS.md#ip-001-d096--lead-stage-2-галатам-принят-возврат-owner) / [GAL-D008](../Research/Galatians/DECISIONS.md#gal-d008--lead-accept-stage-2-следующий-gate-owner): Stage 0–2 GAL приняты; 2 R / 1 S / 3 NB / 7 NM, все 35 U / 30 C / 13 OPEN Q сохранены. Owner рассматривает отдельный Stage 3; назначения нет. EPH/PHP и прежние книги на паузах.
+**Сверено:** 19.11.2026 по [D097](../DECISIONS.md#ip-001-d097--owner-разрешён-stage-3-галатам): Owner разрешил только Stage 3 GAL; [полное назначение GAL-D009](../Research/Galatians/DECISIONS.md#gal-d009--lead-назначение-researcher-на-цельный-stage-3) выдано, результат не сдан. Stage 0–2 приняты; 13 записей / 35 U / 30 C / 13 OPEN Q сохраняются. EPH/PHP и прежние книги на паузах.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
-| [GAL — карта повторений Stage 2](https://github.com/inprofundo777-wq/research_lab/blob/759d29265cc6a5c43c97f8107d297ca3778aa1dd/Research/IP-001/Research/Galatians/rr-002_Galatians_Repetition_Stable_Evidence_Map.md) | [GAL-D008 — ACCEPT / Owner gate](../Research/Galatians/DECISIONS.md#gal-d008--lead-accept-stage-2-следующий-gate-owner); Stage 3 не разрешён |
+| [GAL — карта повторений Stage 2](https://github.com/inprofundo777-wq/research_lab/blob/759d29265cc6a5c43c97f8107d297ca3778aa1dd/Research/IP-001/Research/Galatians/rr-002_Galatians_Repetition_Stable_Evidence_Map.md) | [GAL-D008 — ACCEPT](../Research/Galatians/DECISIONS.md#gal-d008--lead-accept-stage-2-следующий-gate-owner); Stage 3 разрешён D097, назначение GAL-D009 |
 | [GAL — первичные наблюдения Stage 1](https://github.com/inprofundo777-wq/research_lab/blob/ce333db85e822a1a65fc4b14335b4b26738ea66a/Research/IP-001/Research/Galatians/rr-001_Galatians_Primary_Observations.md) | Принят GAL-D005; последующий Stage 2 принят GAL-D008 |
 | [PHP — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/4aeb4be811646a3aaf4f5be7be8572c5b36a00b6/Research/IP-001/Research/Philippians/rr-000_Philippians_Stage0_Corpus_Map.md) | [PHP-D001](../Research/Philippians/DECISIONS.md#php-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по PHP-D002 / D090, 4/4, 21 C / 13 OPEN Q → Lead |
 | [Readiness 16.11.2026 R1 — отдельный PHP Lock/disclosure/evidence](https://github.com/inprofundo777-wq/research_lab/blob/5b8efd7111e4c2365b70d3509ed8337d533bbeb3/Research/IP-001/Planning/GAL-EPH-PHP-Pilot-Readiness-2026-11-16-R1.md) | [D087](../DECISIONS.md#ip-001-d087--researcher-php-readiness-передана-lead-отбор-не-разрешён): PHP READINESS ACCEPTED по D088; Stage 0 PHP разрешён; полный PHP source 4/4, 104 стиха |
@@ -31,4 +31,4 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующее действие:** Owner → отдельное решение о Stage 3 GAL по рекомендации GAL-D008; затем Lead оформляет назначение. Researcher остановлен.
+**Следующее действие:** Researcher выполняет полный Stage 3 GAL по GAL-D009 → Lead ACCEPT/RETURN; после ACCEPT Lead закрепляет snapshot/смысловой паспорт → Owner. Stage 4 и Verification/MV не разрешены.
