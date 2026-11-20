@@ -1,6 +1,6 @@
 # Галатам — книжный цикл IP-001
 
-**Сверено:** 20.11.2026 по [GAL-D011](./DECISIONS.md#gal-d011--lead-accept-stage-3-snapshot-и-смысловой-паспорт-owner): Stage 0–3 GAL приняты; 5 предварительных G, все 13 записей / 35 U / 30 C / 13 OPEN Q. Snapshot и смысловой паспорт закреплены. Ownership → Owner; нового назначения нет.
+**Сверено:** 20.11.2026 по GAL-D012 / Owner D100: Stage 0–3 приняты, рабочая пауза подтверждена; snapshot/паспорт и 13 OPEN Q сохранены. Книга не закрыта.
 
 **Вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?
 
@@ -15,9 +15,9 @@
 | Stage 3 | ACCEPT GAL-D011; [rr-003](https://github.com/inprofundo777-wq/research_lab/blob/5a7c5202befe5d0d6915e67b6b84da79223f7420/Research/IP-001/Research/Galatians/rr-003_Galatians_Preliminary_Research_Groups.md), 5 предварительных G |
 | Stage 4 / Verification / MV | Не разрешены |
 
-**Следующий шаг:** Owner рассматривает рекомендацию рабочей паузы GAL и отдельно выбирает дальнейший маршрут. Verification и Stage 4 не разрешены.
+**Следующий gate GAL:** отдельное решение Owner о scope/ресурсе; Researcher продолжает только Ефесянам Stage 1 по EPH-D003.
 
 **Ограничения:** 13 Q сохраняются с происхождением, поздний ресурс CTX/LANG/TEXT не установлен; Verification не активирована. EPH/PHP на паузе после принятых Stage 0 по Owner D091. [Проект IP-001](../../README.md).
 
 
-**Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Предложенная рабочая пауза GAL ещё требует решения Owner; EPH/PHP и прежние книги сохраняют свои паузы.
+**Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Рабочая пауза GAL подтверждена Owner D100; EPH/PHP и прежние книги сохраняют свои паузы.

@@ -1,6 +1,6 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 20.11.2026 по [GAL-D011](../Research/Galatians/./DECISIONS.md#gal-d011--lead-accept-stage-3-snapshot-и-смысловой-паспорт-owner): Stage 0–3 GAL приняты; 5 предварительных G, все 13 записей / 35 U / 30 C / 13 OPEN Q. Snapshot и смысловой паспорт закреплены. Ownership → Owner; нового назначения нет.
+**Сверено:** 20.11.2026 по D100: GAL на рабочей паузе после принятых Stage 0–3; активное назначение — EPH-D003, только Stage 1 Ефесянам, 32 C / 18 OPEN Q.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
@@ -31,7 +31,10 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующее действие:** Owner по GAL-D011; ни следующий этап, ни новая книга не назначены.
+**Следующее действие:** EPH-D003 → Researcher полный Stage 1 → Lead ACCEPT/RETURN → Owner; другие книги/стадии не назначены.
 
 
-**Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Предложенная рабочая пауза GAL ещё требует решения Owner; EPH/PHP и прежние книги сохраняют свои паузы.
+**Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Рабочая пауза GAL подтверждена Owner D100; EPH/PHP и прежние книги сохраняют свои паузы.
+
+
+**Активное назначение:** [EPH-D003 — цельный Stage 1](../Research/Ephesians/DECISIONS.md#eph-d003--lead-назначение-researcher-на-цельный-stage-1).
