@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** 22.11.2026 по D103: Stage 0–1 EPH приняты; Stage 2 AUTHORIZED / ASSIGNMENT ISSUED по EPH-D006. 36 U / 32 C / 18 OPEN Q сохраняются, результат ещё не сдан. GAL/PHP и прежние книги на паузах; Stage 3+/Verification/MV/сравнение/закрытие не разрешены. Решения ниже append-only.
+**Состояние:** Сверено 23.11.2026 по D104: полный Stage 2 EPH сдан по EPH-D007, SUBMITTED / NOT ACCEPTED → Lead; 3 R / 5 S / 3 NB / 8 NM, все 36 U / 32 C / 18 OPEN Q. GAL и остальные книги на прежних паузах. Stage 3+/Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -1994,3 +1994,15 @@ Owner принимает сводку D090, выбирает **Галатам о
 **Lead оформил полное назначение:** [EPH-D006 — цельный Stage 2 / EPH-S2-OC-v0.1](./Research/Ephesians/DECISIONS.md#eph-d006--lead-назначение-researcher-на-цельный-stage-2). Там точные immutable inputs/нормы, Lock/актуальное disclosure, функции записей/полная трассировка/вопросы, предел источников, STOP, target rr-002, сдача и ACCEPT/RETURN. Продолжает та же ветка Researcher; получение/исполнение пока не подтверждены.
 
 **STAGE 2 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED. Ownership → Researcher по EPH-D006 → Lead ACCEPT/RETURN → Owner.** Stage 3+, новая партия, история/межкнижное сравнение/NT-T, Verification/MV/capability/P0 и закрытие не разрешены. GAL после Stage 0–3, PHP после Stage 0 и ACTS/ROM/1COR/2COR сохраняют паузы. Карты обновлены; одна ссылка исполнителю — **EPH-D006**.
+
+---
+
+## IP-001-D104 — Researcher: полный Stage 2 Ефесянам сдан Lead
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Основание:** D103 / EPH-D006, Researcher v0.1 / Package C, контролируемый Corpus Mapping EPH. **Полный handoff:** [EPH-D007](./Research/Ephesians/DECISIONS.md#eph-d007--researcher-полный-stage-2-передан-lead), commit `53a0ccf93f68e5b4e59ac3444bec5b56f2cde231`.
+
+**STAGE 2 SUBMITTED / NOT ACCEPTED → Lead.** [Цельный rr-002](https://github.com/inprofundo777-wq/research_lab/blob/c4bb35778a08cd1379bc2531a39be6e1aa1e2027/Research/IP-001/Research/Ephesians/rr-002_Ephesians_Repetition_Stable_Evidence_Map.md), commit `c4bb35778a08cd1379bc2531a39be6e1aa1e2027`, blob `5259dc686c3bf61b55d02295796c3405858f007f`: **3 R / 5 S / 3 NB / 8 NM**, всего 19 записей, все 36 U / 32 C / 18 OPEN / NOT VERIFIED Q. R сохраняют отношения/роль; сильные локальные основания, различия времени/модальности и причины не объединять сохранены. U018/U020 — одна цепочка, не два независимых события. Judgments 7 INCLUDE / 9 BORDERLINE / 20 CONTEXTUAL / 0 EXCLUDE не изменены.
+
+Полное обратное чтение: точное равенство 99136 символов; 100 цитат совпали с source, 203 внутренние ссылки и 157 внешних U/Q-anchor сверены. Происхождение/альтернативы Q восстанавливаются по exact anchors принятого rr-001, отдельные обновления Stage 2 датированы. Новых C/Q/мест/корректирующих записок не потребовалось; inputs не изменены. Актуальная экспозиция/ресурс — rr-002 §1 / EPH-D007; нового конкретного старого EPH ключа не выявлено. Self-check не равен ACCEPT/независимой Verification. L-TRACE Stage 2 передан Lead; L-RES OPEN.
+
+**Следующий ответственный — Lead:** отдельный ACCEPT/RETURN по EPH-S2-OC-v0.1; затем Owner. **Researcher остановлен перед Stage 3.** GAL после Stage 0–3, PHP после Stage 0 и ACTS/ROM/1COR/2COR сохраняют паузы. Stage 3+, новая партия, история/межкнижное сравнение/NT-T, Verification/MV/capability/P0/закрытие не разрешены. Книжная/проектная навигация синхронизируется. Одна ссылка передачи — **EPH-D007**.
