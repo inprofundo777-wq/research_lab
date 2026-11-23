@@ -1,6 +1,6 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 23.11.2026 по [EPH-D008](../Research/Ephesians/DECISIONS.md#eph-d008--lead-accept-stage-2-следующий-gate-owner): Stage 0–2 EPH приняты; 3 R / 5 S / 3 NB / 8 NM, все 36 U / 32 C / 18 OPEN Q. Ownership → Owner; Stage 3 не разрешён.
+**Сверено:** 23.11.2026 по Owner D106: Stage 0–2 EPH приняты; Stage 3 разрешён и назначен [EPH-D009](../Research/Ephesians/DECISIONS.md#eph-d009--lead-назначение-researcher-на-цельный-stage-3). Все 19 записей / 36 U / 32 C / 18 OPEN Q сохраняются; результат ещё не сдан.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
@@ -31,10 +31,10 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующее действие:** Owner → отдельное решение о Stage 3 EPH; нового назначения нет.
+**Следующее действие:** EPH-D009 → Researcher полный Stage 3 → Lead ACCEPT/RETURN → после ACCEPT snapshot/паспорт → Owner.
 
 
 **Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Рабочая пауза GAL подтверждена Owner D100; EPH/PHP и прежние книги сохраняют свои паузы.
 
 
-**Текущий результат:** [EPH-D008 — ACCEPT Stage 2](../Research/Ephesians/DECISIONS.md#eph-d008--lead-accept-stage-2-следующий-gate-owner); EPH-D006 выполнено, следующий gate Owner.
+**Активное назначение:** [EPH-D009 — полный Stage 3](../Research/Ephesians/DECISIONS.md#eph-d009--lead-назначение-researcher-на-цельный-stage-3); Stage 2 принят EPH-D008.
