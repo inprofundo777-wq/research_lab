@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 23.11.2026 по D109: EPH на рабочей паузе после принятых Stage 0–3; Owner разрешил только Stage 1 PHP, назначение Lead — PHP-D003. PHP Stage 0 принят, 21 C / 13 OPEN Q; Stage 1 ещё не сдан. Stage 2+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 23.11.2026 по D110: EPH на рабочей паузе после принятых Stage 0–3; Owner разрешил только Stage 1 PHP, назначение Lead — PHP-D003. PHP Stage 0 принят, 21 C / 13 OPEN Q; Stage 1 ещё не сдан. Stage 2+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2072,3 +2072,14 @@ Owner принимает сводку D090, выбирает **Галатам о
 **Филиппийцам:** пауза после принятого Stage 0 снята только для **контролируемого Stage 1 — Primary Observation** Флп 1–4. Lead уполномочен выдать одно полное назначение Researcher v0.1 / Package C по принятой PHP rr-000, закреплённому RST, Primary Observation Contract v0.2 и активной Методологии v0.4; все 21 C и 13 OPEN Q с происхождением/экспозицией сохранить. Stage 0 не переписывается и новая readiness не нужна без материального source/exposure дефекта. Не предрешены число U и их judgments. Постоянный Registry не расширяется.
 
 **Статус:** PHP STAGE 1 AUTHORIZED; Lead выдал [PHP-D003 — полное назначение](./Research/Philippians/DECISIONS.md#php-d003--lead-назначение-researcher-на-цельный-stage-1). Результат Stage 1 ещё не сдан и не принят. Ownership → действующая ветка Researcher по PHP-D003 → Lead ACCEPT/RETURN → Owner на отдельный следующий gate. GAL и EPH на рабочих паузах после Stage 0–3; ACTS/ROM/1COR/2COR сохраняют прежние паузы. Stage 2+ PHP, Stage 4/Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D003**.
+
+
+---
+
+## IP-001-D110 — Lead: полный Stage 1 Филиппийцам назначен
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Основание:** Owner D109; PHP Stage 0 принят PHP-D002 / D090. **Полное назначение:** [PHP-D003](./Research/Philippians/DECISIONS.md#php-d003--lead-назначение-researcher-на-цельный-stage-1), commit `ed395d1c13593e7b85fd6982458f7b2b42f470f7`.
+
+**STAGE 1 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED.** Та же действующая ветка Researcher v0.1 / Package C выполняет только контролируемый Primary Observation Флп 1–4 по принятым immutable rr-000/RST и Contract v0.2 при активной Методологии v0.4. Все 21 C и 13 OPEN / NOT VERIFIED Q, происхождение Флп 1:6/экспозиция и source limits сохранены; число U/judgments не предрешено. PHP-D003 содержит точные pins, Lock/disclosure, договор полного выхода/трассировки, target rr-001, STOP, отдельную приёмку Lead и остановку перед Stage 2.
+
+**Ownership → Researcher по PHP-D003 → Lead ACCEPT/RETURN → Owner.** GAL и EPH на рабочих паузах после Stage 0–3, ACTS/ROM/1COR/2COR на прежних паузах. Stage 2+ PHP, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D003**.
