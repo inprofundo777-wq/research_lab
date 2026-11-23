@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 23.11.2026 по D113: PHP Stage 0–1 приняты, Owner разрешил Stage 2; Lead выдал PHP-D006. Stage 2 назначен, результат не сдан; 21 C / 33 U / 13 OPEN Q. GAL/EPH и прежние книги на паузах. Stage 3+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 23.11.2026 по D114: PHP Stage 0–1 приняты, Owner разрешил Stage 2; Lead выдал PHP-D006. Stage 2 назначен, результат не сдан; 21 C / 33 U / 13 OPEN Q. GAL/EPH и прежние книги на паузах. Stage 3+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2118,3 +2118,14 @@ Owner принимает сводку D090, выбирает **Галатам о
 Разрешён один **контролируемый Stage 2 Филиппийцам** — внутрикнижная карта реальных повторений, сильных единичных оснований, повторяющихся ограничителей и существенных сходств, которые следует оставить раздельными. Researcher v0.1 / Package C работает по принятым PHP Stage 0–1 и закреплённому RST; все 33 U / 21 C / 13 OPEN / NOT VERIFIED Q, их judgments/происхождение/границы и актуальное disclosure сохраняются. Число и состав будущих записей не предрешены. Registry не расширен.
 
 **Lead выдал полное назначение:** [PHP-D006 — PHP-S2-OC-v0.1](./Research/Philippians/DECISIONS.md#php-d006--lead-назначение-researcher-на-цельный-stage-2). Там точные immutable inputs/нормы, Lock, функции R/S/NB/NM, полная диспозиция U/C/Q, disclosure, STOP, цельный выход/сдача/приёмка и остановка. **STAGE 2 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED.** Ownership → действующая ветка Researcher по PHP-D006 → Lead ACCEPT/RETURN → Owner для отдельного следующего gate. GAL/EPH и ACTS/ROM/1COR/2COR на рабочих паузах. Stage 3+ PHP, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D006**.
+
+
+---
+
+## IP-001-D114 — Lead: полный Stage 2 Филиппийцам назначен
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Основание:** Owner D113; Stage 0–1 PHP приняты PHP-D002/D005. **Полное назначение:** [PHP-D006 / PHP-S2-OC-v0.1](./Research/Philippians/DECISIONS.md#php-d006--lead-назначение-researcher-на-цельный-stage-2), commit `a6db64b7496007b342a58d8cdbe84467e08b89f9`.
+
+**STAGE 2 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED.** Действующая ветка Researcher v0.1 / Package C выполняет только внутрикнижную карту повторений и границ Филиппийцам по принятым immutable rr-000/rr-001/RST и Protocol §7 при Методологии v0.4. Все 33 U, 21 C, 13 OPEN / NOT VERIFIED Q, сила и исходная экспозиция Флп 1:6 сохраняются. Ни число записей, ни будущие группы не предрешены. PHP-D006 задаёт функции R/S/NB/NM, полный U/C/Q ledger и обратные связи, источники/раскрытие, target rr-002, STOP, цельную сдачу/приёмку и остановку перед Stage 3.
+
+**Ownership → Researcher PHP Stage 2 → Lead ACCEPT/RETURN → Owner.** GAL/EPH и ACTS/ROM/1COR/2COR на паузах; Stage 3+ PHP, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D006**.
