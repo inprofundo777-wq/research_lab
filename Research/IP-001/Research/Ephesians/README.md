@@ -1,6 +1,6 @@
 # Ефесянам — книжный цикл IP-001
 
-**Сверено:** 23.11.2026 по [EPH-D011](./DECISIONS.md#eph-d011--lead-accept-stage-3-snapshot-и-смысловой-паспорт-owner): Stage 0–3 приняты; 8 предварительных G, все 19 записей / 36 U / 32 C / 18 OPEN Q. Snapshot/паспорт переданы Owner.
+**Сверено:** 23.11.2026 по [EPH-D012](./DECISIONS.md#eph-d012--owner-рабочая-пауза-после-принятого-stage-3): Stage 0–3 приняты, Owner поставил книгу на рабочую паузу; 8 предварительных G, 19 записей / 36 U / 32 C / 18 OPEN Q, snapshot/паспорт сохранены.
 
 **Вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?
 
@@ -16,6 +16,6 @@
 | Snapshot / паспорт | [Самостоятельный срез](https://github.com/inprofundo777-wq/research_lab/blob/293fe608757ff2599c8f1084055ce0e315f8f0c5/Research/IP-001/Planning/EPH-Fresh-Stage-0-3-Snapshot-2026-11-23.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/bf65a77350076f0912eb11658cd24246b7fbddfa/Research/IP-001/Research/Ephesians/EPH-Смысловой-паспорт-Stage-0-3.md) → Owner |
 | Stage 4 / Verification / MV | Не разрешены |
 
-**Следующий шаг:** Ownership → Owner по EPH-D011; Lead рекомендует рабочую паузу EPH и отдельное решение о PHP Stage 1 либо scope/ресурсе проверки EPH. Researcher остановлен.
+**Следующий шаг:** Ownership EPH → Owner; возвращение к проверке требует отдельного решения о scope/ресурсе. Researcher перешёл только к Stage 1 PHP по PHP-D003.
 
-**Ограничения:** все 18 Q открыты, L-RES OPEN; предметная Verification не выполнена. GAL на паузе после Stage 0–3 по D100; PHP после Stage 0. Stage 4 и Verification не разрешены. [Проект](../../README.md).
+**Ограничения:** все 18 Q открыты, L-RES OPEN; предметная Verification не выполнена. GAL на паузе после Stage 0–3 по D100; PHP Stage 1 разрешён Owner D109 и назначен Lead PHP-D003. Stage 4 и Verification EPH не разрешены. [Проект](../../README.md).
