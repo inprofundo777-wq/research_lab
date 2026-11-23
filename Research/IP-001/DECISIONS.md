@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 23.11.2026 по D114: PHP Stage 0–1 приняты, Owner разрешил Stage 2; Lead выдал PHP-D006. Stage 2 назначен, результат не сдан; 21 C / 33 U / 13 OPEN Q. GAL/EPH и прежние книги на паузах. Stage 3+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 23.11.2026 по D115: Stage 0–1 PHP приняты, полный Stage 2 сдан PHP-D007, SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN → Owner. Все 33 U / 21 C / 13 OPEN Q сохранены; 15 записей Stage 2. Researcher остановлен перед Stage 3; остальные книги на прежних паузах. Stage 3+ PHP, Verification/MV/новая партия/история/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2129,3 +2129,16 @@ Owner принимает сводку D090, выбирает **Галатам о
 **STAGE 2 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED.** Действующая ветка Researcher v0.1 / Package C выполняет только внутрикнижную карту повторений и границ Филиппийцам по принятым immutable rr-000/rr-001/RST и Protocol §7 при Методологии v0.4. Все 33 U, 21 C, 13 OPEN / NOT VERIFIED Q, сила и исходная экспозиция Флп 1:6 сохраняются. Ни число записей, ни будущие группы не предрешены. PHP-D006 задаёт функции R/S/NB/NM, полный U/C/Q ledger и обратные связи, источники/раскрытие, target rr-002, STOP, цельную сдачу/приёмку и остановку перед Stage 3.
 
 **Ownership → Researcher PHP Stage 2 → Lead ACCEPT/RETURN → Owner.** GAL/EPH и ACTS/ROM/1COR/2COR на паузах; Stage 3+ PHP, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D006**.
+
+
+---
+
+## IP-001-D115 — Researcher: полный Stage 2 Филиппийцам сдан Lead
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Основание:** Owner D113 / PHP-D006 / PHP-S2-OC-v0.1; Researcher v0.1 / Package C, внутрикнижное сопоставление PHP. **Полный handoff:** [PHP-D007](./Research/Philippians/DECISIONS.md#php-d007--researcher-полный-stage-2-передан-lead), commit `061aaafe37aa5324f644854d252505bb2b1bc1dc`.
+
+**STAGE 2 SUBMITTED / NOT ACCEPTED → Lead.** [Цельный rr-002](https://github.com/inprofundo777-wq/research_lab/blob/f2c0391b47df2f093e438378981e51ce80c115ef/Research/IP-001/Research/Philippians/rr-002_Philippians_Repetition_Stable_Evidence_Map.md), commit `f2c0391b47df2f093e438378981e51ce80c115ef`, blob `4dad142897f14cea493f782cef0d4ab9bed5e597`. **15 записей: 1 R / 3 S / 3 NB / 8 NM**, все 33 U / 21 C / 13 OPEN / NOT VERIFIED Q имеют диспозицию/обратные связи; остатка вне записей нет. R001 — структура благодатных формул, не два акта. S001/S002/S003 сохраняют «достиг», будущее преобразование/силу/покорение одной конструкции и укрепление в опыте; U024/U025 не удвоены. NB/NM удерживают субъекты/время/речь/раздельность. Judgments 4 INCLUDE / 6 BORDERLINE / 23 CONTEXTUAL / 0 EXCLUDE неизменны.
+
+Исходные Q и Stage 1 обновления доступны по exact anchors, отдельные уточнения Stage 2 сохранены. Новых Q/loci/корректирующих записок не потребовалось; inputs не изменены. Полное обратное чтение: строковое равенство 183923 символа, 122 цитаты совпали с RST, 221 внутренняя ссылка и 404 U/C/Q/K-anchor проверены. Disclosure до сопоставления — rr-002 §1 / PHP-D007; прежняя экспозиция 1:6 сохранена, нового конкретного старого PHP ключа не выявлено. Внешняя проверка не выполнена; source revision/origin-время неизвестны, L-RES OPEN. Self-check не равен ACCEPT; L-TRACE передан Lead.
+
+**Ownership → Lead ACCEPT/RETURN → Owner. Researcher остановлен перед Stage 3.** GAL/EPH и ACTS/ROM/1COR/2COR на прежних паузах. Stage 3+ PHP, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/закрытие не разрешены. Книжная/проектная навигация синхронизируется. Одна ссылка передачи — **PHP-D007**.
