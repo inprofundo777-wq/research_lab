@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 23.11.2026 по D110: EPH на рабочей паузе после принятых Stage 0–3; Owner разрешил только Stage 1 PHP, назначение Lead — PHP-D003. PHP Stage 0 принят, 21 C / 13 OPEN Q; Stage 1 ещё не сдан. Stage 2+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 23.11.2026 по D111: PHP Stage 0 принят; полный Stage 1 сдан PHP-D004, SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN → Owner. Все 21 C / 33 U / 13 OPEN Q сохранены. GAL/EPH на рабочих паузах после Stage 0–3; прежние паузы остальных книг сохранены. Stage 2+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2083,3 +2083,16 @@ Owner принимает сводку D090, выбирает **Галатам о
 **STAGE 1 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED.** Та же действующая ветка Researcher v0.1 / Package C выполняет только контролируемый Primary Observation Флп 1–4 по принятым immutable rr-000/RST и Contract v0.2 при активной Методологии v0.4. Все 21 C и 13 OPEN / NOT VERIFIED Q, происхождение Флп 1:6/экспозиция и source limits сохранены; число U/judgments не предрешено. PHP-D003 содержит точные pins, Lock/disclosure, договор полного выхода/трассировки, target rr-001, STOP, отдельную приёмку Lead и остановку перед Stage 2.
 
 **Ownership → Researcher по PHP-D003 → Lead ACCEPT/RETURN → Owner.** GAL и EPH на рабочих паузах после Stage 0–3, ACTS/ROM/1COR/2COR на прежних паузах. Stage 2+ PHP, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D003**.
+
+
+---
+
+## IP-001-D111 — Researcher: полный Stage 1 Филиппийцам сдан Lead
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Основание:** Owner D109 / PHP-D003 / D110; Researcher v0.1 / Package C, контролируемый Primary Observation только PHP. **Полный handoff:** [PHP-D004](./Research/Philippians/DECISIONS.md#php-d004--researcher-полный-stage-1-передан-lead), commit `efeae88f02bee9b711ea0cd3c900b61a70e4c028`.
+
+**STAGE 1 SUBMITTED / NOT ACCEPTED → Lead.** Цельный [rr-001](https://github.com/inprofundo777-wq/research_lab/blob/fc10a2dd211bf67f4419f33850c606e2b7a97d64/Research/IP-001/Research/Philippians/rr-001_Philippians_Primary_Observations.md), commit `fc10a2dd211bf67f4419f33850c606e2b7a97d64`, blob `ef62bf83c79f031ee1a7825591269754a5472255`. Все **21 C → 33 U: 4 INCLUDE / 6 BORDERLINE / 23 CONTEXTUAL / 0 EXCLUDE**. Все **13 Q OPEN / NOT VERIFIED**, исходные записи дословно сохранены с отдельными обновлениями Stage 1 и U/C-связями. 104 стиха / 4 главы сохранены в полных контекстах. Сильные единичные и отрицательные основания, планы/молитва/будущее/прошлое различены; U024/U025 — два слоя одной конструкции, не два независимых события. INCLUDE не равен доказанному действию в искомом периоде.
+
+Полное обратное чтение подтвердило равенство 123087 символов; 230 цитат совпали с RST, 104 уникальных стиха, 131 внутренняя ссылка и 81 immutable C/Q-anchor проверены. Inputs не изменены; новых Q/loci/корректирующих записок не потребовалось. Disclosure до наблюдений — rr-001 §1 / PHP-D004; прежнее знакомство с Флп 1:6 сохранено, нового конкретного старого PHP ключа не выявлено. Иные переводы/греческий/эксперты не привлечены; source revision/origin-время неизвестны, L-RES OPEN. Self-check не равен ACCEPT/независимой Verification; L-TRACE передан Lead.
+
+**Ownership → Lead для отдельного ACCEPT/RETURN → Owner. Researcher остановлен перед Stage 2.** GAL/EPH на рабочих паузах после Stage 0–3, ACTS/ROM/1COR/2COR сохраняют прежние паузы. Stage 2+ PHP, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/книжное закрытие не разрешены. Книжная/проектная навигация синхронизируется. Одна ссылка передачи — **PHP-D004**.
