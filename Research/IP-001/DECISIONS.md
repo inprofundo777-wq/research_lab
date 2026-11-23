@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 23.11.2026 по D108: Stage 0–3 EPH приняты по EPH-D011; 8 предварительных G, все 19 записей / 36 U / 32 C / 18 OPEN Q; snapshot/паспорт закреплены, ownership → Owner. Stage 4/Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены; остальные книги на прежних паузах. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 23.11.2026 по D109: EPH на рабочей паузе после принятых Stage 0–3; Owner разрешил только Stage 1 PHP, назначение Lead — PHP-D003. PHP Stage 0 принят, 21 C / 13 OPEN Q; Stage 1 ещё не сдан. Stage 2+ PHP, Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2059,3 +2059,16 @@ Owner принимает сводку D090, выбирает **Галатам о
 Закреплены [самостоятельный snapshot](https://github.com/inprofundo777-wq/research_lab/blob/293fe608757ff2599c8f1084055ce0e315f8f0c5/Research/IP-001/Planning/EPH-Fresh-Stage-0-3-Snapshot-2026-11-23.md), blob `4851ab5351bfece9a3e3ce8accfc24f2fc868061`, и [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/bf65a77350076f0912eb11658cd24246b7fbddfa/Research/IP-001/Research/Ephesians/EPH-Смысловой-паспорт-Stage-0-3.md), blob `547504f7d01752ded34eeb33c85f657abcec9ef8`. Полное обратное чтение и строковое равенство обоих файлов подтверждены. Открыты 12 P1 и 6 условных P2, все 18 Q NOT VERIFIED; CTX/LANG/TEXT оценщик/доступ не установлены.
 
 **Ownership → Owner.** Lead рекомендует рабочую паузу EPH после принятого Stage 0–3; Owner может отдельно разрешить Stage 1 PHP или определить scope/ресурс проверки EPH. Никакого нового назначения Researcher нет. GAL/PHP и ACTS/ROM/1COR/2COR остаются на прежних паузах; Stage 4, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Одна ссылка передачи — **EPH-D011**.
+
+
+---
+
+## IP-001-D109 — Owner: Ефесянам на рабочую паузу; разрешён Stage 1 Филиппийцам
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Источник:** прямое решение Owner «Хорошо ставим официально на паузу и открываем шаг один для филиппийцев» после ACCEPT EPH-D011 / D108 и передачи snapshot/паспорта.
+
+**Ефесянам:** рабочая пауза после принятых Stage 0–3. Все 32 C / 36 U / 19 записей Stage 2 / 8 PRELIMINARY / NOT VERIFIED G / 18 OPEN / NOT VERIFIED Q, закреплённые [snapshot](https://github.com/inprofundo777-wq/research_lab/blob/293fe608757ff2599c8f1084055ce0e315f8f0c5/Research/IP-001/Planning/EPH-Fresh-Stage-0-3-Snapshot-2026-11-23.md) и [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/bf65a77350076f0912eb11658cd24246b7fbddfa/Research/IP-001/Research/Ephesians/EPH-Смысловой-паспорт-Stage-0-3.md) сохранены. Книга не закрыта; её проверка требует отдельного решения о scope/ресурсе. Местная запись — [EPH-D012](./Research/Ephesians/DECISIONS.md#eph-d012--owner-рабочая-пауза-после-принятого-stage-3).
+
+**Филиппийцам:** пауза после принятого Stage 0 снята только для **контролируемого Stage 1 — Primary Observation** Флп 1–4. Lead уполномочен выдать одно полное назначение Researcher v0.1 / Package C по принятой PHP rr-000, закреплённому RST, Primary Observation Contract v0.2 и активной Методологии v0.4; все 21 C и 13 OPEN Q с происхождением/экспозицией сохранить. Stage 0 не переписывается и новая readiness не нужна без материального source/exposure дефекта. Не предрешены число U и их judgments. Постоянный Registry не расширяется.
+
+**Статус:** PHP STAGE 1 AUTHORIZED; Lead выдал [PHP-D003 — полное назначение](./Research/Philippians/DECISIONS.md#php-d003--lead-назначение-researcher-на-цельный-stage-1). Результат Stage 1 ещё не сдан и не принят. Ownership → действующая ветка Researcher по PHP-D003 → Lead ACCEPT/RETURN → Owner на отдельный следующий gate. GAL и EPH на рабочих паузах после Stage 0–3; ACTS/ROM/1COR/2COR сохраняют прежние паузы. Stage 2+ PHP, Stage 4/Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D003**.
