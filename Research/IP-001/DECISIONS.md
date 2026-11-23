@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** 23.11.2026 по D106: Stage 0–2 EPH приняты; Stage 3 AUTHORIZED / ASSIGNMENT ISSUED по EPH-D009. Все 19 записей / 36 U / 32 C / 18 OPEN Q сохраняются; результат ещё не сдан. Остальные книги на прежних паузах; Stage 4/Verification/MV/сравнение/закрытие не разрешены. Решения ниже append-only.
+**Состояние:** Сверено 23.11.2026 по D107: полный Stage 3 EPH сдан по EPH-D010, SUBMITTED / NOT ACCEPTED → Lead; 8 предварительных G, все 19 записей / 36 U / 32 C / 18 OPEN Q. После ACCEPT Lead закрепляет snapshot/паспорт → Owner. Stage 4/Verification/MV/новая партия/межкнижное сравнение/закрытие не разрешены; остальные книги на прежних паузах. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2032,3 +2032,17 @@ Owner принимает сводку D090, выбирает **Галатам о
 После отдельного **ACCEPT Stage 3** Lead закрепит snapshot Stage 0–3 и смысловой паспорт по принятому дополнению Protocol, затем вернёт результат Owner. Researcher останавливается после сдачи и не выдаёт эти документы как принятые до решения Lead.
 
 **STAGE 3 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED. Ownership → Researcher по EPH-D009 → Lead ACCEPT/RETURN → после ACCEPT snapshot/паспорт → Owner.** Stage 4, Verification/MV/capability/P0, новая партия, историческое/межкнижное сравнение/NT-T и закрытие не разрешены. GAL после Stage 0–3, PHP после Stage 0 и ACTS/ROM/1COR/2COR сохраняют паузы. Карты обновлены; одна ссылка исполнителю — **EPH-D009**.
+
+---
+
+## IP-001-D107 — Researcher: полный Stage 3 Ефесянам сдан Lead
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Основание:** Owner D106 / EPH-D009; Researcher v0.1 / Package C, контролируемая Classification только EPH. **Полный handoff:** [EPH-D010](./Research/Ephesians/DECISIONS.md#eph-d010--researcher-полный-stage-3-передан-lead), commit `5b97ba7f0d70d1970893b56ed8e105c7c477dc67`.
+
+**STAGE 3 SUBMITTED / NOT ACCEPTED → Lead.** [Цельный rr-003](https://github.com/inprofundo777-wq/research_lab/blob/815da70a555d80ca79c31ada692e7874835b1879/Research/IP-001/Research/Ephesians/rr-003_Ephesians_Preliminary_Research_Groups.md), commit `815da70a555d80ca79c31ada692e7874835b1879`, blob `a50ca099b1c0d6f364ab3b1d5f3f5bad7a82e13a`. **8 G PRELIMINARY / NOT VERIFIED**, все 19 записей Stage 2 / 36 U / 32 C / 18 Q имеют диспозицию/обратные связи. R/сильные основания/ограничители не превратились в единый тип действий, все 8 NM раздельно сохранены вне групп. Сила U неизменна: 7 INCLUDE / 9 BORDERLINE / 20 CONTEXTUAL / 0 EXCLUDE.
+
+Все Q OPEN / NOT VERIFIED с происхождением/альтернативами и отдельными уточнениями Stage 3. Очередь: 12 P1 / 6 условных P2 с точными решениями/влиянием/ресурсом/ожидаемым evidence/условиями открытости; не назначение/исполнение Verification. Новых Q/мест/корректирующих записок не потребовалось, inputs не изменены. Актуальная экспозиция/ресурс — rr-003 §1 / EPH-D010; нового конкретного старого ключа/переноса схемы не выявлено.
+
+Полное обратное чтение: точное равенство 123422 символа; 43 цитаты совпали с RST, 208 внутренних ссылок и 244 внешних U/Q/запись-anchor сверены. Self-check не равен ACCEPT/независимой Verification; L-TRACE передан Lead, L-RES OPEN.
+
+**Следующий ответственный — Lead:** отдельный ACCEPT/RETURN по EPH-S3-OC-v0.1; только после ACCEPT Lead закрепляет snapshot Stage 0–3 и смысловой паспорт → Owner. **Researcher остановлен после сдачи.** Stage 4/Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/закрытие не разрешены. GAL/PHP и ACTS/ROM/1COR/2COR сохраняют прежние паузы. Книжная/проектная навигация синхронизируется. Одна ссылка передачи — **EPH-D010**.
