@@ -1,6 +1,6 @@
 # EPH — журнал книжного цикла
 
-**Текущий gate:** Stage 0–3 приняты по EPH-D011; snapshot/паспорт закреплены, ownership → Owner. Все 18 Q открыты; Stage 4/Verification не разрешены. Записи append-only.
+**Текущий gate:** Stage 0–3 приняты по EPH-D011; Owner поставил книгу на рабочую паузу EPH-D012. Все 18 Q открыты, snapshot/паспорт закреплены; Stage 4/Verification не разрешены. Записи append-only.
 
 ## EPH-D001 — Researcher: полный Stage 0 передан Lead
 
@@ -421,3 +421,14 @@ Lead ACCEPT/RETURN всего EPH-S3-OC-v0.1: понятная соразмер�
 Оба файла прочитаны обратно с точным строковым равенством подготовленным редакциям. Они не добавляют первичных суждений/уверенности, не являются Stage 4 или книжным закрытием.
 
 **Итог:** самостоятельные Stage 0–3 EPH приняты: 6 глав / 155 стихов / 32 C / 36 U / 19 записей Stage 2 / 8 предварительных G / 18 OPEN Q. **Ownership → Owner; Researcher остановлен, нового назначения нет.** Lead рекомендует рабочую паузу EPH и отдельное решение Owner: продолжить подготовленные PHP (Stage 1 после отдельного разрешения) либо определить scope/ресурс проверки EPH. GAL после Stage 0–3 и ACTS/ROM/1COR/2COR сохраняют паузы. Stage 4, Verification/MV/capability/P0, новая партия, историческое/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Одна ссылка передачи Owner — **EPH-D011**.
+
+
+---
+
+## EPH-D012 — Owner: рабочая пауза после принятого Stage 3
+
+**Дата:** 23.11.2026 (Europe/Tallinn). **Источник:** прямое решение Owner — [IP-001-D109](../../DECISIONS.md#ip-001-d109--owner-ефесянам-на-рабочую-паузу-разрешён-stage-1-филиппийцам) после ACCEPT EPH-D011.
+
+Ефесянам поставлены на **рабочую паузу** после принятого Stage 0–3. Все 32 C / 36 U / 19 записей Stage 2 / 8 PRELIMINARY / NOT VERIFIED G / 18 OPEN / NOT VERIFIED Q, точные immutable inputs, [самостоятельный snapshot](https://github.com/inprofundo777-wq/research_lab/blob/293fe608757ff2599c8f1084055ce0e315f8f0c5/Research/IP-001/Planning/EPH-Fresh-Stage-0-3-Snapshot-2026-11-23.md) и [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/bf65a77350076f0912eb11658cd24246b7fbddfa/Research/IP-001/Research/Ephesians/EPH-Смысловой-паспорт-Stage-0-3.md) сохраняются. Книга формально не закрыта; CTX/LANG/TEXT ресурс остаётся OPEN, Verification/MV и Stage 4 не разрешены. Возвращение к EPH требует отдельного решения Owner о scope/ресурсе.
+
+Назначение Researcher по EPH завершено; действующая ветка переходит только к Stage 1 PHP по PHP-D003. Ownership EPH → Owner до следующего решения. Книжная/проектная навигация обновлена.
