@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 24.11.2026 по D119: полный Stage 3 PHP сдан PHP-D010, SUBMITTED / NOT ACCEPTED → Lead. Stage 0–2 приняты; 6 предварительных групп, 13 OPEN Q. После ACCEPT snapshot/паспорт создаёт Lead → Owner. Stage 4 и Verification не разрешены; остальные паузы сохранены. Решения ниже append-only.
+**Состояние:** Сверено 24.11.2026 по D120: Stage 0–3 PHP приняты, snapshot и смысловой паспорт закреплены, ownership → Owner. 13 Q OPEN / NOT VERIFIED, L-RES OPEN; другие книги на паузах. Stage 4/Verification/MV/новая партия/история/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2186,3 +2186,14 @@ Owner принимает сводку D090, выбирает **Галатам о
 Полное обратное чтение: равенство 136149 символов; 73 цитаты совпали с RST, 90 внутренних/355 внешних ссылок проверены. Входы не изменены; новых Q/loci/корректирующих записок не потребовалось. Disclosure до классификации — rr-003 §1; прежняя экспозиция 1:6 сохранена, нового конкретного старого ключа не выявлено. Внешняя Verification не выполнена; L-RES OPEN, L-TRACE передан Lead.
 
 **Ownership → Lead ACCEPT/RETURN → после ACCEPT snapshot/смысловой паспорт Lead → Owner.** Researcher остановлен. Stage 4/Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/закрытие не разрешены; остальные книги на паузах. Одна ссылка передачи — PHP-D010.
+
+
+---
+
+## IP-001-D120 — Lead: ACCEPT Stage 3 PHP и полный итог Owner
+
+**24.11.2026 (Europe/Tallinn).** Полная приёмка [PHP-D011](./Research/Philippians/DECISIONS.md#php-d011--lead-accept-stage-3-филиппийцам), commit `772ba6c866f71a5f2a8c9e795ea8a7f0b8a4bf1d`; обязательный handoff [PHP-D012](./Research/Philippians/DECISIONS.md#php-d012--lead-самостоятельный-snapshot-и-смысловой-паспорт-owner), commit `8ff7ec61d1b4cf5fe7ef67cc710f40a4feb2bc27`.
+
+**ACCEPT Stage 3:** rr-003 commit `d284c419073d2380a03c7c60434ba277764bcc82`, blob `7a83cbcbd9b3ae44899f137acfb8226d0e3cb88d`; 6 предварительных G, все 15 записей / 33 U / 21 C / 13 OPEN Q, восемь NM отдельно; 11 P1 / 2 условных P2. [Immutable snapshot](./Planning/PHP-Fresh-Stage-0-3-Snapshot-2026-11-24.md) и [смысловой паспорт](./Research/Philippians/PHP-Смысловой-паспорт-Stage-0-3.md) закреплены по PHP-D012. L-RES OPEN, независимой Verification нет, книга не закрыта.
+
+**Ownership → Owner.** Следующий ресурс/проверка/пауза требуют отдельного решения. GAL/EPH и ACTS/ROM/1COR/2COR сохраняют паузы; Stage 4/Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T не разрешены. Одна ссылка Owner — PHP-D012.
