@@ -1,10 +1,11 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 23.11.2026 по Owner D106: Stage 0–2 EPH приняты; Stage 3 разрешён и назначен [EPH-D009](../Research/Ephesians/DECISIONS.md#eph-d009--lead-назначение-researcher-на-цельный-stage-3). Все 19 записей / 36 U / 32 C / 18 OPEN Q сохраняются; результат ещё не сдан.
+**Сверено:** 24.11.2026 по [D122](../DECISIONS.md#ip-001-d122--director-подготовлено-поручение-lead-на-следующую-партию-col1th2th): семь книжных Stage 0–3 приняты и на рабочих паузах; подготовка следующей партии COL/1TH/2TH назначена Lead. Новые книги не исследуются; локальные детали завершённых книг — в их паспортах и журналах.
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
+| [COL/1TH/2TH — brief Director](./IP-001-COL-1TH-2TH-Next-Batch-Director-Brief-v0.1.md) | [D122](../DECISIONS.md#ip-001-d122--director-подготовлено-поручение-lead-на-следующую-партию-col1th2th): Lead готовит общий лист и три карточки для последующего независимого аудита; Stage 0 не разрешён |
 | [GAL — карта повторений Stage 2](https://github.com/inprofundo777-wq/research_lab/blob/759d29265cc6a5c43c97f8107d297ca3778aa1dd/Research/IP-001/Research/Galatians/rr-002_Galatians_Repetition_Stable_Evidence_Map.md) | [GAL-D008 — ACCEPT](../Research/Galatians/DECISIONS.md#gal-d008--lead-accept-stage-2-следующий-gate-owner); Stage 3 разрешён D097, назначение GAL-D009 |
 | [GAL — первичные наблюдения Stage 1](https://github.com/inprofundo777-wq/research_lab/blob/ce333db85e822a1a65fc4b14335b4b26738ea66a/Research/IP-001/Research/Galatians/rr-001_Galatians_Primary_Observations.md) | Принят GAL-D005; последующий Stage 2 принят GAL-D008 |
 | [PHP — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/4aeb4be811646a3aaf4f5be7be8572c5b36a00b6/Research/IP-001/Research/Philippians/rr-000_Philippians_Stage0_Corpus_Map.md) | [PHP-D001](../Research/Philippians/DECISIONS.md#php-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по PHP-D002 / D090, 4/4, 21 C / 13 OPEN Q → Lead |
