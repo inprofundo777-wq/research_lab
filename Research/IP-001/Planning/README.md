@@ -5,7 +5,7 @@
 
 | Объект | Статус / следующий шаг |
 |---|---|
-| [COL/1TH/2TH — brief Director](./IP-001-COL-1TH-2TH-Next-Batch-Director-Brief-v0.1.md) | [D122](../DECISIONS.md#ip-001-d122--director-подготовлено-поручение-lead-на-следующую-партию-col1th2th): Lead готовит общий лист и три карточки для последующего независимого аудита; Stage 0 не разрешён |
+| [COL/1TH/2TH — brief Director](./IP-001-COL-1TH-2TH-Next-Batch-Director-Brief-v0.1.md) | D122 исполнен Lead; [D123](../DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director) передаёт четыре готовых установочных файла Director |\n| [COL/1TH/2TH — общий лист Stage 0](./IP-001-COL-1TH-2TH-Stage0-Installation-v0.1.md) | DESIGN SUBMITTED / NOT AUDITED; три местные карточки [COL](./COL-Local-Installation-Card-v0.1.md), [1TH](./1TH-Local-Installation-Card-v0.1.md), [2TH](./2TH-Local-Installation-Card-v0.1.md); SRC/EXP открыты; Stage 0 не разрешён |
 | [GAL — карта повторений Stage 2](https://github.com/inprofundo777-wq/research_lab/blob/759d29265cc6a5c43c97f8107d297ca3778aa1dd/Research/IP-001/Research/Galatians/rr-002_Galatians_Repetition_Stable_Evidence_Map.md) | [GAL-D008 — ACCEPT](../Research/Galatians/DECISIONS.md#gal-d008--lead-accept-stage-2-следующий-gate-owner); Stage 3 разрешён D097, назначение GAL-D009 |
 | [GAL — первичные наблюдения Stage 1](https://github.com/inprofundo777-wq/research_lab/blob/ce333db85e822a1a65fc4b14335b4b26738ea66a/Research/IP-001/Research/Galatians/rr-001_Galatians_Primary_Observations.md) | Принят GAL-D005; последующий Stage 2 принят GAL-D008 |
 | [PHP — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/4aeb4be811646a3aaf4f5be7be8572c5b36a00b6/Research/IP-001/Research/Philippians/rr-000_Philippians_Stage0_Corpus_Map.md) | [PHP-D001](../Research/Philippians/DECISIONS.md#php-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по PHP-D002 / D090, 4/4, 21 C / 13 OPEN Q → Lead |
@@ -32,7 +32,7 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующее действие:** EPH-D009 → Researcher полный Stage 3 → Lead ACCEPT/RETURN → после ACCEPT snapshot/паспорт → Owner.
+**Следующее действие:** Director получает D123 и организует независимый Installation Audit четырёх файлов с тремя местными вердиктами. Затем Owner принимает отдельные решения по COL/1TH/2TH; до этого Researcher и Stage 0 не назначаются.
 
 
 **Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Рабочая пауза GAL подтверждена Owner D100; EPH/PHP и прежние книги сохраняют свои паузы.
