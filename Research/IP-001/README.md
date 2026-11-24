@@ -1,7 +1,7 @@
 # IP-001 — действия воскресшего Христа
 
 **Статус:** Деяния, Римлянам и 1 Коринфянам: самостоятельные Stage 0–3 приняты и на паузе; соответственно 11, 9 полностью/частично открытых из 12 и 18 открытых вопросов. Пауза 1COR подтверждена Owner IP-001-D048 / 1COR-D018; snapshots и смысловые паспорта сохранены. Второе послание к Коринфянам: [Stage 0–3 приняты по D024](./Research/2-Corinthians/DECISIONS.md#2cor-d024--lead-accept-stage-3-snapshot-и-смысловой-паспорт-owner), C01/C02 CLOSED. 6 предварительных G, все 30 записей / 87 U / 58 C / 24 OPEN / NOT VERIFIED Q сохранены. [Snapshot](https://github.com/inprofundo777-wq/research_lab/blob/0922df64164ac082a6dcb6be8e7bcba49b83dbb9/Research/IP-001/Planning/2COR-Fresh-Stage-0-3-Snapshot-2026-10-24.md) и [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/0922df64164ac082a6dcb6be8e7bcba49b83dbb9/Research/IP-001/Research/2-Corinthians/2COR-Смысловой-паспорт-Stage-0-3.md) закреплены; Owner поставил книгу на рабочую паузу по 2COR-D025. Книга не закрыта; Stage 4, Verification/MV и межкнижное сравнение не разрешены.  
-**Сверено:** 24.11.2026 по [D121](./DECISIONS.md#ip-001-d121--owner-филиппийцам-на-рабочей-паузе-после-stage-3): Stage 0–3 PHP приняты и поставлены на рабочую паузу; 6 предварительных групп / 15 записей / 33 U / 21 C / 13 OPEN Q.
+**Сверено:** 24.11.2026 по [D123](./DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director): Stage 0–3 PHP приняты и поставлены на рабочую паузу; 6 предварительных групп / 15 записей / 33 U / 21 C / 13 OPEN Q.
 **Текущий gate:** PHP на рабочей паузе по [PHP-D013](./Research/Philippians/DECISIONS.md#php-d013--owner-рабочая-пауза-после-принятого-stage-3). [D122](./DECISIONS.md#ip-001-d122--director-подготовлено-поручение-lead-на-следующую-партию-col1th2th) назначает Lead только подготовку установки COL/1TH/2TH; аудит и разрешение исследования ещё впереди.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
@@ -70,3 +70,8 @@
 
 
 **Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Рабочая пауза GAL подтверждена Owner D100; EPH/PHP и прежние книги сохраняют свои паузы.
+
+
+## Следующая партия: установка COL / 1TH / 2TH
+
+По [D123](./DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director) Lead передал Director [общий лист](./Planning/IP-001-COL-1TH-2TH-Stage0-Installation-v0.1.md) и местные карточки [COL](./Planning/COL-Local-Installation-Card-v0.1.md), [1TH](./Planning/1TH-Local-Installation-Card-v0.1.md), [2TH](./Planning/2TH-Local-Installation-Card-v0.1.md). SRC/EXP каждой книги OPEN; нужны независимый Installation Audit, три отдельные решения Owner и местные допуски до отбора. Исследование новой партии не запущено.
