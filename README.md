@@ -4,11 +4,11 @@
 
 ## Быстрый вход
 
-**Сверено:** 24.10.2026 [Карта развития](./DEVELOPMENT.md) · [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
+**Сверено:** 24.11.2026 по [IP-001-D123](./Research/IP-001/DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director) [Карта развития](./DEVELOPMENT.md) · [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
 
 | Объект | Текущее состояние | Открыть |
 |---|---|---|
-| [IP-001 — действия воскресшего Христа](./Research/IP-001/README.md) | Деяния, Римлянам, 1 и 2 Коринфянам: Stage 0–3 приняты и на рабочих паузах с открытыми вопросами; D072 предлагает пилотную подготовку следующих трёх книг, их Stage 0 не разрешён | [карта IP-001](./Research/IP-001/README.md), [маршрут D072](./Research/IP-001/DECISIONS.md#ip-001-d072--director-облегчённый-пилот-для-следующих-книжных-циклов) |
+| [IP-001 — действия воскресшего Христа](./Research/IP-001/README.md) | Семь книг (Деяния, Римлянам, 1–2 Коринфянам, Галатам, Ефесянам, Филиппийцам): Stage 0–3 приняты, рабочие паузы; установка COL/1TH/2TH подготовлена Lead, ожидает независимого аудита и решений Owner по каждой книге; Stage 0 новой партии не разрешён | [карта IP-001](./Research/IP-001/README.md), [передача D123](./Research/IP-001/DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director) |
 | [RQ-RL-002 — сопровождение депрессии и суицидального кризиса](./Processes/Research_Request_Map.md) | Formation и проектирование ограниченного обзора завершены; исполнение не разрешено, граница предмета требует проверки | [Formation R2](./Development/Formations/FP-RL-002-Formation-Report-R2.md), [пакет Lead](./Development/Validation-Runs/RL-WAVE-2/Artifacts/RQ-RL-002-Limited-Review-Installation-Package-v0.1.md) |
 
 `RQ-RL-002` ещё не является `IP-002`. Формирование запроса и проектирование обзора не запускают исследование автоматически. Все запросы, в том числе находящиеся в Formation, показываются в [карте исследовательских запросов](./Processes/Research_Request_Map.md).
