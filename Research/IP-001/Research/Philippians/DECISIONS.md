@@ -1,6 +1,6 @@
 # PHP — журнал книжного цикла
 
-**Текущий gate:** Stage 0–2 приняты; полный Stage 3 сдан PHP-D010, SUBMITTED / NOT ACCEPTED → Lead. Snapshot/паспорт — Lead после ACCEPT; Stage 4 не разрешён. Записи append-only.
+**Текущий gate:** Stage 0–3 приняты по PHP-D002/D005/D008/D011; snapshot/паспорт PHP-D012. Owner D121 поставил книгу на рабочую паузу до подготовки задания Director и отдельного gate Owner. 13 Q OPEN / NOT VERIFIED. Записи append-only.
 
 ## PHP-D001 — Researcher: полный Stage 0 передан Lead
 
@@ -369,3 +369,12 @@ Lead принимает либо возвращает весь PHP-S3-OC-v0.1 с
 **24.11.2026 (Europe/Tallinn).** После ACCEPT PHP-D011 закреплены [snapshot Stage 0–3](../../Planning/PHP-Fresh-Stage-0-3-Snapshot-2026-11-24.md), commit `4d3112a3df0b6695de75678af222e6c29d258329`, blob `bbd0d55f386f9c5b09059c668a55647fb9a6f7ee`; и [смысловой паспорт](./PHP-Смысловой-паспорт-Stage-0-3.md), commit `032f87178ed74341637cfa531979badee4b4c92d`, blob `6454bea9de037f343967b4dd9829cc9bdcd506cf`. Файлы получены обратно и точные blobs закреплены. Они сохраняют immutable pins и границы принятого прохода, не добавляют первичных суждений.
 
 **Ownership → Owner.** Stage 0–3 PHP приняты как предварительный самостоятельный проход; 13 Q OPEN / NOT VERIFIED, L-RES OPEN. Решение о ресурсах/проверке/дальнейшем шаге — отдельный gate Owner. Researcher остановлен, остальные книги на прежних паузах. Stage 4, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T и книжное закрытие не активированы. **Одна ссылка передачи Owner — PHP-D012.**
+
+
+---
+
+## PHP-D013 — Owner: рабочая пауза после принятого Stage 3
+
+**Дата:** 24.11.2026 (Europe/Tallinn). **Полномочие:** прямое решение Owner, записанное как [IP-001-D121](../../DECISIONS.md#ip-001-d121--owner-филиппийцам-на-рабочей-паузе-после-stage-3). После ACCEPT PHP-D011 и закрепления snapshot/паспорта PHP-D012 книжный цикл **Stage 0–3 ACCEPTED / WORKING PAUSE**.
+
+Закреплённые результаты остаются предварительными: 6 групп, 15 записей, 33 U / 21 C / 13 OPEN / NOT VERIFIED Q; L-RES OPEN. Ownership — Owner. Ожидается подготовка следующего задания Director; никакой новый этап этим ожиданием не активирован. Возобновление требует отдельного точного решения Owner. Researcher остановлен, Lead не назначает продолжение самостоятельно. Stage 4/Verification/MV/capability/P0, новая партия, историческое/межкнижное сравнение/NT-T и книжное закрытие не разрешены. Другие книги на прежних паузах.
