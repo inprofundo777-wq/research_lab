@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 24.11.2026 по D117: Stage 0–2 PHP приняты; Owner разрешил Stage 3 PHP, назначение Lead оформлено в PHP-D009. 15 записей / 33 U / 21 C / 13 OPEN Q сохранены; прочие книги на паузах. Stage 4/Verification/MV/новая партия/история/межкнижное сравнение/закрытие не разрешены. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 24.11.2026 по D119: полный Stage 3 PHP сдан PHP-D010, SUBMITTED / NOT ACCEPTED → Lead. Stage 0–2 приняты; 6 предварительных групп, 13 OPEN Q. После ACCEPT snapshot/паспорт создаёт Lead → Owner. Stage 4 и Verification не разрешены; остальные паузы сохранены. Решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2173,3 +2173,16 @@ Owner принимает сводку D090, выбирает **Галатам о
 **STAGE 3 AUTHORIZED / ASSIGNMENT ISSUED / RESULT NOT SUBMITTED.** Действующая ветка Researcher v0.1 / Package C выполняет только предварительную внутрикнижную группировку и очередь существенных спорных решений Филиппийцам по закреплённым Stage 0–2 и RST. Сохраняются 15 R/S/NB/NM записей, все 33 U / 21 C / 13 OPEN Q, сила judgments и disclosure Флп 1:6. Число и состав групп/приоритетов не предрешены. Target rr-003 и точная сдача PHP-D010 заданы PHP-D009.
 
 **Ownership → Researcher PHP Stage 3 → Lead ACCEPT/RETURN → после ACCEPT snapshot/смысловой паспорт → Owner.** Другие книги на паузах; Stage 4, Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/книжное закрытие не разрешены. Одна ссылка исполнителю — **PHP-D009**.
+
+
+---
+
+## IP-001-D119 — Researcher: полный Stage 3 Филиппийцам сдан Lead
+
+**24.11.2026 (Europe/Tallinn).** Основание Owner D117 / PHP-D009; Researcher v0.1 / Package C, Classification PHP. Полная передача — [PHP-D010](./Research/Philippians/DECISIONS.md#php-d010--researcher-полный-stage-3-передан-lead), commit `b7bdd17455d65a42be59fd794ad813c69f36ac88`.
+
+**STAGE 3 SUBMITTED / NOT ACCEPTED.** [rr-003](https://github.com/inprofundo777-wq/research_lab/blob/d284c419073d2380a03c7c60434ba277764bcc82/Research/IP-001/Research/Philippians/rr-003_Philippians_Preliminary_Research_Groups.md), commit `d284c419073d2380a03c7c60434ba277764bcc82`, blob `7a83cbcbd9b3ae44899f137acfb8226d0e3cb88d`. **6 PRELIMINARY / NOT VERIFIED групп**, все 15 записей / 33 U / 21 C / 13 OPEN Q, все 8 NM отдельно. Сила/субъекты/время сохранены, U024/U025 — одна конструкция; 4 INCLUDE / 6 BORDERLINE / 23 CONTEXTUAL неизменны. Очередь — 11 P1 / 2 условных P2, с точными решениями/влиянием/ресурсом и условиями открытости.
+
+Полное обратное чтение: равенство 136149 символов; 73 цитаты совпали с RST, 90 внутренних/355 внешних ссылок проверены. Входы не изменены; новых Q/loci/корректирующих записок не потребовалось. Disclosure до классификации — rr-003 §1; прежняя экспозиция 1:6 сохранена, нового конкретного старого ключа не выявлено. Внешняя Verification не выполнена; L-RES OPEN, L-TRACE передан Lead.
+
+**Ownership → Lead ACCEPT/RETURN → после ACCEPT snapshot/смысловой паспорт Lead → Owner.** Researcher остановлен. Stage 4/Verification/MV/capability/P0, новая партия, история/межкнижное сравнение/NT-T/закрытие не разрешены; остальные книги на паузах. Одна ссылка передачи — PHP-D010.
