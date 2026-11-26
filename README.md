@@ -4,7 +4,7 @@
 
 ## Быстрый вход
 
-**Сверено:** 24.11.2026 по [IP-001-D123](./Research/IP-001/DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director) [Карта развития](./DEVELOPMENT.md) · [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
+**Сверено:** 26.11.2026 по [IP-001-D125](./Research/IP-001/DECISIONS.md#ip-001-d125--owner-условно-приняты-установки-col1th2th-поручена-поправка-границы-корпуса). [Карта развития](./DEVELOPMENT.md) · [Журнал решений лаборатории](./DECISIONS.md) · [Правило навигации и журналов](./Processes/Documentation_and_Decision_Records.md) · [Карта зрелости документации](./Processes/Documentation_Maturity_Map.md).
 
 | Объект | Текущее состояние | Открыть |
 |---|---|---|
