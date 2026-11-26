@@ -1,13 +1,13 @@
 # IP-001 — планирование книжных циклов
 
-**Сверено:** 24.11.2026 по [D123](../DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director): семь книжных Stage 0–3 приняты и на рабочих паузах; Lead сдал установку COL/1TH/2TH Director. Её независимый аудит и решения Owner по каждой книге ожидаются. Новые книги не исследуются; локальные детали завершённых этапов — в их паспортах и журналах.
+**Сверено:** 26.11.2026 по [D125](../DECISIONS.md#ip-001-d125--owner-условно-приняты-установки-col1th2th-поручена-поправка-границы-корпуса): семь книжных Stage 0–3 на паузах; три установки COL/1TH/2TH условно приняты, местные SRC/EXP/SEQ до отбора OPEN; проект поправки корпуса 27→22 ещё не принят.
 
 Пакет или план не разрешает исполнение. Фактические решения — в [журнале проекта](../DECISIONS.md); книжные состояния — в [паспорте IP-001](../README.md).
 
 | Объект | Статус / следующий шаг |
 |---|---|
 | [COL/1TH/2TH — brief Director](./IP-001-COL-1TH-2TH-Next-Batch-Director-Brief-v0.1.md) | D122 исполнен Lead; [D123](../DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director) передаёт четыре готовых установочных файла Director |
-| [COL/1TH/2TH — общий лист Stage 0](./IP-001-COL-1TH-2TH-Stage0-Installation-v0.1.md) | DESIGN SUBMITTED / NOT AUDITED; три местные карточки [COL](./COL-Local-Installation-Card-v0.1.md), [1TH](./1TH-Local-Installation-Card-v0.1.md), [2TH](./2TH-Local-Installation-Card-v0.1.md); SRC/EXP открыты; Stage 0 не разрешён |
+| [COL/1TH/2TH — общий лист Stage 0](./IP-001-COL-1TH-2TH-Stage0-Installation-v0.1.md) | D124: три PASS WITH CONDITIONS; Owner D125 условно принял установки; три местные карточки [COL](./COL-Local-Installation-Card-v0.1.md), [1TH](./1TH-Local-Installation-Card-v0.1.md), [2TH](./2TH-Local-Installation-Card-v0.1.md); SRC/EXP/SEQ открыты; отбор Stage 0 до местного допуска Lead запрещён |
 | [GAL — карта повторений Stage 2](https://github.com/inprofundo777-wq/research_lab/blob/759d29265cc6a5c43c97f8107d297ca3778aa1dd/Research/IP-001/Research/Galatians/rr-002_Galatians_Repetition_Stable_Evidence_Map.md) | [GAL-D008 — ACCEPT](../Research/Galatians/DECISIONS.md#gal-d008--lead-accept-stage-2-следующий-gate-owner); Stage 3 разрешён D097, назначение GAL-D009 |
 | [GAL — первичные наблюдения Stage 1](https://github.com/inprofundo777-wq/research_lab/blob/ce333db85e822a1a65fc4b14335b4b26738ea66a/Research/IP-001/Research/Galatians/rr-001_Galatians_Primary_Observations.md) | Принят GAL-D005; последующий Stage 2 принят GAL-D008 |
 | [PHP — карта Stage 0](https://github.com/inprofundo777-wq/research_lab/blob/4aeb4be811646a3aaf4f5be7be8572c5b36a00b6/Research/IP-001/Research/Philippians/rr-000_Philippians_Stage0_Corpus_Map.md) | [PHP-D001](../Research/Philippians/DECISIONS.md#php-d001--researcher-полный-stage-0-передан-lead): ACCEPTED по PHP-D002 / D090, 4/4, 21 C / 13 OPEN Q → Lead |
@@ -34,7 +34,7 @@
 
 **Ответственный:** Project Lead за планы/точные версии и проектную навигацию; Director за ограниченную сверку и маршрут аудита. Это навигация, не новый независимый verdict.
 
-**Следующее действие:** Director получает D123 и организует независимый Installation Audit четырёх файлов с тремя местными вердиктами. Затем Owner принимает отдельные решения по COL/1TH/2TH; до этого Researcher и Stage 0 не назначаются.
+**Следующее действие:** Lead по D125 оформляет evidence-only поручение, затем отдельные местные допуски COL/1TH/2TH до отбора. Director с Lead готовит отдельный change set границы корпуса; исторический R1/A сохраняется.
 
 
 **Принятый срез GAL:** [snapshot Stage 0–3](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Planning/GAL-Fresh-Stage-0-3-Snapshot-2026-11-20.md) · [смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/52f8ce11b3d5359c76a0f6b043f5970e8a0f20d5/Research/IP-001/Research/Galatians/GAL-Смысловой-паспорт-Stage-0-3.md). GAL-D011 / IP-001-D099. Рабочая пауза GAL подтверждена Owner D100; EPH/PHP и прежние книги сохраняют свои паузы.
