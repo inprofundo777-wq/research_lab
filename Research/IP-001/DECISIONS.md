@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 27.11.2026 по D129: readiness COL принята до отбора, C-SRC/C-EXP/C-SEQ COL закрыты Lead; Stage 0 COL допущен и ожидает исполнения. 1TH/2TH остаются на evidence-only readiness, их условия OPEN. Проект границы 22 книг не действует; прежние книги на паузах. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 27.11.2026 по D130: полный Stage 0 COL сдан COL-D002, SUBMITTED / NOT ACCEPTED → Lead. 4/4, 95 стихов, 20 C / 15 OPEN Q. Stage 1 не разрешён; 1TH/2TH ожидают своих readiness/gates D126. Прежние книги на паузах; поправка D127 не действует. Решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2347,3 +2347,14 @@ Researcher и Stage 0 партии не запущены. PHP и прежние 
 **C-AUTH-COL CLOSED Owner; C-SRC-COL / C-EXP-COL / C-SEQ-COL CLOSED Lead до первого отбора.** Полный RST COL 1–4 commit `45a5a6da65f912e684db6d94fe5aef537299d9b3`, blob `761b7e4318d6fcfd9fbfc784ebe8708112086a9b`; readiness commit `62d8c2a63ca2e4343f1952e431a07d00513ff353`, blob `da5e2ba3d32631fb75b0eb8a78ae2302c3a8b633`. Lead сверил все 95 последовательных стиховых строк (29/23/25/18) с четырьмя страницами SYN носителя, без расхождения. Носитель/время/границы и особая нумерация 1:2–3 раскрыты; печатная редакция/origin-время неизвестны. Экспозиция GAL/EPH/PHP, источника, анонсов/примечаний и неопределённость старых архивов получила явную ограничительную диспозицию; конкретного прежнего COL ключа не выявлено. Возникший материальный ключ → STOP/Lead. Порядок COL первая, другая книга не наследует этот допуск.
 
 **STAGE 0 COL AUTHORIZED / NOT SUBMITTED.** Researcher выполняет только Corpus Mapping по BATCH-S0-OC-v0.1 и COL-card, сдаёт отдельный rr-000 и COL-D002 → Lead ACCEPT/RETURN. 1TH/2TH ожидают собственных source/disclosure и отдельных решений Lead; Stage 1+ COL не разрешены. Поправка корпуса D127 PROPOSED / NOT IN FORCE. Остальные книги на паузах, Verification/MV/межкнижное сравнение не активированы. **Одна ссылка исполнителю — COL-D001.**
+
+
+---
+
+## IP-001-D130 — Researcher: полный Stage 0 Колоссянам сдан Lead
+
+**27.11.2026 (Europe/Tallinn).** Owner D125 / D126, допуск COL-D001/D129, Researcher v0.1 / Package C, Corpus Mapping COL. Полная передача — [COL-D002](./Research/COL/DECISIONS.md#col-d002--researcher-полный-stage-0-передан-lead), commit `9f1eb03df2decdd437f5d29686cee52836974668`.
+
+**STAGE 0 SUBMITTED / NOT ACCEPTED.** [rr-000](https://github.com/inprofundo777-wq/research_lab/blob/5b60ce0f93f6c8d7e1c56701a1e9959049f4a4c2/Research/IP-001/Research/COL/rr-000_COL_Stage0_Corpus_Map.md), commit `5b60ce0f93f6c8d7e1c56701a1e9959049f4a4c2`, blob `60c099f72cc0bee8aa426288b9a40a21faade658`. **4/4 главы, 95 стихов, 20 C / 15 Q OPEN / NOT VERIFIED.** Полные контексты/ledger/существенный неотбор, собственные критерии/основания/неопределённости и происхождение вопросов сохранены; judgments Stage 1 отсутствуют. Полное обратное чтение: равенство 46250 символов, 95 цитат по source и 73 внутренние ссылки сверены. Source/readiness неизменны; актуальное disclosure/ограничения — rr-000 §1 / COL-D002, нового конкретного старого ключа не выявлено. L-TRACE передан Lead, L-RES OPEN; self-check не ACCEPT.
+
+**Ownership → Lead ACCEPT/RETURN; Stage 1 COL не разрешён.** 1TH/2TH требуют собственной readiness и местных gates D126, здесь не начаты; прежние книги на паузах. Поправка D127 не действует. Поздние стадии/Verification/MV/история/межкнижный синтез/NT-T/закрытие не разрешены. Одна ссылка передачи — COL-D002.
