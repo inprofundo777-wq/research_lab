@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 27.11.2026 по D133: Owner D132 разрешил ограниченный пакет COL/1TH/2TH Stage 0–3 с местными gates Lead; Stage 1 COL назначен COL-D004, результат ожидается. 1TH/2TH требуют отдельных readiness до отбора; Stage 4/Verification/межкнижный синтез не разрешены. Проект границы 22 книг пока не действует; семь прежних книг на паузах. Навигация обновляемая; решения ниже append-only.
+**Состояние:** Сверено 27.11.2026 по D134: полный Stage 1 COL сдан COL-D005, SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN; Stage 0 принят. Дальше отдельное назначение Lead по D132 без повторного штатного Owner gate. 1TH/2TH сохраняют readiness/gates; прежние паузы сохранены, D127 не действует. Решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2393,3 +2393,16 @@ Researcher и Stage 0 партии не запущены. PHP и прежние 
 **27.11.2026 (Europe/Tallinn).** Основание Owner D132 и принятый Stage 0 COL-D003/D131. Полный [COL-D004 / COL-S1-OC-v0.1](./Research/COL/DECISIONS.md#col-d004--lead-цельный-stage-1-назначен-researcher), commit `32fc22a60d49790f3337e41df571c96825ab67c2`, blob `edbf4a31036b6bfe8cce1893a4fa8872551b60fe`.
 
 **STAGE 1 COL AUTHORIZED / ASSIGNMENT ISSUED / NOT SUBMITTED.** Researcher v0.1 / Package C выполняет только первичные наблюдения COL по принятому rr-000 (20 C / 15 OPEN Q) и закреплённому RST, Primary Observation Contract v0.2; Lead отдельно ACCEPT/RETURN. Следующий штатный Stage 2 требует принятого Stage 1 и нового точного назначения Lead, но не дополнительного Owner gate в пределах D132. 1TH/2TH сохраняют собственные условия readiness до отбора. Stage 4/Verification/MV/межкнижный синтез/NT-T/закрытие не разрешены. Одна ссылка Researcher — COL-D004.
+
+
+---
+
+## IP-001-D134 — Researcher: полный Stage 1 Колоссянам сдан Lead
+
+**27.11.2026 (Europe/Tallinn).** Owner D132 / COL-D004, Researcher v0.1 / Package C. Полная передача — [COL-D005](./Research/COL/DECISIONS.md#col-d005--researcher-полный-stage-1-передан-lead), commit `60f2b225b51e5269e80997e2e4a933978e30e039`.
+
+**STAGE 1 SUBMITTED / NOT ACCEPTED.** [rr-001](https://github.com/inprofundo777-wq/research_lab/blob/cf427823c952e1edfb7dc2b9f38e5e7ecb8508c8/Research/IP-001/Research/COL/rr-001_COL_Primary_Observations.md), commit `cf427823c952e1edfb7dc2b9f38e5e7ecb8508c8`, blob `77d814a514c8584a4dbb355c36c77b62f4ff6e60`. Все **20 C → 38 U: 7 INCLUDE / 8 BORDERLINE / 23 CONTEXTUAL / 0 EXCLUDE**, все 15 исходных Q OPEN / NOT VERIFIED с отдельными датированными уточнениями. Роли/отношения/посредничество и непосредственные действия различены; цепи 1:19–23/2:11–15 открыты, сильные прощение/будущее явление сохранены. Книжный/межкнижный вывод не делался.
+
+Полное обратное чтение подтвердило равенство 100029 символов; 194 цитаты совпали с RST, 95 уникальных стихов контекста и 167 внутренних ссылок сверены. Inputs не изменены; новых Q/loci/корректирующих записок не потребовалось. Актуальное disclosure — rr-001 §1 / COL-D005, нового конкретного старого COL ключа не выявлено; source revision/origin-время неизвестны, внешняя проверка не выполнена. L-TRACE передан Lead, L-RES OPEN.
+
+**Ownership → Lead ACCEPT/RETURN → отдельный Stage 2 assignment в пределах D132**, без нового штатного Owner gate. Researcher остановлен до назначения; 1TH/2TH сохраняют собственные readiness/gates. Stage 4/Verification/MV/capability/P0, история/межкнижный синтез/NT-T/закрытие не разрешены; прежние книги на паузах, проект D127 не действует. Одна ссылка передачи — COL-D005.
