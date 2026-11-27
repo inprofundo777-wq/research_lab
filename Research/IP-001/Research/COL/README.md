@@ -1,6 +1,8 @@
 # Колоссянам — книжный цикл IP-001
 
-**Сверено 27.11.2026:** [COL-D001](./DECISIONS.md#col-d001--lead-readiness-принята-допуск-к-stage-0-до-отбора) / [IP-001-D129](../../DECISIONS.md#ip-001-d129--lead-readiness-col-принята-полный-stage-0-допущен). C-AUTH/C-SRC/C-EXP/C-SEQ COL закрыты до отбора. **Stage 0 разрешён, не сдан.**
+**Сверено 27.11.2026:** [COL-D001](./DECISIONS.md#col-d001--lead-readiness-принята-допуск-к-stage-0-до-отбора) / [IP-001-D129](../../DECISIONS.md#ip-001-d129--lead-readiness-col-принята-полный-stage-0-допущен). C-AUTH/C-SRC/C-EXP/C-SEQ COL закрыты до отбора. **Stage 0 SUBMITTED / NOT ACCEPTED по [COL-D002](./DECISIONS.md#col-d002--researcher-полный-stage-0-передан-lead).**
+
+[Полная rr-000](https://github.com/inprofundo777-wq/research_lab/blob/5b60ce0f93f6c8d7e1c56701a1e9959049f4a4c2/Research/IP-001/Research/COL/rr-000_COL_Stage0_Corpus_Map.md): 4/4, 95 стихов, 20 C / 15 OPEN Q. Следующий ответственный — Lead ACCEPT/RETURN; Stage 1 не разрешён.
 
 | Объект | Закреплённое состояние |
 |---|---|
