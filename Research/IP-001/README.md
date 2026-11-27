@@ -1,8 +1,8 @@
 # IP-001 — действия воскресшего Христа
 
-**Сверено:** 24.11.2026 по [D123](./DECISIONS.md#ip-001-d123--lead-установка-col1th2th-подготовлена-передача-director). Семь книг — Деяния, Римлянам, 1–2 Коринфянам, Галатам, Ефесянам и Филиппийцам — имеют принятые самостоятельные Stage 0–3 и рабочие паузы. Открытые вопросы и точные результаты — в книжных паспортах. Ни одна книга не прошла Verification/Stage 4 и не закрыта.
+**Сверено:** 27.11.2026 по [D127](./DECISIONS.md#ip-001-d127--lead-проект-границы-22-книг-передан-director). Семь книг — Деяния, Римлянам, 1–2 Коринфянам, Галатам, Ефесянам и Филиппийцам — имеют принятые самостоятельные Stage 0–3 и рабочие паузы. Открытые вопросы и точные результаты — в книжных паспортах. Ни одна книга не прошла Verification/Stage 4 и не закрыта.
 
-**Текущий gate:** [D124](./DECISIONS.md#ip-001-d124--auditor-installation-audit-col1th2th-завершён-handoff-director--owner) дал три PASS WITH CONDITIONS; [Owner D125](./DECISIONS.md#ip-001-d125--owner-условно-приняты-установки-col1th2th-поручена-поправка-границы-корпуса) принял три установки и разрешил только условный Stage 0. Lead получает source/disclosure evidence по COL, 1TH, 2TH и до отбора отдельно закрывает C-SRC/C-EXP/C-SEQ. Директор с Lead готовит поправку границы 27→22 для отдельного решения Owner; прежний R1/A пока действует.
+**Текущий gate:** [D126](./DECISIONS.md#ip-001-d126--lead-адресное-назначение-researcher-на-evidence-only-readiness-col1th2th) назначает только source/disclosure readiness COL → 1TH → 2TH; C-SRC/C-EXP/C-SEQ OPEN до местного решения Lead перед отбором. [Проект границы 22 книг](./Planning/IP-001-Corpus-Boundary-22-Books-Change-Set-v0.1.md) передан Director по D127, ещё не действует; прежний R1/A сохраняется.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
