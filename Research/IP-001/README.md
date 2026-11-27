@@ -2,7 +2,7 @@
 
 **Сверено:** 27.11.2026 по [D127](./DECISIONS.md#ip-001-d127--lead-проект-границы-22-книг-передан-director). Семь книг — Деяния, Римлянам, 1–2 Коринфянам, Галатам, Ефесянам и Филиппийцам — имеют принятые самостоятельные Stage 0–3 и рабочие паузы. Открытые вопросы и точные результаты — в книжных паспортах. Ни одна книга не прошла Verification/Stage 4 и не закрыта.
 
-**Текущий gate:** [D126](./DECISIONS.md#ip-001-d126--lead-адресное-назначение-researcher-на-evidence-only-readiness-col1th2th) назначает только source/disclosure readiness COL → 1TH → 2TH; C-SRC/C-EXP/C-SEQ OPEN до местного решения Lead перед отбором. [Проект границы 22 книг](./Planning/IP-001-Corpus-Boundary-22-Books-Change-Set-v0.1.md) передан Director по D127, ещё не действует; прежний R1/A сохраняется.
+**Текущий gate:** [D128 — readiness COL](./DECISIONS.md#ip-001-d128--researcher-readiness-col-передана-lead-до-отбора) → Lead отдельно C-SRC/C-EXP/C-SEQ. Полный source 4/4, 95 стихов сохранён; отбор не разрешён. 1TH/2TH ожидают последовательного маршрута D126. Проект границы 22 книг D127 пока не действует; прежний R1/A сохраняется.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
