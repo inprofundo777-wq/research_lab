@@ -2,7 +2,7 @@
 
 **Сверено:** 27.11.2026 по D129. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
 
-**Текущий gate:** [D129](./DECISIONS.md#ip-001-d129--lead-readiness-col-принята-полный-stage-0-допущен): COL Stage 0 разрешён после закрытия C-SRC/C-EXP/C-SEQ, результат ожидается. 1TH/2TH — только evidence-only readiness D126, условия OPEN. Проект границы 22 книг D127 не действует; прежний R1/A сохраняется.
+**Текущий gate:** [D130 / COL-D002](./Research/COL/DECISIONS.md#col-d002--researcher-полный-stage-0-передан-lead): полный Stage 0 COL сдан, SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN; 20 C / 15 OPEN Q. Stage 1 не разрешён. 1TH/2TH — отдельная readiness/gates D126. Прежние паузы и PROPOSED D127 сохраняются.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
