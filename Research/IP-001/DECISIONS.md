@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 27.11.2026 по D130: полный Stage 0 COL сдан COL-D002, SUBMITTED / NOT ACCEPTED → Lead. 4/4, 95 стихов, 20 C / 15 OPEN Q. Stage 1 не разрешён; 1TH/2TH ожидают своих readiness/gates D126. Прежние книги на паузах; поправка D127 не действует. Решения ниже append-only.
+**Состояние:** Сверено 27.11.2026 по D131: Stage 0 COL принят, Stage 1 ожидает отдельного решения Owner; 1TH/2TH только evidence-only readiness с собственными gates. Проект границы 22 книг пока не действует; семь прежних книг на паузах. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2358,3 +2358,14 @@ Researcher и Stage 0 партии не запущены. PHP и прежние 
 **STAGE 0 SUBMITTED / NOT ACCEPTED.** [rr-000](https://github.com/inprofundo777-wq/research_lab/blob/5b60ce0f93f6c8d7e1c56701a1e9959049f4a4c2/Research/IP-001/Research/COL/rr-000_COL_Stage0_Corpus_Map.md), commit `5b60ce0f93f6c8d7e1c56701a1e9959049f4a4c2`, blob `60c099f72cc0bee8aa426288b9a40a21faade658`. **4/4 главы, 95 стихов, 20 C / 15 Q OPEN / NOT VERIFIED.** Полные контексты/ledger/существенный неотбор, собственные критерии/основания/неопределённости и происхождение вопросов сохранены; judgments Stage 1 отсутствуют. Полное обратное чтение: равенство 46250 символов, 95 цитат по source и 73 внутренние ссылки сверены. Source/readiness неизменны; актуальное disclosure/ограничения — rr-000 §1 / COL-D002, нового конкретного старого ключа не выявлено. L-TRACE передан Lead, L-RES OPEN; self-check не ACCEPT.
 
 **Ownership → Lead ACCEPT/RETURN; Stage 1 COL не разрешён.** 1TH/2TH требуют собственной readiness и местных gates D126, здесь не начаты; прежние книги на паузах. Поправка D127 не действует. Поздние стадии/Verification/MV/история/межкнижный синтез/NT-T/закрытие не разрешены. Одна ссылка передачи — COL-D002.
+
+
+---
+
+## IP-001-D131 — Lead: Stage 0 COL принят; отдельный gate Owner
+
+**27.11.2026 (Europe/Tallinn).** Полное решение [COL-D003](./Research/COL/DECISIONS.md#col-d003--lead-accept-stage-0-колоссянам-следующий-gate-owner), commit `6745131f71a55e5707fb0244bbdbc30503abd1d1`, blob `87a29380ebb8a25db9f715c7a1aa6b3429446dad`. Основание D125/D126, допуск COL-D001/D129, сдача COL-D002/D130. Lead v0.1 / Package C, внутренняя приёмка BATCH-S0-OC-v0.1; не независимая Verification.
+
+**ACCEPT STAGE 0 COL:** rr-000 commit `5b60ce0f93f6c8d7e1c56701a1e9959049f4a4c2`, blob `60c099f72cc0bee8aa426288b9a40a21faade658`. Полный последовательный охват 4/4 глав, 95 стихов; 20 COL-C001–C020 и 15 COL-Q001–Q015 OPEN / NOT VERIFIED, без окончательных judgments. Все 95 строк K-контекстов совпадают с закреплённым source; 73 локальные ссылки разрешены, C/Q имеют происхождение, ограничения и связи. Субъекты/время/речь и существенный неотбор сохранены. L-TRACE Stage 0 принят внутренне, L-RES OPEN; печатная редакция RST неизвестна, внешняя проверка не выполнена.
+
+**Ownership → Owner по отдельному Stage 1 COL gate.** Researcher может начать evidence-only readiness 1TH по D126, но не отбор до отдельного местного допуска Lead. 2TH ожидает своей очереди. Семь прежних книг на паузах, проект границы D127 PROPOSED / NOT IN FORCE. Stage 1+ COL и новые поздние стадии не разрешены. **Одна ссылка Owner — COL-D003.**
