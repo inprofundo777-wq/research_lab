@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 27.11.2026 по D134: полный Stage 1 COL сдан COL-D005, SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN; Stage 0 принят. Дальше отдельное назначение Lead по D132 без повторного штатного Owner gate. 1TH/2TH сохраняют readiness/gates; прежние паузы сохранены, D127 не действует. Решения ниже append-only.
+**Состояние:** Сверено 27.11.2026 по D136: Stage 0–1 COL приняты, Stage 2 назначен COL-D007, результат ожидается. Owner D132 разрешил ограниченный пакет с местными gates Lead; 1TH/2TH только evidence-only readiness. Проект границы 22 книг не действует; прежние книги на паузах. Навигация обновляемая; решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2406,3 +2406,16 @@ Researcher и Stage 0 партии не запущены. PHP и прежние 
 Полное обратное чтение подтвердило равенство 100029 символов; 194 цитаты совпали с RST, 95 уникальных стихов контекста и 167 внутренних ссылок сверены. Inputs не изменены; новых Q/loci/корректирующих записок не потребовалось. Актуальное disclosure — rr-001 §1 / COL-D005, нового конкретного старого COL ключа не выявлено; source revision/origin-время неизвестны, внешняя проверка не выполнена. L-TRACE передан Lead, L-RES OPEN.
 
 **Ownership → Lead ACCEPT/RETURN → отдельный Stage 2 assignment в пределах D132**, без нового штатного Owner gate. Researcher остановлен до назначения; 1TH/2TH сохраняют собственные readiness/gates. Stage 4/Verification/MV/capability/P0, история/межкнижный синтез/NT-T/закрытие не разрешены; прежние книги на паузах, проект D127 не действует. Одна ссылка передачи — COL-D005.
+
+
+---
+
+## IP-001-D135 — Lead: Stage 1 COL принят
+
+**27.11.2026 (Europe/Tallinn).** Полное решение [COL-D006](./Research/COL/DECISIONS.md#col-d006--lead-accept-stage-1-колоссянам), commit `5dcfe22183842736b49553b399c0ea16408149a0`, blob `91f257748fe0fc71bb1f6b9805326109985b89ba`. Основание Owner D132 / COL-D004, сдача COL-D005 / D134. **ACCEPT Stage 1:** rr-001 commit `cf427823c952e1edfb7dc2b9f38e5e7ecb8508c8`, blob `77d814a514c8584a4dbb355c36c77b62f4ff6e60`; 20 C → 38 U (7 INCLUDE / 8 BORDERLINE / 23 CONTEXTUAL), все 15 Q OPEN / NOT VERIFIED. Полные 95 стихов в K-контекстах, ссылки и обратные связи сверены. L-TRACE принят внутренне, L-RES OPEN; независимой предметной Verification нет. Следующий этап требует отдельного задания Lead по D132.
+
+---
+
+## IP-001-D136 — Lead: цельный Stage 2 COL назначен Researcher
+
+**27.11.2026 (Europe/Tallinn).** Owner D132 / ACCEPT COL-D006. [Полный COL-D007 / COL-S2-OC-v0.1](./Research/COL/DECISIONS.md#col-d007--lead-цельный-stage-2-назначен-researcher), commit `18a6e2ea7bb633e1ef45cb94aabce31347d4ead4`, blob `8837b8a5d2ccc39e2184f4c3a919acec1c93d85c`. **STAGE 2 AUTHORIZED / ASSIGNMENT ISSUED / NOT SUBMITTED.** Только внутрикнижная карта повторений и границ COL по pinned Stage 0–1/RST, с диспозицией 38 U / 20 C / 15 OPEN Q и сохранением исходных judgments. Researcher сдаёт rr-002 и COL-D008 → Lead ACCEPT/RETURN. 1TH/2TH требуют собственных readiness/gates; Stage 3 COL лишь после отдельной приёмки/нового задания Lead. Stage 4/Verification/MV/межкнижный синтез/NT-T не разрешены. **Одна ссылка исполнителю — COL-D007.**
