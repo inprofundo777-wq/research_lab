@@ -2,7 +2,7 @@
 
 **Сверено:** 27.11.2026 по D129. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
 
-**Текущий gate:** [D131](./DECISIONS.md#ip-001-d131--lead-stage-0-col-принят-отдельный-gate-owner): Stage 0 COL принят, отдельный Stage 1 gate принадлежит Owner. 1TH/2TH — evidence-only readiness D126 с собственными условиями до отбора. Проект границы 22 книг D127 не действует.
+**Текущий gate:** [Owner D132](./DECISIONS.md#ip-001-d132--owner-единое-разрешение-пакета-col1th2th-до-stage-3-с-местными-gates-lead) разрешил ограниченный проход Stage 0–3 COL/1TH/2TH с отдельными допусками и ACCEPT/RETURN Lead. [COL-D004](./Research/COL/DECISIONS.md#col-d004--lead-цельный-stage-1-назначен-researcher): Stage 1 COL назначен, результат ожидается. 1TH/2TH требуют собственной readiness до отбора. Stage 4/Verification не разрешены; проект границы 22 книг D127 не действует.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
@@ -70,4 +70,4 @@
 
 
 
-**COL:** [книжный паспорт и COL-D003](./Research/COL/README.md). Stage 0 принят: 4/4 главы, 95 стихов, 20 C / 15 OPEN Q; Stage 1 не разрешён.
+**COL:** [книжный паспорт и COL-D004](./Research/COL/README.md). Stage 0 принят, Stage 1 назначен; 20 C / 15 OPEN Q.
