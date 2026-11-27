@@ -1,8 +1,8 @@
 # IP-001 — действия воскресшего Христа
 
-**Сверено:** 27.11.2026 по D129. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
+**Сверено:** 27.11.2026 по D139. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
 
-**Текущий gate:** [COL-D008](./Research/COL/DECISIONS.md#col-d008--researcher-полный-stage-2-передан-lead): полный Stage 2 SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN → отдельный Stage 3 assignment по D132. 16 записей / 38 U / 20 C / 15 OPEN Q. Stage 4/Verification не разрешены; 1TH/2TH сохраняют свои readiness/gates.
+**Текущий gate:** [COL-D010](./Research/COL/DECISIONS.md#col-d010--lead-полное-назначение-stage-3-колоссянам): Stage 2 ACCEPT, полный Stage 3 назначен по D132 → Researcher rr-003 / COL-D011. 16 записей / 38 U / 20 C / 15 OPEN Q. Stage 4/Verification не разрешены; 1TH/2TH сохраняют свои readiness/gates.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
@@ -70,4 +70,4 @@
 
 
 
-**COL:** [книжный паспорт и COL-D007](./Research/COL/README.md). Stage 0–1 приняты, 38 U / 20 C / 15 OPEN Q; Stage 2 ожидает исполнения.
+**COL:** [книжный паспорт и COL-D010](./Research/COL/README.md). Stage 0–2 приняты; Stage 3 назначен, сдача ожидается.
