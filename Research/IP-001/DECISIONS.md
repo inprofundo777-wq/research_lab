@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 28.11.2026 по D143: readiness 1TH с полным source/disclosure сдана Lead; C-SRC/C-EXP/C-SEQ OPEN, отбор не начат. COL Stage 0–3 ACCEPT, snapshot закреплён D142; 2TH требует собственных readiness/gates по D132. Семь прежних книг на паузах; D127 не действует. Решения ниже append-only.
+**Состояние:** Сверено 28.11.2026 по D144: COL Stage 0–3 принят и закреплён; 1TH evidence-only readiness по D126/D143 принята Lead, Stage 0 по прямому поручению Owner не запущен. 2TH на собственном readiness. Семь прежних книг на паузах; D127 не действует. Решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2482,3 +2482,14 @@ Researcher и Stage 0 партии не запущены. PHP и прежние 
 **C-AUTH-1TH CLOSED в объёме D125/D132; C-SRC/C-EXP/C-SEQ-1TH OPEN → отдельное решение Lead до первого отбора.** Source evidence и disclosure представлены, Researcher сам условия не закрывает. C/Q/judgments/rr-000 не создавались. Запрос Lead: принять источник с явными неизвестностями, дать реальную диспозицию экспозиции и последовательности, закрепить точный договор/targets Stage 0 либо RETURN/STOP. При новом материальном ключе/дефекте — STOP → Lead; 2TH автоматически не запускается. L-RES OPEN.
 
 **Ownership → Lead readiness decision.** Researcher остановлен до письменного местного допуска. COL Stage 0–3 ACCEPT / SNAPSHOT PINNED / NOT VERIFIED / BOOK NOT CLOSED сохраняется; 2TH имеет свои gates. Stage 4/Verification/MV, внешние оценщики, межкнижный синтез/NT-T и книжное закрытие не разрешены. Одна ссылка передачи — D143.
+
+
+---
+
+## IP-001-D144 — Lead: адресное readiness 1TH исполнено и принято; Stage 0 не запущен
+
+**28.11.2026 (Europe/Tallinn).** Owner просил продолжить пакет без повторного промежуточного Owner gate и подготовить полное адресное назначение Researcher на readiness 1TH, пока не запуская Stage 0. Действующее полное назначение уже опубликовано [D126](#ip-001-d126--lead-адресное-назначение-researcher-на-evidence-only-readiness-col1th2th), адресно охватывает 1TH после COL, с exact общим листом/1TH-card/Audit, source/disclosure contract, STOP, handoff и запретом отбора до местного допуска. Researcher уже исполнил его как [D143](#ip-001-d143--researcher-readiness-1th-передана-lead-до-отбора). Повторное назначение задним числом не выдаётся за будущую работу.
+
+Lead проверил полный 1TH source 1–5 (commit `18ba831006c491d8538cb48da986570c528d7fa3`, blob `16fc8b2896eb1ba43dcee0fcf45e5bebfcbf30c6`) и отдельное disclosure/readiness (commit `3dc24c68251350b0a59bb9ba956d7d1fc0834199`, blob `0404da4b49635434e035d0fcd8b30eb7420a9d02`). Решение [1TH-D001](./Research/1TH/DECISIONS.md#1th-d001--lead-readiness-1-фессалоникийцам-принята-до-отбора): **READINESS ACCEPT; C-AUTH/C-SRC/C-EXP/C-SEQ-1TH CLOSED в пределах зафиксированных неизвестностей/условий**, 5/5 глав и 89 стихов, датированное раскрытие предыдущей экспозиции; L-RES OPEN. Точные внешняя текстологическая редакция и полная прежняя история не установлены; при новом существенном факте STOP → Lead.
+
+**STAGE 0 NOT STARTED / ASSIGNMENT NOT ISSUED.** По текущему ограничению Owner нет отбора, C/Q/rr-000 и нет нового поручения Researcher на Corpus Mapping. Последующий отдельный Stage 0 assignment Lead должен закрепить source, BATCH-S0-OC-v0.1, target и обновление disclosure до первого отбора. COL Stage 0–3 и snapshot сохраняются, 2TH требует собственных gates; межкнижный синтез/Verification/Stage 4 не разрешены. **Следующая ссылка Researcher по уже исполненной readiness — D143; ownership у Lead.**
