@@ -4,7 +4,7 @@
 
 ## Текущий статус
 
-**Stage 0 SUBMITTED / NOT ACCEPTED.** Полная карта корпуса сдана Researcher в [1TH-D003](./DECISIONS.md#1th-d003--researcher-полный-stage-0-submitted--not-accepted--lead); ожидается цельный `ACCEPT / RETURN` Research Project Lead. Stage 1 и последующие стадии не разрешены.
+**Stage 0 ACCEPT** по [1TH-D004](./DECISIONS.md#1th-d004--lead-accept-полного-stage-0-1-фессалоникийцам). **Stage 1 назначен** [1TH-D005](./DECISIONS.md#1th-d005--lead-полный-stage-1-назначен-researcher); ожидается цельная rr-001 и 1TH-D006 → Lead ACCEPT/RETURN. Stage 2 и последующие стадии фактически не начаты.
 
 ## Действующие файлы
 
