@@ -1,6 +1,6 @@
 # 1TH — журнал книжного цикла IP-001
 
-**Текущий gate:** readiness, Stage 0–1 1TH приняты по 1TH-D001/D004/D007; полный Stage 2 назначен 1TH-D008 по D132, сдача ожидается. Записи append-only.
+**Текущий gate:** readiness и Stage 0–1 приняты; полный Stage 2 сдан Researcher в 1TH-D009 (`SUBMITTED / NOT ACCEPTED`); ожидается цельный `ACCEPT / RETURN` Research Project Lead. Stage 3 не разрешён. Записи append-only.
 
 ## 1TH-D001 — Lead: readiness 1 Фессалоникийцам принята до отбора
 
@@ -150,3 +150,28 @@ Disclosure обновлено до отбора после 1TH-D001/D002; нов
 Self-check: действительная связь R, отдельность S, адресные NB/NM, **31 U / 20 C / 12 Q**, judgments/субъекты/время/речь/силу, цитаты/anchors, русский язык, отсутствие Stage 3/4. Сохранить цельный rr-002, полностью получить обратно по immutable commit, сравнить строковое равенство. Записать **1TH-D009 — STAGE 2 SUBMITTED / NOT ACCEPTED → Lead** с commit/blob, реальным числом R/S/NB/NM, охватом, Q/новыми находками, disclosure и пределами; обновить навигацию. Self-check не ACCEPT. Lead ACCEPT/RETURN всего 1TH-S2-OC-v0.1; при RETURN точные записи/U/C/Q/loci и цельная R1 с первым pin. Лишь после отдельного ACCEPT Lead вправе назначить Stage 3 по D132.
 
 Конфликт полномочия/нормы, существенный source/exposure дефект или невозможность договора → STOP → Lead; новый scope/ресурс за мандатом → Director/Owner через Lead. 2TH на собственном evidence-only readiness; COL Stage 0–3 принят/не verified/closed, семь прежних книг на паузах. Stage 3 1TH сейчас не начат; Stage 4/Verification/MV/capability/P0, межкнижный синтез/NT-T/закрытие не разрешены. **Одна ссылка исполнителю — 1TH-D008.**
+
+
+---
+
+## 1TH-D009 — Researcher: полный Stage 2 SUBMITTED / NOT ACCEPTED → Lead
+
+**28.11.2026 (Europe/Tallinn).** Researcher v0.1 / Package C; второстепенная роль не активирована; внутрикнижная Repetition and Boundary Mapping только 1TH. Исполнено назначение [1TH-D008](#1th-d008--lead-полный-stage-2-назначен-researcher) по 1TH-S2-OC-v0.1. **STAGE 2 SUBMITTED / NOT ACCEPTED.** Self-check не является ACCEPT или независимой Verification; ownership возвращён Research Project Lead.
+
+**Цельный результат:** [rr-002_1TH_Repetition_Stable_Evidence_Map.md](https://github.com/inprofundo777-wq/research_lab/blob/19258beca581a13bc21bc57dcbfedb01a355a80b/Research/IP-001/Research/1TH/rr-002_1TH_Repetition_Stable_Evidence_Map.md), commit `19258beca581a13bc21bc57dcbfedb01a355a80b`, blob `f766873c1b7505488c0d45027a8ef4c2cff08b26`.
+
+**Реальный состав:** **5 R / 7 S / 3 NB / 5 NM**. Действительные повторения фиксируют: (1) Христа/Господа как сферу, принадлежность и авторитет; (2) будущий Господний горизонт; (3) повторяющееся явное действие Бога/Отца; (4) человеческое действие внутри Христовой связи; (5) молитву/пожелание как речевую форму возможного божественного действия. Они не выданы за пять повторяющихся действий Христа.
+
+**Сильное и ограничивающее evidence:** два INCLUDE Stage 1 сохранены как сильные единичные S — Иисус, избавляющий от грядущего гнева (1:10), и Сам Господь, Который сойдёт с неба (4:16). Отдельно сохранены слово, действующее в верующих; молитвенная цепь 3:11–13; Господь-мститель 4:6; будущие пассивы 4:16–17. NB фиксируют иных названных субъектов, временную границу земной смерти и различие relation/role/action. NM не позволяют слить спасение/избавление, молитвенные блоки, участников 4:14–17, судебную лексику и разные речевые функции.
+
+**Полнота и трассировка:** все **31 U**, **20 C** и **12 Q** имеют явную диспозицию; полная матрица U001–U031 сохраняет исходные judgments **2 INCLUDE / 8 BORDERLINE / 19 CONTEXTUAL / 2 EXCLUDE**. Перекрытия записей отмечены как разные функции одного evidence, не как новые occurrences. Все Q001–Q012 связаны с R/S/NB/NM, сохраняют происхождение/альтернативы/влияние и **OPEN / NOT VERIFIED**; новых Q013+ нет. L-RES CTX/LANG/TEXT OPEN; другие переводы, греческий, эксперты и Verification не активированы.
+
+**Новые находки/корректировки:** существенного нового locus, ошибки accepted U/C/source, изменённого judgment или необходимости корректирующей записки не выявлено. Stage 0–1 inputs не переписывались.
+
+**Disclosure и STOP:** после D006/D007 дополнительно прочитаны ACCEPT, D008 и принятые 1TH Stage 0–1. GAL/EPH/PHP/COL, их R/S/G и исторические outputs не использованы как схема/evidence. Конкретного старого 1TH-key, новой утечки или source/exposure/authority-дефекта не выявлено; абсолютная слепота не заявляется. STOP/PARTIAL STOP не применялись.
+
+**Readback:** цельный файл полностью получен обратно по immutable commit и посимвольно сопоставлен с локальным результатом: **23 549 Unicode-символов / 35 823 UTF-8 bytes**; Git blob совпал `f766873c1b7505488c0d45027a8ef4c2cff08b26`. Проверены 5 R, 7 S, 3 NB, 5 NM, 31 matrix rows, 20 C и 12 Q.
+
+**Границы:** Stage 3 groups, книжный вывод, Stage 4/Verification/MV, историческое или межкнижное сравнение, NT-T и книжное закрытие не выполнялись. 2TH автоматически не запущено.
+
+**Нужное решение Lead:** проверить весь 1TH-S2-OC-v0.1 и записать цельный **ACCEPT / RETURN**. При RETURN указать точные R/S/NB/NM/U/C/Q/loci и цельную R1 с сохранением первого pin. Stage 3 возможен только после отдельного ACCEPT и нового адресного назначения Lead по D132.
