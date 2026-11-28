@@ -1,6 +1,6 @@
 # 1TH — журнал книжного цикла IP-001
 
-**Текущий gate:** readiness 1TH принята 1TH-D001; полный Stage 0 назначен 1TH-D002 по пакетному D132, сдача ожидается. Записи append-only.
+**Текущий gate:** полный Stage 0 сдан Researcher в 1TH-D003 (`SUBMITTED / NOT ACCEPTED`); ожидается цельный `ACCEPT / RETURN` Research Project Lead. Stage 1 не разрешён. Записи append-only.
 
 ## 1TH-D001 — Lead: readiness 1 Фессалоникийцам принята до отбора
 
@@ -32,3 +32,22 @@
 **Самопроверка и handoff:** русский смысловой язык, технические ID/статусы допустимы; сверить полный ledger, непрерывность стихов, локальные C/Q, цитаты и anchors с immutable source, disclosure, субъект/время/альтернативы, отсутствие переносов и новых claims без evidence. Сохранить цельный rr-000, прочитать полностью обратно по immutable commit и сравнить строковое равенство. Записать в этот книжный журнал **1TH-D003 — Researcher: полный Stage 0 SUBMITTED / NOT ACCEPTED → Lead** с commit/blob, числами C/Q, полнотой 5/5 и 89/89, проверкой, disclosure, неизвестным и STOP/отсутствием. Обновить навигацию. Self-check не ACCEPT. Lead затем отдельно ACCEPT/RETURN всего BATCH-S0-OC-v0.1; при RETURN точные C/Q/loci и цельная R1 с сохранением первого pin. Stage 1 только после отдельного решения и нового адресного задания Lead по D132.
 
 **Граница и STOP:** конфликт нормы/authority, неполная глава, смена носителя/корпуса, материальный старый ключ или неуправляемая экспозиция → STOP 1TH → Lead; при превышении местного мандата Director/Owner. 2TH не запускается автоматически, при блоке другой книги нужен её собственный gate и явный PARTIAL STOP. L-RES CTX/LANG/TEXT OPEN, оценщики и Verification не назначены. COL Stage 0–3 ACCEPT / snapshot pinned, но не verified/closed; прежние семь книг на паузах. Stage 4/Verification/MV, межкнижное сравнение/синтез, NT-T и книжное закрытие вне задания. **Одна ссылка исполнителю — 1TH-D002.**
+
+
+---
+
+## 1TH-D003 — Researcher: полный Stage 0 SUBMITTED / NOT ACCEPTED → Lead
+
+**28.11.2026 (Europe/Tallinn).** Researcher v0.1 / Package C; второстепенная роль не активирована; Corpus Mapping только 1 Фессалоникийцам 1–5. Исполнено полное адресное назначение [1TH-D002](#1th-d002--lead-полное-адресное-назначение-researcher-на-stage-0) по BATCH-S0-OC-v0.1. **STAGE 0 SUBMITTED / NOT ACCEPTED.** Self-check не является ACCEPT или независимой Verification; ownership возвращён Research Project Lead.
+
+**Цельный результат:** [rr-000_1TH_Stage0_Corpus_Map.md](https://github.com/inprofundo777-wq/research_lab/blob/56e734ee4f04545ab9d27b64c49e9594bd611de8/Research/IP-001/Research/1TH/rr-000_1TH_Stage0_Corpus_Map.md), commit `56e734ee4f04545ab9d27b64c49e9594bd611de8`, blob `2192e45ccbc57048f693aa6eba2f670bbae011f7`.
+
+**Полнота:** 5/5 глав, 89/89 стихов (10/20/13/18/28); непрерывный per-verse ledger со словесными границами и кандидатом либо обоснованным существенным неотбором. Сформированы 20 собственных кандидатов `1TH-C001…1TH-C020` и 12 собственных вопросов `1TH-Q001…1TH-Q012`; все Q имеют статус **OPEN / NOT VERIFIED**, L-RES CTX/LANG/TEXT остаётся OPEN. Кандидаты не являются установленными действиями или judgments Stage 1.
+
+**Источник и disclosure:** использован только pinned [source 1TH 1–5](https://github.com/inprofundo777-wq/research_lab/blob/18ba831006c491d8538cb48da986570c528d7fa3/Research/IP-001/Research/1TH/source_1TH_RST_2026-11-28.md), commit `18ba831006c491d8538cb48da986570c528d7fa3`, blob `16fc8b2896eb1ba43dcee0fcf45e5bebfcbf30c6`; иные переводы/греческий не привлекались. Перед первым отбором disclosure обновлено: дополнительно прочитаны 1TH-D001/D002, нормативные и установочные документы и полный source; сохраняется раскрытая память GAL/EPH/PHP/COL и неизвестная прежняя общая 1TH экспозиция. Конкретного старого 1TH-key, нового source-дефекта, неконтролируемой утечки или authority-конфликта не выявлено; соседние карты не использованы как evidence. STOP/PARTIAL STOP не применялись.
+
+**Самопроверка:** проверены 89 ledger-строк, непрерывность 1–10/20/13/18/28, локальные C/Q и взаимные ссылки, цитаты/anchors, субъект, время, молитвенная/речевая форма, действие/роль/отношение и отрицательные случаи. Файл полностью прочитан обратно по immutable commit; строковое равенство локальному цельному результату подтверждено: 30 848 Unicode-символов / 50 556 UTF-8 bytes, Git blob совпал `2192e45ccbc57048f693aa6eba2f670bbae011f7`. Источник/readiness не изменены.
+
+**Границы:** Stage 1 statuses `INCLUDE / BORDERLINE / CONTEXTUAL / EXCLUDE`, повторения, группы, Stage 4/Verification/MV, историческое или межкнижное сравнение, NT-T и книжное закрытие не выполнялись. COL остаётся самостоятельным принятым snapshot; 2TH автоматически не запущено.
+
+**Нужное решение Lead:** проверить весь BATCH-S0-OC-v0.1, ledger, 20 C, 12 Q, disclosure, ограничения и immutable pin; записать один цельный **ACCEPT / RETURN**. При RETURN указать точные C/Q/loci и цельную R1 с сохранением первого pin. Stage 1 возможен только после отдельного решения и нового адресного назначения Lead по D132.
