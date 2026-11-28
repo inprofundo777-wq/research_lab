@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 27.11.2026 по D140: полный Stage 3 COL сдан COL-D011, SUBMITTED / NOT ACCEPTED → Lead. Stage 0–2 приняты; 7 предварительных групп, 15 OPEN Q. После ACCEPT snapshot/паспорт создаёт Lead для пакетного итога D132. Stage 4/Verification не разрешены; 1TH/2TH требуют собственных readiness/gates, прежние паузы сохранены. Решения ниже append-only.
+**Состояние:** Сверено 28.11.2026 по D142: COL Stage 0–3 ACCEPT, immutable snapshot и смысловой паспорт закреплены; 1TH/2TH требуют собственных readiness/gates по пакету D132. Семь прежних книг на паузах; D127 не действует. Решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2456,3 +2456,14 @@ Researcher и Stage 0 партии не запущены. PHP и прежние 
 Полное обратное чтение: равенство 123432 символа; 101 цитата по RST, 95 внутренних/401 внешняя ссылка проверены. Inputs не изменены, новых Q/loci/корректирующих записок не потребовалось. Disclosure до классификации — rr-003 §1 / COL-D011; нового конкретного старого COL ключа не выявлено, абсолютная слепота не удостоверяется. L-TRACE передан Lead, L-RES OPEN; источник revision/origin-время неизвестны, экспертиза не проводилась.
 
 **Ownership → Lead ACCEPT/RETURN → после ACCEPT snapshot/смысловой паспорт Lead → пакетный итог Owner D132.** Researcher остановлен, Stage 4/Verification/MV/capability/P0, история/межкнижный синтез/NT-T/закрытие не разрешены. 1TH/2TH требуют своих readiness/gates, здесь не начаты; семь прежних книг на паузах, D127 не действует. Одна ссылка передачи — COL-D011.
+
+
+---
+
+## IP-001-D141 — Lead: ACCEPT полного Stage 3 Колоссянам
+
+**28.11.2026 (Europe/Tallinn).** На основании Owner D132 / COL-D010–011 принято [COL-D012](./Research/COL/DECISIONS.md#col-d012--lead-accept-полного-stage-3-колоссянам): цельный rr-003, commit `13ac53c986d68a57e00a95f7795471546820c62e`, blob `b7271c8b99705de9075bd8357bad1a304275f74b`, **STAGE 3 ACCEPT / PRELIMINARY / NOT VERIFIED**. Семь групп, все 16 записей / 38 U / 20 C / 15 OPEN Q; семь NM отдельно, judgments неизменны. Очередь 12 P1 / 3 условных P2. Мотивировка/ограничения и объём проверки Lead в COL-D012; L-RES OPEN. Не предметная Verification и не книжное закрытие.
+
+## IP-001-D142 — Lead: immutable snapshot и смысловой паспорт COL закреплены
+
+**28.11.2026 (Europe/Tallinn).** После COL-D012 закреплён [самостоятельный паспорт](https://github.com/inprofundo777-wq/research_lab/blob/b23a3ab690208ed19bb0dd645a65e945f26485de/Research/IP-001/Research/COL/COL_Stage0-3_Snapshot_and_Semantic_Passport_2026-11-28.md), commit `b23a3ab690208ed19bb0dd645a65e945f26485de`, blob `524fc2ab5db47adc2bd35adef68e11a37b2d78c3`; книжная запись [COL-D013](./Research/COL/DECISIONS.md#col-d013--lead-snapshot-stage-03-и-смысловой-паспорт-закреплены). **COL STAGE 0–3 ACCEPT / SNAPSHOT PINNED / NOT VERIFIED / BOOK NOT CLOSED.** COL ждёт общего пакетного handoff Owner D132 после отдельных местных gates 1TH/2TH. Следующее операционное действие Lead — readiness следующей книги по собственным C-AUTH/C-SRC/C-EXP/C-SEQ; Researcher COL остановлен. Stage 4/Verification/MV/межкнижный синтез/NT-T не разрешены; семь прежних книг на паузах, D127 не действует.
