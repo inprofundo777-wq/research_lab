@@ -4,7 +4,7 @@
 
 ## Текущий статус
 
-**Stage 0 ACCEPT; Stage 1 SUBMITTED / NOT ACCEPTED.** Полные первичные наблюдения сданы Researcher в [1TH-D006](./DECISIONS.md#1th-d006--researcher-полный-stage-1-submitted--not-accepted--lead); ожидается цельный `ACCEPT / RETURN` Research Project Lead. Stage 2 и последующие стадии не разрешены.
+**Stage 0–1 ACCEPT** по 1TH-D004/D007. [1TH-D008](./DECISIONS.md#1th-d008--lead-полный-stage-2-назначен-researcher) назначает полный Stage 2; ожидаются rr-002 и 1TH-D009 → Lead ACCEPT/RETURN. Stage 3 и последующие стадии фактически не начаты.
 
 ## Действующие файлы
 
