@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 28.11.2026 по D142: COL Stage 0–3 ACCEPT, immutable snapshot и смысловой паспорт закреплены; 1TH/2TH требуют собственных readiness/gates по пакету D132. Семь прежних книг на паузах; D127 не действует. Решения ниже append-only.
+**Состояние:** Сверено 28.11.2026 по D143: readiness 1TH с полным source/disclosure сдана Lead; C-SRC/C-EXP/C-SEQ OPEN, отбор не начат. COL Stage 0–3 ACCEPT, snapshot закреплён D142; 2TH требует собственных readiness/gates по D132. Семь прежних книг на паузах; D127 не действует. Решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2467,3 +2467,18 @@ Researcher и Stage 0 партии не запущены. PHP и прежние 
 ## IP-001-D142 — Lead: immutable snapshot и смысловой паспорт COL закреплены
 
 **28.11.2026 (Europe/Tallinn).** После COL-D012 закреплён [самостоятельный паспорт](https://github.com/inprofundo777-wq/research_lab/blob/b23a3ab690208ed19bb0dd645a65e945f26485de/Research/IP-001/Research/COL/COL_Stage0-3_Snapshot_and_Semantic_Passport_2026-11-28.md), commit `b23a3ab690208ed19bb0dd645a65e945f26485de`, blob `524fc2ab5db47adc2bd35adef68e11a37b2d78c3`; книжная запись [COL-D013](./Research/COL/DECISIONS.md#col-d013--lead-snapshot-stage-03-и-смысловой-паспорт-закреплены). **COL STAGE 0–3 ACCEPT / SNAPSHOT PINNED / NOT VERIFIED / BOOK NOT CLOSED.** COL ждёт общего пакетного handoff Owner D132 после отдельных местных gates 1TH/2TH. Следующее операционное действие Lead — readiness следующей книги по собственным C-AUTH/C-SRC/C-EXP/C-SEQ; Researcher COL остановлен. Stage 4/Verification/MV/межкнижный синтез/NT-T не разрешены; семь прежних книг на паузах, D127 не действует.
+
+
+---
+
+## IP-001-D143 — Researcher: readiness 1TH передана Lead до отбора
+
+**28.11.2026 (Europe/Tallinn).** Researcher v0.1 / Package C; evidence-only часть D126, Owner D125/D132 и прямое продолжение с 1TH после COL-D012/D013. **READINESS SUBMITTED / SELECTION NOT AUTHORIZED.**
+
+Полный [source 1TH](https://github.com/inprofundo777-wq/research_lab/blob/18ba831006c491d8538cb48da986570c528d7fa3/Research/IP-001/Research/1TH/source_1TH_RST_2026-11-28.md), commit `18ba831006c491d8538cb48da986570c528d7fa3`, blob `16fc8b2896eb1ba43dcee0fcf45e5bebfcbf30c6`: Синодальный перевод, bible.by/SYN, все **5 глав / 89 стихов (10/20/13/18/28)**, непрерывная нумерация и словесные границы сверены. Доступ 28.11.2026 до контрольного времени 07:11:10 +02:00; точные секунды отдельных запросов/начало окна, печатная редакция, происхождение цифрового набора и время обновления неизвестны. Полное immutable readback: равенство 11307 символов.
+
+[Отдельная readiness / local Lock / disclosure после COL](https://github.com/inprofundo777-wq/research_lab/blob/3dc24c68251350b0a59bb9ba956d7d1fc0834199/Research/IP-001/Planning/1TH-Readiness-2026-11-28.md), commit `3dc24c68251350b0a59bb9ba956d7d1fc0834199`, blob `0404da4b49635434e035d0fcd8b30eb7420a9d02`; полное readback 9679 символов. Раскрыты собственные GAL/EPH/PHP/COL работы и предметная память, общая историческая направленность, неизвестная прежняя 1TH экспозиция, полное новое чтение 1TH и видимые редакционные содержания/элементы примечаний носителя. Конкретный старый 1TH ключ в доступном контексте не идентифицирован; отсутствие истории/абсолютная слепота не утверждаются. Соседние карты не перечитывались как ключ. Это не независимое межкнижное подтверждение.
+
+**C-AUTH-1TH CLOSED в объёме D125/D132; C-SRC/C-EXP/C-SEQ-1TH OPEN → отдельное решение Lead до первого отбора.** Source evidence и disclosure представлены, Researcher сам условия не закрывает. C/Q/judgments/rr-000 не создавались. Запрос Lead: принять источник с явными неизвестностями, дать реальную диспозицию экспозиции и последовательности, закрепить точный договор/targets Stage 0 либо RETURN/STOP. При новом материальном ключе/дефекте — STOP → Lead; 2TH автоматически не запускается. L-RES OPEN.
+
+**Ownership → Lead readiness decision.** Researcher остановлен до письменного местного допуска. COL Stage 0–3 ACCEPT / SNAPSHOT PINNED / NOT VERIFIED / BOOK NOT CLOSED сохраняется; 2TH имеет свои gates. Stage 4/Verification/MV, внешние оценщики, межкнижный синтез/NT-T и книжное закрытие не разрешены. Одна ссылка передачи — D143.
