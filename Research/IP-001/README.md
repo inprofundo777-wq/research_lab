@@ -1,8 +1,8 @@
 # IP-001 — действия воскресшего Христа
 
-**Сверено:** 28.11.2026 по D143. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
+**Сверено:** 28.11.2026 по D144. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
 
-**Текущий gate:** [readiness 1TH сдана Lead по D143](./DECISIONS.md#ip-001-d143--researcher-readiness-1th-передана-lead-до-отбора): полный источник и датированное disclosure после COL; C-SRC/C-EXP/C-SEQ OPEN, отбор Stage 0 не начат. COL Stage 0–3 ACCEPT / snapshot закреплён D142. 2TH требует собственных readiness/gates в пакете Owner D132. Stage 4/Verification не разрешены.
+**Текущий gate:** COL Stage 0–3 ACCEPT и snapshot закреплён. 1TH readiness по D126/D143 принята [1TH-D001](./Research/1TH/DECISIONS.md#1th-d001--lead-readiness-1-фессалоникийцам-принята-до-отбора); Stage 0 NOT STARTED / ASSIGNMENT NOT ISSUED. 2TH требует собственного readiness. Stage 4/Verification не разрешены.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
