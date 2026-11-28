@@ -2,7 +2,7 @@
 
 **Сверено:** 28.11.2026 по D144. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
 
-**Текущий gate:** COL Stage 0–3 ACCEPT и snapshot закреплён. 1TH readiness по D126/D143 принята [1TH-D001](./Research/1TH/DECISIONS.md#1th-d001--lead-readiness-1-фессалоникийцам-принята-до-отбора); Stage 0 NOT STARTED / ASSIGNMENT NOT ISSUED. 2TH требует собственного readiness. Stage 4/Verification не разрешены.
+**Текущий gate:** COL Stage 0–3 ACCEPT и snapshot закреплён. 1TH readiness принята; [1TH-D002](./Research/1TH/DECISIONS.md#1th-d002--lead-полное-адресное-назначение-researcher-на-stage-0) назначает полный Stage 0 Researcher → rr-000 / 1TH-D003. 2TH требует собственного readiness. Stage 4/Verification не разрешены.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
