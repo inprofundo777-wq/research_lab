@@ -1,8 +1,8 @@
 # IP-001 — действия воскресшего Христа
 
-**Сверено:** 27.11.2026 по D139. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
+**Сверено:** 28.11.2026 по D142. Семь прежних книг сохраняют принятые самостоятельные Stage 0–3 и рабочие паузы; открытые вопросы — в книжных паспортах. Ни одна не закрыта.
 
-**Текущий gate:** [COL-D011](./Research/COL/DECISIONS.md#col-d011--researcher-полный-stage-3-передан-lead): полный Stage 3 SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN → после ACCEPT snapshot/паспорт Lead → пакетный итог D132. 7 групп / 38 U / 20 C / 15 OPEN Q; Stage 4/Verification не разрешены. 1TH/2TH требуют своих readiness/gates.
+**Текущий gate:** COL Stage 0–3 ACCEPT по COL-D012; [immutable snapshot и смысловой паспорт](https://github.com/inprofundo777-wq/research_lab/blob/b23a3ab690208ed19bb0dd645a65e945f26485de/Research/IP-001/Research/COL/COL_Stage0-3_Snapshot_and_Semantic_Passport_2026-11-28.md) закреплены по D142. 1TH/2TH сохраняют отдельные readiness/gates в пакете Owner D132. Stage 4/Verification не разрешены.
 
 **Журнал проекта:** [DECISIONS.md](./DECISIONS.md). **Навигационное правило:** [журналы решений](../../Processes/Documentation_and_Decision_Records.md).
 
@@ -70,4 +70,4 @@
 
 
 
-**COL:** [книжный паспорт и COL-D010](./Research/COL/README.md). Stage 0–2 приняты; Stage 3 назначен, сдача ожидается.
+**COL:** [книжный паспорт и COL-D013](./Research/COL/README.md). Stage 0–3 приняты, snapshot закреплён; 15 Q OPEN, L-RES OPEN, книжного закрытия нет.
