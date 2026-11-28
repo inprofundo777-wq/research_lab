@@ -1,6 +1,6 @@
 # 1TH — журнал книжного цикла IP-001
 
-**Текущий gate:** readiness и Stage 0 1TH приняты по 1TH-D001/D004; полный Stage 1 назначен 1TH-D005 по пакетному D132, сдача ожидается. Записи append-only.
+**Текущий gate:** readiness и Stage 0 приняты; полный Stage 1 сдан Researcher в 1TH-D006 (`SUBMITTED / NOT ACCEPTED`); ожидается цельный `ACCEPT / RETURN` Research Project Lead. Stage 2 не разрешён. Записи append-only.
 
 ## 1TH-D001 — Lead: readiness 1 Фессалоникийцам принята до отбора
 
@@ -81,3 +81,26 @@ Disclosure обновлено до отбора после 1TH-D001/D002; нов
 **Сдача и gate:** self-check 20 C, 12 исходных Q, все U, прямые/обратные связи, цитаты по RST, субъект/время/речь/тип, сильное/отрицательное, язык/anchors. Сохранить цельный rr-001, полностью прочитать обратно по immutable commit, сверить строковое равенство. Записать **1TH-D006 — Researcher: STAGE 1 SUBMITTED / NOT ACCEPTED → Lead** с commit/blob, реальным числом U/judgments, Q/новыми находками/корректировками либо их отсутствием, disclosure и пределами; обновить навигацию. Lead отдельно ACCEPT/RETURN всего 1TH-S1-OC-v0.1/Contract v0.2; при RETURN точные U/C/Q/loci и цельная R1 с первым pin. Self-check не независимая Verification. Stage 2 только после нового ACCEPT и задания Lead.
 
 **STOP:** конфликт authority/нормы, существенный source/exposure дефект или невозможность договора → сохранить работу и обратиться Lead; новый scope/ресурс за мандатом → Director/Owner. 2TH только собственные readiness/gates. COL Stage 0–3 принят, но не verified/closed; прежние семь книг на паузах. Stage 4/Verification/MV/межкнижный синтез/NT-T/книжное закрытие не разрешены. **Одна ссылка исполнителю — 1TH-D005.**
+
+
+---
+
+## 1TH-D006 — Researcher: полный Stage 1 SUBMITTED / NOT ACCEPTED → Lead
+
+**28.11.2026 (Europe/Tallinn).** Researcher v0.1 / Package C; второстепенная роль не активирована; Primary Observation только 1TH. Исполнено назначение [1TH-D005](#1th-d005--lead-полный-stage-1-назначен-researcher) по Primary Observation Output Contract v0.2 и местному 1TH-S1-OC-v0.1. **STAGE 1 SUBMITTED / NOT ACCEPTED.** Self-check не является ACCEPT или независимой Verification; ownership возвращён Research Project Lead.
+
+**Цельный результат:** [rr-001_1TH_Primary_Observations.md](https://github.com/inprofundo777-wq/research_lab/blob/2c81f50dd1f626cc0ed5ee26990e094d0255721b/Research/IP-001/Research/1TH/rr-001_1TH_Primary_Observations.md), commit `2c81f50dd1f626cc0ed5ee26990e094d0255721b`, blob `f4ccb51b6669672bd5951a4ce35e889cf66429fc`.
+
+**Полнота и judgments:** все 20 принятых `1TH-C001…C020` получили явную C→U диспозицию и обратную U→C/Q трассировку. Сформирована **31 U**: **INCLUDE 2 / BORDERLINE 8 / CONTEXTUAL 19 / EXCLUDE 2**. Каждая U сохраняет точный locus/evidence по pinned RST, attribution и степень её ясности, время/речевую форму, action/role/relation/result, мотивированный judgment, observation, альтернативу/ограничение и Q/Verification Flag при реальном trigger. Несколько U одного C разделяют разные субъекты/типы evidence и не выданы за независимые повторения.
+
+**Q и ресурсы:** все 12 исходных `1TH-Q001…Q012` сохранены с происхождением, альтернативами, влиянием и требуемой CTX/LANG/TEXT проверкой; все остаются **OPEN / NOT VERIFIED**. Новых Q013+ и новых существенных loci не возникло. Другие переводы, греческий, экспертные ресурсы и Verification не активированы; L-RES OPEN. Accepted rr-000/source не исправлялись; корректирующей записки не потребовалось.
+
+**Сильное и ограничивающее evidence:** как INCLUDE сохранены прямое именование Иисуса, избавляющего от грядущего гнева (1:10), и прямое будущее действие Самого Господа — «сойдёт с неба» (4:16). Молитвенные 3:11–13, Господь-мститель 4:6, пассивы 4:16–17 и день Господень 5:1–5 оставлены BORDERLINE без преждевременного усиления. Сохранено negative evidence действий Бога/Отца, Духа, людей, сатаны, слова, земной смерти Иисуса и невыраженных субъектов.
+
+**Disclosure и STOP:** после D003/D004 дополнительно прочитаны ACCEPT, D005, Contract, accepted rr-000 и pinned RST. Собственная карта 1TH использована как разрешённый input; GAL/EPH/PHP/COL и общий замысел раскрыты, но не использованы как содержательный ключ. Конкретного старого 1TH-key, новой утечки, source/exposure/authority-дефекта не выявлено; абсолютная слепота не заявляется. STOP/PARTIAL STOP не применялись.
+
+**Readback:** цельный файл полностью прочитан обратно по immutable commit; строковое равенство локальному результату подтверждено: **31 308 Unicode-символов / 47 561 UTF-8 bytes**, Git blob совпал `f4ccb51b6669672bd5951a4ce35e889cf66429fc`. Проверены 20 C, 31 U, 12 Q, anchors, цитаты, субъекты/время/речь/тип и judgments.
+
+**Границы:** Repetition Mapping, R/S/NB/NM, группы, книжный вывод, Stage 4/Verification/MV, историческое или межкнижное сравнение, NT-T и книжное закрытие не выполнялись. 2TH автоматически не запущено.
+
+**Нужное решение Lead:** проверить весь 1TH-S1-OC-v0.1 / Contract v0.2 и записать один цельный **ACCEPT / RETURN**. При RETURN указать точные U/C/Q/loci и цельную R1 с сохранением первого pin. Stage 2 возможен только после отдельного ACCEPT и нового адресного назначения Lead по D132.
