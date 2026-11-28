@@ -1,7 +1,7 @@
 # IP-001 — журнал решений проекта
 
 **Исследовательский вопрос:** какие действия Новый Завет непосредственно приписывает воскресшему Иисусу Христу после Его Вознесения?  
-**Состояние:** Сверено 28.11.2026 по D145: COL Stage 0–3 принят и закреплён; 1TH readiness принята и полный Stage 0 назначен 1TH-D002 по D132, сдача ожидается. 2TH на собственном readiness. Семь прежних книг на паузах; D127 не действует. Решения ниже append-only.
+**Состояние:** Сверено 28.11.2026 по D147: COL Stage 0–3 принят и закреплён; 1TH Stage 0 ACCEPT, полный Stage 1 назначен 1TH-D005 по D132, сдача ожидается. 2TH на собственном readiness. Семь прежних книг на паузах; D127 не действует. Решения ниже append-only.
 **Навигация:** [паспорт проекта](./README.md) · [Деяния](./Research/ACTS/README.md) · [журнал этапов Деяний](./Research/ACTS/DECISIONS.md)
 
 ## Исторические решения до перехода
@@ -2500,3 +2500,14 @@ Lead проверил полный 1TH source 1–5 (commit `18ba831006c491d8538
 ## IP-001-D145 — Lead: полный Stage 0 1TH назначен Researcher
 
 **28.11.2026 (Europe/Tallinn).** Owner D125/D132, закрытые местные C-AUTH/C-SRC/C-EXP/C-SEQ по 1TH-D001. По новому указанию Owner продолжить работу выдано [полное адресное задание 1TH-D002](./Research/1TH/DECISIONS.md#1th-d002--lead-полное-адресное-назначение-researcher-на-stage-0) Researcher v0.1 / Package C. **STAGE 0 AUTHORIZED / ASSIGNMENT ISSUED / NOT SUBMITTED.** Единственный pinned source 1TH 1–5, blob `16fc8b2896eb1ba43dcee0fcf45e5bebfcbf30c6`; readiness blob `0404da4b49635434e035d0fcd8b30eb7420a9d02`; BATCH-S0-OC-v0.1 и 1TH-card с exact pins в книжной записи. Результат — отдельный rr-000 и 1TH-D003 SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN. До первого отбора обновить disclosure; материальный source/exposure дефект или перенос схемы → STOP. 2TH не запущена; COL snapshot принят, Stage 4/Verification/межкнижный синтез не разрешены. **Одна ссылка Researcher — 1TH-D002.**
+
+
+---
+
+## IP-001-D146 — Lead: ACCEPT полного Stage 0 1TH
+
+**28.11.2026 (Europe/Tallinn).** После Researcher 1TH-D003 принято [1TH-D004](./Research/1TH/DECISIONS.md#1th-d004--lead-accept-полного-stage-0-1-фессалоникийцам): [rr-000](https://github.com/inprofundo777-wq/research_lab/blob/56e734ee4f04545ab9d27b64c49e9594bd611de8/Research/IP-001/Research/1TH/rr-000_1TH_Stage0_Corpus_Map.md), commit `56e734ee4f04545ab9d27b64c49e9594bd611de8`, blob `2192e45ccbc57048f693aa6eba2f670bbae011f7`. **STAGE 0 ACCEPT:** 5/5 глав, 89/89 стихов, 20 C, 12 Q OPEN / NOT VERIFIED. Ledger и словесные границы сверены с pinned RST, субъекты/время/молитвы/будущие сцены и отрицательные случаи удержаны. Это карта для Stage 1, не установленные действия и не Verification. L-RES OPEN.
+
+## IP-001-D147 — Lead: полный Stage 1 1TH назначен Researcher
+
+**28.11.2026 (Europe/Tallinn).** Owner D132 и 1TH-D004; опубликовано [адресное 1TH-D005](./Research/1TH/DECISIONS.md#1th-d005--lead-полный-stage-1-назначен-researcher), Contract v0.2 / 1TH-S1-OC-v0.1. **STAGE 1 AUTHORIZED / ASSIGNMENT ISSUED / NOT SUBMITTED.** Researcher v0.1 / Package C → rr-001 с диспозицией всех 20 C и 12 OPEN Q, самостоятельным мотивированным U/judgments и прямой/обратной трассировкой, затем 1TH-D006 SUBMITTED / NOT ACCEPTED → Lead ACCEPT/RETURN. Без автоматического Stage 2. 2TH требует собственных readiness/gates; COL snapshot сохранён. Stage 4/Verification/MV/межкнижный синтез/NT-T/закрытие не разрешены. **Одна ссылка Researcher — 1TH-D005.**
